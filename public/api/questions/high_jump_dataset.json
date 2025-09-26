@@ -1,0 +1,982 @@
+[
+  {
+    "id": "hj-1",
+    "question": {
+      "en": "What is the most commonly used high jump technique today?",
+      "hi": "आजकल हाई जंप में सबसे अधिक इस्तेमाल की जाने वाली तकनीक कौन सी है?",
+      "or": "ଆଜିକାଲି ହାଇ ଜମ୍ପରେ ସବୁଠାରୁ ଅଧିକ ବ୍ୟବହୃତ କୌଶଳ କେଉଁଟି?"
+    },
+    "options": [
+      { "text": { "en": "Straddle", "hi": "स्ट्रैडल", "or": "ଷ୍ଟ୍ରାଡଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Fosbury Flop", "hi": "फॉसस्वरी फ्लॉप", "or": "ଫସବରୀ ଫ୍ଲପ୍" }, "isCorrect": true },
+      { "text": { "en": "Scissors Kick", "hi": "सीजर्स किक", "or": "ସିଜର୍ସ କିକ୍" }, "isCorrect": false },
+      { "text": { "en": "Western Roll", "hi": "वेस्टर्न रोल", "or": "ୱେଷ୍ଟର୍ନ ରୋଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-2",
+    "question": {
+      "en": "What is the term for the bar that athletes must jump over?",
+      "hi": "उस बार के लिए क्या शब्द है जिसे एथलीटों को कूदना पड़ता है?",
+      "or": "ଯେଉଁ ବାର୍ ଉପରେ ଆଥଲେଟମାନଙ୍କୁ ଡେଇଁବାକୁ ପଡେ, ତାହାକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The Pole", "hi": "द पोल", "or": "ଦ ପୋଲ୍" }, "isCorrect": false },
+      { "text": { "en": "The Lath", "hi": "द लाथ", "or": "ଦ ଲାଥ୍" }, "isCorrect": false },
+      { "text": { "en": "The Crossbar", "hi": "द क्रॉसबार", "or": "ଦ କ୍ରସବାର୍" }, "isCorrect": true },
+      { "text": { "en": "The Standard", "hi": "द स्टैंडर्ड", "or": "ଦ ଷ୍ଟାଣ୍ଡାର୍ଡ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-3",
+    "question": {
+      "en": "How many attempts does an athlete get at each height?",
+      "hi": "एक एथलीट को प्रत्येक ऊंचाई पर कितने प्रयास मिलते हैं?",
+      "or": "ଜଣେ ଆଥଲେଟ୍ ପ୍ରତ୍ୟେକ ଉଚ୍ଚତାରେ କେତୋଟି ପ୍ରୟାସ ପାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "1", "hi": "1", "or": "୧" }, "isCorrect": false },
+      { "text": { "en": "2", "hi": "2", "or": "୨" }, "isCorrect": false },
+      { "text": { "en": "3", "hi": "3", "or": "୩" }, "isCorrect": true },
+      { "text": { "en": "4", "hi": "4", "or": "୪" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-4",
+    "question": {
+      "en": "What part of the high jump area holds the crossbar up?",
+      "hi": "हाई जंप क्षेत्र का कौन सा हिस्सा क्रॉसबार को ऊपर रखता है?",
+      "or": "ହାଇ ଜମ୍ପ କ୍ଷେତ୍ରର କେଉଁ ଅଂଶ କ୍ରସବାରକୁ ଉପରେ ଧରି ରଖେ?"
+    },
+    "options": [
+      { "text": { "en": "The Uprights", "hi": "द अपराइट्स", "or": "ଦ ଅପରାଇଟ୍ସ" }, "isCorrect": true },
+      { "text": { "en": "The Pit", "hi": "द पिट", "or": "ଦ ପିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The Runway", "hi": "द रनवे", "or": "ଦ ରନୱେ" }, "isCorrect": false },
+      { "text": { "en": "The Pegs", "hi": "द पेग्स", "or": "ଦ ପେଗ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-5",
+    "question": {
+      "en": "An athlete is eliminated after how many consecutive failures?",
+      "hi": "एक एथलीट कितनी लगातार असफलताओं के बाद बाहर हो जाता है?",
+      "or": "କେତୋଟି କ୍ରମାଗତ ବିଫଳତା ପରେ ଜଣେ ଆଥଲେଟ୍ ବାଦ୍ ପଡ଼ନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Two", "hi": "दो", "or": "ଦୁଇ" }, "isCorrect": false },
+      { "text": { "en": "Three", "hi": "तीन", "or": "ତିନି" }, "isCorrect": true },
+      { "text": { "en": "Four", "hi": "चार", "or": "ଚାରି" }, "isCorrect": false },
+      { "text": { "en": "It depends on the height", "hi": "यह ऊंचाई पर निर्भर करता है", "or": "ଏହା ଉଚ୍ଚତା ଉପରେ ନିର୍ଭର କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-6",
+    "question": {
+      "en": "What is the shape of the approach run in the Fosbury Flop technique?",
+      "hi": "फॉसस्वरी फ्लॉप तकनीक में एप्रोच रन का आकार क्या होता है?",
+      "or": "ଫସବରୀ ଫ୍ଲପ୍ କୌଶଳରେ ଆପ୍ରୋଚ୍ ରନ୍‌ର ଆକୃତି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A straight line", "hi": "एक सीधी रेखा", "or": "ଏକ ସରଳ ରେଖା" }, "isCorrect": false },
+      { "text": { "en": "A circle", "hi": "एक वृत्त", "or": "ଏକ ବୃତ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "A 'J' shape", "hi": "एक 'J' आकार", "or": "ଏକ 'J' ଆକୃତି" }, "isCorrect": true },
+      { "text": { "en": "An 'S' shape", "hi": "एक 'S' आकार", "or": "ଏକ 'S' ଆକୃତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-7",
+    "question": {
+      "en": "What must an athlete do to have a successful jump?",
+      "hi": "एक सफल कूद के लिए एक एथलीट को क्या करना चाहिए?",
+      "or": "ଏକ ସଫଳ ଜମ୍ପ ପାଇଁ ଜଣେ ଆଥଲେଟ୍ କ'ଣ କରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Land on their feet", "hi": "अपने पैरों पर उतरना", "or": "ନିଜ ପାଦରେ ଓହ୍ଲାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Clear the bar without knocking it off", "hi": "बार को गिराए बिना पार करना", "or": "ବାରକୁ ନ ପକାଇ ପାର୍ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Touch the bar for balance", "hi": "संतुलन के लिए बार को छूना", "or": "ସନ୍ତୁଳନ ପାଇଁ ବାରକୁ ଛୁଇଁବା" }, "isCorrect": false },
+      { "text": { "en": "Jump from both feet", "hi": "दोनों पैरों से कूदना", "or": "ଉଭୟ ପାଦରୁ ଡେଇଁବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-8",
+    "question": {
+      "en": "The large, soft area where athletes land is called the:",
+      "hi": "वह बड़ा, नरम क्षेत्र जहां एथलीट उतरते हैं, क्या कहलाता है:",
+      "or": "ଯେଉଁ ବଡ଼, ନରମ ସ୍ଥାନରେ ଆଥଲେଟମାନେ ଓହ୍ଲାନ୍ତି, ତାହାକୁ କ'ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Cushion", "hi": "कुशन", "or": "କୁଶନ୍" }, "isCorrect": false },
+      { "text": { "en": "Mat", "hi": "मैट", "or": "ମ୍ୟାଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Landing Pit", "hi": "लैंडिंग पिट", "or": "ଲ୍ୟାଣ୍ଡିଂ ପିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "Safety Zone", "hi": "सेफ्टी जोन", "or": "ସେଫ୍ଟି ଜୋନ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-9",
+    "question": {
+      "en": "From how many feet must a high jumper take off?",
+      "hi": "एक हाई जम्पर को कितने पैरों से टेक ऑफ करना चाहिए?",
+      "or": "ଜଣେ ହାଇ ଜମ୍ପର୍‌ଙ୍କୁ କେତୋଟି ପାଦରୁ ଟେକ୍ ଅଫ୍ କରିବାକୁ ପଡେ?"
+    },
+    "options": [
+      { "text": { "en": "One foot", "hi": "एक पैर", "or": "ଗୋଟିଏ ପାଦ" }, "isCorrect": true },
+      { "text": { "en": "Two feet", "hi": "दो पैर", "or": "ଦୁଇ ପାଦ" }, "isCorrect": false },
+      { "text": { "en": "Either one or two", "hi": "या तो एक या दो", "or": "ଏକ ବା ଦୁଇ" }, "isCorrect": false },
+      { "text": { "en": "It does not matter", "hi": "इससे कोई फर्क नहीं पड़ता", "or": "ଏଥିରେ କୌଣସି ଫରକ ପଡେ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-10",
+    "question": {
+      "en": "What is the term for when a jumper chooses to not attempt a certain height?",
+      "hi": "जब कोई जम्पर किसी निश्चित ऊंचाई पर प्रयास न करने का विकल्प चुनता है तो उसके लिए क्या शब्द है?",
+      "or": "ଯେତେବେଳେ ଜଣେ ଜମ୍ପର୍ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଉଚ୍ଚତାରେ ପ୍ରୟାସ ନ କରିବାକୁ ବାଛନ୍ତି, ସେଥିପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A skip", "hi": "एक स्किप", "or": "ଏକ ସ୍କିପ୍" }, "isCorrect": false },
+      { "text": { "en": "A pass", "hi": "एक पास", "or": "ଏକ ପାସ୍" }, "isCorrect": true },
+      { "text": { "en": "A forfeit", "hi": "एक फोरफीट", "or": "ଏକ ଫରଫିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "A refusal", "hi": "एक रिफ्यूजल", "or": "ଏକ ରିଫ୍ୟୁଜାଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-11",
+    "question": {
+      "en": "What is the primary method to break a tie in high jump?",
+      "hi": "हाई जंप में टाई तोड़ने की प्राथमिक विधि क्या है?",
+      "or": "ହାଇ ଜମ୍ପରେ ଟାଇ ଭାଙ୍ଗିବାର ପ୍ରାଥମିକ ପଦ୍ଧତି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A jump-off", "hi": "एक जंप-ऑफ", "or": "ଏକ ଜମ୍ପ-ଅଫ୍" }, "isCorrect": false },
+      { "text": { "en": "Countback on total misses", "hi": "कुल मिस पर काउंटबैक", "or": "ମୋଟ ମିସ୍ ଉପରେ କାଉଣ୍ଟବ୍ୟାକ୍" }, "isCorrect": true },
+      { "text": { "en": "The athlete's weight", "hi": "एथलीट का वजन", "or": "ଆଥଲେଟଙ୍କ ଓଜନ" }, "isCorrect": false },
+      { "text": { "en": "A coin toss", "hi": "एक सिक्का उछालना", "or": "ଏକ ମୁଦ୍ରା ଟସ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-12",
+    "question": {
+      "en": "The 'arch' over the bar is a key component of which technique?",
+      "hi": "बार के ऊपर 'आर्च' किस तकनीक का एक प्रमुख घटक है?",
+      "or": "ବାର୍ ଉପରେ 'ଆର୍ଚ' କେଉଁ କୌଶଳର ଏକ ମୁଖ୍ୟ ଉପାଦାନ?"
+    },
+    "options": [
+      { "text": { "en": "Scissors Kick", "hi": "सीजर्स किक", "or": "ସିଜର୍ସ କିକ୍" }, "isCorrect": false },
+      { "text": { "en": "Straddle", "hi": "स्ट्रैडल", "or": "ଷ୍ଟ୍ରାଡଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Fosbury Flop", "hi": "फॉसस्वरी फ्लॉप", "or": "ଫସବରୀ ଫ୍ଲପ୍" }, "isCorrect": true },
+      { "text": { "en": "Eastern Cut-off", "hi": "ईस्टर्न कट-ऑफ", "or": "ଇଷ୍ଟର୍ନ କଟ୍-ଅଫ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-13",
+    "question": {
+      "en": "What is a 'failed attempt' commonly called?",
+      "hi": "'असफल प्रयास' को सामान्यतः क्या कहा जाता है?",
+      "or": "'ବିଫଳ ପ୍ରୟାସ'କୁ ସାଧାରଣତଃ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A strike", "hi": "एक स्ट्राइक", "or": "ଏକ ଷ୍ଟ୍ରାଇକ୍" }, "isCorrect": false },
+      { "text": { "en": "A fault", "hi": "एक फॉल्ट", "or": "ଏକ ଫଲ୍ଟ" }, "isCorrect": false },
+      { "text": { "en": "A miss", "hi": "एक मिस", "or": "ଏକ ମିସ୍" }, "isCorrect": true },
+      { "text": { "en": "A drop", "hi": "एक ड्रॉप", "or": "ଏକ ଡ୍ରପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-14",
+    "question": {
+      "en": "What is the 'take-off' in high jump?",
+      "hi": "हाई जंप में 'टेक-ऑफ' क्या है?",
+      "or": "ହାଇ ଜମ୍ପରେ 'ଟେକ୍-ଅଫ୍' କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The moment the athlete lands in the pit", "hi": "जिस क्षण एथलीट पिट में उतरता है", "or": "ଯେଉଁ ମୁହୂର୍ତ୍ତରେ ଆଥଲେଟ୍ ପିଟରେ ଓହ୍ଲାନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The run-up to the bar", "hi": "बार तक की दौड़", "or": "ବାର୍ ପର୍ଯ୍ୟନ୍ତ ଦୌଡ଼" }, "isCorrect": false },
+      { "text": { "en": "The action of jumping off the ground", "hi": "जमीन से कूदने की क्रिया", "or": "ଭୂମିରୁ ଡେଇଁବାର କ୍ରିୟା" }, "isCorrect": true },
+      { "text": { "en": "The flight over the bar", "hi": "बार के ऊपर की उड़ान", "or": "ବାର୍ ଉପରେ ଉଡ଼ାଣ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-15",
+    "question": {
+      "en": "What is the purpose of the curved part of the 'J' approach?",
+      "hi": "'J' एप्रोच के घुमावदार हिस्से का उद्देश्य क्या है?",
+      "or": "'J' ଆପ୍ରୋଚର ବକ୍ର ଅଂଶର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To slow down before the jump", "hi": "कूदने से पहले धीमा होना", "or": "ଡେଇଁବା ପୂର୍ବରୁ ଧୀର ହେବା" }, "isCorrect": false },
+      { "text": { "en": "To generate rotational momentum for the flop", "hi": "फ्लॉप के लिए घूर्णी गति उत्पन्न करने के लिए", "or": "ଫ୍ଲପ୍ ପାଇଁ ଘୂର୍ଣ୍ଣନ ଗତି ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To confuse the judges", "hi": "जजों को भ्रमित करने के लिए", "or": "ବିଚାରକମାନଙ୍କୁ ଦ୍ୱନ୍ଦ୍ୱରେ ପକାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To get a better view of the bar", "hi": "बार का बेहतर दृश्य प्राप्त करने के लिए", "or": "ବାରର ଏକ ଭଲ ଦୃଶ୍ୟ ପାଇବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-16",
+    "question": {
+      "en": "A jump is considered a failure if the athlete does what?",
+      "hi": "यदि एथलीट क्या करता है तो एक कूद को असफल माना जाता है?",
+      "or": "ଯଦି ଆଥଲେଟ୍ କ'ଣ କରନ୍ତି ତେବେ ଏକ ଜମ୍ପକୁ ବିଫଳ ବୋଲି ବିବେଚନା କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Knocks the bar off the standards", "hi": "बार को स्टैंडर्ड से गिरा देता है", "or": "ବାରକୁ ଷ୍ଟାଣ୍ଡାର୍ଡରୁ ପକାଇ ଦିଅନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Touches the ground beyond the plane of the uprights without clearing the bar", "hi": "बार को पार किए बिना अपराइट्स के प्लेन से परे जमीन को छूता है", "or": "ବାର୍ ପାର୍ ନକରି ଅପରାଇଟ୍ସର ସମତଳ ପାର କରି ଭୂମିକୁ ଛୁଅଁନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Takes longer than the allotted time to start their attempt", "hi": "अपना प्रयास शुरू करने के लिए आवंटित समय से अधिक समय लेता है", "or": "ନିଜ ପ୍ରୟାସ ଆରମ୍ଭ କରିବାକୁ ଆବଣ୍ଟିତ ସମୟଠାରୁ ଅଧିକ ସମୟ ନିଅନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "All of the above", "hi": "उपरोक्त सभी", "or": "ଉପରୋକ୍ତ ସମସ୍ତ" }, "isCorrect": true }
+    ]
+  },
+  {
+    "id": "hj-17",
+    "question": {
+      "en": "What is the typical time limit for an athlete to initiate a jump attempt?",
+      "hi": "एक एथलीट को कूदने का प्रयास शुरू करने के लिए सामान्य समय सीमा क्या है?",
+      "or": "ଜଣେ ଆଥଲେଟ୍‌ଙ୍କୁ ଜମ୍ପ ପ୍ରୟାସ ଆରମ୍ଭ କରିବା ପାଇଁ ସାଧାରଣ ସମୟ ସୀମା କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "30 seconds", "hi": "30 सेकंड", "or": "୩୦ ସେକେଣ୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "1 minute", "hi": "1 मिनट", "or": "୧ ମିନିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "2 minutes", "hi": "2 मिनट", "or": "୨ ମିନିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "5 minutes", "hi": "5 मिनट", "or": "୫ ମିନିଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-18",
+    "question": {
+      "en": "In the Fosbury Flop, which part of the body goes over the bar first?",
+      "hi": "फॉसस्वरी फ्लॉप में, शरीर का कौन सा हिस्सा बार के ऊपर से पहले जाता है?",
+      "or": "ଫସବରୀ ଫ୍ଲପରେ, ଶରୀରର କେଉଁ ଅଂଶ ବାର୍ ଉପରେ ପ୍ରଥମେ ଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Feet", "hi": "पैर", "or": "ପାଦ" }, "isCorrect": false },
+      { "text": { "en": "Hands", "hi": "हाथ", "or": "ହାତ" }, "isCorrect": false },
+      { "text": { "en": "Head and upper back", "hi": "सिर और ऊपरी पीठ", "or": "ମୁଣ୍ଡ ଏବଂ ଉପର ପିଠି" }, "isCorrect": true },
+      { "text": { "en": "Hips", "hi": "कूल्हे", "or": "ନିତମ୍ବ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-19",
+    "question": {
+      "en": "What is the purpose of the 'drive knee' during take-off?",
+      "hi": "टेक-ऑफ के दौरान 'ड्राइव नी' का उद्देश्य क्या है?",
+      "or": "ଟେକ୍-ଅଫ୍ ସମୟରେ 'ଡ୍ରାଇଭ୍ ନି'ର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To help slow down", "hi": "धीमा होने में मदद करने के लिए", "or": "ଧୀର ହେବାରେ ସାହାଯ୍ୟ କରିବାକୁ" }, "isCorrect": false },
+      { "text": { "en": "To help generate upward momentum", "hi": "ऊपर की ओर गति उत्पन्न करने में मदद करने के लिए", "or": "ଉପରକୁ ଗତି ସୃଷ୍ଟି କରିବାରେ ସାହାଯ୍ୟ କରିବାକୁ" }, "isCorrect": true },
+      { "text": { "en": "To kick the bar", "hi": "बार को किक करने के लिए", "or": "ବାରକୁ କିକ୍ କରିବାକୁ" }, "isCorrect": false },
+      { "text": { "en": "To maintain balance on the ground", "hi": "जमीन पर संतुलन बनाए रखने के लिए", "or": "ଭୂମିରେ ସନ୍ତୁଳନ ବଜାୟ ରଖିବାକୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-20",
+    "question": {
+      "en": "What is a 'jump-off'?",
+      "hi": "'जंप-ऑफ' क्या है?",
+      "or": "'ଜମ୍ପ-ଅଫ୍' କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A warm-up routine", "hi": "एक वार्म-अप रूटीन", "or": "ଏକ ୱାର୍ମ-ଅପ୍ ରୁଟିନ୍" }, "isCorrect": false },
+      { "text": { "en": "A training drill", "hi": "एक प्रशिक्षण ड्रिल", "or": "ଏକ ପ୍ରଶିକ୍ଷଣ ଡ୍ରିଲ୍" }, "isCorrect": false },
+      { "text": { "en": "A method to decide a winner in a tie for first place", "hi": "पहले स्थान के लिए टाई में विजेता का फैसला करने की एक विधि", "or": "ପ୍ରଥମ ସ୍ଥାନ ପାଇଁ ଟାଇରେ ବିଜେତା ନିର୍ଣ୍ଣୟ କରିବାର ଏକ ପଦ୍ଧତି" }, "isCorrect": true },
+      { "text": { "en": "The first jump of the competition", "hi": "प्रतियोगिता की पहली छलांग", "or": "ପ୍ରତିଯୋଗିତାର ପ୍ରଥମ ଜମ୍ପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-21",
+    "question": {
+      "en": "The path the athlete takes to the bar is called the:",
+      "hi": "एथलीट बार तक जो रास्ता अपनाता है उसे क्या कहते हैं:",
+      "or": "ଆଥଲେଟ୍ ବାର୍ ପର୍ଯ୍ୟନ୍ତ ଯେଉଁ ପଥ ନିଅନ୍ତି ତାହାକୁ କ'ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The path", "hi": "द पाथ", "or": "ଦ ପାଥ୍" }, "isCorrect": false },
+      { "text": { "en": "The lane", "hi": "द लेन", "or": "ଦ ଲେନ୍" }, "isCorrect": false },
+      { "text": { "en": "The approach", "hi": "द एप्रोच", "or": "ଦ ଆପ୍ରୋଚ୍" }, "isCorrect": true },
+      { "text": { "en": "The track", "hi": "द ट्रैक", "or": "ଦ ଟ୍ରାକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-22",
+    "question": {
+      "en": "What does a 'PB' next to a height indicate?",
+      "hi": "एक ऊंचाई के आगे 'PB' क्या दर्शाता है?",
+      "or": "ଏକ ଉଚ୍ଚତା ପାଖରେ 'PB' କ'ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Passed Bar", "hi": "पास्ड बार", "or": "ପାସ୍ଡ ବାର୍" }, "isCorrect": false },
+      { "text": { "en": "Personal Best", "hi": "पर्सनल बेस्ट", "or": "ପର୍ସନାଲ୍ ବେଷ୍ଟ" }, "isCorrect": true },
+      { "text": { "en": "Probably Beat", "hi": "प्रोबेब्ली बीट", "or": "ପ୍ରୋବାବ୍ଲି ବିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Poorly Begun", "hi": "पूअरली बिगन", "or": "ପୁଅର୍ଲି ବିଗନ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-23",
+    "question": {
+      "en": "The 'scissors' technique involves clearing the bar in what position?",
+      "hi": "'कैंची' तकनीक में बार को किस स्थिति में पार करना शामिल है?",
+      "or": "'କଇଞ୍ଚି' କୌଶଳରେ ବାରକୁ କେଉଁ ସ୍ଥିତିରେ ପାର୍ କରିବା ସାମିଲ?"
+    },
+    "options": [
+      { "text": { "en": "A sitting position", "hi": "बैठने की स्थिति में", "or": "ଏକ ବସିବା ସ୍ଥିତିରେ" }, "isCorrect": true },
+      { "text": { "en": "Head first", "hi": "सिर पहले", "or": "ମୁଣ୍ଡ ପ୍ରଥମେ" }, "isCorrect": false },
+      { "text": { "en": "Backwards", "hi": "पीछे की ओर", "or": "ପଛକୁ" }, "isCorrect": false },
+      { "text": { "en": "Sideways", "hi": "बग़ल में", "or": "ପାର୍ଶ୍ୱକୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-24",
+    "question": {
+      "en": "What is the primary goal of the take-off step?",
+      "hi": "टेक-ऑफ स्टेप का प्राथमिक लक्ष्य क्या है?",
+      "or": "ଟେକ୍-ଅଫ୍ ଷ୍ଟେପର ପ୍ରାଥମିକ ଲକ୍ଷ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To convert horizontal speed into vertical lift", "hi": "क्षैतिज गति को ऊर्ध्वाधर लिफ्ट में परिवर्तित करना", "or": "ଭୂସମାନ୍ତରାଳ ଗତିକୁ ଉର୍ଦ୍ଧ୍ୱଗାମୀ ଉଠାଣରେ ପରିଣତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To stop completely before jumping", "hi": "कूदने से पहले पूरी तरह से रुकना", "or": "ଡେଇଁବା ପୂର୍ବରୁ ସମ୍ପୂର୍ଣ୍ଣ ରହିଯିବା" }, "isCorrect": false },
+      { "text": { "en": "To get as close to the bar as possible", "hi": "बार के जितना संभव हो उतना करीब जाना", "or": "ବାରର ଯଥାସମ୍ଭବ ନିକଟତର ହେବା" }, "isCorrect": false },
+      { "text": { "en": "To jump as far as possible", "hi": "जितना संभव हो उतना दूर कूदना", "or": "ଯଥାସମ୍ଭବ ଦୂରକୁ ଡେଇଁବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-25",
+    "question": {
+      "en": "A marker can be used by an athlete for what purpose?",
+      "hi": "एक एथलीट द्वारा मार्कर का उपयोग किस उद्देश्य के लिए किया जा सकता है?",
+      "or": "ଜଣେ ଆଥଲେଟ୍ ଦ୍ୱାରା ମାର୍କର୍ କେଉଁ ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟବହାର କରାଯାଇପାରେ?"
+    },
+    "options": [
+      { "text": { "en": "To measure the bar height", "hi": "बार की ऊंचाई मापने के लिए", "or": "ବାରର ଉଚ୍ଚତା ମାପିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To mark the starting point of their approach", "hi": "अपने एप्रोच के शुरुआती बिंदु को चिह्नित करने के लिए", "or": "ନିଜ ଆପ୍ରୋଚର ଆରମ୍ଭ ବିନ୍ଦୁକୁ ଚିହ୍ନିତ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To save their place in line", "hi": "लाइन में अपनी जगह बचाने के लिए", "or": "ଲାଇନରେ ନିଜ ସ୍ଥାନ ସଂରକ୍ଷିତ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To write down their scores", "hi": "अपने स्कोर लिखने के लिए", "or": "ନିଜ ସ୍କୋର୍ ଲେଖିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-26",
+    "question": {
+      "en": "What material is the crossbar typically made from?",
+      "hi": "क्रॉसबार आमतौर पर किस सामग्री से बना होता है?",
+      "or": "କ୍ରସବାର୍ ସାଧାରଣତଃ କେଉଁ ପଦାର୍ଥରୁ ତିଆରି ହୋଇଥାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Wood", "hi": "लकड़ी", "or": "କାଠ" }, "isCorrect": false },
+      { "text": { "en": "Steel", "hi": "स्टील", "or": "ଷ୍ଟିଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Fiberglass or light alloy", "hi": "फाइबरग्लास या हल्का मिश्र धातु", "or": "ଫାଇବରଗ୍ଲାସ୍ ବା ହାଲୁକା ମିଶ୍ରଧାତୁ" }, "isCorrect": true },
+      { "text": { "en": "Plastic", "hi": "प्लास्टिक", "or": "ପ୍ଲାଷ୍ଟିକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-27",
+    "question": {
+      "en": "What term describes the flight path of the athlete's center of mass?",
+      "hi": "कौन सा शब्द एथलीट के द्रव्यमान केंद्र के उड़ान पथ का वर्णन करता है?",
+      "or": "କେଉଁ ଶବ୍ଦ ଆଥଲେଟଙ୍କ ବସ୍ତୁତ୍ୱ କେନ୍ଦ୍ରର ଉଡ଼ାଣ ପଥକୁ ବର୍ଣ୍ଣନା କରେ?"
+    },
+    "options": [
+      { "text": { "en": "The Curve", "hi": "द कर्व", "or": "ଦ କର୍ଭ" }, "isCorrect": false },
+      { "text": { "en": "The Arc", "hi": "द आर्क", "or": "ଦ ଆର୍କ" }, "isCorrect": false },
+      { "text": { "en": "The Line", "hi": "द लाइन", "or": "ଦ ଲାଇନ୍" }, "isCorrect": false },
+      { "text": { "en": "The Parabola", "hi": "द पैराबोला", "or": "ଦ ପାରାବୋଲା" }, "isCorrect": true }
+    ]
+  },
+  {
+    "id": "hj-28",
+    "question": {
+      "en": "The action of lifting the hips high over the bar is often called:",
+      "hi": "बार के ऊपर कूल्हों को ऊंचा उठाने की क्रिया को अक्सर क्या कहा जाता है:",
+      "or": "ବାର୍ ଉପରେ ନିତମ୍ବକୁ ଉଚ୍ଚକୁ ଉଠାଇବାର କ୍ରିୟାକୁ ପ୍ରାୟତଃ କ'ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The Arch", "hi": "द आर्च", "or": "ଦ ଆର୍ଚ" }, "isCorrect": true },
+      { "text": { "en": "The Kick", "hi": "द किक", "or": "ଦ କିକ୍" }, "isCorrect": false },
+      { "text": { "en": "The Pike", "hi": "द पाइक", "or": "ଦ ପାଇକ୍" }, "isCorrect": false },
+      { "text": { "en": "The Tuck", "hi": "द टक", "or": "ଦ ଟକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-29",
+    "question": {
+      "en": "Which of these is NOT a recognized high jump technique?",
+      "hi": "इनमें से कौन सी एक मान्यता प्राप्त हाई जंप तकनीक नहीं है?",
+      "or": "ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଏକ ସ୍ୱୀକୃତ ହାଇ ଜମ୍ପ କୌଶଳ ନୁହେଁ?"
+    },
+    "options": [
+      { "text": { "en": "Western Roll", "hi": "वेस्टर्न रोल", "or": "ୱେଷ୍ଟର୍ନ ରୋଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Straddle", "hi": "स्ट्रैडल", "or": "ଷ୍ଟ୍ରାଡଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Fosbury Flop", "hi": "फॉसस्वरी फ्लॉप", "or": "ଫସବରୀ ଫ୍ଲପ୍" }, "isCorrect": false },
+      { "text": { "en": "Somersault", "hi": "सोमरसॉल्ट", "or": "ସୋମରସଲ୍ଟ" }, "isCorrect": true }
+    ]
+  },
+  {
+    "id": "hj-30",
+    "question": {
+      "en": "What type of athletic ability is most crucial for a high jumper?",
+      "hi": "एक हाई जम्पर के लिए किस प्रकार की एथलेटिक क्षमता सबसे महत्वपूर्ण है?",
+      "or": "ଜଣେ ହାଇ ଜମ୍ପର୍ ପାଇଁ କେଉଁ ପ୍ରକାରର ଆଥଲେଟିକ୍ ଦକ୍ଷତା ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" }, "isCorrect": false },
+      { "text": { "en": "Explosive power", "hi": "विस्फोटक शक्ति", "or": "ବିସ୍ଫୋରକ ଶକ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Agility", "hi": "चपलता", "or": "କ୍ଷିପ୍ରତା" }, "isCorrect": false },
+      { "text": { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-31",
+    "question": {
+      "en": "The minimum length of the high jump runway is typically:",
+      "hi": "हाई जंप रनवे की न्यूनतम लंबाई आमतौर पर कितनी होती है:",
+      "or": "ହାଇ ଜମ୍ପ ରନୱେର ସର୍ବନିମ୍ନ ଦୈର୍ଘ୍ୟ ସାଧାରଣତଃ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "10 meters", "hi": "10 मीटर", "or": "୧୦ ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "15 meters", "hi": "15 मीटर", "or": "୧୫ ମିଟର" }, "isCorrect": true },
+      { "text": { "en": "20 meters", "hi": "20 मीटर", "or": "୨୦ ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "25 meters", "hi": "25 मीटर", "or": "୨୫ ମିଟର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-32",
+    "question": {
+      "en": "What is the term for the foot an athlete jumps from?",
+      "hi": "जिस पैर से एथलीट कूदता है उसके लिए क्या शब्द है?",
+      "or": "ଯେଉଁ ପାଦରୁ ଜଣେ ଆଥଲେଟ୍ ଡେଅନ୍ତି ତାହା ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The power foot", "hi": "द पावर फुट", "or": "ଦ ପାୱାର ଫୁଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The lead foot", "hi": "द लीड फुट", "or": "ଦ ଲିଡ୍ ଫୁଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The take-off foot", "hi": "द टेक-ऑफ फुट", "or": "ଦ ଟେକ୍-ଅଫ୍ ଫୁଟ୍" }, "isCorrect": true },
+      { "text": { "en": "The support foot", "hi": "द सपोर्ट फुट", "or": "ଦ ସପୋର୍ଟ ଫୁଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-33",
+    "question": {
+      "en": "How are the results of a high jump competition primarily ranked?",
+      "hi": "हाई जंप प्रतियोगिता के परिणाम मुख्य रूप से कैसे रैंक किए जाते हैं?",
+      "or": "ହାଇ ଜମ୍ପ ପ୍ରତିଯୋଗିତାର ଫଳାଫଳ ମୁଖ୍ୟତଃ କିପରି ରାଙ୍କ୍ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "By the athlete's style", "hi": "एथलीट की शैली से", "or": "ଆଥଲେଟଙ୍କ ଶୈଳୀ ଦ୍ୱାରା" }, "isCorrect": false },
+      { "text": { "en": "By the highest height cleared", "hi": "पार की गई उच्चतम ऊंचाई से", "or": "ପାର୍ କରାଯାଇଥିବା ସର୍ବୋଚ୍ଚ ଉଚ୍ଚତା ଦ୍ୱାରା" }, "isCorrect": true },
+      { "text": { "en": "By the athlete's speed", "hi": "एथलीट की गति से", "or": "ଆଥଲେଟଙ୍କ ଗତି ଦ୍ୱାରା" }, "isCorrect": false },
+      { "text": { "en": "By the total number of jumps", "hi": "कुल छलांगों की संख्या से", "or": "ମୋଟ ଜମ୍ପ ସଂଖ୍ୟା ଦ୍ୱାରା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-34",
+    "question": {
+      "en": "What is the typical shape of the crossbar?",
+      "hi": "क्रॉसबार का सामान्य आकार क्या है?",
+      "or": "କ୍ରସବାରର ସାଧାରଣ ଆକୃତି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Square", "hi": "चौकोर", "or": "ବର୍ଗାକାର" }, "isCorrect": false },
+      { "text": { "en": "Circular", "hi": "वृत्ताकार", "or": "ବୃତ୍ତାକାର" }, "isCorrect": true },
+      { "text": { "en": "Triangular", "hi": "त्रिकोणीय", "or": "ତ୍ରିକୋଣୀୟ" }, "isCorrect": false },
+      { "text": { "en": "Rectangular", "hi": "आयताकार", "or": "ଆୟତାକାର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-35",
+    "question": {
+      "en": "What is the penalty for touching the landing mat without clearing the bar?",
+      "hi": "बार को पार किए बिना लैंडिंग मैट को छूने पर क्या दंड है?",
+      "or": "ବାର୍ ପାର୍ ନକରି ଲ୍ୟାଣ୍ଡିଂ ମ୍ୟାଟକୁ ଛୁଇଁବାର ଦଣ୍ଡ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "No penalty", "hi": "कोई दंड नहीं", "or": "କୌଣସି ଦଣ୍ଡ ନାହିଁ" }, "isCorrect": false },
+      { "text": { "en": "A height deduction", "hi": "एक ऊंचाई कटौती", "or": "ଏକ ଉଚ୍ଚତା କଟौती" }, "isCorrect": false },
+      { "text": { "en": "It is a failed attempt", "hi": "यह एक असफल प्रयास है", "or": "ଏହା ଏକ ବିଫଳ ପ୍ରୟାସ" }, "isCorrect": true },
+      { "text": { "en": "A warning from the official", "hi": "अधिकारी से एक चेतावनी", "or": "ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଚେତାବନୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-36",
+    "question": {
+      "en": "The Straddle technique involves clearing the bar in what body orientation?",
+      "hi": "स्ट्रैडल तकनीक में बार को किस शारीरिक अभिविन्यास में पार करना शामिल है?",
+      "or": "ଷ୍ଟ୍ରାଡଲ୍ କୌଶଳରେ ବାରକୁ କେଉଁ ଶାରୀରିକ ଅଭିମୁଖ୍ୟରେ ପାର୍ କରିବା ସାମିଲ?"
+    },
+    "options": [
+      { "text": { "en": "Face down", "hi": "मुंह नीचे", "or": "ମୁହଁ ତଳକୁ" }, "isCorrect": true },
+      { "text": { "en": "Face up", "hi": "मुंह ऊपर", "or": "ମୁହଁ ଉପରକୁ" }, "isCorrect": false },
+      { "text": { "en": "Sideways", "hi": "बग़ल में", "or": "ପାର୍ଶ୍ୱକୁ" }, "isCorrect": false },
+      { "text": { "en": "Upright", "hi": "सीधा", "or": "ସିଧା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-37",
+    "question": {
+      "en": "What is the role of the arms during the take-off?",
+      "hi": "टेक-ऑफ के दौरान भुजाओं की क्या भूमिका है?",
+      "or": "ଟେକ୍-ଅଫ୍ ସମୟରେ ବାହୁର ଭୂମିକା କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "They should be kept still", "hi": "उन्हें स्थिर रखना चाहिए", "or": "ସେଗୁଡିକୁ ସ୍ଥିର ରଖିବା ଉଚିତ୍" }, "isCorrect": false },
+      { "text": { "en": "They swing downwards", "hi": "वे नीचे की ओर झूलते हैं", "or": "ସେଗୁଡିକ ତଳକୁ ଦୋଳାନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "They thrust upwards to add to the lift", "hi": "वे लिफ्ट में जोड़ने के लिए ऊपर की ओर जोर देते हैं", "or": "ସେଗୁଡିକ ଉଠାଣରେ ଯୋଗ ଦେବା ପାଇଁ ଉପରକୁ ଠେଲନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "They are placed on the hips", "hi": "वे कूल्हों पर रखे जाते हैं", "or": "ସେଗୁଡିକ ନିତମ୍ବରେ ରଖାଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-38",
+    "question": {
+      "en": "An athlete can start an attempt from a standing position.",
+      "hi": "एक एथलीट खड़ी स्थिति से एक प्रयास शुरू कर सकता है।",
+      "or": "ଜଣେ ଆଥଲେଟ୍ ଠିଆ ହୋଇଥିବା ସ୍ଥିତିରୁ ଏକ ପ୍ରୟାସ ଆରମ୍ଭ କରିପାରିବେ।"
+    },
+    "options": [
+      { "text": { "en": "True", "hi": "सच", "or": "ସତ" }, "isCorrect": true },
+      { "text": { "en": "False", "hi": "झूठ", "or": "ମିଛ" }, "isCorrect": false },
+      { "text": { "en": "Only in warm-ups", "hi": "केवल वार्म-अप में", "or": "କେବଳ ୱାର୍ମ-ଅପରେ" }, "isCorrect": false },
+      { "text": { "en": "Only for the first height", "hi": "केवल पहली ऊंचाई के लिए", "or": "କେବଳ ପ୍ରଥମ ଉଚ୍ଚତା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-39",
+    "question": {
+      "en": "Plyometric drills for high jumpers focus on improving:",
+      "hi": "हाई जंपर्स के लिए प्लायोमेट्रिक ड्रिल किसमें सुधार पर ध्यान केंद्रित करते हैं:",
+      "or": "ହାଇ ଜମ୍ପର୍‌ମାନଙ୍କ ପାଇଁ ପ୍ଲାଇଓମେଟ୍ରିକ୍ ଡ୍ରିଲ୍ କ'ଣ ଉନ୍ନତ କରିବା ଉପରେ ଧ୍ୟାନ ଦିଏ:"
+    },
+    "options": [
+      { "text": { "en": "Long-distance running stamina", "hi": "लंबी दूरी की दौड़ की सहनशक्ति", "or": "ଦୀର୍ଘ ଦୂର ଦୌଡ଼ର ଷ୍ଟାମିନା" }, "isCorrect": false },
+      { "text": { "en": "Reactive strength and jumping power", "hi": "प्रतिक्रियाशील शक्ति और कूदने की शक्ति", "or": "ପ୍ରତିକ୍ରିୟାଶୀଳ ଶକ୍ତି ଏବଂ ଡେଇଁବା ଶକ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Upper body muscle mass", "hi": "ऊपरी शरीर की मांसपेशी", "or": "ଉପର ଶରୀରର ମାଂସପେଶୀ" }, "isCorrect": false },
+      { "text": { "en": "Static balance", "hi": "स्थिर संतुलन", "or": "ସ୍ଥିର ସନ୍ତୁଳନ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-40",
+    "question": {
+      "en": "What is the official's signal for a successful jump?",
+      "hi": "एक सफल कूद के लिए अधिकारी का संकेत क्या है?",
+      "or": "ଏକ ସଫଳ ଜମ୍ପ ପାଇଁ ଅଧିକାରୀଙ୍କ ସଙ୍କେତ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Raising a red flag", "hi": "एक लाल झंडा उठाना", "or": "ଏକ ଲାଲ୍ ପତାକା ଉଠାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Raising a white flag", "hi": "एक सफेद झंडा उठाना", "or": "ଏକ ଧଳା ପତାକା ଉଠାଇବା" }, "isCorrect": true },
+      { "text": { "en": "Blowing a whistle", "hi": "एक सीटी बजाना", "or": "ଏକ ହ୍ୱିସିଲ୍ ବଜାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Clapping their hands", "hi": "अपने हाथों से ताली बजाना", "or": "ନିଜ ହାତରେ ତାଳି ମାରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-41",
+    "question": {
+      "en": "The 'flight' phase of the jump refers to:",
+      "hi": "कूद के 'उड़ान' चरण का क्या अर्थ है:",
+      "or": "ଜମ୍ପର 'ଫ୍ଲାଇଟ୍' ପର୍ଯ୍ୟାୟ କ'ଣକୁ ବୁଝାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The approach run", "hi": "एप्रोच रन", "or": "ଆପ୍ରୋଚ୍ ରନ୍" }, "isCorrect": false },
+      { "text": { "en": "The take-off", "hi": "टेक-ऑफ", "or": "ଟେକ୍-ଅଫ୍" }, "isCorrect": false },
+      { "text": { "en": "The time the athlete is in the air", "hi": "वह समय जब एथलीट हवा में होता है", "or": "ଯେଉଁ ସମୟରେ ଆଥଲେଟ୍ ବାୟୁରେ ଥାଆନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "The landing", "hi": "लैंडिंग", "or": "ଲ୍ୟାଣ୍ଡିଂ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-42",
+    "question": {
+      "en": "What does a red flag indicate in high jump?",
+      "hi": "हाई जंप में लाल झंडा क्या दर्शाता है?",
+      "or": "ହାଇ ଜମ୍ପରେ ଲାଲ୍ ପତାକା କ'ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A new record", "hi": "एक नया रिकॉर्ड", "or": "ଏକ ନୂଆ ରେକର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "A successful attempt", "hi": "एक सफल प्रयास", "or": "ଏକ ସଫଳ ପ୍ରୟାସ" }, "isCorrect": false },
+      { "text": { "en": "A failed attempt", "hi": "एक असफल प्रयास", "or": "ଏକ ବିଫଳ ପ୍ରୟାସ" }, "isCorrect": true },
+      { "text": { "en": "The final jumper", "hi": "अंतिम जम्पर", "or": "ଶେଷ ଜମ୍ପର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-43",
+    "question": {
+      "en": "The number of steps in an approach run is typically between:",
+      "hi": "एप्रोच रन में कदमों की संख्या आमतौर पर किसके बीच होती है:",
+      "or": "ଆପ୍ରୋଚ୍ ରନ୍‌ରେ ପଦକ୍ଷେପ ସଂଖ୍ୟା ସାଧାରଣତଃ କେତେ ମଧ୍ୟରେ ଥାଏ:"
+    },
+    "options": [
+      { "text": { "en": "3 and 5", "hi": "3 और 5", "or": "୩ ଏବଂ ୫" }, "isCorrect": false },
+      { "text": { "en": "5 and 7", "hi": "5 और 7", "or": "୫ ଏବଂ ୭" }, "isCorrect": false },
+      { "text": { "en": "8 and 12", "hi": "8 और 12", "or": "୮ ଏବଂ ୧୨" }, "isCorrect": true },
+      { "text": { "en": "15 and 20", "hi": "15 और 20", "or": "୧୫ ଏବଂ ୨୦" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-44",
+    "question": {
+      "en": "An athlete's starting height is determined by:",
+      "hi": "एक एथलीट की शुरुआती ऊंचाई किसके द्वारा निर्धारित की जाती है:",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କ ଆରମ୍ଭ ଉଚ୍ଚତା କାହା ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The officials", "hi": "अधिकारी", "or": "ଅଧିକାରୀ" }, "isCorrect": false },
+      { "text": { "en": "The athlete themself", "hi": "एथलीट स्वयं", "or": "ଆଥଲେଟ୍ ନିଜେ" }, "isCorrect": true },
+      { "text": { "en": "A random draw", "hi": "एक यादृच्छिक ड्रा", "or": "ଏକ ରାଣ୍ଡମ୍ ଡ୍ର" }, "isCorrect": false },
+      { "text": { "en": "Their previous record", "hi": "उनका पिछला रिकॉर्ड", "or": "ସେମାନଙ୍କର ପୂର୍ବ ରେକର୍ଡ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-45",
+    "question": {
+      "en": "What is the key to creating the 'arch' in the Fosbury Flop?",
+      "hi": "फॉसस्वरी फ्लॉप में 'आर्च' बनाने की कुंजी क्या है?",
+      "or": "ଫସବରୀ ଫ୍ଲପରେ 'ଆର୍ଚ' ସୃଷ୍ଟି କରିବାର ଚାବିକାଠି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Lifting the legs", "hi": "पैर उठाना", "or": "ଗୋଡ ଉଠାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Dropping the shoulders", "hi": "कंधों को गिराना", "or": "କାନ୍ଧ ତଳକୁ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Lifting the hips", "hi": "कूल्हों को उठाना", "or": "ନିତମ୍ବ ଉଠାଇବା" }, "isCorrect": true },
+      { "text": { "en": "Keeping the body flat", "hi": "शरीर को सपाट रखना", "or": "ଶରୀରକୁ ସମତଳ ରଖିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-46",
+    "question": {
+      "en": "In a jump-off, how many attempts does an athlete get per height?",
+      "hi": "एक जंप-ऑफ में, एक एथलीट को प्रति ऊंचाई कितने प्रयास मिलते हैं?",
+      "or": "ଏକ ଜମ୍ପ-ଅଫରେ, ଜଣେ ଆଥଲେଟ୍ ପ୍ରତି ଉଚ୍ଚତାରେ କେତୋଟି ପ୍ରୟାସ ପାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "One", "hi": "एक", "or": "ଏକ" }, "isCorrect": true },
+      { "text": { "en": "Two", "hi": "दो", "or": "ଦୁଇ" }, "isCorrect": false },
+      { "text": { "en": "Three", "hi": "तीन", "or": "ତିନି" }, "isCorrect": false },
+      { "text": { "en": "As many as needed", "hi": "जितनी आवश्यकता हो", "or": "ଯେତେ ଆବଶ୍ୟକ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-47",
+    "question": {
+      "en": "What is the term for the upright poles that hold the crossbar?",
+      "hi": "क्रॉसबार को धारण करने वाले सीधे खंभों के लिए क्या शब्द है?",
+      "or": "କ୍ରସବାରକୁ ଧରି ରଖୁଥିବା ସିଧା ଖୁଣ୍ଟ ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Posts", "hi": "पोस्ट", "or": "ପୋଷ୍ଟ" }, "isCorrect": false },
+      { "text": { "en": "Poles", "hi": "पोल", "or": "ପୋଲ" }, "isCorrect": false },
+      { "text": { "en": "Standards", "hi": "स्टैंडर्ड्स", "or": "ଷ୍ଟାଣ୍ଡାର୍ଡ୍ସ" }, "isCorrect": true },
+      { "text": { "en": "Supports", "hi": "सपोर्ट्स", "or": "ସପୋର୍ଟ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-48",
+    "question": {
+      "en": "Which of these muscle groups is most important for the vertical jump?",
+      "hi": "ऊर्ध्वाधर कूद के लिए इनमें से कौन सा मांसपेशी समूह सबसे महत्वपूर्ण है?",
+      "or": "ଭୂଲମ୍ବ ଜମ୍ପ ପାଇଁ ଏଥିମଧ୍ୟରୁ କେଉଁ ମାଂସପେଶୀ ଗୋଷ୍ଠୀ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Biceps and Triceps", "hi": "बाइसेप्स और ट्राइसेप्स", "or": "ବାଇସେପ୍ସ ଏବଂ ଟ୍ରାଇସେପ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "Glutes, Quadriceps, and Calves", "hi": "ग्लूट्स, क्वाड्रिसेप्स और पिंडली", "or": "ଗ୍ଲୁଟ୍ସ, କ୍ୱାଡ୍ରିସେପ୍ସ, ଏବଂ ପିଚା" }, "isCorrect": true },
+      { "text": { "en": "Abdominals", "hi": "पेट की मांसपेशियां", "or": "ପେଟର ମାଂସପେଶୀ" }, "isCorrect": false },
+      { "text": { "en": "Pectorals", "hi": "पेक्टोरल्स", "or": "ପେକ୍ଟୋରାଲ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-49",
+    "question": {
+      "en": "What action follows the arching of the back over the bar in a flop?",
+      "hi": "एक फ्लॉप में बार के ऊपर पीठ को मोड़ने के बाद कौन सी क्रिया होती है?",
+      "or": "ଏକ ଫ୍ଲପରେ ବାର୍ ଉପରେ ପିଠି ବଙ୍କା କରିବା ପରେ କେଉଁ କ୍ରିୟା ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "Spreading the arms", "hi": "भुजाओं को फैलाना", "or": "ବାହୁ ବିସ୍ତାର କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Tucking the chin to the chest and kicking the legs up", "hi": "ठोड़ी को छाती से लगाना और पैरों को ऊपर मारना", "or": "ଚିବୁକକୁ ଛାତିରେ ଲଗାଇବା ଏବଂ ଗୋଡ ଉପରକୁ ମାରିବା" }, "isCorrect": true },
+      { "text": { "en": "Keeping the legs straight down", "hi": "पैरों को सीधा नीचे रखना", "or": "ଗୋଡକୁ ସିଧା ତଳକୁ ରଖିବା" }, "isCorrect": false },
+      { "text": { "en": "Looking at the bar", "hi": "बार को देखना", "or": "ବାରକୁ ଦେଖିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-50",
+    "question": {
+      "en": "If two athletes are tied, who wins if Athlete A cleared 2.20m on their 1st try and Athlete B on their 2nd?",
+      "hi": "यदि दो एथलीट बंधे हुए हैं, तो कौन जीतता है यदि एथलीट A ने अपने पहले प्रयास में 2.20 मीटर और एथलीट B ने अपने दूसरे प्रयास में पार किया?",
+      "or": "ଯଦି ଦୁଇ ଆଥଲେଟ୍ ଟାଇ ହୁଅନ୍ତି, ତେବେ କିଏ ଜିତିବ ଯଦି ଆଥଲେଟ୍ A ତାଙ୍କ ପ୍ରଥମ ପ୍ରୟାସରେ ୨.୨୦ ମିଟର ଏବଂ ଆଥଲେଟ୍ B ତାଙ୍କ ଦ୍ୱିତୀୟ ପ୍ରୟାସରେ ପାର୍ କରନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Athlete A", "hi": "एथलीट ए", "or": "ଆଥଲେଟ୍ A" }, "isCorrect": true },
+      { "text": { "en": "Athlete B", "hi": "एथलीट बी", "or": "ଆଥଲେଟ୍ B" }, "isCorrect": false },
+      { "text": { "en": "It's still a tie, a jump-off is required", "hi": "यह अभी भी एक टाई है, एक जंप-ऑफ की आवश्यकता है", "or": "ଏହା ଏବେ ବି ଟାଇ, ଏକ ଜମ୍ପ-ଅଫ୍ ଆବଶ୍ୟକ" }, "isCorrect": false },
+      { "text": { "en": "They share the victory", "hi": "वे जीत साझा करते हैं", "or": "ସେମାନେ ବିଜୟ ବାଣ୍ଟି ନିଅନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-51",
+    "question": {
+      "en": "Where is the measurement of the bar height taken from?",
+      "hi": "बार की ऊंचाई का माप कहाँ से लिया जाता है?",
+      "or": "ବାରର ଉଚ୍ଚତା ମାପ କେଉଁଠାରୁ ନିଆଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The top of the landing mat", "hi": "लैंडिंग मैट के ऊपर से", "or": "ଲ୍ୟାଣ୍ଡିଂ ମ୍ୟାଟର ଉପରୁ" }, "isCorrect": false },
+      { "text": { "en": "The ground at the center of the bar", "hi": "बार के केंद्र में जमीन से", "or": "ବାରର କେନ୍ଦ୍ରରେ ଭୂମିରୁ" }, "isCorrect": true },
+      { "text": { "en": "The top of the standards", "hi": "स्टैंडर्ड के ऊपर से", "or": "ଷ୍ଟାଣ୍ଡାର୍ଡର ଉପରୁ" }, "isCorrect": false },
+      { "text": { "en": "The lowest point of the bar's sag", "hi": "बार के झुकाव के सबसे निचले बिंदु से", "or": "ବାରର ଝୁଙ୍କର ସର୍ବନିମ୍ନ ବିନ୍ଦୁରୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-52",
+    "question": {
+      "en": "Can an athlete touch the crossbar during a jump?",
+      "hi": "क्या कोई एथलीट कूद के दौरान क्रॉसबार को छू सकता है?",
+      "or": "କ'ଣ ଜଣେ ଆଥଲେଟ୍ ଜମ୍ପ ସମୟରେ କ୍ରସବାରକୁ ଛୁଇଁପାରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "Yes, as long as it does not fall", "hi": "हाँ, जब तक कि वह गिर न जाए", "or": "ହଁ, ଯେପର୍ଯ୍ୟନ୍ତ ଏହା ନପଡେ" }, "isCorrect": true },
+      { "text": { "en": "No, any touch is a failure", "hi": "नहीं, कोई भी स्पर्श एक विफलता है", "or": "ନା, ଯେକୌଣସି ସ୍ପର୍ଶ ଏକ ବିଫଳତା" }, "isCorrect": false },
+      { "text": { "en": "Only with their feet", "hi": "केवल अपने पैरों से", "or": "କେବଳ ନିଜ ପାଦରେ" }, "isCorrect": false },
+      { "text": { "en": "Only with their hands", "hi": "केवल अपने हाथों से", "or": "କେବଳ ନିଜ ହାତରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-53",
+    "question": {
+      "en": "What is a common mental strategy for high jumpers?",
+      "hi": "हाई जंपर्स के लिए एक सामान्य मानसिक रणनीति क्या है?",
+      "or": "ହାଇ ଜମ୍ପର୍‌ମାନଙ୍କ ପାଇଁ ଏକ ସାଧାରଣ ମାନସିକ ରଣନୀତି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Closing their eyes during the jump", "hi": "कूद के दौरान अपनी आँखें बंद करना", "or": "ଜମ୍ପ ସମୟରେ ନିଜ ଆଖି ବନ୍ଦ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Visualizing a successful jump before the attempt", "hi": "प्रयास से पहले एक सफल छलांग की कल्पना करना", "or": "ପ୍ରୟାସ ପୂର୍ବରୁ ଏକ ସଫଳ ଜମ୍ପର କଳ୍ପନା କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Thinking about not failing", "hi": "असफल न होने के बारे में सोचना", "or": "ବିଫଳ ନହେବା ବିଷୟରେ ଚିନ୍ତା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Counting their steps out loud", "hi": "अपने कदमों को जोर से गिनना", "or": "ନିଜ ପଦକ୍ଷେପକୁ ଜୋରରେ ଗଣିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-54",
+    "question": {
+      "en": "The final few steps of the approach should generally:",
+      "hi": "एप्रोच के अंतिम कुछ कदम आम तौर पर:",
+      "or": "ଆପ୍ରୋଚର ଶେଷ କିଛି ପଦକ୍ଷେପ ସାଧାରଣତଃ:"
+    },
+    "options": [
+      { "text": { "en": "Become slower", "hi": "धीमे हो जाते हैं", "or": "ଧୀର ହୋଇଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "Become faster and more powerful", "hi": "तेज और अधिक शक्तिशाली हो जाते हैं", "or": "ଦ୍ରୁତ ଏବଂ ଅଧିକ ଶକ୍ତିଶାଳୀ ହୋଇଯାଏ" }, "isCorrect": true },
+      { "text": { "en": "Be on tiptoes", "hi": "पंजों के बल होते हैं", "or": "ପାଦ ଆଙ୍ଗୁଠି ଉପରେ ହୁଏ" }, "isCorrect": false },
+      { "text": { "en": "Be very long strides", "hi": "बहुत लंबे कदम होते हैं", "or": "ବହୁତ ଲମ୍ବା ପଦକ୍ଷେପ ହୁଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-55",
+    "question": {
+      "en": "What is the approximate weight of the crossbar?",
+      "hi": "क्रॉसबार का अनुमानित वजन कितना होता है?",
+      "or": "କ୍ରସବାରର ଆନୁମାନିକ ଓଜନ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "1 kg", "hi": "1 किलो", "or": "୧ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "2 kg", "hi": "2 किलो", "or": "୨ କିଗ୍ରା" }, "isCorrect": true },
+      { "text": { "en": "5 kg", "hi": "5 किलो", "or": "୫ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "10 kg", "hi": "10 किलो", "or": "୧୦ କିଗ୍ରା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-56",
+    "question": {
+      "en": "After clearing the bar, an athlete should try to:",
+      "hi": "बार पार करने के बाद, एक एथलीट को क्या करने का प्रयास करना चाहिए:",
+      "or": "ବାର୍ ପାର୍ କରିବା ପରେ, ଜଣେ ଆଥଲେଟ୍ କ'ଣ କରିବାକୁ ଚେଷ୍ଟା କରିବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "Land as quickly as possible", "hi": "जितनी जल्दी हो सके उतरें", "or": "ଯଥାଶୀଘ୍ର ଓହ୍ଲାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Relax and land safely on their back/shoulders", "hi": "आराम करें और अपनी पीठ/कंधों पर सुरक्षित रूप से उतरें", "or": "ଆରାମ କରନ୍ତୁ ଏବଂ ନିଜ ପିଠି/କାନ୍ଧରେ ସୁରକ୍ଷିତ ଭାବେ ଓହ୍ଲାନ୍ତୁ" }, "isCorrect": true },
+      { "text": { "en": "Try to land on their feet", "hi": "अपने पैरों पर उतरने की कोशिश करें", "or": "ନିଜ ପାଦରେ ଓହ୍ଲାଇବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Stay in the arched position", "hi": "धनुषाकार स्थिति में रहें", "or": "ଆର୍ଚ୍ ସ୍ଥିତିରେ ରୁହନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-57",
+    "question": {
+      "en": "What is the common increment the bar is raised by in competitions?",
+      "hi": "प्रतियोगिताओं में बार को किस सामान्य वृद्धि से बढ़ाया जाता है?",
+      "or": "ପ୍ରତିଯୋଗିତାରେ ବାରକୁ କେଉଁ ସାଧାରଣ ବୃଦ୍ଧିରେ ଉଠାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "1 cm", "hi": "1 सेमी", "or": "୧ ସେମି" }, "isCorrect": false },
+      { "text": { "en": "2 or 3 cm", "hi": "2 या 3 सेमी", "or": "୨ ବା ୩ ସେମି" }, "isCorrect": true },
+      { "text": { "en": "10 cm", "hi": "10 सेमी", "or": "୧୦ ସେମି" }, "isCorrect": false },
+      { "text": { "en": "It is always 5 cm", "hi": "यह हमेशा 5 सेमी होता है", "or": "ଏହା ସର୍ବଦା ୫ ସେମି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-58",
+    "question": {
+      "en": "What does 'clearing a height' mean?",
+      "hi": "'एक ऊंचाई पार करने' का क्या अर्थ है?",
+      "or": "'ଏକ ଉଚ୍ଚତା ପାର୍ କରିବା'ର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Passing on that height", "hi": "उस ऊंचाई को छोड़ देना", "or": "ସେହି ଉଚ୍ଚତାକୁ ଛାଡିଦେବା" }, "isCorrect": false },
+      { "text": { "en": "Successfully jumping over the bar at that height", "hi": "उस ऊंचाई पर बार के ऊपर से सफलतापूर्वक कूदना", "or": "ସେହି ଉଚ୍ଚତାରେ ବାର୍ ଉପରୁ ସଫଳତାର ସହ ଡେଇଁବା" }, "isCorrect": true },
+      { "text": { "en": "Failing at that height three times", "hi": "उस ऊंचाई पर तीन बार असफल होना", "or": "ସେହି ଉଚ୍ଚତାରେ ତିନିଥର ବିଫଳ ହେବା" }, "isCorrect": false },
+      { "text": { "en": "Setting a new personal best", "hi": "एक नया व्यक्तिगत सर्वश्रेष्ठ स्थापित करना", "or": "ଏକ ନୂଆ ବ୍ୟକ୍ତିଗତ ସର୍ବୋତ୍ତମ ସ୍ଥାପନ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-59",
+    "question": {
+      "en": "A key aspect of the run-up is to build:",
+      "hi": "रन-अप का एक प्रमुख पहलू क्या बनाना है:",
+      "or": "ରନ୍-ଅପର ଏକ ମୁଖ୍ୟ ଦିଗ କ'ଣ ଗଠନ କରିବା:"
+    },
+    "options": [
+      { "text": { "en": "Vertical momentum", "hi": "ऊर्ध्वाधर गति", "or": "ଭୂଲମ୍ବ ଗତି" }, "isCorrect": false },
+      { "text": { "en": "Horizontal momentum (speed)", "hi": "क्षैतिज गति (गति)", "or": "ଭୂସମାନ୍ତରାଳ ଗତି (ଗତି)" }, "isCorrect": true },
+      { "text": { "en": "Tension in the muscles", "hi": "मांसपेशियों में तनाव", "or": "ମାଂସପେଶୀରେ ଚାପ" }, "isCorrect": false },
+      { "text": { "en": "Fatigue", "hi": "थकान", "or": "କ୍ଲାନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-60",
+    "question": {
+      "en": "Why do jumpers lean away from the bar during the final steps of the approach?",
+      "hi": "जंपर्स एप्रोच के अंतिम चरणों के दौरान बार से दूर क्यों झुकते हैं?",
+      "or": "ଜମ୍ପର୍ମାନେ ଆପ୍ରୋଚର ଶେଷ ପଦକ୍ଷେପ ସମୟରେ ବାରଠାରୁ ଦୂରକୁ କାହିଁକି ଢଳନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "To see the crowd", "hi": "भीड़ देखने के लिए", "or": "ଭିଡ ଦେଖିବାକୁ" }, "isCorrect": false },
+      { "text": { "en": "To lower their center of gravity before take-off", "hi": "टेक-ऑफ से पहले अपने गुरुत्वाकर्षण के केंद्र को कम करने के लिए", "or": "ଟେକ୍-ଅଫ୍ ପୂର୍ବରୁ ନିଜ ଗୁରୁତ୍ୱାକର୍ଷଣ କେନ୍ଦ୍ରକୁ କମ୍ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "It is an optical illusion", "hi": "यह एक ऑप्टिकल भ्रम है", "or": "ଏହା ଏକ ଅପ୍ଟିକାଲ୍ ଇଲ୍ୟୁଜନ୍" }, "isCorrect": false },
+      { "text": { "en": "To avoid hitting the standards", "hi": "स्टैंडर्ड से टकराने से बचने के लिए", "or": "ଷ୍ଟାଣ୍ଡାର୍ଡରେ ବାଜିବାରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-61",
+    "question": {
+      "en": "What is the result if the bar falls after the athlete has landed and left the mat?",
+      "hi": "यदि एथलीट के उतरने और मैट छोड़ने के बाद बार गिर जाता है तो परिणाम क्या होता है?",
+      "or": "ଯଦି ଆଥଲେଟ୍ ଓହ୍ଲାଇବା ଏବଂ ମ୍ୟାଟ୍ ଛାଡିବା ପରେ ବାର୍ ପଡ଼ିଯାଏ ତେବେ ଫଳାଫଳ କ'ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "It is a successful jump", "hi": "यह एक सफल छलांग है", "or": "ଏହା ଏକ ସଫଳ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "It is a failed jump", "hi": "यह एक असफल छलांग है", "or": "ଏହା ଏକ ବିଫଳ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "The athlete gets another attempt", "hi": "एथलीट को एक और प्रयास मिलता है", "or": "ଆଥଲେଟ୍ ଆଉ ଏକ ପ୍ରୟାସ ପାଆନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "It depends on why it fell", "hi": "यह इस पर निर्भर करता है कि यह क्यों गिरा", "or": "ଏହା କାହିଁକି ପଡିଲା ତା ଉପରେ ନିର୍ଭର କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-62",
+    "question": {
+      "en": "The 'Western Roll' and 'Straddle' techniques are examples of what kind of jump?",
+      "hi": "'वेस्टर्न रोल' और 'स्ट्रैडल' तकनीक किस तरह के जंप के उदाहरण हैं?",
+      "or": "'ୱେଷ୍ଟର୍ନ ରୋଲ୍' ଏବଂ 'ଷ୍ଟ୍ରାଡଲ୍' କୌଶଳ କେଉଁ ପ୍ରକାରର ଜମ୍ପର ଉଦାହରଣ?"
+    },
+    "options": [
+      { "text": { "en": "Feet-first jumps", "hi": "पैर-पहले कूद", "or": "ପାଦ-ପ୍ରଥମେ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "Head-first jumps", "hi": "सिर-पहले कूद", "or": "ମୁଣ୍ଡ-ପ୍ରଥମେ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "Belly-roll jumps", "hi": "बेली-रोल कूद", "or": "ବେଲି-ରୋଲ୍ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "Backwards jumps", "hi": "पीछे की ओर कूद", "or": "ପଛକୁ ଜମ୍ପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-63",
+    "question": {
+      "en": "An athlete's shoes may have spikes in which part?",
+      "hi": "एक एथलीट के जूतों में किस हिस्से में स्पाइक्स हो सकते हैं?",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କ ଜୋତାରେ କେଉଁ ଅଂଶରେ ସ୍ପାଇକ୍ସ ଥାଇପାରେ?"
+    },
+    "options": [
+      { "text": { "en": "The heel only", "hi": "केवल एड़ी", "or": "କେବଳ ଗୋଇଠି" }, "isCorrect": false },
+      { "text": { "en": "The forefoot only", "hi": "केवल अग्रपाद", "or": "କେବଳ ଆଗ ପାଦ" }, "isCorrect": false },
+      { "text": { "en": "Both the heel and forefoot", "hi": "एड़ी और अग्रपाद दोनों", "or": "ଗୋଇଠି ଏବଂ ଆଗ ପାଦ ଉଭୟ" }, "isCorrect": true },
+      { "text": { "en": "No spikes are allowed", "hi": "किसी भी स्पाइक्स की अनुमति नहीं है", "or": "କୌଣସି ସ୍ପାଇକ୍ସ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-64",
+    "question": {
+      "en": "A 'bail' in high jumping refers to:",
+      "hi": "हाई जंपिंग में 'बेल' का क्या अर्थ है:",
+      "or": "ହାଇ ଜମ୍ପିଂରେ 'ବେଲ୍' କ'ଣକୁ ବୁଝାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Clearing the bar easily", "hi": "आसानी से बार पार करना", "or": "ସହଜରେ ବାର୍ ପାର୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Setting a personal record", "hi": "एक व्यक्तिगत रिकॉर्ड स्थापित करना", "or": "ଏକ ବ୍ୟକ୍ତିଗତ ରେକର୍ଡ ସ୍ଥାପନ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Abandoning an approach run without attempting a jump", "hi": "बिना कूदे एप्रोच रन छोड़ना", "or": "ବିନା ଜମ୍ପରେ ଏକ ଆପ୍ରୋଚ୍ ରନ୍ ଛାଡିଦେବା" }, "isCorrect": true },
+      { "text": { "en": "The act of landing", "hi": "उतरने की क्रिया", "or": "ଓହ୍ଲାଇବାର କ୍ରିୟା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-65",
+    "question": {
+      "en": "The term 'opening height' refers to:",
+      "hi": "'ओपनिंग हाइट' शब्द का क्या अर्थ है:",
+      "or": "'ଓପନିଂ ହାଇଟ୍' ଶବ୍ଦ କ'ଣକୁ ବୁଝାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The highest jump of the day", "hi": "दिन की सबसे ऊंची छलांग", "or": "ଦିନର ସବୁଠାରୁ ଉଚ୍ଚ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "The height the bar starts at for the competition", "hi": "वह ऊंचाई जिस पर प्रतियोगिता के लिए बार शुरू होता है", "or": "ଯେଉଁ ଉଚ୍ଚତାରେ ପ୍ରତିଯୋଗିତା ପାଇଁ ବାର୍ ଆରମ୍ଭ ହୁଏ" }, "isCorrect": true },
+      { "text": { "en": "An athlete's first successful jump", "hi": "एक एथलीट की पहली सफल छलांग", "or": "ଜଣେ ଆଥଲେଟଙ୍କ ପ୍ରଥମ ସଫଳ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "The world record height", "hi": "विश्व रिकॉर्ड ऊंचाई", "or": "ବିଶ୍ୱ ରେକର୍ଡ ଉଚ୍ଚତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-66",
+    "question": {
+      "en": "Can an athlete wear gloves during competition?",
+      "hi": "क्या कोई एथलीट प्रतियोगिता के दौरान दस्ताने पहन सकता है?",
+      "or": "କ'ଣ ଜଣେ ଆଥଲେଟ୍ ପ୍ରତିଯୋଗିତା ସମୟରେ ଗ୍ଲୋଭ୍ସ ପିନ୍ଧିପାରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "Yes, for better grip", "hi": "हाँ, बेहतर पकड़ के लिए", "or": "ହଁ, ଭଲ ଗ୍ରିପ୍ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "Yes, if it's cold", "hi": "हाँ, यदि ठंड हो", "or": "ହଁ, ଯଦି ଥଣ୍ଡା ଥାଏ" }, "isCorrect": false },
+      { "text": { "en": "No, gloves are generally not permitted", "hi": "नहीं, दस्ताने की आमतौर पर अनुमति नहीं है", "or": "ନା, ଗ୍ଲୋଭ୍ସ ସାଧାରଣତଃ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": true },
+      { "text": { "en": "Only on one hand", "hi": "केवल एक हाथ में", "or": "କେବଳ ଗୋଟିଏ ହାତରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-67",
+    "question": {
+      "en": "What does a 'countback' refer to?",
+      "hi": "'काउंटबैक' का क्या अर्थ है?",
+      "or": "'କାଉଣ୍ଟବ୍ୟାକ୍' କ'ଣକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Counting steps for the approach", "hi": "एप्रोच के लिए कदम गिनना", "or": "ଆପ୍ରୋଚ୍ ପାଇଁ ପଦକ୍ଷେପ ଗଣିବା" }, "isCorrect": false },
+      { "text": { "en": "The process of using previous misses to break a tie", "hi": "टाई तोड़ने के लिए पिछले मिस का उपयोग करने की प्रक्रिया", "or": "ଟାଇ ଭାଙ୍ଗିବା ପାଇଁ ପୂର୍ବ ମିସର ବ୍ୟବହାର କରିବାର ପ୍ରକ୍ରିୟା" }, "isCorrect": true },
+      { "text": { "en": "Counting down the time for an attempt", "hi": "एक प्रयास के लिए समय गिनना", "or": "ଏକ ପ୍ରୟାସ ପାଇଁ ସମୟ ଗଣନା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "A type of warm-up drill", "hi": "एक प्रकार का वार्म-अप ड्रिल", "or": "ଏକ ପ୍ରକାରର ୱାର୍ମ-ଅପ୍ ଡ୍ରିଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-68",
+    "question": {
+      "en": "The final action of the non-takeoff leg is often a powerful:",
+      "hi": "गैर-टेकऑफ पैर की अंतिम क्रिया अक्सर एक शक्तिशाली:",
+      "or": "ଅଣ-ଟେକ୍ଅଫ୍ ଗୋଡର ଶେଷ କ୍ରିୟା ପ୍ରାୟତଃ ଏକ ଶକ୍ତିଶାଳୀ:"
+    },
+    "options": [
+      { "text": { "en": "Stomp", "hi": "स्टॉम्प", "or": "ଷ୍ଟମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "Swing or Kick", "hi": "स्विंग या किक", "or": "ସ୍ୱିଙ୍ଗ୍ ବା କିକ୍" }, "isCorrect": true },
+      { "text": { "en": "Drag", "hi": "ड्रैग", "or": "ଡ୍ରାଗ୍" }, "isCorrect": false },
+      { "text": { "en": "Slide", "hi": "स्लाइड", "or": "ସ୍ଲାଇଡ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-69",
+    "question": {
+      "en": "What is the primary physical quality that the 'J' approach run develops for a flop jumper?",
+      "hi": "एक फ्लॉप जम्पर के लिए 'J' एप्रोच रन मुख्य रूप से कौन सी शारीरिक गुणवत्ता विकसित करता है?",
+      "or": "ଏକ ଫ୍ଲପ୍ ଜମ୍ପର୍ ପାଇଁ 'J' ଆପ୍ରୋଚ୍ ରନ୍ ମୁଖ୍ୟତଃ କେଉଁ ଶାରୀରିକ ଗୁଣବତ୍ତା ବିକଶିତ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" }, "isCorrect": false },
+      { "text": { "en": "Centripetal force", "hi": "अभिकेंद्री बल", "or": "କେନ୍ଦ୍ରାଭିମୁଖୀ ବଳ" }, "isCorrect": true },
+      { "text": { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" }, "isCorrect": false },
+      { "text": { "en": "Balance", "hi": "संतुलन", "or": "ସନ୍ତୁଳନ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "hj-70",
+    "question": {
+      "en": "If an athlete clears a height, but the wind blows the bar off before they land, what is the ruling?",
+      "hi": "यदि एक एथलीट एक ऊंचाई पार कर लेता है, लेकिन उतरने से पहले हवा बार को उड़ा देती है, तो नियम क्या है?",
+      "or": "ଯଦି ଜଣେ ଆଥଲେଟ୍ ଏକ ଉଚ୍ଚତା ପାର୍ କରନ୍ତି, କିନ୍ତୁ ଓହ୍ଲାଇବା ପୂର୍ବରୁ ପବନ ବାରକୁ ଉଡାଇ ଦିଏ, ତେବେ ନିୟମ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is a failed attempt", "hi": "यह एक असफल प्रयास है", "or": "ଏହା ଏକ ବିଫଳ ପ୍ରୟାସ" }, "isCorrect": true },
+      { "text": { "en": "It is a successful attempt", "hi": "यह एक सफल प्रयास है", "or": "ଏହା ଏକ ସଫଳ ପ୍ରୟାସ" }, "isCorrect": false },
+      { "text": { "en": "The athlete gets a re-jump", "hi": "एथलीट को एक री-जंप मिलता है", "or": "ଆଥଲେଟ୍ ଏକ ପୁନର୍ଜମ୍ପ ପାଆନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The jump is nullified", "hi": "कूद को रद्द कर दिया जाता है", "or": "ଜମ୍ପକୁ ରଦ୍ଦ କରାଯାଏ" }, "isCorrect": false }
+    ]
+  }
+]

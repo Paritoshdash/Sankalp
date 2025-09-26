@@ -1,0 +1,32 @@
+{
+  "running-100m": {
+    "age_14-16": {
+      "speed_m_s": 7.5,
+      "reaction_time_s": 0.2
+    },
+    "age_17-19": {
+      "speed_m_s": 8.5,
+      "reaction_time_s": 0.18
+    }
+  },
+  "long-jump": {
+    "age_14-16": {
+      "takeoff_speed_m_s": 6.0,
+      "takeoff_angle_deg": 18
+    },
+    "age_17-19": {
+      "takeoff_speed_m_s": 7.0,
+      "takeoff_angle_deg": 20
+    }
+  },
+  "shotput": {
+    "age_14-16": {
+      "release_speed_m_s": 10.0,
+      "release_angle_deg": 35
+    },
+    "age_17-19": {
+      "release_speed_m_s": 12.0,
+      "release_angle_deg": 38
+    }
+  }
+}

@@ -1,0 +1,983 @@
+[
+  {
+    "id": "sp-1",
+    "question": {
+      "en": "What is the name of the circle you must throw from?",
+      "hi": "उस वृत्त का नाम क्या है जहाँ से आपको गोला फेंकना होता है?",
+      "or": "ଆପଣ ଯେଉଁ ବୃତ୍ତରୁ ଫିଙ୍ଗିବା ଆବଶ୍ୟକ, ତାହାର ନାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The Power Zone", "hi": "पावर ज़ोन", "or": "ପାୱାର୍ ଜୋନ୍" }, "isCorrect": false },
+      { "text": { "en": "The Throwing Circle", "hi": "थ्रोइंग सर्कल", "or": "ଥ୍ରୋଇଂ ସର୍କଲ୍" }, "isCorrect": true },
+      { "text": { "en": "The Launch Pad", "hi": "लॉन्च पैड", "or": "ଲଞ୍ଚ୍ ପ୍ୟାଡ୍" }, "isCorrect": false },
+      { "text": { "en": "The Shot Ring", "hi": "शॉट रिंग", "or": "ଶଟ୍ ରିଙ୍ଗ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-2",
+    "question": {
+      "en": "Where must the shot be placed against your body just before you throw?",
+      "hi": "फेंकने से ठीक पहले शॉट (गोला) को आपके शरीर पर कहाँ रखा जाना चाहिए?",
+      "or": "ଫିଙ୍ଗିବା ପୂର୍ବରୁ ଶଟ୍‌ (ଗୋଲା)କୁ ଆପଣଙ୍କ ଶରୀରରେ କେଉଁଠାରେ ରଖାଯିବା ଆବଶ୍ୟକ?"
+    },
+    "options": [
+      { "text": { "en": "On top of your shoulder", "hi": "आपके कंधे के ऊपर", "or": "ଆପଣଙ୍କ କାନ୍ଧ ଉପରେ" }, "isCorrect": false },
+      { "text": { "en": "Held out in front of you", "hi": "आपके सामने पकड़ा हुआ", "or": "ଆପଣଙ୍କ ସାମ୍ନାରେ ଧରି" }, "isCorrect": false },
+      { "text": { "en": "Touching your neck or chin", "hi": "आपकी गर्दन या ठोड़ी को छूते हुए", "or": "ଆପଣଙ୍କ ବେକ କିମ୍ବା ଚିବୁକକୁ ଛୁଇଁ" }, "isCorrect": true },
+      { "text": { "en": "In the palm of your hand away from your body", "hi": "आपके शरीर से दूर आपकी हथेली में", "or": "ଆପଣଙ୍କ ଶରୀରଠାରୁ ଦୂରରେ ଆପଣଙ୍କ ପାପୁଲିରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-3",
+    "question": {
+      "en": "What is the action of throwing the shot put correctly called?",
+      "hi": "शॉट पुट को सही ढंग से फेंकने की क्रिया को क्या कहा जाता है?",
+      "or": "ଶଟ୍ ପୁଟକୁ ଠିକ୍ ଭାବରେ ଫିଙ୍ଗିବା କ୍ରିୟାକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A throw", "hi": "एक थ्रो", "or": "ଏକ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A put", "hi": "एक पुट", "or": "ଏକ ପୁଟ୍" }, "isCorrect": true },
+      { "text": { "en": "A launch", "hi": "एक लॉन्च", "or": "ଏକ ଲଞ୍ଚ୍" }, "isCorrect": false },
+      { "text": { "en": "A sling", "hi": "एक स्लिंग", "or": "ଏକ ସ୍ଲିଙ୍ଗ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-4",
+    "question": {
+      "en": "What happens if you step out of the circle during your throw?",
+      "hi": "यदि आप अपने थ्रो के दौरान सर्कल से बाहर कदम रखते हैं तो क्या होता है?",
+      "or": "ଯଦି ଆପଣ ନିଜ ଥ୍ରୋ ସମୟରେ ସର୍କଲ୍ ବାହାରେ ପାଦ ରଖନ୍ତି ତେବେ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "The throw is measured from where you stepped out", "hi": "थ्रो को वहीं से मापा जाता है जहां से आपने कदम बाहर रखा", "or": "ଆପଣ ଯେଉଁଠାରୁ ବାହାରକୁ ପାଦ ରଖିଥିଲେ, ସେଠାରୁ ଥ୍ରୋ ମାପ କରାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "It is a foul and the throw does not count", "hi": "यह एक फाउल है और थ्रो की गिनती नहीं होती है", "or": "ଏହା ଏକ ଫାଉଲ୍ ଏବଂ ଥ୍ରୋ ଗଣନା କରାଯାଏ ନାହିଁ" }, "isCorrect": true },
+      { "text": { "en": "You get a warning from the official", "hi": "आपको अधिकारी से एक चेतावनी मिलती है", "or": "ଆପଣଙ୍କୁ ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଚେତାବନୀ ମିଳେ" }, "isCorrect": false },
+      { "text": { "en": "Nothing, as long as the shot lands in the sector", "hi": "कुछ नहीं, जब तक शॉट सेक्टर में गिरता है", "or": "କିଛି ନୁହେଁ, ଯେପର୍ଯ୍ୟନ୍ତ ଶଟ୍ ସେକ୍ଟରରେ ପଡ଼େ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-5",
+    "question": {
+      "en": "What is the name of the wooden board at the front of the circle?",
+      "hi": "वृत्त के सामने लकड़ी के बोर्ड का नाम क्या है?",
+      "or": "ସର୍କଲର ସାମ୍ନାରେ ଥିବା କାଠ ବୋର୍ଡର ନାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The Foul Line", "hi": "फाउल लाइन", "or": "ଫାଉଲ୍ ଲାଇନ୍" }, "isCorrect": false },
+      { "text": { "en": "The Stop Board or Toe Board", "hi": "स्टॉप बोर्ड या टो बोर्ड", "or": "ଷ୍ଟପ୍ ବୋର୍ଡ କିମ୍ବା ଟୋ ବୋର୍ଡ" }, "isCorrect": true },
+      { "text": { "en": "The Start Block", "hi": "स्टार्ट ब्लॉक", "or": "ଷ୍ଟାର୍ଟ ବ୍ଲକ୍" }, "isCorrect": false },
+      { "text": { "en": "The Throwing Plank", "hi": "थ्रोइंग प्लैंक", "or": "ଥ୍ରୋଇଂ ପ୍ଲାଙ୍କ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-6",
+    "question": {
+      "en": "What is the standard weight of the shot for senior men?",
+      "hi": "वरिष्ठ पुरुषों के लिए शॉट का मानक वजन क्या है?",
+      "or": "ବରିଷ୍ଠ ପୁରୁଷଙ୍କ ପାଇଁ ଶଟ୍‌ର ମାନକ ଓଜନ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "5 kg", "hi": "5 किलो", "or": "୫ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "6.25 kg", "hi": "6.25 किलो", "or": "୬.୨୫ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "7.26 kg", "hi": "7.26 किलो", "or": "୭.୨୬ କିଗ୍ରା" }, "isCorrect": true },
+      { "text": { "en": "8 kg", "hi": "8 किलो", "or": "୮ କିଗ୍ରା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-7",
+    "question": {
+      "en": "What is the standard weight of the shot for senior women?",
+      "hi": "वरिष्ठ महिलाओं के लिए शॉट का मानक वजन क्या है?",
+      "or": "ବରିଷ୍ଠ ମହିଳାଙ୍କ ପାଇଁ ଶଟ୍‌ର ମାନକ ଓଜନ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "3 kg", "hi": "3 किलो", "or": "୩ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "4 kg", "hi": "4 किलो", "or": "୪ କିଗ୍ରା" }, "isCorrect": true },
+      { "text": { "en": "5 kg", "hi": "5 किलो", "or": "୫ କିଗ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "6 kg", "hi": "6 किलो", "or": "୬ କିଗ୍ରା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-8",
+    "question": {
+      "en": "In the 'glide' technique, you start by facing which direction?",
+      "hi": "'ग्लाइड' तकनीक में, आप किस दिशा का सामना करके शुरू करते हैं?",
+      "or": "'ଗ୍ଲାଇଡ୍' କୌଶଳରେ, ଆପଣ କେଉଁ ଦିଗକୁ ମୁହଁ କରି ଆରମ୍ଭ କରନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Forwards, towards the throw", "hi": "आगे, थ्रो की ओर", "or": "ଆଗକୁ, ଥ୍ରୋ ଦିଗକୁ" }, "isCorrect": false },
+      { "text": { "en": "To the side of the circle", "hi": "सर्कल के किनारे की ओर", "or": "ସର୍କଲର ପାର୍ଶ୍ୱକୁ" }, "isCorrect": false },
+      { "text": { "en": "Backwards, away from the throw", "hi": "पीछे, थ्रो से दूर", "or": "ପଛକୁ, ଥ୍ରୋଠାରୁ ଦୂରରେ" }, "isCorrect": true },
+      { "text": { "en": "It does not matter", "hi": "इससे कोई फर्क नहीं पड़ता", "or": "ଏଥିରେ କିଛି ଫରକ ପଡ଼େ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-9",
+    "question": {
+      "en": "What is the area where the shot must land for a legal throw called?",
+      "hi": "एक कानूनी थ्रो के लिए शॉट को जिस क्षेत्र में उतरना चाहिए, उसे क्या कहा जाता है?",
+      "or": "ଏକ ବୈଧ ଥ୍ରୋ ପାଇଁ ଶଟ୍ ଯେଉଁ ସ୍ଥାନରେ ପଡ଼ିବା ଆବଶ୍ୟକ, ତାହାକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The field", "hi": "फील्ड", "or": "ଫିଲ୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "The landing zone", "hi": "लैंडिंग ज़ोन", "or": "ଲ୍ୟାଣ୍ଡିଂ ଜୋନ୍" }, "isCorrect": false },
+      { "text": { "en": "The sector", "hi": "सेक्टर", "or": "ସେକ୍ଟର" }, "isCorrect": true },
+      { "text": { "en": "The target", "hi": "टारगेट", "or": "ଟାର୍ଗେଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-10",
+    "question": {
+      "en": "From which part of the circle must you exit after a completed throw?",
+      "hi": "एक पूर्ण थ्रो के बाद आपको सर्कल के किस हिस्से से बाहर निकलना चाहिए?",
+      "or": "ଏକ ସମ୍ପୂର୍ଣ୍ଣ ଥ୍ରୋ ପରେ ଆପଣଙ୍କୁ ସର୍କଲର କେଉଁ ଅଂଶରୁ ବାହାରିବାକୁ ପଡିବ?"
+    },
+    "options": [
+      { "text": { "en": "The front half", "hi": "आगे का आधा हिस्सा", "or": "ଆଗ ଅଧା" }, "isCorrect": false },
+      { "text": { "en": "The back half", "hi": "पीछे का आधा हिस्सा", "or": "ପଛ ଅଧା" }, "isCorrect": true },
+      { "text": { "en": "Anywhere you want", "hi": "आप कहीं भी चाहें", "or": "ଆପଣ ଯେଉଁଠାରେ ଚାହିଁବେ" }, "isCorrect": false },
+      { "text": { "en": "Over the stop board", "hi": "स्टॉप बोर्ड के ऊपर से", "or": "ଷ୍ଟପ୍ ବୋର୍ଡ ଉପରୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-11",
+    "question": {
+      "en": "What is a throw called if the shot drops below your shoulder during the putting action?",
+      "hi": "यदि पुटिंग क्रिया के दौरान शॉट आपके कंधे से नीचे गिर जाता है तो थ्रो को क्या कहा जाता है?",
+      "or": "ଯଦି ପୁଟିଂ କ୍ରିୟା ସମୟରେ ଶଟ୍ ଆପଣଙ୍କ କାନ୍ଧ ତଳକୁ ଖସିଯାଏ, ତେବେ ଥ୍ରୋକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A weak put", "hi": "एक कमजोर पुट", "or": "ଏକ ଦୁର୍ବଳ ପୁଟ୍" }, "isCorrect": false },
+      { "text": { "en": "A foul", "hi": "एक फाउल", "or": "ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "A legal throw", "hi": "एक कानूनी थ्रो", "or": "ଏକ ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A mis-put", "hi": "एक मिस-पुट", "or": "ଏକ ମିସ୍-ପୁଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-12",
+    "question": {
+      "en": "How many attempts does an athlete usually get in a competition?",
+      "hi": "एक एथलीट को आमतौर पर एक प्रतियोगिता में कितने प्रयास मिलते हैं?",
+      "or": "ଜଣେ ଆଥଲେଟ୍ ସାଧାରଣତଃ ଏକ ପ୍ରତିଯୋଗିତାରେ କେତୋଟି ପ୍ରୟାସ ପାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "One or two", "hi": "एक या दो", "or": "ଏକ କିମ୍ବା ଦୁଇ" }, "isCorrect": false },
+      { "text": { "en": "Three to six", "hi": "तीन से छह", "or": "ତିନିରୁ ଛଅ" }, "isCorrect": true },
+      { "text": { "en": "Ten", "hi": "दस", "or": "ଦଶ" }, "isCorrect": false },
+      { "text": { "en": "As many as they can in 5 minutes", "hi": "5 मिनट में जितना हो सके", "or": "୫ ମିନିଟରେ ଯେତେ ସମ୍ଭବ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-13",
+    "question": {
+      "en": "The power for the throw mainly comes from:",
+      "hi": "थ्रो के लिए शक्ति मुख्य रूप से कहाँ से आती है:",
+      "or": "ଥ୍ରୋ ପାଇଁ ଶକ୍ତି ମୁଖ୍ୟତଃ କେଉଁଠାରୁ ଆସେ:"
+    },
+    "options": [
+      { "text": { "en": "Only the arm", "hi": "केवल हाथ", "or": "କେବଳ ବାହୁ" }, "isCorrect": false },
+      { "text": { "en": "The legs and hips", "hi": "पैर और कूल्हे", "or": "ଗୋଡ଼ ଏବଂ ନିତମ୍ବ" }, "isCorrect": true },
+      { "text": { "en": "The fingers", "hi": "उंगलियां", "or": "ଆଙ୍ଗୁଠି" }, "isCorrect": false },
+      { "text": { "en": "The shoulder", "hi": "कंधा", "or": "କାନ୍ଧ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-14",
+    "question": {
+      "en": "What is the purpose of the stop board?",
+      "hi": "स्टॉप बोर्ड का उद्देश्य क्या है?",
+      "or": "ଷ୍ଟପ୍ ବୋର୍ଡର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To aim at", "hi": "निशाना लगाना", "or": "ଲକ୍ଷ୍ୟ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To help the thrower stay in the circle and avoid fouling", "hi": "थ्रोअर को सर्कल में रहने और फाउल से बचने में मदद करने के लिए", "or": "ଥ୍ରୋୟରଙ୍କୁ ସର୍କଲରେ ରହିବା ଏବଂ ଫାଉଲ୍ ଏଡ଼ାଇବାରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To measure the throw from", "hi": "थ्रो को मापने के लिए", "or": "ଥ୍ରୋ ମାପିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To rest your foot on", "hi": "अपना पैर उस पर टिकाने के लिए", "or": "ଆପଣଙ୍କ ପାଦକୁ ସେଥିରେ ଆରାମ ଦେବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-15",
+    "question": {
+      "en": "A throw is measured from the mark made by the shot to what part of the circle?",
+      "hi": "एक थ्रो को शॉट द्वारा बनाए गए निशान से सर्कल के किस हिस्से तक मापा जाता है?",
+      "or": "ଏକ ଥ୍ରୋକୁ ଶଟ୍ ଦ୍ୱାରା କରାଯାଇଥିବା ଚିହ୍ନରୁ ସର୍କଲର କେଉଁ ଅଂଶ ପର୍ଯ୍ୟନ୍ତ ମାପ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The back edge", "hi": "पिछला किनारा", "or": "ପଛ ପାର୍ଶ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "The inside edge of the stop board", "hi": "स्टॉप बोर्ड का अंदरूनी किनारा", "or": "ଷ୍ଟପ୍ ବୋର୍ଡର ଭିତର ପାର୍ଶ୍ୱ" }, "isCorrect": true },
+      { "text": { "en": "The center", "hi": "केंद्र", "or": "କେନ୍ଦ୍ର" }, "isCorrect": false },
+      { "text": { "en": "The outside edge", "hi": "बाहरी किनारा", "or": "ବାହାର ପାର୍ଶ୍ୱ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-16",
+    "question": {
+      "en": "What is the rotational (or spin) technique?",
+      "hi": "घूर्णी (या स्पिन) तकनीक क्या है?",
+      "or": "ଘୂର୍ଣ୍ଣନ (ବା ସ୍ପିନ୍) କୌଶଳ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A beginner's technique", "hi": "एक शुरुआती की तकनीक", "or": "ଏକ ଆରମ୍ଭକାରୀଙ୍କ କୌଶଳ" }, "isCorrect": false },
+      { "text": { "en": "A technique involving spinning like a discus thrower", "hi": "एक तकनीक जिसमें डिस्कस थ्रोअर की तरह घूमना शामिल है", "or": "ଏକ କୌଶଳ ଯେଉଁଥିରେ ଡିସ୍କସ୍ ଥ୍ରୋୟର୍ ଭଳି ଘୂରିବା ସାମିଲ" }, "isCorrect": true },
+      { "text": { "en": "A way to spin the shot in the air", "hi": "शॉट को हवा में घुमाने का एक तरीका", "or": "ଶଟ୍‌କୁ ବାୟୁରେ ଘୂରାଇବାର ଏକ ଉପାୟ" }, "isCorrect": false },
+      { "text": { "en": "An illegal technique", "hi": "एक अवैध तकनीक", "or": "ଏକ ଅବୈଧ କୌଶଳ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-17",
+    "question": {
+      "en": "Why is it important to stay balanced after you throw?",
+      "hi": "फेंकने के बाद संतुलित रहना क्यों महत्वपूर्ण है?",
+      "or": "ଫିଙ୍ଗିବା ପରେ ସନ୍ତୁଳିତ ରହିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To make the throw go farther", "hi": "थ्रो को और दूर तक ले जाने के लिए", "or": "ଥ୍ରୋକୁ ଆହୁରି ଦୂରକୁ ନେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To avoid fouling by falling out of the circle", "hi": "सर्कल से बाहर गिरकर फाउल करने से बचने के लिए", "or": "ସର୍କଲରୁ ବାହାରକୁ ପଡ଼ି ଫାଉଲ୍ ହେବାରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To look good for the judges", "hi": "जजों के लिए अच्छा दिखने के लिए", "or": "ବିଚାରକମାନଙ୍କ ପାଇଁ ଭଲ ଦେଖାଯିବା" }, "isCorrect": false },
+      { "text": { "en": "It is not important", "hi": "यह महत्वपूर्ण नहीं है", "or": "ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-18",
+    "question": {
+      "en": "What is the shot typically made of?",
+      "hi": "शॉट आमतौर पर किससे बना होता है?",
+      "or": "ଶଟ୍ ସାଧାରଣତଃ କେଉଁଥିରେ ତିଆରି?"
+    },
+    "options": [
+      { "text": { "en": "Stone", "hi": "पत्थर", "or": "ପଥର" }, "isCorrect": false },
+      { "text": { "en": "Solid metal, like iron or brass", "hi": "ठोस धातु, जैसे लोहा या पीतल", "or": "କଠିନ ଧାତୁ, ଯେପରିକି ଲୁହା କିମ୍ବା ପିତ୍ତଳ" }, "isCorrect": true },
+      { "text": { "en": "Hard rubber", "hi": "कठोर रबर", "or": "କଠିନ ରବର" }, "isCorrect": false },
+      { "text": { "en": "Wood", "hi": "लकड़ी", "or": "କାଠ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-19",
+    "question": {
+      "en": "What does a white flag from an official mean?",
+      "hi": "अधिकारी का सफेद झंडा क्या दर्शाता है?",
+      "or": "ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଧଳା ପତାକା କ’ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A good, legal throw", "hi": "एक अच्छा, कानूनी थ्रो", "or": "ଏକ ଭଲ, ବୈଧ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "The final attempt", "hi": "अंतिम प्रयास", "or": "ଅନ୍ତିମ ପ୍ରୟାସ" }, "isCorrect": false },
+      { "text": { "en": "A new record", "hi": "एक नया रिकॉर्ड", "or": "ଏକ ନୂଆ ରେକର୍ଡ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-20",
+    "question": {
+      "en": "Which of these is a good exercise to build power for shot put?",
+      "hi": "शॉट पुट के लिए शक्ति बनाने के लिए इनमें से कौन सा एक अच्छा व्यायाम है?",
+      "or": "ଶଟ୍ ପୁଟ୍ ପାଇଁ ଶକ୍ତି ବୃଦ୍ଧି କରିବାକୁ ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଏକ ଭଲ ବ୍ୟାୟାମ?"
+    },
+    "options": [
+      { "text": { "en": "Long distance running", "hi": "लंबी दूरी की दौड़", "or": "ଦୀର୍ଘ ଦୂର ଦୌଡ଼" }, "isCorrect": false },
+      { "text": { "en": "Squats and bench press", "hi": "स्क्वैट्स और बेंच प्रेस", "or": "ସ୍କ୍ୱାଟ୍ସ ଏବଂ ବେଞ୍ଚ ପ୍ରେସ୍" }, "isCorrect": true },
+      { "text": { "en": "Swimming", "hi": "तैराकी", "or": "ପହଁରିବା" }, "isCorrect": false },
+      { "text": { "en": "Stretching only", "hi": "केवल स्ट्रेचिंग", "or": "କେବଳ ଷ୍ଟ୍ରେଚିଂ" }, "isCorrect": false }
+    ]
+  },
+  
+  {
+    "id": "sp-21",
+    "question": {
+      "en": "What is a common mistake for beginners when they throw?",
+      "hi": "शुरुआती फेंकने वालों के लिए एक आम गलती क्या है?",
+      "or": "ଆରମ୍ଭକାରୀଙ୍କ ପାଇଁ ଫିଙ୍ଗିବା ସମୟରେ ଏକ ସାଧାରଣ ଭୁଲ୍ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Pushing too hard with their legs", "hi": "अपने पैरों से बहुत जोर से धक्का देना", "or": "ନିଜ ଗୋଡରେ ବହୁତ ଜୋରରେ ଠେଲିବା" }, "isCorrect": false },
+      { "text": { "en": "Throwing it like a ball instead of putting it", "hi": "इसे डालने के बजाय गेंद की तरह फेंकना", "or": "ଏହାକୁ ପୁଟ୍ କରିବା ପରିବର୍ତ୍ତେ ବଲ୍ ଭଳି ଫିଙ୍ଗିବା" }, "isCorrect": true },
+      { "text": { "en": "Staying too low", "hi": "बहुत नीचे रहना", "or": "ବହୁତ ତଳେ ରହିବା" }, "isCorrect": false },
+      { "text": { "en": "Using too much chalk", "hi": "बहुत अधिक चाक का उपयोग करना", "or": "ବହୁତ ଅଧିକ ଚକ୍ ବ୍ୟବହାର କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-22",
+    "question": {
+      "en": "What does a 'pass' mean in a shot put competition?",
+      "hi": "शॉट पुट प्रतियोगिता में 'पास' का क्या मतलब है?",
+      "or": "ଶଟ୍ ପୁଟ୍ ପ୍ରତିଯୋଗିତାରେ 'ପାସ୍'ର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A perfect throw", "hi": "एक आदर्श थ्रो", "or": "ଏକ ଉତ୍ତମ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Choosing to skip an attempt", "hi": "एक प्रयास छोड़ने का विकल्प चुनना", "or": "ଏକ ପ୍ରୟାସ ଛାଡିଦେବାକୁ ବାଛିବା" }, "isCorrect": true },
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "The shot passes the sector line", "hi": "शॉट सेक्टर लाइन को पार करता है", "or": "ଶଟ୍ ସେକ୍ଟର ଲାଇନ୍ ପାର୍ କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-23",
+    "question": {
+      "en": "After you throw, you should wait for what before leaving the circle?",
+      "hi": "फेंकने के बाद, आपको सर्कल छोड़ने से पहले किसका इंतजार करना चाहिए?",
+      "or": "ଫିଙ୍ଗିବା ପରେ, ସର୍କଲ୍ ଛାଡିବା ପୂର୍ବରୁ ଆପଣଙ୍କୁ କ’ଣ ଅପେକ୍ଷା କରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "For the crowd to cheer", "hi": "भीड़ के जयकार करने का", "or": "ଦର୍ଶକଙ୍କ ଚିତ୍କାର ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "For the shot to land", "hi": "शॉट के उतरने का", "or": "ଶଟ୍ ପଡ଼ିବା ପର୍ଯ୍ୟନ୍ତ" }, "isCorrect": true },
+      { "text": { "en": "For your coach's signal", "hi": "अपने कोच के संकेत का", "or": "ଆପଣଙ୍କ କୋଚଙ୍କ ସଙ୍କେତ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "For one minute", "hi": "एक मिनट के लिए", "or": "ଏକ ମିନିଟ୍ ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-24",
+    "question": {
+      "en": "The 'power position' is the stance you are in when?",
+      "hi": "'पावर पोजीशन' वह मुद्रा है जिसमें आप कब होते हैं?",
+      "or": "'ପାୱାର୍ ପୋଜିସନ୍' ସେହି ମୁଦ୍ରା ଯେଉଁଥିରେ ଆପଣ କେତେବେଳେ ଥାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "At the start of the glide/spin", "hi": "ग्लाइड/स्पिन की शुरुआत में", "or": "ଗ୍ଲାଇଡ୍/ସ୍ପିନ୍ ଆରମ୍ଭରେ" }, "isCorrect": false },
+      { "text": { "en": "Just before you start the final put", "hi": "अंतिम पुट शुरू करने से ठीक पहले", "or": "ଅନ୍ତିମ ପୁଟ୍ ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ" }, "isCorrect": true },
+      { "text": { "en": "After you have released the shot", "hi": "शॉट छोड़ने के बाद", "or": "ଶଟ୍ ଛାଡିବା ପରେ" }, "isCorrect": false },
+      { "text": { "en": "When you pick up the shot", "hi": "जब आप शॉट उठाते हैं", "or": "ଯେତେବେଳେ ଆପଣ ଶଟ୍ ଉଠାନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-25",
+    "question": {
+      "en": "What is a good way to improve your balance in the circle?",
+      "hi": "सर्कल में अपना संतुलन सुधारने का एक अच्छा तरीका क्या है?",
+      "or": "ସର୍କଲରେ ଆପଣଙ୍କ ସନ୍ତୁଳନ ଉନ୍ନତ କରିବାର ଏକ ଭଲ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Closing your eyes", "hi": "अपनी आँखें बंद करना", "or": "ଆପଣଙ୍କ ଆଖି ବନ୍ଦ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Practicing drills without throwing (dry drills)", "hi": "बिना फेंके ड्रिल का अभ्यास करना (ड्राई ड्रिल)", "or": "ବିନା ଫିଙ୍ଗି ଡ୍ରିଲ୍ ଅଭ୍ୟାସ କରିବା (ଡ୍ରାଏ ଡ୍ରିଲ୍)" }, "isCorrect": true },
+      { "text": { "en": "Using a heavier shot", "hi": "एक भारी शॉट का उपयोग करना", "or": "ଏକ ଭାରୀ ଶଟ୍ ବ୍ୟବହାର କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Moving as fast as possible", "hi": "जितनी जल्दी हो सके चलना", "or": "ଯଥାସମ୍ଭବ ଶୀଘ୍ର ଗତି କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-26",
+    "question": {
+      "en": "It is a foul if you touch what part of the stop board?",
+      "hi": "यदि आप स्टॉप बोर्ड के किस हिस्से को छूते हैं तो यह एक फाउल है?",
+      "or": "ଯଦି ଆପଣ ଷ୍ଟପ୍ ବୋର୍ଡର କେଉଁ ଅଂଶକୁ ଛୁଅଁନ୍ତି ତେବେ ଏହା ଏକ ଫାଉଲ୍?"
+    },
+    "options": [
+      { "text": { "en": "The inside face", "hi": "अंदर का चेहरा", "or": "ଭିତର ପାର୍ଶ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "The top or outside face", "hi": "ऊपर या बाहर का चेहरा", "or": "ଉପର କିମ୍ବା ବାହାର ପାର୍ଶ୍ୱ" }, "isCorrect": true },
+      { "text": { "en": "The bottom", "hi": "नीचे", "or": "ତଳ" }, "isCorrect": false },
+      { "text": { "en": "Any part is fine", "hi": "कोई भी हिस्सा ठीक है", "or": "ଯେକୌଣସି ଅଂଶ ଠିକ୍ ଅଛି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-27",
+    "question": {
+      "en": "Why is hip rotation important in the rotational technique?",
+      "hi": "घूर्णी तकनीक में कूल्हे का घूमना क्यों महत्वपूर्ण है?",
+      "or": "ଘୂର୍ଣ୍ଣନ କୌଶଳରେ ନିତମ୍ବର ଘୂର୍ଣ୍ଣନ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It's not important", "hi": "यह महत्वपूर्ण नहीं है", "or": "ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false },
+      { "text": { "en": "It creates torque and power for the throw", "hi": "यह थ्रो के लिए टॉर्क और शक्ति बनाता है", "or": "ଏହା ଥ୍ରୋ ପାଇଁ ଟର୍କ ଏବଂ ଶକ୍ତି ସୃଷ୍ଟି କରେ" }, "isCorrect": true },
+      { "text": { "en": "It helps you stay in the circle", "hi": "यह आपको सर्कल में रहने में मदद करता है", "or": "ଏହା ଆପଣଙ୍କୁ ସର୍କଲରେ ରହିବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It makes the throw look better", "hi": "यह थ्रो को बेहतर दिखाता है", "or": "ଏହା ଥ୍ରୋକୁ ଭଲ ଦେଖାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-28",
+    "question": {
+      "en": "What is the final action your fingers should do on the shot?",
+      "hi": "शॉट पर आपकी उंगलियों की अंतिम क्रिया क्या होनी चाहिए?",
+      "or": "ଶଟ୍ ଉପରେ ଆପଣଙ୍କ ଆଙ୍ଗୁଠିର ଅନ୍ତିମ କ୍ରିୟା କ’ଣ ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Hold on tightly", "hi": "कसकर पकड़ना", "or": "ଜୋରରେ ଧରିବା" }, "isCorrect": false },
+      { "text": { "en": "A flick to add extra distance", "hi": "अतिरिक्त दूरी जोड़ने के लिए एक झटका", "or": "ଅତିରିକ୍ତ ଦୂରତା ଯୋଡ଼ିବା ପାଇଁ ଏକ ଫ୍ଲିକ୍" }, "isCorrect": true },
+      { "text": { "en": "Relax completely", "hi": "पूरी तरह से आराम करना", "or": "ସମ୍ପୂର୍ଣ୍ଣ ଆରାମ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Pull the shot back", "hi": "शॉट को वापस खींचना", "or": "ଶଟ୍‌କୁ ପଛକୁ ଟାଣିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-29",
+    "question": {
+      "en": "If a competition has more than 8 athletes, what happens after 3 throws?",
+      "hi": "यदि किसी प्रतियोगिता में 8 से अधिक एथलीट हैं, तो 3 थ्रो के बाद क्या होता है?",
+      "or": "ଯଦି ଏକ ପ୍ରତିଯୋଗିତାରେ ୮ରୁ ଅଧିକ ଆଥଲେଟ୍ ଥାଆନ୍ତି, ତେବେ ୩ଟି ଥ୍ରୋ ପରେ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "The competition is over", "hi": "प्रतियोगिता समाप्त हो जाती है", "or": "ପ୍ରତିଯୋଗିତା ସମାପ୍ତ ହୁଏ" }, "isCorrect": false },
+      { "text": { "en": "The top 8 athletes get 3 more throws", "hi": "शीर्ष 8 एथलीटों को 3 और थ्रो मिलते हैं", "or": "ଶୀର୍ଷ ୮ ଜଣ ଆଥଲେଟଙ୍କୁ ଆଉ ୩ଟି ଥ୍ରୋ ମିଳେ" }, "isCorrect": true },
+      { "text": { "en": "Everyone gets 1 more throw", "hi": "सभी को 1 और थ्रो मिलता है", "or": "ସମସ୍ତଙ୍କୁ ଆଉ ୧ଟି ଥ୍ରୋ ମିଳେ" }, "isCorrect": false },
+      { "text": { "en": "The winner is declared", "hi": "विजेता घोषित किया जाता है", "or": "ବିଜେତା ଘୋଷଣା କରାଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-30",
+    "question": {
+      "en": "Why is it important to drive forcefully with your legs?",
+      "hi": "अपने पैरों से जोर से चलाना क्यों महत्वपूर्ण है?",
+      "or": "ନିଜ ଗୋଡରେ ଜୋରରେ ଡ୍ରାଇଭ୍ କରିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To avoid falling", "hi": "गिरने से बचने के लिए", "or": "ପଡ଼ିବାରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "Because most of the throw's power starts from the ground up", "hi": "क्योंकि थ्रो की अधिकांश शक्ति जमीन से ऊपर की ओर शुरू होती है", "or": "କାରଣ ଥ୍ରୋର ଅଧିକାଂଶ ଶକ୍ତି ଭୂମିରୁ ଉପରକୁ ଆରମ୍ଭ ହୁଏ" }, "isCorrect": true },
+      { "text": { "en": "To make your arm move faster", "hi": "अपने हाथ को तेजी से चलाने के लिए", "or": "ଆପଣଙ୍କ ବାହୁକୁ ଦ୍ରୁତ ଗତିରେ ଚଳାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is only important for the glide", "hi": "यह केवल ग्लाइड के लिए महत्वपूर्ण है", "or": "ଏହା କେବଳ ଗ୍ଲାଇଡ୍ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-31",
+    "question": {
+      "en": "What is a safe way to carry the shot put?",
+      "hi": "शॉट पुट ले जाने का एक सुरक्षित तरीका क्या है?",
+      "or": "ଶଟ୍ ପୁଟ୍ ବହନ କରିବାର ଏକ ସୁରକ୍ଷିତ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "By tossing it in the air", "hi": "इसे हवा में उछालकर", "or": "ଏହାକୁ ବାୟୁରେ ଫିଙ୍ଗି" }, "isCorrect": false },
+      { "text": { "en": "Using two hands and holding it close to your body", "hi": "दो हाथों का उपयोग करना और इसे अपने शरीर के करीब रखना", "or": "ଦୁଇ ହାତ ବ୍ୟବହାର କରି ଏବଂ ଏହାକୁ ଆପଣଙ୍କ ଶରୀରର ନିକଟରେ ଧରି" }, "isCorrect": true },
+      { "text": { "en": "By rolling it on the ground", "hi": "इसे जमीन पर लुढ़काकर", "or": "ଏହାକୁ ଭୂମିରେ ଗଡ଼ାଇ" }, "isCorrect": false },
+      { "text": { "en": "On top of your head", "hi": "अपने सिर के ऊपर", "or": "ଆପଣଙ୍କ ମୁଣ୍ଡ ଉପରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-32",
+    "question": {
+      "en": "What does a 'reverse' at the end of a throw help with?",
+      "hi": "एक थ्रो के अंत में 'रिवर्स' किसमें मदद करता है?",
+      "or": "ଏକ ଥ୍ରୋର ଶେଷରେ 'ରିଭର୍ସ' କ’ଣରେ ସାହାଯ୍ୟ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "It adds extra distance to the throw", "hi": "यह थ्रो में अतिरिक्त दूरी जोड़ता है", "or": "ଏହା ଥ୍ରୋରେ ଅତିରିକ୍ତ ଦୂରତା ଯୋଡ଼େ" }, "isCorrect": false },
+      { "text": { "en": "It helps the athlete stay balanced and avoid fouling", "hi": "यह एथलीट को संतुलित रहने और फाउल से बचने में मदद करता है", "or": "ଏହା ଆଥଲେଟଙ୍କୁ ସନ୍ତୁଳିତ ରହିବା ଏବଂ ଫାଉଲ୍ ଏଡ଼ାଇବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": true },
+      { "text": { "en": "It is a required part of the technique", "hi": "यह तकनीक का एक आवश्यक हिस्सा है", "or": "ଏହା କୌଶଳର ଏକ ଆବଶ୍ୟକ ଅଂଶ" }, "isCorrect": false },
+      { "text": { "en": "It is just for show", "hi": "यह सिर्फ दिखावे के लिए है", "or": "ଏହା କେବଳ ଦେଖାଇବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-33",
+    "question": {
+      "en": "If an official raises a red flag, it means your throw was a:",
+      "hi": "यदि कोई अधिकारी लाल झंडा उठाता है, तो इसका मतलब है कि आपका थ्रो एक:",
+      "or": "ଯଦି ଜଣେ ଅଧିକାରୀ ଲାଲ୍ ପତାକା ଉଠାନ୍ତି, ଏହାର ଅର୍ଥ ଆପଣଙ୍କ ଥ୍ରୋ ଏକ:"
+    },
+    "options": [
+      { "text": { "en": "Foul", "hi": "फाउल", "or": "ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "Record", "hi": "रिकॉर्ड", "or": "ରେକର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "Valid throw", "hi": "वैध थ्रो", "or": "ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Personal best", "hi": "व्यक्तिगत सर्वश्रेष्ठ", "or": "ବ୍ୟକ୍ତିଗତ ଶ୍ରେଷ୍ଠ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-34",
+    "question": {
+      "en": "What is the surface of the throwing circle usually made of?",
+      "hi": "थ्रोइंग सर्कल की सतह आमतौर पर किससे बनी होती है?",
+      "or": "ଥ୍ରୋଇଂ ସର୍କଲର ପୃଷ୍ଠ ସାଧାରଣତଃ କେଉଁଥିରେ ତିଆରି?"
+    },
+    "options": [
+      { "text": { "en": "Grass", "hi": "घास", "or": "ଘାସ" }, "isCorrect": false },
+      { "text": { "en": "Concrete", "hi": "कंक्रीट", "or": "କଂକ୍ରିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "Sand", "hi": "रेत", "or": "ବାଲି" }, "isCorrect": false },
+      { "text": { "en": "Rubber", "hi": "रबड़", "or": "ରବର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-35",
+    "question": {
+      "en": "The final result of the competition is based on:",
+      "hi": "प्रतियोगिता का अंतिम परिणाम किस पर आधारित होता है:",
+      "or": "ପ୍ରତିଯୋଗିତାର ଅନ୍ତିମ ଫଳାଫଳ କେଉଁଥିରେ ଆଧାରିତ?"
+    },
+    "options": [
+      { "text": { "en": "The average of all throws", "hi": "सभी थ्रो का औसत", "or": "ସମସ୍ତ ଥ୍ରୋର ହାରାହାରି" }, "isCorrect": false },
+      { "text": { "en": "The single best legal throw", "hi": "एकल सर्वश्रेष्ठ कानूनी थ्रो", "or": "ଏକକ ସର୍ବୋତ୍ତମ ବୈଧ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "The last throw only", "hi": "केवल अंतिम थ्रो", "or": "କେବଳ ଅନ୍ତିମ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "The athlete's style", "hi": "एथलीट की शैली", "or": "ଆଥଲେଟଙ୍କ ଶୈଳୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-36",
+    "question": {
+      "en": "Why should you keep your elbow high during the throw?",
+      "hi": "थ्रो के दौरान आपको अपनी कोहनी ऊंची क्यों रखनी चाहिए?",
+      "or": "ଥ୍ରୋ ସମୟରେ ଆପଣଙ୍କୁ ନିଜ କହୁଣୀ ଉଚ୍ଚରେ କାହିଁକି ରଖିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "To avoid hitting your chin", "hi": "अपनी ठोड़ी से टकराने से बचने के लिए", "or": "ଆପଣଙ୍କ ଚିବୁକରେ ବାଜିବାରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To ensure a powerful pushing action and prevent injury", "hi": "एक शक्तिशाली धक्का देने वाली क्रिया सुनिश्चित करने और चोट से बचने के लिए", "or": "ଏକ ଶକ୍ତିଶାଳୀ ଠେଲିବା କ୍ରିୟା ସୁନିଶ୍ଚିତ କରିବା ଏବଂ ଆଘାତରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "It does not need to be high", "hi": "इसे ऊंचा रखने की जरूरत नहीं है", "or": "ଏହାକୁ ଉଚ୍ଚରେ ରଖିବାର ଆବଶ୍ୟକତା ନାହିଁ" }, "isCorrect": false },
+      { "text": { "en": "To help with balance", "hi": "संतुलन में मदद करने के लिए", "or": "ସନ୍ତୁଳନରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-37",
+    "question": {
+      "en": "What is the most important quality for a shot putter?",
+      "hi": "एक शॉट पुटर के लिए सबसे महत्वपूर्ण गुण क्या है?",
+      "or": "ଜଣେ ଶଟ୍ ପୁଟର୍ ପାଇଁ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଗୁଣ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Speed", "hi": "गति", "or": "ଗତି" }, "isCorrect": false },
+      { "text": { "en": "Explosive Strength", "hi": "विस्फोटक शक्ति", "or": "ବିସ୍ଫୋରକ ଶକ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" }, "isCorrect": false },
+      { "text": { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-38",
+    "question": {
+      "en": "If a shot lands on one of the sector lines, it is a:",
+      "hi": "यदि एक शॉट सेक्टर लाइनों में से एक पर उतरता है, तो यह एक:",
+      "or": "ଯଦି ଏକ ଶଟ୍ ସେକ୍ଟର ଲାଇନଗୁଡ଼ିକ ମଧ୍ୟରୁ ଗୋଟିଏ ଉପରେ ପଡ଼େ, ତେବେ ଏହା ଏକ:"
+    },
+    "options": [
+      { "text": { "en": "Valid throw", "hi": "वैध थ्रो", "or": "ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Foul throw", "hi": "फाउल थ्रो", "or": "ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "Re-throw", "hi": "री-थ्रो", "or": "ପୁନର୍ବାର ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Measured throw", "hi": "मापा गया थ्रो", "or": "ମାପ କରାଯାଇଥିବା ଥ୍ରୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-39",
+    "question": {
+      "en": "The term 'delivery' refers to what part of the throw?",
+      "hi": "'डिलीवरी' शब्द थ्रो के किस हिस्से को संदर्भित करता है?",
+      "or": "'ଡେଲିଭରି' ଶବ୍ଦ ଥ୍ରୋର କେଉଁ ଅଂଶକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The glide or spin", "hi": "ग्लाइड या स्पिन", "or": "ଗ୍ଲାଇଡ୍ ବା ସ୍ପିନ୍" }, "isCorrect": false },
+      { "text": { "en": "The final push and release of the shot", "hi": "अंतिम धक्का और शॉट की रिहाई", "or": "ଅନ୍ତିମ ଠେଲା ଏବଂ ଶଟ୍‌ର ରିଲିଜ୍" }, "isCorrect": true },
+      { "text": { "en": "The recovery", "hi": "रिकवरी", "or": "ରିକଭରି" }, "isCorrect": false },
+      { "text": { "en": "Picking up the shot", "hi": "शॉट उठाना", "or": "ଶଟ୍ ଉଠାଇବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-40",
+    "question": {
+      "en": "Using a lighter shot in training can help you improve what?",
+      "hi": "प्रशिक्षण में एक हल्का शॉट का उपयोग करने से आपको क्या सुधारने में मदद मिल सकती है?",
+      "or": "ପ୍ରଶିକ୍ଷଣରେ ଏକ ହାଲୁକା ଶଟ୍ ବ୍ୟବହାର କରିବା ଆପଣଙ୍କୁ କ’ଣ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରିପାରେ?"
+    },
+    "options": [
+      { "text": { "en": "Maximum strength", "hi": "अधिकतम शक्ति", "or": "ସର୍ବାଧିକ ଶକ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Throwing speed and technique", "hi": "फेंकने की गति और तकनीक", "or": "ଫିଙ୍ଗିବାର ଗତି ଏବଂ କୌଶଳ" }, "isCorrect": true },
+      { "text": { "en": "Balance", "hi": "संतुलन", "or": "ସନ୍ତୁଳନ" }, "isCorrect": false },
+      { "text": { "en": "Grip", "hi": "पकड़", "or": "ଗ୍ରିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-41",
+    "question": {
+      "en": "The 'glide' is a technique used to:",
+      "hi": "'ग्लाइड' एक तकनीक है जिसका उपयोग किया जाता है:",
+      "or": "'ଗ୍ଲାଇଡ୍' ଏକ କୌଶଳ ଯାହା ବ୍ୟବହାର କରାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Spin around in the circle", "hi": "सर्कल में घूमना", "or": "ସର୍କଲରେ ଘୂରିବା" }, "isCorrect": false },
+      { "text": { "en": "Move across the circle to the power position", "hi": "पावर पोजीशन में सर्कल के पार जाना", "or": "ପାୱାର୍ ପୋଜିସନକୁ ସର୍କଲ୍ ପାର୍ କରି ଯିବା" }, "isCorrect": true },
+      { "text": { "en": "Slow down the throw", "hi": "थ्रो को धीमा करना", "or": "ଥ୍ରୋକୁ ଧୀର କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Measure the throw", "hi": "थ्रो को मापना", "or": "ଥ୍ରୋ ମାପିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-42",
+    "question": {
+      "en": "Where should you be looking as you start your final putting action?",
+      "hi": "अंतिम पुटिंग क्रिया शुरू करते समय आपको कहाँ देखना चाहिए?",
+      "or": "ଅନ୍ତିମ ପୁଟିଂ କ୍ରିୟା ଆରମ୍ଭ କରିବା ସମୟରେ ଆପଣଙ୍କୁ କେଉଁଠାରେ ଦେଖିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "At your feet", "hi": "अपने पैरों पर", "or": "ନିଜ ପାଦରେ" }, "isCorrect": false },
+      { "text": { "en": "Up and out towards the throwing sector", "hi": "ऊपर और बाहर फेंकने वाले सेक्टर की ओर", "or": "ଉପରକୁ ଏବଂ ବାହାରକୁ ଫିଙ୍ଗିବା ସେକ୍ଟର ଆଡକୁ" }, "isCorrect": true },
+      { "text": { "en": "At the shot in your hand", "hi": "अपने हाथ में शॉट पर", "or": "ଆପଣଙ୍କ ହାତରେ ଥିବା ଶଟ୍ ଉପରେ" }, "isCorrect": false },
+      { "text": { "en": "At the official", "hi": "अधिकारी पर", "or": "ଅଧିକାରୀଙ୍କ ଉପରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-43",
+    "question": {
+      "en": "Why is a warm-up before practice important?",
+      "hi": "अभ्यास से पहले वार्म-अप क्यों महत्वपूर्ण है?",
+      "or": "ଅଭ୍ୟାସ ପୂର୍ବରୁ ୱାର୍ମ-ଅପ୍ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It's not very important", "hi": "यह बहुत महत्वपूर्ण नहीं है", "or": "ଏହା ବହୁତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false },
+      { "text": { "en": "To prepare muscles for exercise and prevent injury", "hi": "मांसपेशियों को व्यायाम के लिए तैयार करना और चोट से बचाना", "or": "ମାଂସପେଶୀକୁ ବ୍ୟାୟାମ ପାଇଁ ପ୍ରସ୍ତୁତ କରିବା ଏବଂ ଆଘାତରୁ ବଞ୍ଚାଇବା" }, "isCorrect": true },
+      { "text": { "en": "To make you tired before you start", "hi": "शुरू करने से पहले आपको थकाना", "or": "ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ ଆପଣଙ୍କୁ କ୍ଳାନ୍ତ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To impress your coach", "hi": "अपने कोच को प्रभावित करने के लिए", "or": "ଆପଣଙ୍କ କୋଚଙ୍କୁ ପ୍ରଭାବିତ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-44",
+    "question": {
+      "en": "An athlete's score is their single best throw, not an average.",
+      "hi": "एक एथलीट का स्कोर उनका एकल सर्वश्रेष्ठ थ्रो होता है, औसत नहीं।",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କ ସ୍କୋର୍ ତାଙ୍କର ଏକକ ସର୍ବୋତ୍ତମ ଥ୍ରୋ, ହାରାହାରି ନୁହେଁ।"
+    },
+    "options": [
+      { "text": { "en": "False", "hi": "झूठ", "or": "ମିଛ" }, "isCorrect": false },
+      { "text": { "en": "True", "hi": "सच", "or": "ସତ" }, "isCorrect": true },
+      { "text": { "en": "Only for beginners", "hi": "केवल शुरुआती के लिए", "or": "କେବଳ ଆରମ୍ଭକାରୀଙ୍କ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "Only in the finals", "hi": "केवल फाइनल में", "or": "କେବଳ ଫାଇନାଲରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-45",
+    "question": {
+      "en": "What is the primary danger of not watching where other athletes are throwing?",
+      "hi": "यह न देखने का प्राथमिक खतरा क्या है कि अन्य एथलीट कहाँ फेंक रहे हैं?",
+      "or": "ଅନ୍ୟ ଆଥଲେଟମାନେ କେଉଁଠାରେ ଫିଙ୍ଗୁଛନ୍ତି ତାହା ନ ଦେଖିବାର ମୁଖ୍ୟ ବିପଦ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "You might miss a good throw", "hi": "आप एक अच्छा थ्रो चूक सकते हैं", "or": "ଆପଣ ଏକ ଭଲ ଥ୍ରୋ ହରାଇପାରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "You could get hit by a shot", "hi": "आपको एक शॉट लग सकता है", "or": "ଆପଣଙ୍କୁ ଏକ ଶଟ୍ ଲାଗିପାରେ" }, "isCorrect": true },
+      { "text": { "en": "You might lose your turn", "hi": "आप अपनी बारी खो सकते हैं", "or": "ଆପଣ ନିଜ ପାଳି ହରାଇପାରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "There is no danger", "hi": "कोई खतरा नहीं है", "or": "କୌଣସି ବିପଦ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-46",
+    "question": {
+      "en": "What is the best way to get the shot back from the landing sector?",
+      "hi": "लैंडिंग सेक्टर से शॉट वापस लाने का सबसे अच्छा तरीका क्या है?",
+      "or": "ଲ୍ୟାଣ୍ଡିଂ ସେକ୍ଟରରୁ ଶଟ୍ ଫେରାଇ ଆଣିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Throw it back", "hi": "इसे वापस फेंकना", "or": "ଏହାକୁ ଫେରାଇ ଫିଙ୍ଗିବା" }, "isCorrect": false },
+      { "text": { "en": "Carry it safely back outside the sector", "hi": "इसे सुरक्षित रूप से सेक्टर के बाहर वापस ले जाना", "or": "ଏହାକୁ ସୁରକ୍ଷିତ ଭାବରେ ସେକ୍ଟର ବାହାରକୁ ଫେରାଇ ନେବା" }, "isCorrect": true },
+      { "text": { "en": "Roll it back", "hi": "इसे वापस लुढ़काना", "or": "ଏହାକୁ ଫେରାଇ ଗଡ଼ାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Kick it back", "hi": "इसे वापस लात मारना", "or": "ଏହାକୁ ଫେରାଇ ଗୋଇଠା ମାରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-47",
+    "question": {
+      "en": "What does a 'standing throw' help you practice?",
+      "hi": "एक 'स्टैंडिंग थ्रो' आपको क्या अभ्यास करने में मदद करता है?",
+      "or": "ଏକ 'ଷ୍ଟାଣ୍ଡିଂ ଥ୍ରୋ' ଆପଣଙ୍କୁ କ’ଣ ଅଭ୍ୟାସ କରିବାରେ ସାହାଯ୍ୟ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "The glide", "hi": "ग्लाइड", "or": "ଗ୍ଲାଇଡ୍" }, "isCorrect": false },
+      { "text": { "en": "The final delivery and arm action", "hi": "अंतिम डिलीवरी और हाथ की क्रिया", "or": "ଅନ୍ତିମ ଡେଲିଭରି ଏବଂ ବାହୁ କ୍ରିୟା" }, "isCorrect": true },
+      { "text": { "en": "The spin", "hi": "स्पिन", "or": "ସ୍ପିନ୍" }, "isCorrect": false },
+      { "text": { "en": "The recovery", "hi": "रिकवरी", "or": "ରିକଭରି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-48",
+    "question": {
+      "en": "Which throw is more powerful: one using just the arm, or one using the whole body?",
+      "hi": "कौन सा थ्रो अधिक शक्तिशाली है: केवल हाथ का उपयोग करने वाला, या पूरे शरीर का उपयोग करने वाला?",
+      "or": "କେଉଁ ଥ୍ରୋ ଅଧିକ ଶକ୍ତିଶାଳୀ: କେବଳ ବାହୁ ବ୍ୟବହାର କରି, ନା ପୂରା ଶରୀର ବ୍ୟବହାର କରି?"
+    },
+    "options": [
+      { "text": { "en": "Just the arm", "hi": "केवल हाथ", "or": "କେବଳ ବାହୁ" }, "isCorrect": false },
+      { "text": { "en": "The whole body", "hi": "पूरा शरीर", "or": "ପୂରା ଶରୀର" }, "isCorrect": true },
+      { "text": { "en": "They are equally powerful", "hi": "वे समान रूप से शक्तिशाली हैं", "or": "ସେମାନେ ସମାନ ଭାବରେ ଶକ୍ତିଶାଳୀ" }, "isCorrect": false },
+      { "text": { "en": "It depends on the athlete", "hi": "यह एथलीट पर निर्भर करता है", "or": "ଏହା ଆଥଲେଟ୍ ଉପରେ ନିର୍ଭର କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-49",
+    "question": {
+      "en": "If you are not throwing, where is the safest place to stand?",
+      "hi": "यदि आप नहीं फेंक रहे हैं, तो खड़े होने के लिए सबसे सुरक्षित स्थान कहाँ है?",
+      "or": "ଯଦି ଆପଣ ଫିଙ୍ଗୁ ନାହାଁନ୍ତି, ତେବେ ଠିଆ ହେବା ପାଇଁ ସବୁଠାରୁ ସୁରକ୍ଷିତ ସ୍ଥାନ କେଉଁଠି?"
+    },
+    "options": [
+      { "text": { "en": "In the landing sector", "hi": "लैंडिंग सेक्टर में", "or": "ଲ୍ୟାଣ୍ଡିଂ ସେକ୍ଟରରେ" }, "isCorrect": false },
+      { "text": { "en": "Well behind and away from the throwing circle", "hi": "थ्रोइंग सर्कल से काफी पीछे और दूर", "or": "ଥ୍ରୋଇଂ ସର୍କଲଠାରୁ ବହୁତ ପଛରେ ଏବଂ ଦୂରରେ" }, "isCorrect": true },
+      { "text": { "en": "Next to the throwing circle", "hi": "थ्रोइंग सर्कल के बगल में", "or": "ଥ୍ରୋଇଂ ସର୍କଲ୍ ପାଖରେ" }, "isCorrect": false },
+      { "text": { "en": "In front of the thrower", "hi": "फेंकने वाले के सामने", "or": "ଥ୍ରୋୟରଙ୍କ ସାମ୍ନାରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-50",
+    "question": {
+      "en": "What is the angle of the throwing sector?",
+      "hi": "थ्रोइंग सेक्टर का कोण क्या है?",
+      "or": "ଥ୍ରୋଇଂ ସେକ୍ଟରର କୋଣ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "25 degrees", "hi": "25 डिग्री", "or": "୨୫ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "34.92 degrees", "hi": "34.92 डिग्री", "or": "୩୪.୯୨ ଡିଗ୍ରୀ" }, "isCorrect": true },
+      { "text": { "en": "45 degrees", "hi": "45 डिग्री", "or": "୪୫ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "60 degrees", "hi": "60 डिग्री", "or": "୬୦ ଡିଗ୍ରୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-51",
+    "question": {
+      "en": "The 'follow-through' or 'reverse' after the throw helps to:",
+      "hi": "थ्रो के बाद 'फॉलो-थ्रू' या 'रिवर्स' किसमें मदद करता है:",
+      "or": "ଥ୍ରୋ ପରେ 'ଫଲୋ-ଥ୍ରୁ' ବା 'ରିଭର୍ସ' କ’ଣରେ ସାହାଯ୍ୟ କରେ:"
+    },
+    "options": [
+      { "text": { "en": "Add distance", "hi": "दूरी जोड़ना", "or": "ଦୂରତା ଯୋଡ଼ିବା" }, "isCorrect": false },
+      { "text": { "en": "Prevent fouling and absorb momentum", "hi": "फाउल को रोकना और गति को अवशोषित करना", "or": "ଫାଉଲ୍ ରୋକିବା ଏବଂ ଗତିକୁ ଶୋଷିବା" }, "isCorrect": true },
+      { "text": { "en": "Spin the shot", "hi": "शॉट को घुमाना", "or": "ଶଟ୍‌କୁ ଘୂରାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Show good form", "hi": "अच्छा फॉर्म दिखाना", "or": "ଭଲ ଫର୍ମ ଦେଖାଇବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-52",
+    "question": {
+      "en": "Can you wear lifting straps or gloves during a competition?",
+      "hi": "क्या आप एक प्रतियोगिता के दौरान लिफ्टिंग स्ट्रैप या दस्ताने पहन सकते हैं?",
+      "or": "ଆପଣ ଏକ ପ୍ରତିଯୋଗିତା ସମୟରେ ଲିଫ୍ଟିଂ ଷ୍ଟ୍ରାପ୍ ବା ଗ୍ଲୋଭ୍ସ ପିନ୍ଧିପାରିବେ କି?"
+    },
+    "options": [
+      { "text": { "en": "Yes, for a better grip", "hi": "हाँ, बेहतर पकड़ के लिए", "or": "ହଁ, ଭଲ ଗ୍ରିପ୍ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "No, they are not allowed", "hi": "नहीं, उनकी अनुमति नहीं है", "or": "ନା, ସେଗୁଡିକ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": true },
+      { "text": { "en": "Only gloves are allowed", "hi": "केवल दस्ताने की अनुमति है", "or": "କେବଳ ଗ୍ଲୋଭ୍ସ ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "Only wrist straps are allowed", "hi": "केवल कलाई की पट्टियों की अनुमति है", "or": "କେବଳ କଚଟି ଷ୍ଟ୍ରାପ୍ ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-53",
+    "question": {
+      "en": "What is the main objective of the 'glide' technique?",
+      "hi": "'ग्लाइड' तकनीक का मुख्य उद्देश्य क्या है?",
+      "or": "'ଗ୍ଲାଇଡ୍' କୌଶଳର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To look smooth", "hi": "स्मूथ दिखना", "or": "ସୁଗମ ଦେଖାଯିବା" }, "isCorrect": false },
+      { "text": { "en": "To move quickly across the circle into a powerful throwing position", "hi": "एक शक्तिशाली फेंकने की स्थिति में तेजी से सर्कल के पार जाना", "or": "ଏକ ଶକ୍ତିଶାଳୀ ଫିଙ୍ଗିବା ସ୍ଥିତିକୁ ଦ୍ରୁତ ଗତିରେ ସର୍କଲ୍ ପାର୍ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To jump high", "hi": "ऊंचा कूदना", "or": "ଉଚ୍ଚକୁ ଡେଇଁବା" }, "isCorrect": false },
+      { "text": { "en": "To stay in one spot", "hi": "एक स्थान पर रहना", "or": "ଗୋଟିଏ ସ୍ଥାନରେ ରହିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-54",
+    "question": {
+      "en": "A cool-down routine after practice helps to:",
+      "hi": "अभ्यास के बाद एक कूल-डाउन रूटीन किसमें मदद करता है:",
+      "or": "ଅଭ୍ୟାସ ପରେ ଏକ କୁଲ୍-ଡାଉନ୍ ରୁଟିନ୍ କ’ଣରେ ସାହାଯ୍ୟ କରେ:"
+    },
+    "options": [
+      { "text": { "en": "Build more strength", "hi": "और अधिक शक्ति बनाना", "or": "ଅଧିକ ଶକ୍ତି ସୃଷ୍ଟି କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Reduce muscle soreness and aid recovery", "hi": "मांसपेशियों में दर्द को कम करना और रिकवरी में सहायता करना", "or": "ମାଂସପେଶୀ ଯନ୍ତ୍ରଣା କମ୍ କରିବା ଏବଂ ପୁନରୁଦ୍ଧାରରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Increase your heart rate", "hi": "अपने हृदय की दर को बढ़ाना", "or": "ଆପଣଙ୍କ ହୃଦ୍‌ସ୍ପନ୍ଦନ ବଢ଼ାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Practice your technique", "hi": "अपनी तकनीक का अभ्यास करना", "or": "ଆପଣଙ୍କ କୌଶଳ ଅଭ୍ୟାସ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-55",
+    "question": {
+      "en": "If you touch the ground outside the circle before the throw is complete, it's a:",
+      "hi": "यदि आप थ्रो पूरा होने से पहले सर्कल के बाहर जमीन को छूते हैं, तो यह एक:",
+      "or": "ଯଦି ଆପଣ ଥ୍ରୋ ସମ୍ପୂର୍ଣ୍ଣ ହେବା ପୂର୍ବରୁ ସର୍କଲ୍ ବାହାରେ ଭୂମିକୁ ଛୁଅଁନ୍ତି, ତେବେ ଏହା ଏକ:"
+    },
+    "options": [
+      { "text": { "en": "Foul", "hi": "फाउल", "or": "ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "Legal throw", "hi": "कानूनी थ्रो", "or": "ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Warning", "hi": "चेतावनी", "or": "ଚେତାବନୀ" }, "isCorrect": false },
+      { "text": { "en": "Re-throw", "hi": "री-थ्रो", "or": "ପୁନର୍ବାର ଥ୍ରୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-56",
+    "question": {
+      "en": "The measurement of a throw is rounded down to the nearest:",
+      "hi": "एक थ्रो का माप निकटतम किस पर पूर्णांकित किया जाता है:",
+      "or": "ଏକ ଥ୍ରୋର ମାପକୁ ନିକଟତମ କେଉଁଥିରେ ରାଉଣ୍ଡ ଡାଉନ୍ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Meter", "hi": "मीटर", "or": "ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "Centimeter", "hi": "सेंटीमीटर", "or": "ସେଣ୍ଟିମିଟର" }, "isCorrect": true },
+      { "text": { "en": "Foot", "hi": "फुट", "or": "ଫୁଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Inch", "hi": "इंच", "or": "ଇଞ୍ଚ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-57",
+    "question": {
+      "en": "What is the main advantage of the rotational technique over the glide?",
+      "hi": "ग्लाइड पर घूर्णी तकनीक का मुख्य लाभ क्या है?",
+      "or": "ଗ୍ଲାଇଡ୍ ତୁଳନାରେ ଘୂର୍ଣ୍ଣନ କୌଶଳର ମୁଖ୍ୟ ଲାଭ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is easier to learn", "hi": "इसे सीखना आसान है", "or": "ଏହା ଶିଖିବା ସହଜ" }, "isCorrect": false },
+      { "text": { "en": "It can generate more speed and momentum", "hi": "यह अधिक गति और संवेग उत्पन्न कर सकता है", "or": "ଏହା ଅଧିକ ଗତି ଏବଂ ସଂବେଗ ଉତ୍ପନ୍ନ କରିପାରେ" }, "isCorrect": true },
+      { "text": { "en": "It is safer", "hi": "यह सुरक्षित है", "or": "ଏହା ସୁରକ୍ଷିତ" }, "isCorrect": false },
+      { "text": { "en": "It requires less strength", "hi": "इसके लिए कम शक्ति की आवश्यकता होती है", "or": "ଏଥିପାଇଁ କମ୍ ଶକ୍ତି ଆବଶ୍ୟକ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-58",
+    "question": {
+      "en": "Your non-throwing arm is important for:",
+      "hi": "आपका गैर-फेंकने वाला हाथ किसके लिए महत्वपूर्ण है:",
+      "or": "ଆପଣଙ୍କ ଅଣ-ଫିଙ୍ଗା ବାହୁ କେଉଁଥିପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Holding a spare shot", "hi": "एक अतिरिक्त शॉट पकड़ना", "or": "ଏକ ଅତିରିକ୍ତ ଶଟ୍ ଧରିବା" }, "isCorrect": false },
+      { "text": { "en": "Balance and helping to open the chest", "hi": "संतुलन और छाती खोलने में मदद करना", "or": "ସନ୍ତୁଳନ ଏବଂ ଛାତି ଖୋଲିବାରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Waving to the crowd", "hi": "भीड़ को हाथ हिलाना", "or": "ଦର୍ଶକଙ୍କୁ ହାତ ହଲାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Nothing, it should stay still", "hi": "कुछ नहीं, इसे स्थिर रहना चाहिए", "or": "କିଛି ନୁହେଁ, ଏହା ସ୍ଥିର ରହିବା ଉଚିତ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-59",
+    "question": {
+      "en": "In a tie, the winner is decided by:",
+      "hi": "एक टाई में, विजेता का फैसला किसके द्वारा किया जाता है:",
+      "or": "ଏକ ଟାଇରେ, ବିଜେତା କାହା ଦ୍ୱାରା ନିଷ୍ପତ୍ତି କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A coin toss", "hi": "एक सिक्का उछालना", "or": "ଏକ ମୁଦ୍ରା ଟସ୍" }, "isCorrect": false },
+      { "text": { "en": "The athlete's second-best throw", "hi": "एथलीट का दूसरा-सर्वश्रेष्ठ थ्रो", "or": "ଆଥଲେଟଙ୍କ ଦ୍ୱିତୀୟ-ସର୍ବୋତ୍ତମ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "Who is heavier", "hi": "जो भारी है", "or": "ଯିଏ ଓଜନିଆ" }, "isCorrect": false },
+      { "text": { "en": "A final throw-off", "hi": "एक अंतिम थ्रो-ऑफ", "or": "ଏକ ଅନ୍ତିମ ଥ୍ରୋ-ଅଫ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-60",
+    "question": {
+      "en": "What is the first thing an official does after a throw lands?",
+      "hi": "एक थ्रो के उतरने के बाद एक अधिकारी सबसे पहले क्या करता है?",
+      "or": "ଏକ ଥ୍ରୋ ପଡ଼ିବା ପରେ ଜଣେ ଅଧିକାରୀ ସର୍ବପ୍ରଥମେ କ’ଣ କରନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Gives the shot back", "hi": "शॉट वापस देता है", "or": "ଶଟ୍ ଫେରାଇ ଦିଅନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Marks the landing spot", "hi": "लैंडिंग स्थल को चिह्नित करता है", "or": "ଲ୍ୟାଣ୍ଡିଂ ସ୍ଥାନ ଚିହ୍ନିତ କରନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Announces the distance", "hi": "दूरी की घोषणा करता है", "or": "ଦୂରତା ଘୋଷଣା କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Raises a flag", "hi": "एक झंडा उठाता है", "or": "ଏକ ପତାକା ଉଠାନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-61",
+    "question": {
+      "en": "The final putting action should feel like a:",
+      "hi": "अंतिम पुटिंग क्रिया कैसी महसूस होनी चाहिए:",
+      "or": "ଅନ୍ତିମ ପୁଟିଂ କ୍ରିୟା କିପରି ଅନୁଭବ ହେବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "Slow and gentle push", "hi": "धीमा और कोमल धक्का", "or": "ଧୀର ଏବଂ କୋମଳ ଠେଲା" }, "isCorrect": false },
+      { "text": { "en": "Fast and explosive push", "hi": "तेज और विस्फोटक धक्का", "or": "ଦ୍ରୁତ ଏବଂ ବିସ୍ଫୋରକ ଠେଲା" }, "isCorrect": true },
+      { "text": { "en": "Long, swinging throw", "hi": "लंबा, झूलता हुआ थ्रो", "or": "ଲମ୍ବା, ଝୁଲୁଥିବା ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Downward motion", "hi": "नीचे की ओर गति", "or": "ତଳକୁ ଗତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-62",
+    "question": {
+      "en": "What is the best surface to practice the glide or spin on?",
+      "hi": "ग्लाइड या स्पिन का अभ्यास करने के लिए सबसे अच्छी सतह कौन सी है?",
+      "or": "ଗ୍ଲାଇଡ୍ ବା ସ୍ପିନ୍ ଅଭ୍ୟାସ କରିବା ପାଇଁ ସର୍ବୋତ୍ତମ ପୃଷ୍ଠ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Grass", "hi": "घास", "or": "ଘାସ" }, "isCorrect": false },
+      { "text": { "en": "A smooth, flat concrete surface", "hi": "एक चिकनी, सपाट कंक्रीट की सतह", "or": "ଏକ ସୁଗମ, ସମତଳ କଂକ୍ରିଟ୍ ପୃଷ୍ଠ" }, "isCorrect": true },
+      { "text": { "en": "Sand", "hi": "रेत", "or": "ବାଲି" }, "isCorrect": false },
+      { "text": { "en": "Mud", "hi": "कीचड़", "or": "କାଦୁଅ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-63",
+    "question": {
+      "en": "When measuring, the tape measure should be pulled through what point?",
+      "hi": "मापते समय, टेप माप को किस बिंदु से खींचा जाना चाहिए?",
+      "or": "ମାପ କରିବା ସମୟରେ, ଟେପ୍ ମାପକୁ କେଉଁ ବିନ୍ଦୁ ଦେଇ ଟଣାଯିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "The back of the circle", "hi": "सर्कल के पीछे", "or": "ସର୍କଲର ପଛ" }, "isCorrect": false },
+      { "text": { "en": "The center of the circle", "hi": "सर्कल का केंद्र", "or": "ସର୍କଲର କେନ୍ଦ୍ର" }, "isCorrect": true },
+      { "text": { "en": "The side of the circle", "hi": "सर्कल के किनारे", "or": "ସର୍କଲର ପାର୍ଶ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "The edge of the stop board", "hi": "स्टॉप बोर्ड का किनारा", "or": "ଷ୍ଟପ୍ ବୋର୍ଡର ପାର୍ଶ୍ୱ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-64",
+    "question": {
+      "en": "What is the goal of a warm-up?",
+      "hi": "वार्म-अप का लक्ष्य क्या है?",
+      "or": "ୱାର୍ମ-ଅପର ଲକ୍ଷ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To throw your farthest", "hi": "अपना सबसे दूर फेंकना", "or": "ଆପଣଙ୍କ ସବୁଠାରୁ ଦୂର ଫିଙ୍ଗିବା" }, "isCorrect": false },
+      { "text": { "en": "To get your body ready and prevent injuries", "hi": "अपने शरीर को तैयार करना और चोटों से बचना", "or": "ଆପଣଙ୍କ ଶରୀରକୁ ପ୍ରସ୍ତୁତ କରିବା ଏବଂ ଆଘାତରୁ ବଞ୍ଚିବା" }, "isCorrect": true },
+      { "text": { "en": "To see how far others are throwing", "hi": "यह देखने के लिए कि दूसरे कितनी दूर फेंक रहे हैं", "or": "ଅନ୍ୟମାନେ କେତେ ଦୂର ଫିଙ୍ଗୁଛନ୍ତି ତାହା ଦେଖିବା" }, "isCorrect": false },
+      { "text": { "en": "To save energy", "hi": "ऊर्जा बचाने के लिए", "or": "ଶକ୍ତି ସଞ୍ଚୟ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-65",
+    "question": {
+      "en": "What happens if an athlete touches the top of the stop board with their foot?",
+      "hi": "यदि कोई एथलीट अपने पैर से स्टॉप बोर्ड के शीर्ष को छूता है तो क्या होता है?",
+      "or": "ଯଦି ଜଣେ ଆଥଲେଟ୍ ନିଜ ପାଦରେ ଷ୍ଟପ୍ ବୋର୍ଡର ଉପରକୁ ଛୁଅଁନ୍ତି ତେବେ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "Nothing, it is allowed", "hi": "कुछ नहीं, इसकी अनुमति है", "or": "କିଛି ନୁହେଁ, ଏହା ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "It is a foul", "hi": "यह एक फाउल है", "or": "ଏହା ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "They get a warning", "hi": "उन्हें एक चेतावनी मिलती है", "or": "ସେମାନଙ୍କୁ ଏକ ଚେତାବନୀ ମିଳେ" }, "isCorrect": false },
+      { "text": { "en": "The throw is measured from the board", "hi": "थ्रो को बोर्ड से मापा जाता है", "or": "ଥ୍ରୋ ବୋର୍ଡରୁ ମାପ କରାଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-66",
+    "question": {
+      "en": "What is the 'block' in shot put?",
+      "hi": "शॉट पुट में 'ब्लॉक' क्या है?",
+      "or": "ଶଟ୍ ପୁଟରେ 'ବ୍ଲକ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A type of shot", "hi": "एक प्रकार का शॉट", "or": "ଏକ ପ୍ରକାରର ଶଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Using the non-throwing arm and side to stop rotation and transfer energy", "hi": "घूर्णन को रोकने और ऊर्जा स्थानांतरित करने के लिए गैर-फेंकने वाले हाथ और साइड का उपयोग करना", "or": "ଘୂର୍ଣ୍ଣନ ଅଟକାଇବା ଏବଂ ଶକ୍ତି ସ୍ଥାନାନ୍ତର ପାଇଁ ଅଣ-ଫିଙ୍ଗା ବାହୁ ଏବଂ ପାର୍ଶ୍ୱ ବ୍ୟବହାର କରିବା" }, "isCorrect": true },
+      { "text": { "en": "The stop board", "hi": "स्टॉप बोर्ड", "or": "ଷ୍ଟପ୍ ବୋର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "A mental block", "hi": "एक मानसिक अवरोध", "or": "ଏକ ମାନସିକ ଅବରୋଧ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-67",
+    "question": {
+      "en": "How should you hold the shot in your hand?",
+      "hi": "आपको अपने हाथ में शॉट कैसे पकड़ना चाहिए?",
+      "or": "ଆପଣଙ୍କୁ ନିଜ ହାତରେ ଶଟ୍ କିପରି ଧରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "In your palm", "hi": "अपनी हथेली में", "or": "ଆପଣଙ୍କ ପାପୁଲିରେ" }, "isCorrect": false },
+      { "text": { "en": "At the base of your fingers", "hi": "अपनी उंगलियों के आधार पर", "or": "ଆପଣଙ୍କ ଆଙ୍ଗୁଠିର ମୂଳରେ" }, "isCorrect": true },
+      { "text": { "en": "With your fingertips only", "hi": "केवल अपनी उंगलियों से", "or": "କେବଳ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଅଗରେ" }, "isCorrect": false },
+      { "text": { "en": "Gripped tightly like a ball", "hi": "एक गेंद की तरह कसकर पकड़ा हुआ", "or": "ଏକ ବଲ୍ ଭଳି ଜୋରରେ ଧରି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-68",
+    "question": {
+      "en": "An official uses a measuring tape to find the:",
+      "hi": "एक अधिकारी मापने के लिए एक मापने वाले टेप का उपयोग करता है:",
+      "or": "ଜଣେ ଅଧିକାରୀ କ’ଣ ମାପିବା ପାଇଁ ଏକ ମାପ ଟେପ୍ ବ୍ୟବହାର କରନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Weight of the shot", "hi": "शॉट का वजन", "or": "ଶଟ୍‌ର ଓଜନ" }, "isCorrect": false },
+      { "text": { "en": "Distance of the throw", "hi": "थ्रो की दूरी", "or": "ଥ୍ରୋର ଦୂରତା" }, "isCorrect": true },
+      { "text": { "en": "Diameter of the circle", "hi": "सर्कल का व्यास", "or": "ସର୍କଲର ବ୍ୟାସ" }, "isCorrect": false },
+      { "text": { "en": "Height of the athlete", "hi": "एथलीट की ऊंचाई", "or": "ଆଥଲେଟଙ୍କ ଉଚ୍ଚତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-69",
+    "question": {
+      "en": "When should you be completely silent at a competition?",
+      "hi": "एक प्रतियोगिता में आपको कब पूरी तरह से चुप रहना चाहिए?",
+      "or": "ଏକ ପ୍ରତିଯୋଗିତାରେ ଆପଣଙ୍କୁ କେତେବେଳେ ସମ୍ପୂର୍ଣ୍ଣ ଚୁପ୍ ରହିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "At all times", "hi": "हर समय", "or": "ସବୁବେଳେ" }, "isCorrect": false },
+      { "text": { "en": "When another athlete is in the circle preparing to throw", "hi": "जब कोई अन्य एथलीट फेंकने की तैयारी कर रहा हो", "or": "ଯେତେବେଳେ ଅନ୍ୟ ଜଣେ ଆଥଲେଟ୍ ଫିଙ୍ଗିବାକୁ ପ୍ରସ୍ତୁତ ହେଉଥାଏ" }, "isCorrect": true },
+      { "text": { "en": "Only during the final round", "hi": "केवल अंतिम दौर के दौरान", "or": "କେବଳ ଅନ୍ତିମ ରାଉଣ୍ଡ ସମୟରେ" }, "isCorrect": false },
+      { "text": { "en": "You don't need to be silent", "hi": "आपको चुप रहने की जरूरत नहीं है", "or": "ଆପଣଙ୍କୁ ଚୁପ୍ ରହିବାର ଆବଶ୍ୟକତା ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sp-70",
+    "question": {
+      "en": "The shot put is a test of what?",
+      "hi": "शॉट पुट किसका परीक्षण है?",
+      "or": "ଶଟ୍ ପୁଟ୍ କ’ଣର ପରୀକ୍ଷା?"
+    },
+    "options": [
+      { "text": { "en": "Endurance and stamina", "hi": "सहनशक्ति और सहनशक्ति", "or": "ସହନଶୀଳତା ଏବଂ ଷ୍ଟାମିନା" }, "isCorrect": false },
+      { "text": { "en": "Explosive power and strength", "hi": "विस्फोटक शक्ति और ताकत", "or": "ବିସ୍ଫୋରକ ଶକ୍ତି ଏବଂ ସାମର୍ଥ୍ୟ" }, "isCorrect": true },
+      { "text": { "en": "Speed and agility", "hi": "गति और चपलता", "or": "ଗତି ଏବଂ କ୍ଷିପ୍ରତା" }, "isCorrect": false },
+      { "text": { "en": "Accuracy and aim", "hi": "सटीकता और निशाना", "or": "ସଠିକତା ଏବଂ ଲକ୍ଷ୍ୟ" }, "isCorrect": false }
+    ]
+  }
+  ]

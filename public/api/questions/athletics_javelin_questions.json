@@ -1,0 +1,983 @@
+[
+  {
+    "id": "jav-1",
+    "question": {
+      "en": "What is the cord-wrapped part of the javelin called that the athlete holds?",
+      "hi": "भाला का वह हिस्सा जिस पर रस्सी लिपटी होती है और जिसे एथलीट पकड़ता है, उसे क्या कहते हैं?",
+      "or": "ଜାଭେଲିନର ଯେଉଁ ଅଂଶରେ ଦଉଡ଼ି ଗୁଡ଼ାଯାଇଥାଏ ଏବଂ ଆଥଲେଟ୍ ଧରିଥାନ୍ତି, ତାହାକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The Shaft", "hi": "शैफ्ट", "or": "ଶାଫ୍ଟ" }, "isCorrect": false },
+      { "text": { "en": "The Grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": true },
+      { "text": { "en": "The Tail", "hi": "टेल", "or": "ଲାଞ୍ଜ" }, "isCorrect": false },
+      { "text": { "en": "The Tip", "hi": "टिप", "or": "ଟିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-2",
+    "question": {
+      "en": "What is the name of the designated landing area for a legal throw?",
+      "hi": "एक वैध थ्रो के लिए निर्धारित लैंडिंग क्षेत्र का नाम क्या है?",
+      "or": "ଏକ ବୈଧ ଥ୍ରୋ ପାଇଁ ନିର୍ଦ୍ଦିଷ୍ଟ ଅବତରଣ ଅଞ୍ଚଳର ନାମ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The Zone", "hi": "ज़ोन", "or": "ଜୋନ୍" }, "isCorrect": false },
+      { "text": { "en": "The Field", "hi": "फील्ड", "or": "ଫିଲ୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "The Sector", "hi": "सेक्टर", "or": "ସେକ୍ଟର" }, "isCorrect": true },
+      { "text": { "en": "The Range", "hi": "रेंज", "or": "ରେଞ୍ଜ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-3",
+    "question": {
+      "en": "Which part of the javelin must land in the ground first for a throw to be valid?",
+      "hi": "थ्रो को वैध मानने के लिए भाला का कौन सा हिस्सा सबसे पहले जमीन पर लगना चाहिए?",
+      "or": "ଥ୍ରୋକୁ ବୈଧ ବୋଲି ଧରାଯିବା ପାଇଁ ଜାଭେଲିନର କେଉଁ ଅଂଶ ପ୍ରଥମେ ଭୂମିରେ ବାଜିବା ଆବଶ୍ୟକ?"
+    },
+    "options": [
+      { "text": { "en": "The tail", "hi": "पूंछ", "or": "ଲାଞ୍ଜ" }, "isCorrect": false },
+      { "text": { "en": "The metal tip", "hi": "धातु की नोक", "or": "ଧାତୁ ଟିପ୍" }, "isCorrect": true },
+      { "text": { "en": "The cord grip", "hi": "रस्सी की पकड़", "or": "କର୍ଡ ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "Any part", "hi": "कोई भी हिस्सा", "or": "ଯେକୌଣସି ଅଂଶ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-4",
+    "question": {
+      "en": "What is it called when an athlete steps over the throwing arc during a throw?",
+      "hi": "जब कोई एथलीट थ्रो के दौरान थ्रोइंग आर्क के ऊपर कदम रखता है तो उसे क्या कहा जाता है?",
+      "or": "ଯେତେବେଳେ ଜଣେ ଆଥଲେଟ୍ ଥ୍ରୋ ସମୟରେ ଥ୍ରୋଇଂ ଆର୍କ ଉପରେ ପାଦ ରଖନ୍ତି, ତାହାକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "An overstep", "hi": "एक ओवरस्टेप", "or": "ଏକ ଓଭରଷ୍ଟେପ୍" }, "isCorrect": false },
+      { "text": { "en": "A misthrow", "hi": "एक मिसथ्रो", "or": "ଏକ ମିସଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A foul", "hi": "एक फाउल", "or": "ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "A scratch", "hi": "एक स्क्रैच", "or": "ଏକ ସ୍କ୍ରାଚ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-5",
+    "question": {
+      "en": "What is the standard weight for a men's javelin in senior competitions?",
+      "hi": "वरिष्ठ प्रतियोगिताओं में पुरुषों के भाला का मानक वजन क्या है?",
+      "or": "ବରିଷ୍ଠ ପ୍ରତିଯୋଗିତାରେ ପୁରୁଷଙ୍କ ଜାଭେଲିନର ମାନକ ଓଜନ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "600 grams", "hi": "600 ग्राम", "or": "୬୦୦ ଗ୍ରାମ" }, "isCorrect": false },
+      { "text": { "en": "700 grams", "hi": "700 ग्राम", "or": "୭୦୦ ଗ୍ରାମ" }, "isCorrect": false },
+      { "text": { "en": "800 grams", "hi": "800 ग्राम", "or": "୮୦୦ ଗ୍ରାମ" }, "isCorrect": true },
+      { "text": { "en": "900 grams", "hi": "900 ग्राम", "or": "୯୦୦ ଗ୍ରାମ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-6",
+    "question": {
+      "en": "What is the standard weight for a women's javelin in senior competitions?",
+      "hi": "वरिष्ठ प्रतियोगिताओं में महिलाओं के भाला का मानक वजन क्या है?",
+      "or": "ବରିଷ୍ଠ ପ୍ରତିଯୋଗିତାରେ ମହିଳାଙ୍କ ଜାଭେଲିନର ମାନକ ଓଜନ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "500 grams", "hi": "500 ग्राम", "or": "୫୦୦ ଗ୍ରାମ" }, "isCorrect": false },
+      { "text": { "en": "600 grams", "hi": "600 ग्राम", "or": "୬୦୦ ଗ୍ରାମ" }, "isCorrect": true },
+      { "text": { "en": "700 grams", "hi": "700 ग्राम", "or": "୭୦୦ ଗ୍ରାମ" }, "isCorrect": false },
+      { "text": { "en": "800 grams", "hi": "800 ग्राम", "or": "୮୦୦ ଗ୍ରାମ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-7",
+    "question": {
+      "en": "The 'crossover' steps are a key part of which phase of the throw?",
+      "hi": "'क्रॉसओवर' स्टेप्स थ्रो के किस चरण का एक महत्वपूर्ण हिस्सा हैं?",
+      "or": "'କ୍ରସଓଭର' ପଦକ୍ଷେପ ଥ୍ରୋର କେଉଁ ପର୍ଯ୍ୟାୟର ଏକ ମୁଖ୍ୟ ଅଂଶ?"
+    },
+    "options": [
+      { "text": { "en": "The grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The run-up", "hi": "रन-अप", "or": "ରନ୍-ଅପ୍" }, "isCorrect": true },
+      { "text": { "en": "The recovery", "hi": "रिकवरी", "or": "ରିକଭରି" }, "isCorrect": false },
+      { "text": { "en": "The measurement", "hi": "माप", "or": "ମାପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-8",
+    "question": {
+      "en": "From where is a javelin throw officially measured?",
+      "hi": "भाला फेंक को आधिकारिक तौर पर कहाँ से मापा जाता है?",
+      "or": "ଜାଭେଲିନ୍ ଥ୍ରୋକୁ ଆନୁଷ୍ଠାନିକ ଭାବେ କେଉଁଠାରୁ ମାପ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "From the foul line to the javelin's tail", "hi": "फाउल लाइन से भाला की पूंछ तक", "or": "ଫାଉଲ୍ ଲାଇନରୁ ଜାଭେଲିନର ଲାଞ୍ଜ ପର୍ଯ୍ୟନ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "From the athlete's hand to where the tip lands", "hi": "एथलीट के हाथ से जहां टिप उतरती है", "or": "ଆଥଲେଟଙ୍କ ହାତରୁ ଟିପ୍ ପଡ଼ିଥିବା ସ୍ଥାନ ପର୍ଯ୍ୟନ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "From the inside edge of the arc to the tip's first mark", "hi": "आर्क के अंदरूनी किनारे से टिप के पहले निशान तक", "or": "ଆର୍କର ଭିତର ପାର୍ଶ୍ୱରୁ ଟିପର ପ୍ରଥମ ଚିହ୍ନ ପର୍ଯ୍ୟନ୍ତ" }, "isCorrect": true },
+      { "text": { "en": "From the center of the arc to the center of the javelin", "hi": "आर्क के केंद्र से भाला के केंद्र तक", "or": "ଆର୍କର କେନ୍ଦ୍ରରୁ ଜାଭେଲିନର କେନ୍ଦ୍ର ପର୍ଯ୍ୟନ୍ତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-9",
+    "question": {
+      "en": "Which of these is a common style of gripping the javelin?",
+      "hi": "इनमें से कौन सी भाला पकड़ने की एक सामान्य शैली है?",
+      "or": "ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଜାଭେଲିନ୍ ଧରିବାର ଏକ ସାଧାରଣ ଶୈଳୀ?"
+    },
+    "options": [
+      { "text": { "en": "The Hammer Grip", "hi": "हैमर ग्रिप", "or": "ହାମର୍ ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The Finnish Grip", "hi": "फिनिश ग्रिप", "or": "ଫିନିଶ୍ ଗ୍ରିପ୍" }, "isCorrect": true },
+      { "text": { "en": "The Open-Palm Grip", "hi": "ओपन-पाम ग्रिप", "or": "ଓପନ୍-ପାମ୍ ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The Claw Grip", "hi": "क्लॉ ग्रिप", "or": "କ୍ଲ ଗ୍ରିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-10",
+    "question": {
+      "en": "In the throwing phase, what is the primary role of the non-throwing leg?",
+      "hi": "फेंकने के चरण में, गैर-फेंकने वाले पैर की प्राथमिक भूमिका क्या है?",
+      "or": "ଫିଙ୍ଗିବା ପର୍ଯ୍ୟାୟରେ, ଅଣ-ଫିଙ୍ଗା ଗୋଡ଼ର ମୁଖ୍ୟ ଭୂମିକା କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To kick forward for momentum", "hi": "गति के लिए आगे की ओर किक करना", "or": "ଗତି ପାଇଁ ଆଗକୁ କିକ୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To act as a brake or 'block' to transfer energy", "hi": "ऊर्जा स्थानांतरित करने के लिए ब्रेक या 'ब्लॉक' के रूप में कार्य करना", "or": "ଶକ୍ତି ସ୍ଥାନାନ୍ତର ପାଇଁ ବ୍ରେକ୍ ବା 'ବ୍ଲକ୍' ଭାବରେ କାର୍ଯ୍ୟ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To lift off the ground during the throw", "hi": "थ्रो के दौरान जमीन से ऊपर उठाना", "or": "ଥ୍ରୋ ସମୟରେ ଭୂମିରୁ ଉଠାଇବା" }, "isCorrect": false },
+      { "text": { "en": "To maintain a running motion", "hi": "दौड़ने की गति बनाए रखना", "or": "ଦୌଡ଼ିବା ଗତି ବଜାୟ ରଖିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-11",
+    "question": {
+      "en": "What is the phase where the athlete pulls the javelin back before the final throwing action?",
+      "hi": "वह चरण क्या है जिसमें एथलीट अंतिम फेंकने की क्रिया से पहले भाला को पीछे खींचता है?",
+      "or": "ଅନ୍ତିମ ଫିଙ୍ଗିବା କ୍ରିୟା ପୂର୍ବରୁ ଆଥଲେଟ୍ ଜାଭେଲିନକୁ ପଛକୁ ଟାଣିବା ପର୍ଯ୍ୟାୟକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The Carry", "hi": "कैरी", "or": "କ୍ୟାରୀ" }, "isCorrect": false },
+      { "text": { "en": "The Withdrawal", "hi": "विद्ड्रॉल", "or": "ୱିଥଡ୍ରୱାଲ" }, "isCorrect": true },
+      { "text": { "en": "The Crossover", "hi": "क्रॉसओवर", "or": "କ୍ରସଓଭର" }, "isCorrect": false },
+      { "text": { "en": "The Release", "hi": "रिलीज़", "or": "ରିଲିଜ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-12",
+    "question": {
+      "en": "A throw is invalid if the athlete turns their back to the landing area before what happens?",
+      "hi": "यदि एथलीट किस घटना से पहले लैंडिंग क्षेत्र की ओर अपनी पीठ घुमा लेता है तो थ्रो अमान्य हो जाता है?",
+      "or": "କେଉଁ ଘଟଣା ପୂର୍ବରୁ ଆଥଲେଟ୍ ଲ୍ୟାଣ୍ଡିଂ ଏରିଆ ଆଡକୁ ପିଠି ବୁଲାଇଲେ ଥ୍ରୋ ଅବୈଧ ହୋଇଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Before the javelin is released", "hi": "भाला छोड़े जाने से पहले", "or": "ଜାଭେଲିନ୍ ଛଡାଯିବା ପୂର୍ବରୁ" }, "isCorrect": false },
+      { "text": { "en": "Before the javelin lands", "hi": "भाला के उतरने से पहले", "or": "ଜାଭେଲିନ୍ ପଡ଼ିବା ପୂର୍ବରୁ" }, "isCorrect": true },
+      { "text": { "en": "Before the measurement is taken", "hi": "माप लेने से पहले", "or": "ମାପ ନିଆଯିବା ପୂର୍ବରୁ" }, "isCorrect": false },
+      { "text": { "en": "At any time after the release", "hi": "रिलीज के बाद किसी भी समय", "or": "ରିଲିଜ୍ ପରେ ଯେକୌଣସି ସମୟରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-13",
+    "question": {
+      "en": "What is the approximate angle of the sector lines on the field?",
+      "hi": "मैदान पर सेक्टर लाइनों का अनुमानित कोण क्या है?",
+      "or": "ଫିଲ୍ଡରେ ସେକ୍ଟର ଲାଇନଗୁଡ଼ିକର ଆନୁମାନିକ କୋଣ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "15 degrees", "hi": "15 डिग्री", "or": "୧୫ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "29 degrees", "hi": "29 डिग्री", "or": "୨୯ ଡିଗ୍ରୀ" }, "isCorrect": true },
+      { "text": { "en": "45 degrees", "hi": "45 डिग्री", "or": "୪୫ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "60 degrees", "hi": "60 डिग्री", "or": "୬୦ ଡିଗ୍ରୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-14",
+    "question": {
+      "en": "The 'American Grip' involves placing which finger along the shaft?",
+      "hi": "'अमेरिकन ग्रिप' में कौन सी उंगली को शैफ्ट के साथ रखा जाता है?",
+      "or": "'ଆମେରିକାନ୍ ଗ୍ରିପ୍'ରେ କେଉଁ ଆଙ୍ଗୁଠିକୁ ଶାଫ୍ଟ ସହିତ ରଖାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The thumb", "hi": "अंगूठा", "or": "ବୁଢ଼ା ଆଙ୍ଗୁଠି" }, "isCorrect": false },
+      { "text": { "en": "The index finger", "hi": "तर्जनी", "or": "ତର୍ଜନୀ ଆଙ୍ଗୁଠି" }, "isCorrect": true },
+      { "text": { "en": "The middle finger", "hi": "मध्यमा उंगली", "or": "ମଝି ଆଙ୍ଗୁଠି" }, "isCorrect": false },
+      { "text": { "en": "The pinky finger", "hi": "छोटी उंगली", "or": "କାଣି ଆଙ୍ଗୁଠି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-15",
+    "question": {
+      "en": "What is the main purpose of the run-up?",
+      "hi": "रन-अप का मुख्य उद्देश्य क्या है?",
+      "or": "ରନ୍-ଅପର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To get closer to the sector", "hi": "सेक्टर के करीब जाना", "or": "ସେକ୍ଟରର ନିକଟତର ହେବା" }, "isCorrect": false },
+      { "text": { "en": "To build momentum for the throw", "hi": "थ्रो के लिए गति बनाना", "or": "ଥ୍ରୋ ପାଇଁ ଗତି ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To warm up the muscles", "hi": "मांसपेशियों को गर्म करना", "or": "ମାଂସପେଶୀକୁ ଗରମ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To aim the javelin", "hi": "भाला का निशाना लगाना", "or": "ଜାଭେଲିନ୍ ଲକ୍ଷ୍ୟ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-16",
+    "question": {
+      "en": "A throw where the javelin's tail hits the ground first is:",
+      "hi": "एक थ्रो जिसमें भाला की पूंछ पहले जमीन पर लगती है, वह है:",
+      "or": "ଏକ ଥ୍ରୋ ଯେଉଁଥିରେ ଜାଭେଲିନର ଲାଞ୍ଜ ପ୍ରଥମେ ଭୂମିରେ ବାଜେ, ତାହା ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "A legal throw", "hi": "एक कानूनी थ्रो", "or": "ଏକ ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "A throw that needs to be remeasured", "hi": "एक थ्रो जिसे फिर से मापना पड़ता है", "or": "ଏକ ଥ୍ରୋ ଯାହାକୁ ପୁନର୍ବାର ମାପିବାକୁ ପଡେ" }, "isCorrect": false },
+      { "text": { "en": "A perfect throw", "hi": "एक आदर्श थ्रो", "or": "ଏକ ଉତ୍ତମ ଥ୍ରୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-17",
+    "question": {
+      "en": "What is the optimal angle of release for a javelin to achieve maximum distance?",
+      "hi": "अधिकतम दूरी प्राप्त करने के लिए भाला छोड़ने का इष्टतम कोण क्या है?",
+      "or": "ସର୍ବାଧିକ ଦୂରତା ହାସଲ କରିବା ପାଇଁ ଜାଭେଲିନ୍ ଛାଡ଼ିବାର ସର୍ବୋତ୍ତମ କୋଣ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "10-20 degrees", "hi": "10-20 डिग्री", "or": "୧୦-୨୦ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "30-40 degrees", "hi": "30-40 डिग्री", "or": "୩୦-୪୦ ଡିଗ୍ରୀ" }, "isCorrect": true },
+      { "text": { "en": "50-60 degrees", "hi": "50-60 डिग्री", "or": "୫୦-୬୦ ଡିଗ୍ରୀ" }, "isCorrect": false },
+      { "text": { "en": "Over 70 degrees", "hi": "70 डिग्री से अधिक", "or": "୭୦ ଡିଗ୍ରୀରୁ ଅଧିକ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-18",
+    "question": {
+      "en": "What does the term 'block' refer to in the javelin throw technique?",
+      "hi": "भाला फेंक तकनीक में 'ब्लॉक' शब्द का क्या अर्थ है?",
+      "or": "ଜାଭେଲିନ୍ ଥ୍ରୋ କୌଶଳରେ 'ବ୍ଲକ୍' ଶବ୍ଦର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Blocking the wind with your body", "hi": "अपने शरीर से हवा को रोकना", "or": "ନିଜ ଶରୀରରେ ପବନକୁ ଅଟକାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Planting the lead foot firmly to stop forward motion and transfer power", "hi": "आगे की गति को रोकने और शक्ति स्थानांतरित करने के लिए आगे के पैर को मजबूती से लगाना", "or": "ଆଗକୁ ଗତି ଅଟକାଇବା ଏବଂ ଶକ୍ତି ସ୍ଥାନାନ୍ତର ପାଇଁ ଆଗ ଗୋଡକୁ ଦୃଢ଼ ଭାବରେ ରଖିବା" }, "isCorrect": true },
+      { "text": { "en": "Blocking other competitors' view", "hi": "अन्य प्रतियोगियों के दृश्य को अवरुद्ध करना", "or": "ଅନ୍ୟ ପ୍ରତିଯୋଗୀଙ୍କ ଦୃଶ୍ୟକୁ ଅବରୋଧ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "A mental block before throwing", "hi": "फेंकने से पहले एक मानसिक अवरोध", "or": "ଫିଙ୍ଗିବା ପୂର୍ବରୁ ଏକ ମାନସିକ ଅବରୋଧ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-19",
+    "question": {
+      "en": "Which of these muscle groups is critical for generating power in the throw?",
+      "hi": "थ्रो में शक्ति उत्पन्न करने के लिए इनमें से कौन सा मांसपेशी समूह महत्वपूर्ण है?",
+      "or": "ଥ୍ରୋରେ ଶକ୍ତି ଉତ୍ପନ୍ନ କରିବା ପାଇଁ ଏଥିମଧ୍ୟରୁ କେଉଁ ମାଂସପେଶୀ ଗୋଷ୍ଠୀ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Biceps", "hi": "बाइसेप्स", "or": "ବାଇସେପ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "Core and obliques", "hi": "कोर और ऑब्लिक", "or": "କୋର୍ ଏବଂ ଓବ୍ଲିକ୍ସ" }, "isCorrect": true },
+      { "text": { "en": "Calves", "hi": "पिंडली", "or": "ପିଚା" }, "isCorrect": false },
+      { "text": { "en": "Forearms", "hi": "अग्र-भुजाएँ", "or": "ବାହୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-20",
+    "question": {
+      "en": "What is the typical length of a standard javelin runway?",
+      "hi": "एक मानक भाला रनवे की सामान्य लंबाई क्या है?",
+      "or": "ଏକ ମାନକ ଜାଭେଲିନ୍ ରନୱେର ସାଧାରଣ ଦୈର୍ଘ୍ୟ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "10-15 meters", "hi": "10-15 मीटर", "or": "୧୦-୧୫ ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "20-25 meters", "hi": "20-25 मीटर", "or": "୨୦-୨୫ ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "30-36.5 meters", "hi": "30-36.5 मीटर", "or": "୩୦-୩୬.୫ ମିଟର" }, "isCorrect": true },
+      { "text": { "en": "40-50 meters", "hi": "40-50 मीटर", "or": "୪୦-୫୦ ମିଟର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-21",
+    "question": {
+      "en": "What does a white flag signal from an official after a throw?",
+      "hi": "एक थ्रो के बाद अधिकारी से सफेद झंडा क्या संकेत देता है?",
+      "or": "ଏକ ଥ୍ରୋ ପରେ ଅଧିକାରୀଙ୍କଠାରୁ ଧଳା ପତାକା କ'ଣ ସଙ୍କେତ ଦିଏ?"
+    },
+    "options": [
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A valid throw", "hi": "एक वैध थ्रो", "or": "ଏକ ବୈଧ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "A new record", "hi": "एक नया रिकॉर्ड", "or": "ଏକ ନୂଆ ରେକର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "The final attempt", "hi": "अंतिम प्रयास", "or": "ଅନ୍ତିମ ପ୍ରୟାସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-22",
+    "question": {
+      "en": "The 'T' position refers to the body shape at which point in the throw?",
+      "hi": "'T' स्थिति थ्रो में किस बिंदु पर शरीर के आकार को संदर्भित करती है?",
+      "or": "'T' ସ୍ଥିତି ଥ୍ରୋରେ କେଉଁ ବିନ୍ଦୁରେ ଶରୀରର ଆକାରକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "text": { "en": "At the start of the run-up", "hi": "रन-अप की शुरुआत में", "or": "ରନ୍-ଅପର ଆରମ୍ଭରେ" }, "isCorrect": false },
+      { "text": { "en": "Just before the release", "hi": "रिलीज से ठीक पहले", "or": "ରିଲିଜ୍ ପୂର୍ବରୁ" }, "isCorrect": true },
+      { "text": { "en": "During the recovery", "hi": "रिकवरी के दौरान", "or": "ରିକଭରି ସମୟରେ" }, "isCorrect": false },
+      { "text": { "en": "When gripping the javelin", "hi": "भाला पकड़ते समय", "or": "ଜାଭେଲିନ୍ ଧରିବା ସମୟରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-23",
+    "question": {
+      "en": "Which of these factors is most affected by a strong headwind?",
+      "hi": "तेज हेडविंड से इनमें से कौन सा कारक सबसे अधिक प्रभावित होता है?",
+      "or": "ତୀବ୍ର ହେଡୱିଣ୍ଡ ଦ୍ୱାରା ଏଥିମଧ୍ୟରୁ କେଉଁ କାରକ ସବୁଠାରୁ ଅଧିକ ପ୍ରଭାବିତ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "The grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The flight distance", "hi": "उड़ान की दूरी", "or": "ଉଡ଼ାଣର ଦୂରତା" }, "isCorrect": true },
+      { "text": { "en": "The weight of the javelin", "hi": "भाला का वजन", "or": "ଜାଭେଲିନର ଓଜନ" }, "isCorrect": false },
+      { "text": { "en": "The length of the runway", "hi": "रनवे की लंबाई", "or": "ରନୱେର ଦୈର୍ଘ୍ୟ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-24",
+    "question": {
+      "en": "What is the primary material used for the main body of a modern competition javelin?",
+      "hi": "आधुनिक प्रतियोगिता भाला के मुख्य भाग के लिए उपयोग की जाने वाली प्राथमिक सामग्री क्या है?",
+      "or": "ଆଧୁନିକ ପ୍ରତିଯୋଗିତା ଜାଭେଲିନର ମୁଖ୍ୟ ଅଂଶ ପାଇଁ କେଉଁ ପ୍ରାଥମିକ ସାମଗ୍ରୀ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Wood", "hi": "लकड़ी", "or": "କାଠ" }, "isCorrect": false },
+      { "text": { "en": "Steel or Carbon Fiber", "hi": "स्टील या कार्बन फाइबर", "or": "ଷ୍ଟିଲ୍ ବା କାର୍ବନ୍ ଫାଇବର୍" }, "isCorrect": true },
+      { "text": { "en": "Plastic", "hi": "प्लास्टिक", "or": "ପ୍ଲାଷ୍ଟିକ୍" }, "isCorrect": false },
+      { "text": { "en": "Bamboo", "hi": "बांस", "or": "ବାଉଁଶ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-25",
+    "question": {
+      "en": "What is the main physical principle behind a javelin's flight?",
+      "hi": "भाला की उड़ान के पीछे मुख्य भौतिक सिद्धांत क्या है?",
+      "or": "ଜାଭେଲିନର ଉଡ଼ାଣ ପଛରେ ମୁଖ୍ୟ ଭୌତିକ ସିଦ୍ଧାନ୍ତ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Magnetism", "hi": "चुंबकत्व", "or": "ଚୁମ୍ବକତ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "Aerodynamics", "hi": "एरोडायनामिक्स", "or": "ଏରୋଡାଇନାମିକ୍ସ" }, "isCorrect": true },
+      { "text": { "en": "Gravity only", "hi": "केवल गुरुत्वाकर्षण", "or": "କେବଳ ମାଧ୍ୟାକର୍ଷଣ" }, "isCorrect": false },
+      { "text": { "en": "Buoyancy", "hi": "उत्प्लावकता", "or": "ଭାସମାନତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-26",
+    "question": {
+      "en": "How many attempts does an athlete typically get in the final rounds of a competition?",
+      "hi": "एक प्रतियोगिता के अंतिम दौर में एक एथलीट को आमतौर पर कितने प्रयास मिलते हैं?",
+      "or": "ଏକ ପ୍ରତିଯୋଗିତାର ଅନ୍ତିମ ରାଉଣ୍ଡରେ ଜଣେ ଆଥଲେଟ୍ ସାଧାରଣତଃ କେତୋଟି ପ୍ରୟାସ ପାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "One", "hi": "एक", "or": "ଏକ" }, "isCorrect": false },
+      { "text": { "en": "Three", "hi": "तीन", "or": "ତିନି" }, "isCorrect": true },
+      { "text": { "en": "Six", "hi": "छह", "or": "ଛଅ" }, "isCorrect": false },
+      { "text": { "en": "Unlimited", "hi": "असीमित", "or": "ଅସୀମିତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-27",
+    "question": {
+      "en": "The 'recovery' phase is important for what reason?",
+      "hi": "'रिकवरी' चरण किस कारण से महत्वपूर्ण है?",
+      "or": "'ରିକଭରି' ପର୍ଯ୍ୟାୟ କେଉଁ କାରଣରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To add more distance to the throw", "hi": "थ्रो में और अधिक दूरी जोड़ने के लिए", "or": "ଥ୍ରୋରେ ଅଧିକ ଦୂରତା ଯୋଡ଼ିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To avoid fouling by crossing the line", "hi": "लाइन पार करके फाउल करने से बचने के लिए", "or": "ଲାଇନ୍ ପାର୍ କରି ଫାଉଲ୍ ହେବାରୁ ବଞ୍ଚିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To see where the javelin lands", "hi": "यह देखने के लिए कि भाला कहाँ उतरता है", "or": "ଜାଭେଲିନ୍ କେଉଁଠାରେ ପଡ଼େ ତାହା ଦେଖିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To get a better score", "hi": "बेहतर स्कोर प्राप्त करने के लिए", "or": "ଭଲ ସ୍କୋର୍ ପାଇବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-28",
+    "question": {
+      "en": "A red flag from an official indicates what?",
+      "hi": "एक अधिकारी से लाल झंडा क्या दर्शाता है?",
+      "or": "ଜଣେ ଅଧିକାରୀଙ୍କଠାରୁ ଲାଲ୍ ପତାକା କ'ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A valid throw", "hi": "एक वैध थ्रो", "or": "ଏକ ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "A personal best", "hi": "एक व्यक्तिगत सर्वश्रेष्ठ", "or": "ଏକ ବ୍ୟକ୍ତିଗତ ଶ୍ରେଷ୍ଠ" }, "isCorrect": false },
+      { "text": { "en": "The start of the competition", "hi": "प्रतियोगिता की शुरुआत", "or": "ପ୍ରତିଯୋଗିତାର ଆରମ୍ଭ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-29",
+    "question": {
+      "en": "The purpose of the javelin's point of balance is to:",
+      "hi": "भाला के संतुलन बिंदु का उद्देश्य है:",
+      "or": "ଜାଭେଲିନର ସନ୍ତୁଳନ ବିନ୍ଦୁର ଉଦ୍ଦେଶ୍ୟ ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "Make it easier to carry", "hi": "इसे ले जाना आसान बनाना", "or": "ଏହାକୁ ବହନ କରିବା ସହଜ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Help it fly correctly and ensure the tip lands first", "hi": "इसे सही ढंग से उड़ने में मदद करना और यह सुनिश्चित करना कि टिप पहले उतरे", "or": "ଏହାକୁ ଠିକ୍ ଭାବରେ ଉଡ଼ିବାରେ ସାହାଯ୍ୟ କରିବା ଏବଂ ଟିପ୍ ପ୍ରଥମେ ପଡ଼ିବା ସୁନିଶ୍ଚିତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Increase its weight", "hi": "इसका वजन बढ़ाना", "or": "ଏହାର ଓଜନ ବଢ଼ାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Provide a better grip", "hi": "बेहतर पकड़ प्रदान करना", "or": "ଭଲ ଗ୍ରିପ୍ ପ୍ରଦାନ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-30",
+    "question": {
+      "en": "What is the typical time limit an athlete has to start their attempt?",
+      "hi": "एक एथलीट को अपना प्रयास शुरू करने के लिए सामान्य समय सीमा क्या है?",
+      "or": "ଜଣେ ଆଥଲେଟ୍‌ଙ୍କୁ ନିଜ ପ୍ରୟାସ ଆରମ୍ଭ କରିବା ପାଇଁ ସାଧାରଣ ସମୟ ସୀମା କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "30 seconds", "hi": "30 सेकंड", "or": "୩୦ ସେକେଣ୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "1 minute", "hi": "1 मिनट", "or": "୧ ମିନିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "2 minutes", "hi": "2 मिनट", "or": "୨ ମିନିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "There is no time limit", "hi": "कोई समय सीमा नहीं है", "or": "କୌଣସି ସମୟ ସୀମା ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-31",
+    "question": {
+      "en": "An athlete must exit the runway from where after a throw?",
+      "hi": "एक थ्रो के बाद एथलीट को रनवे से कहाँ से बाहर निकलना चाहिए?",
+      "or": "ଏକ ଥ୍ରୋ ପରେ ଆଥଲେଟ୍‌ଙ୍କୁ ରନୱେରୁ କେଉଁଠାରୁ ବାହାରିବାକୁ ପଡିବ?"
+    },
+    "options": [
+      { "text": { "en": "From the front, over the arc", "hi": "सामने से, आर्क के ऊपर से", "or": "ଆଗରୁ, ଆର୍କ ଉପରୁ" }, "isCorrect": false },
+      { "text": { "en": "From behind the throwing arc", "hi": "थ्रोइंग आर्क के पीछे से", "or": "ଥ୍ରୋଇଂ ଆର୍କ ପଛରୁ" }, "isCorrect": true },
+      { "text": { "en": "From either side", "hi": "किसी भी तरफ से", "or": "ଯେକୌଣସି ପାର୍ଶ୍ୱରୁ" }, "isCorrect": false },
+      { "text": { "en": "The exit point doesn't matter", "hi": "निकास बिंदु कोई मायने नहीं रखता", "or": "ବାହାରିବା ସ୍ଥାନ କୌଣସି ଗୁରୁତ୍ୱ ରଖେ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-32",
+    "question": {
+      "en": "Drills like throwing a medicine ball are used to develop what?",
+      "hi": "मेडिसिन बॉल फेंकने जैसे ड्रिल का उपयोग क्या विकसित करने के लिए किया जाता है?",
+      "or": "ମେଡିସିନ୍ ବଲ୍ ଫିଙ୍ଗିବା ଭଳି ଡ୍ରିଲ୍ କ'ଣ ବିକଶିତ କରିବା ପାଇଁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Running speed", "hi": "दौड़ने की गति", "or": "ଦୌଡ଼ିବାର ଗତି" }, "isCorrect": false },
+      { "text": { "en": "Explosive rotational power", "hi": "विस्फोटक घूर्णी शक्ति", "or": "ବିସ୍ଫୋରକ ଘୂର୍ଣ୍ଣନ ଶକ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" }, "isCorrect": false },
+      { "text": { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-33",
+    "question": {
+      "en": "The 'Fork' or 'V' grip involves holding the javelin between which two fingers?",
+      "hi": "'फोर्क' या 'V' ग्रिप में भाला को किन दो उंगलियों के बीच पकड़ा जाता है?",
+      "or": "'ଫର୍କ' ବା 'V' ଗ୍ରିପରେ ଜାଭେଲିନକୁ କେଉଁ ଦୁଇ ଆଙ୍ଗୁଠି ମଧ୍ୟରେ ଧରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Thumb and index finger", "hi": "अंगूठा और तर्जनी", "or": "ବୁଢ଼ା ଆଙ୍ଗୁଠି ଏବଂ ତର୍ଜନୀ" }, "isCorrect": false },
+      { "text": { "en": "Index and middle fingers", "hi": "तर्जनी और मध्यमा उंगली", "or": "ତର୍ଜନୀ ଏବଂ ମଝି ଆଙ୍ଗୁଠି" }, "isCorrect": true },
+      { "text": { "en": "Middle and ring fingers", "hi": "मध्यमा और अनामिका उंगली", "or": "ମଝି ଏବଂ ଅନାମିକା ଆଙ୍ଗୁଠି" }, "isCorrect": false },
+      { "text": { "en": "Ring and pinky fingers", "hi": "अनामिका और छोटी उंगली", "or": "ଅନାମିକା ଏବଂ କାଣି ଆଙ୍ଗୁଠି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-34",
+    "question": {
+      "en": "What is the primary function of javelin-specific boots?",
+      "hi": "भाला-विशिष्ट जूतों का प्राथमिक कार्य क्या है?",
+      "or": "ଜାଭେଲିନ୍-ନିର୍ଦ୍ଦିଷ୍ଟ ଜୋତାର ମୁଖ୍ୟ କାର୍ଯ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To provide cushioning", "hi": "कुशनिंग प्रदान करना", "or": "କୁଶନିଂ ପ୍ରଦାନ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To provide grip and ankle support during the block", "hi": "ब्लॉक के दौरान पकड़ और टखने का समर्थन प्रदान करना", "or": "ବ୍ଲକ୍ ସମୟରେ ଗ୍ରିପ୍ ଏବଂ ଗୋଡ଼ଗଣ୍ଠି ସମର୍ଥନ ପ୍ରଦାନ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To keep the feet warm", "hi": "पैरों को गर्म रखना", "or": "ପାଦକୁ ଗରମ ରଖିବା" }, "isCorrect": false },
+      { "text": { "en": "To improve running speed", "hi": "दौड़ने की गति में सुधार करना", "or": "ଦୌଡ଼ିବାର ଗତିରେ ଉନ୍ନତି ଆଣିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-35",
+    "question": {
+      "en": "If a javelin breaks in the air during a legal throw, what is the ruling?",
+      "hi": "यदि एक कानूनी थ्रो के दौरान भाला हवा में टूट जाता है, तो क्या निर्णय होता है?",
+      "or": "ଯଦି ଏକ ବୈଧ ଥ୍ରୋ ସମୟରେ ଜାଭେଲିନ୍ ବାୟୁରେ ଭାଙ୍ଗିଯାଏ, ତେବେ ନିଷ୍ପତ୍ତି କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is a foul throw", "hi": "यह एक फाउल थ्रो है", "or": "ଏହା ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "The throw does not count, and the athlete gets another attempt", "hi": "थ्रो की गिनती नहीं होती है, और एथलीट को एक और प्रयास मिलता है", "or": "ଥ୍ରୋ ଗଣନା କରାଯାଏ ନାହିଁ, ଏବଂ ଆଥଲେଟ୍ ଆଉ ଏକ ପ୍ରୟାସ ପାଆନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "The distance is measured to the largest piece", "hi": "दूरी को सबसे बड़े टुकड़े तक मापा जाता है", "or": "ଦୂରତାକୁ ସବୁଠାରୁ ବଡ଼ ଖଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ମାପ କରାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "The athlete is disqualified", "hi": "एथलीट को अयोग्य घोषित कर दिया जाता है", "or": "ଆଥଲେଟ୍ ଅଯୋଗ୍ୟ ଘୋଷିତ ହୁଅନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-36",
+    "question": {
+      "en": "What is the phase where the athlete carries the javelin over their shoulder during the run-up?",
+      "hi": "रन-अप के दौरान एथलीट भाला को अपने कंधे पर ले जाने वाले चरण को क्या कहते हैं?",
+      "or": "ରନ୍-ଅପ୍ ସମୟରେ ଆଥଲେଟ୍ ଜାଭେଲିନକୁ ନିଜ କାନ୍ଧରେ ବହନ କରିବା ପର୍ଯ୍ୟାୟକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The Launch", "hi": "लॉन्च", "or": "ଲଞ୍ଚ୍" }, "isCorrect": false },
+      { "text": { "en": "The Carry", "hi": "कैरी", "or": "କ୍ୟାରୀ" }, "isCorrect": true },
+      { "text": { "en": "The Power Position", "hi": "पावर पोजीशन", "or": "ପାୱାର୍ ପୋଜିସନ୍" }, "isCorrect": false },
+      { "text": { "en": "The Withdrawal", "hi": "विद्ड्रॉल", "or": "ୱିଥଡ୍ରୱାଲ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-37",
+    "question": {
+      "en": "A throw is measured perpendicular to what line?",
+      "hi": "एक थ्रो को किस रेखा के लंबवत मापा जाता है?",
+      "or": "ଏକ ଥ୍ରୋକୁ କେଉଁ ରେଖାର ଲମ୍ବ ଭାବରେ ମାପ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The foul arc", "hi": "फाउल आर्क", "or": "ଫାଉଲ୍ ଆର୍କ" }, "isCorrect": true },
+      { "text": { "en": "The runway sidelines", "hi": "रनवे साइडलाइन्स", "or": "ରନୱେ ସାଇଡଲାଇନ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "The sector lines", "hi": "सेक्टर लाइन्स", "or": "ସେକ୍ଟର ଲାଇନ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "The direction of the throw", "hi": "फेंकने की दिशा", "or": "ଫିଙ୍ଗିବାର ଦିଗ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-38",
+    "question": {
+      "en": "What is the ideal sequence of body movement during the throw?",
+      "hi": "थ्रो के दौरान शरीर की गति का आदर्श क्रम क्या है?",
+      "or": "ଥ୍ରୋ ସମୟରେ ଶରୀର ଗତିର ଆଦର୍ଶ କ୍ରମ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Arm, then hip, then legs", "hi": "हाथ, फिर कूल्हा, फिर पैर", "or": "ବାହୁ, ତା'ପରେ ନିତମ୍ବ, ତା'ପରେ ଗୋଡ" }, "isCorrect": false },
+      { "text": { "en": "Legs, then hip, then arm", "hi": "पैर, फिर कूल्हा, फिर हाथ", "or": "ଗୋଡ, ତା'ପରେ ନିତମ୍ବ, ତା'ପରେ ବାହୁ" }, "isCorrect": true },
+      { "text": { "en": "All at the same time", "hi": "सभी एक ही समय में", "or": "ସବୁ ଏକା ସମୟରେ" }, "isCorrect": false },
+      { "text": { "en": "Hip, then legs, then arm", "hi": "कूल्हा, फिर पैर, फिर हाथ", "or": "ନିତମ୍ବ, ତା'ପରେ ଗୋଡ, ତା'ପରେ ବାହୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-39",
+    "question": {
+      "en": "Athletes are allowed to use chalk on their hands for what purpose?",
+      "hi": "एथलीटों को किस उद्देश्य के लिए अपने हाथों पर चाक का उपयोग करने की अनुमति है?",
+      "or": "ଆଥଲେଟମାନଙ୍କୁ କେଉଁ ଉଦ୍ଦେଶ୍ୟରେ ନିଜ ହାତରେ ଚକ୍ ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ଦିଆଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "To make the javelin heavier", "hi": "भाला को भारी बनाने के लिए", "or": "ଜାଭେଲିନକୁ ଓଜନିଆ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To improve their grip", "hi": "अपनी पकड़ सुधारने के लिए", "or": "ନିଜ ଗ୍ରିପ୍ ଉନ୍ନତ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To mark their starting point", "hi": "अपना शुरुआती बिंदु चिह्नित करने के लिए", "or": "ନିଜ ଆରମ୍ଭ ବିନ୍ଦୁ ଚିହ୍ନିତ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is not allowed", "hi": "इसकी अनुमति नहीं है", "or": "ଏହା ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-40",
+    "question": {
+      "en": "If an athlete's javelin lands on a sector line, the throw is:",
+      "hi": "यदि किसी एथलीट का भाला एक सेक्टर लाइन पर गिरता है, तो थ्रो है:",
+      "or": "ଯଦି ଜଣେ ଆଥଲେଟଙ୍କ ଜାଭେଲିନ୍ ଏକ ସେକ୍ଟର ଲାଇନରେ ପଡ଼େ, ତେବେ ଥ୍ରୋ ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "A foul", "hi": "एक फाउल", "or": "ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "Valid", "hi": "वैध", "or": "ବୈଧ" }, "isCorrect": false },
+      { "text": { "en": "Measured from the line", "hi": "लाइन से मापा जाता है", "or": "ଲାଇନରୁ ମାପ କରାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "Requires a re-throw", "hi": "एक री-थ्रो की आवश्यकता है", "or": "ଏକ ପୁନର୍ବାର ଥ୍ରୋ ଆବଶ୍ୟକ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-41",
+    "question": {
+      "en": "What is the primary benefit of a javelin designed for a 'tailwind'?",
+      "hi": "'टेलविंड' के लिए डिज़ाइन किए गए भाला का प्राथमिक लाभ क्या है?",
+      "or": "'ଟେଲୱିଣ୍ଡ' ପାଇଁ ଡିଜାଇନ୍ ହୋଇଥିବା ଜାଭେଲିନର ମୁଖ୍ୟ ଲାଭ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is heavier to cut through wind", "hi": "यह हवा को काटने के लिए भारी होता है", "or": "ଏହା ପବନକୁ କାଟିବା ପାଇଁ ଓଜନିଆ ଅଟେ" }, "isCorrect": false },
+      { "text": { "en": "It is designed to fly optimally with wind from behind", "hi": "यह पीछे से आने वाली हवा के साथ बेहतर उड़ने के लिए डिज़ाइन किया गया है", "or": "ଏହା ପଛରୁ ଆସୁଥିବା ପବନ ସହିତ ସର୍ବୋତ୍ତମ ଭାବରେ ଉଡ଼ିବା ପାଇଁ ଡିଜାଇନ୍ ହୋଇଛି" }, "isCorrect": true },
+      { "text": { "en": "It has a sharper tip for headwinds", "hi": "इसमें हेडविंड के लिए एक तेज टिप होता है", "or": "ଏହାର ହେଡୱିଣ୍ଡ ପାଇଁ ଏକ ତୀକ୍ଷ୍ଣ ଟିପ୍ ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "It has a thicker grip", "hi": "इसकी पकड़ मोटी होती है", "or": "ଏହାର ମୋଟା ଗ୍ରିପ୍ ଅଛି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-42",
+    "question": {
+      "en": "During the final throwing action, where should the elbow ideally be?",
+      "hi": "अंतिम फेंकने की क्रिया के दौरान, कोहनी आदर्श रूप से कहाँ होनी चाहिए?",
+      "or": "ଅନ୍ତିମ ଫିଙ୍ଗିବା କ୍ରିୟା ସମୟରେ, କହୁଣୀ ଆଦର୍ଶ ଭାବରେ କେଉଁଠାରେ ରହିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Below the shoulder", "hi": "कंधे के नीचे", "or": "କାନ୍ଧ ତଳେ" }, "isCorrect": false },
+      { "text": { "en": "Directly in line with the shoulder", "hi": "सीधे कंधे की सीध में", "or": "ସିଧାସଳଖ କାନ୍ଧ ସହିତ ସମାନ ରେଖାରେ" }, "isCorrect": false },
+      { "text": { "en": "High and above the shoulder", "hi": "ऊँचा और कंधे के ऊपर", "or": "ଉଚ୍ଚ ଏବଂ କାନ୍ଧ ଉପରେ" }, "isCorrect": true },
+      { "text": { "en": "Close to the body", "hi": "शरीर के करीब", "or": "ଶରୀରର ନିକଟରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-43",
+    "question": {
+      "en": "If an athlete drops the javelin during the run-up before starting the throwing action, it is:",
+      "hi": "यदि कोई एथलीट फेंकने की क्रिया शुरू करने से पहले रन-अप के दौरान भाला गिरा देता है, तो यह है:",
+      "or": "ଯଦି ଜଣେ ଆଥଲେଟ୍ ଫିଙ୍ଗିବା କ୍ରିୟା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ ରନ୍-ଅପ୍ ସମୟରେ ଜାଭେଲିନ୍ ପକାଇ ଦିଅନ୍ତି, ତେବେ ଏହା ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "A foul throw", "hi": "एक फाउल थ्रो", "or": "ଏକ ଫାଉଲ୍ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "Not a foul, and the attempt can be restarted", "hi": "फाउल नहीं है, और प्रयास फिर से शुरू किया जा सकता है", "or": "ଫାଉଲ୍ ନୁହେଁ, ଏବଂ ପ୍ରୟାସ ପୁନର୍ବାର ଆରମ୍ଭ କରାଯାଇପାରେ" }, "isCorrect": true },
+      { "text": { "en": "A valid throw with zero distance", "hi": "शून्य दूरी के साथ एक वैध थ्रो", "or": "ଶୂନ୍ୟ ଦୂରତା ସହିତ ଏକ ବୈଧ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A warning from the official", "hi": "अधिकारी से एक चेतावनी", "or": "ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଚେତାବନୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-44",
+    "question": {
+      "en": "The biomechanical principle of 'stretch reflex' is key to which part of the throw?",
+      "hi": "'स्ट्रेच रिफ्लेक्स' का बायोमैकेनिकल सिद्धांत थ्रो के किस हिस्से के लिए महत्वपूर्ण है?",
+      "or": "'ଷ୍ଟ୍ରେଚ୍ ରିଫ୍ଲେକ୍ସ'ର ବାୟୋମେକାନିକାଲ୍ ସିଦ୍ଧାନ୍ତ ଥ୍ରୋର କେଉଁ ଅଂଶ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The final explosive release", "hi": "अंतिम विस्फोटक रिलीज", "or": "ଅନ୍ତିମ ବିସ୍ଫୋରକ ରିଲିଜ୍" }, "isCorrect": true },
+      { "text": { "en": "The start of the run-up", "hi": "रन-अप की शुरुआत", "or": "ରନ୍-ଅପର ଆରମ୍ଭ" }, "isCorrect": false },
+      { "text": { "en": "The recovery after the throw", "hi": "थ्रो के बाद रिकवरी", "or": "ଥ୍ରୋ ପରେ ରିକଭରି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-45",
+    "question": {
+      "en": "What is the main benefit of keeping the throwing arm relaxed during the approach?",
+      "hi": "एप्रोच के दौरान फेंकने वाले हाथ को आराम देने का मुख्य लाभ क्या है?",
+      "or": "ଆପ୍ରୋଚ୍ ସମୟରେ ଫିଙ୍ଗିବା ବାହୁକୁ ଆରାମ ଦେବାର ମୁଖ୍ୟ ଲାଭ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It looks more stylish", "hi": "यह अधिक स्टाइलिश दिखता है", "or": "ଏହା ଅଧିକ ଷ୍ଟାଇଲିସ୍ ଦେଖାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "It prevents a foul", "hi": "यह एक फाउल को रोकता है", "or": "ଏହା ଏକ ଫାଉଲକୁ ରୋକିଥାଏ" }, "isCorrect": false },
+      { "text": { "en": "It conserves energy and allows for a faster final action", "hi": "यह ऊर्जा बचाता है और एक तेज अंतिम क्रिया की अनुमति देता है", "or": "ଏହା ଶକ୍ତି ସଞ୍ଚୟ କରେ ଏବଂ ଏକ ଦ୍ରୁତ ଅନ୍ତିମ କ୍ରିୟା ପାଇଁ ଅନୁମତି ଦିଏ" }, "isCorrect": true },
+      { "text": { "en": "It makes the javelin fly straighter", "hi": "यह भाला को सीधा उड़ाता है", "or": "ଏହା ଜାଭେଲିନକୁ ସିଧା ଉଡ଼ିବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-46",
+    "question": {
+      "en": "Which part of the foul arc is an athlete forbidden to touch?",
+      "hi": "एक एथलीट को फाउल आर्क के किस हिस्से को छूने से मना किया जाता है?",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କୁ ଫାଉଲ୍ ଆର୍କର କେଉଁ ଅଂଶକୁ ଛୁଇଁବାକୁ ମନା କରାଯାଇଛି?"
+    },
+    "options": [
+      { "text": { "en": "The inside edge", "hi": "अंदर का किनारा", "or": "ଭିତର ପାର୍ଶ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "The top edge", "hi": "ऊपरी किनारा", "or": "ଉପର ପାର୍ଶ୍ୱ" }, "isCorrect": true },
+      { "text": { "en": "The back edge", "hi": "पिछला किनारा", "or": "ପଛ ପାର୍ଶ୍ୱ" }, "isCorrect": false },
+      { "text": { "en": "Any part of the arc", "hi": "आर्क का कोई भी हिस्सा", "or": "ଆର୍କର ଯେକୌଣସି ଅଂଶ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-47",
+    "question": {
+      "en": "Flexibility in which part of the body is crucial for a long throwing arc?",
+      "hi": "एक लंबे थ्रोइंग आर्क के लिए शरीर के किस हिस्से में लचीलापन महत्वपूर्ण है?",
+      "or": "ଏକ ଲମ୍ବା ଥ୍ରୋଇଂ ଆର୍କ ପାଇଁ ଶରୀରର କେଉଁ ଅଂଶରେ ନମନୀୟତା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Ankles", "hi": "टखने", "or": "ଗୋଡ଼ଗଣ୍ଠି" }, "isCorrect": false },
+      { "text": { "en": "Wrists", "hi": "कलाई", "or": "କଚଟି" }, "isCorrect": false },
+      { "text": { "en": "Shoulders and thoracic spine", "hi": "कंधे और वक्षीय रीढ़", "or": "କାନ୍ଧ ଏବଂ ଥୋରାସିକ୍ ମେରୁଦଣ୍ଡ" }, "isCorrect": true },
+      { "text": { "en": "Knees", "hi": "घुटने", "or": "ଆଣ୍ଠୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-48",
+    "question": {
+      "en": "What is a common drill for practicing the release mechanism without a full run-up?",
+      "hi": "पूरे रन-अप के बिना रिलीज तंत्र का अभ्यास करने के लिए एक सामान्य ड्रिल क्या है?",
+      "or": "ପୂର୍ଣ୍ଣ ରନ୍-ଅପ୍ ବିନା ରିଲିଜ୍ ମେକାନିଜିମ୍ ଅଭ୍ୟାସ କରିବା ପାଇଁ ଏକ ସାଧାରଣ ଡ୍ରିଲ୍ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Long distance running", "hi": "लंबी दूरी की दौड़", "or": "ଦୀର୍ଘ ଦୂର ଦୌଡ଼" }, "isCorrect": false },
+      { "text": { "en": "Standing throws", "hi": "खड़े होकर थ्रो करना", "or": "ଠିଆ ହୋଇ ଥ୍ରୋ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "High jumps", "hi": "ऊंची कूद", "or": "ଉଚ୍ଚ ଡିଆଁ" }, "isCorrect": false },
+      { "text": { "en": "Heavy weightlifting", "hi": "भारी वजन उठाना", "or": "ଭାରୀ ଓଜନ ଉଠାଇବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-49",
+    "question": {
+      "en": "The 'impulse' that determines the javelin's initial velocity is a product of:",
+      "hi": "भाला के प्रारंभिक वेग को निर्धारित करने वाला 'आवेग' किसका उत्पाद है:",
+      "or": "ଜାଭେଲିନର ପ୍ରାରମ୍ଭିକ ବେଗ ନିର୍ଣ୍ଣୟ କରୁଥିବା 'ଆବେଗ' କାହାର ଉତ୍ପାଦ?"
+    },
+    "options": [
+      { "text": { "en": "Speed and distance", "hi": "गति और दूरी", "or": "ଗତି ଏବଂ ଦୂରତା" }, "isCorrect": false },
+      { "text": { "en": "Force and the time it's applied", "hi": "बल और इसे लागू करने का समय", "or": "ବଳ ଏବଂ ଏହା ପ୍ରୟୋଗ ହେବାର ସମୟ" }, "isCorrect": true },
+      { "text": { "en": "Weight and angle", "hi": "वजन और कोण", "or": "ଓଜନ ଏବଂ କୋଣ" }, "isCorrect": false },
+      { "text": { "en": "Grip strength and flexibility", "hi": "पकड़ की ताकत और लचीलापन", "or": "ଗ୍ରିପ୍ ଶକ୍ତି ଏବଂ ନମନୀୟତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-50",
+    "question": {
+      "en": "What is the term for a javelin designed to perform better against a headwind?",
+      "hi": "हेडविंड के खिलाफ बेहतर प्रदर्शन करने के लिए डिज़ाइन किए गए भाला के लिए क्या शब्द है?",
+      "or": "ହେଡୱିଣ୍ଡ ବିପକ୍ଷରେ ଭଲ ପ୍ରଦର୍ଶନ କରିବା ପାଇଁ ଡିଜାଇନ୍ ହୋଇଥିବା ଜାଭେଲିନ୍ ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A stiff javelin", "hi": "एक कठोर भाला", "or": "ଏକ କଠିନ ଜାଭେଲିନ୍" }, "isCorrect": false },
+      { "text": { "en": "A headwind javelin", "hi": "एक हेडविंड भाला", "or": "ଏକ ହେଡୱିଣ୍ଡ ଜାଭେଲିନ୍" }, "isCorrect": true },
+      { "text": { "en": "A heavy javelin", "hi": "एक भारी भाला", "or": "ଏକ ଭାରୀ ଜାଭେଲିନ୍" }, "isCorrect": false },
+      { "text": { "en": "An aerodynamic javelin", "hi": "एक वायुगतिकीय भाला", "or": "ଏକ ଏରୋଡାଇନାମିକ୍ ଜାଭେଲିନ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-51",
+    "question": {
+      "en": "During the carry, the tip of the javelin should generally be pointing:",
+      "hi": "कैरी के दौरान, भाला की नोक आम तौर पर किस ओर होनी चाहिए:",
+      "or": "କ୍ୟାରୀ ସମୟରେ, ଜାଭେଲିନର ଟିପ୍ ସାଧାରଣତଃ କେଉଁ ଆଡକୁ ରହିବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "Upwards", "hi": "ऊपर की ओर", "or": "ଉପରକୁ" }, "isCorrect": false },
+      { "text": { "en": "Downwards", "hi": "नीचे की ओर", "or": "ତଳକୁ" }, "isCorrect": false },
+      { "text": { "en": "Towards the direction of the throw", "hi": "फेंकने की दिशा में", "or": "ଫିଙ୍ଗିବାର ଦିଗକୁ" }, "isCorrect": true },
+      { "text": { "en": "To the side", "hi": "बगल में", "or": "ପାର୍ଶ୍ୱକୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-52",
+    "question": {
+      "en": "Why is a strong core essential for a javelin thrower?",
+      "hi": "भाला फेंकने वाले के लिए एक मजबूत कोर क्यों आवश्यक है?",
+      "or": "ଜଣେ ଜାଭେଲିନ୍ ଥ୍ରୋର୍ ପାଇଁ ଏକ ମଜବୁତ କୋର୍ କାହିଁକି ଆବଶ୍ୟକ?"
+    },
+    "options": [
+      { "text": { "en": "For better balance only", "hi": "केवल बेहतर संतुलन के लिए", "or": "କେବଳ ଭଲ ସନ୍ତୁଳନ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To efficiently transfer energy from the legs to the arm", "hi": "पैरों से हाथ तक ऊर्जा को कुशलतापूर्वक स्थानांतरित करने के लिए", "or": "ଗୋଡରୁ ବାହୁକୁ ଦକ୍ଷତାର ସହ ଶକ୍ତି ସ୍ଥାନାନ୍ତର କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To improve running speed", "hi": "दौड़ने की गति में सुधार के लिए", "or": "ଦୌଡ଼ିବାର ଗତି ଉନ୍ନତ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To hold the javelin steady", "hi": "भाला को स्थिर रखने के लिए", "or": "ଜାଭେଲିନକୁ ସ୍ଥିର ରଖିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-53",
+    "question": {
+      "en": "An athlete is not allowed to use which of the following to aid their throw?",
+      "hi": "एक एथलीट को अपने थ्रो में सहायता के लिए निम्नलिखित में से किसका उपयोग करने की अनुमति नहीं है?",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କୁ ନିଜ ଥ୍ରୋରେ ସାହାଯ୍ୟ ପାଇଁ ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ବ୍ୟବହାର କରିବାକୁ ଅନୁମତି ନାହିଁ?"
+    },
+    "options": [
+      { "text": { "en": "Chalk", "hi": "चाक", "or": "ଚକ୍" }, "isCorrect": false },
+      { "text": { "en": "Gloves", "hi": "दस्ताने", "or": "ଗ୍ଲୋଭ୍ସ" }, "isCorrect": true },
+      { "text": { "en": "A wrist strap", "hi": "एक कलाई का पट्टा", "or": "ଏକ କଚଟି ଷ୍ଟ୍ରାପ୍" }, "isCorrect": false },
+      { "text": { "en": "Spiked shoes", "hi": "कांटेदार जूते", "or": "କଣ୍ଟାଯୁକ୍ତ ଜୋତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-54",
+    "question": {
+      "en": "The final ranking in a competition is determined by:",
+      "hi": "एक प्रतियोगिता में अंतिम रैंकिंग किसके द्वारा निर्धारित की जाती है:",
+      "or": "ଏକ ପ୍ରତିଯୋଗିତାରେ ଅନ୍ତିମ ରାଙ୍କିଙ୍ଗ୍ କାହା ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The average of all throws", "hi": "सभी थ्रो का औसत", "or": "ସମସ୍ତ ଥ୍ରୋର ହାରାହାରି" }, "isCorrect": false },
+      { "text": { "en": "The single best legal throw", "hi": "एकल सर्वश्रेष्ठ कानूनी थ्रो", "or": "ଏକକ ସର୍ବୋତ୍ତମ ବୈଧ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "The consistency of throws", "hi": "थ्रो की निरंतरता", "or": "ଥ୍ରୋର ନିରନ୍ତରତା" }, "isCorrect": false },
+      { "text": { "en": "The final throw only", "hi": "केवल अंतिम थ्रो", "or": "କେବଳ ଅନ୍ତିମ ଥ୍ରୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-55",
+    "question": {
+      "en": "What is the term for passing an attempt?",
+      "hi": "एक प्रयास को छोड़ने के लिए क्या शब्द है?",
+      "or": "ଏକ ପ୍ରୟାସ ଛାଡିଦେବା ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A skip", "hi": "एक स्किप", "or": "ଏକ ସ୍କିପ୍" }, "isCorrect": false },
+      { "text": { "en": "A pass", "hi": "एक पास", "or": "ଏକ ପାସ୍" }, "isCorrect": true },
+      { "text": { "en": "A foul", "hi": "एक फाउल", "or": "ଏକ ଫାଉଲ୍" }, "isCorrect": false },
+      { "text": { "en": "A drop", "hi": "एक ड्रॉप", "or": "ଏକ ଡ୍ରପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-56",
+    "question": {
+      "en": "What is a common injury associated with improper javelin throwing technique?",
+      "hi": "अनुचित भाला फेंकने की तकनीक से जुड़ी एक आम चोट क्या है?",
+      "or": "ଅନୁପଯୁକ୍ତ ଜାଭେଲିନ୍ ଫିଙ୍ଗିବା କୌଶଳ ସହିତ ଜଡିତ ଏକ ସାଧାରଣ ଆଘାତ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Ankle sprain", "hi": "टखने में मोच", "or": "ଗୋଡ଼ଗଣ୍ଠି ମୋଡ଼ି ହେବା" }, "isCorrect": false },
+      { "text": { "en": "Elbow or shoulder injury", "hi": "कोहनी या कंधे की चोट", "or": "କହୁଣୀ ବା କାନ୍ଧରେ ଆଘାତ" }, "isCorrect": true },
+      { "text": { "en": "Wrist fracture", "hi": "कलाई का फ्रैक्चर", "or": "କଚଟି ଭାଙ୍ଗିବା" }, "isCorrect": false },
+      { "text": { "en": "Knee ligament tear", "hi": "घुटने के लिगामेंट का फटना", "or": "ଆଣ୍ଠୁ ଲିଗାମେଣ୍ଟ ଛିଣ୍ଡିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-57",
+    "question": {
+      "en": "The hip action during the throw should be:",
+      "hi": "थ्रो के दौरान कूल्हे की क्रिया होनी चाहिए:",
+      "or": "ଥ୍ରୋ ସମୟରେ ନିତମ୍ବର କ୍ରିୟା କିପରି ହେବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "Stationary and stable", "hi": "स्थिर और स्थिर", "or": "ସ୍ଥିର ଏବଂ ସୁଦୃଢ଼" }, "isCorrect": false },
+      { "text": { "en": "A powerful rotation leading the upper body", "hi": "ऊपरी शरीर का नेतृत्व करते हुए एक शक्तिशाली घुमाव", "or": "ଉପର ଶରୀରକୁ ନେତୃତ୍ୱ ଦେଉଥିବା ଏକ ଶକ୍ତିଶାଳୀ ଘୂର୍ଣ୍ଣନ" }, "isCorrect": true },
+      { "text": { "en": "A simple forward movement", "hi": "एक साधारण आगे की गति", "or": "ଏକ ସାଧାରଣ ଆଗକୁ ଗତି" }, "isCorrect": false },
+      { "text": { "en": "A backward lean", "hi": "एक पीछे की ओर झुकाव", "or": "ଏକ ପଛକୁ ଢଳିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-58",
+    "question": {
+      "en": "If two athletes have the same best throw, how is a tie typically broken?",
+      "hi": "यदि दो एथलीटों का सर्वश्रेष्ठ थ्रो समान है, तो टाई को आमतौर पर कैसे तोड़ा जाता है?",
+      "or": "ଯଦି ଦୁଇ ଆଥଲେଟଙ୍କ ସର୍ବୋତ୍ତମ ଥ୍ରୋ ସମାନ, ତେବେ ଟାଇ ସାଧାରଣତଃ କିପରି ଭଙ୍ଗାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "By their height", "hi": "उनकी ऊंचाई से", "or": "ସେମାନଙ୍କ ଉଚ୍ଚତା ଦ୍ୱାରା" }, "isCorrect": false },
+      { "text": { "en": "By comparing their second-best throws", "hi": "उनके दूसरे-सर्वश्रेष्ठ थ्रो की तुलना करके", "or": "ସେମାନଙ୍କ ଦ୍ୱିତୀୟ-ସର୍ବୋତ୍ତମ ଥ୍ରୋ ତୁଳନା କରି" }, "isCorrect": true },
+      { "text": { "en": "With a re-throw", "hi": "एक री-थ्रो के साथ", "or": "ଏକ ପୁନର୍ବାର ଥ୍ରୋ ସହିତ" }, "isCorrect": false },
+      { "text": { "en": "It remains a tie", "hi": "यह एक टाई रहता है", "or": "ଏହା ଏକ ଟାଇ ରହେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-59",
+    "question": {
+      "en": "What is the purpose of the tapered tail on a javelin?",
+      "hi": "भाला पर पतली पूंछ का उद्देश्य क्या है?",
+      "or": "ଜାଭେଲିନରେ ପତଳା ଲାଞ୍ଜର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To make it look better", "hi": "इसे बेहतर दिखाने के लिए", "or": "ଏହାକୁ ଭଲ ଦେଖାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To improve aerodynamic stability", "hi": "वायुगतिकीय स्थिरता में सुधार करने के लिए", "or": "ଏରୋଡାଇନାମିକ୍ ସ୍ଥିରତା ଉନ୍ନତ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To make it easier to grip", "hi": "इसे पकड़ना आसान बनाने के लिए", "or": "ଏହାକୁ ଧରିବା ସହଜ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To add weight", "hi": "वजन जोड़ने के लिए", "or": "ଓଜନ ଯୋଡ଼ିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-60",
+    "question": {
+      "en": "Where should an athlete's eyes be focused during the final delivery?",
+      "hi": "अंतिम डिलीवरी के दौरान एथलीट की आंखें कहां केंद्रित होनी चाहिए?",
+      "or": "ଅନ୍ତିମ ଡେଲିଭରି ସମୟରେ ଜଣେ ଆଥଲେଟଙ୍କ ଆଖି କେଉଁଠାରେ କେନ୍ଦ୍ରିତ ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "On their feet", "hi": "अपने पैरों पर", "or": "ନିଜ ପାଦରେ" }, "isCorrect": false },
+      { "text": { "en": "Down the sector in the direction of the throw", "hi": "फेंकने की दिशा में सेक्टर के नीचे", "or": "ଫିଙ୍ଗିବାର ଦିଗରେ ସେକ୍ଟର ତଳକୁ" }, "isCorrect": true },
+      { "text": { "en": "At the javelin itself", "hi": "भाला पर ही", "or": "ଜାଭେଲିନ୍ ଉପରେ" }, "isCorrect": false },
+      { "text": { "en": "At the sky", "hi": "आसमान पर", "or": "ଆକାଶରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-61",
+    "question": {
+      "en": "The final part of the throw after the javelin has left the hand is the:",
+      "hi": "भाला हाथ से छूटने के बाद थ्रो का अंतिम भाग है:",
+      "or": "ଜାଭେଲିନ୍ ହାତରୁ ଛାଡିବା ପରେ ଥ୍ରୋର ଅନ୍ତିମ ଅଂଶ ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "The Release", "hi": "रिलीज़", "or": "ରିଲିଜ୍" }, "isCorrect": false },
+      { "text": { "en": "The Recovery", "hi": "रिकवरी", "or": "ରିକଭରି" }, "isCorrect": true },
+      { "text": { "en": "The Block", "hi": "ब्लॉक", "or": "ବ୍ଲକ୍" }, "isCorrect": false },
+      { "text": { "en": "The Finish", "hi": "फिनिश", "or": "ଫିନିଶ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-62",
+    "question": {
+      "en": "Can an athlete stop their run-up and restart if they haven't started the throwing motion?",
+      "hi": "क्या कोई एथलीट अपना रन-अप रोक सकता है और फिर से शुरू कर सकता है यदि उसने फेंकने की गति शुरू नहीं की है?",
+      "or": "ଯଦି ଜଣେ ଆଥଲେଟ୍ ଫିଙ୍ଗିବା ଗତି ଆରମ୍ଭ କରିନାହାଁନ୍ତି, ତେବେ ସେ କ'ଣ ନିଜ ରନ୍-ଅପ୍ ଅଟକାଇ ପୁନର୍ବାର ଆରମ୍ଭ କରିପାରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "No, it is an immediate foul", "hi": "नहीं, यह एक तत्काल फाउल है", "or": "ନା, ଏହା ଏକ ତୁରନ୍ତ ଫାଉଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Yes, as long as it is within the time limit", "hi": "हाँ, जब तक यह समय सीमा के भीतर है", "or": "ହଁ, ଯେପର୍ଯ୍ୟନ୍ତ ଏହା ସମୟ ସୀମା ମଧ୍ୟରେ ଅଛି" }, "isCorrect": true },
+      { "text": { "en": "Only one restart is allowed", "hi": "केवल एक पुनरारंभ की अनुमति है", "or": "କେବଳ ଏକ ପୁନର୍ବାର ଆରମ୍ଭ ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "Only if the official gives permission", "hi": "केवल यदि अधिकारी अनुमति देता है", "or": "କେବଳ ଯଦି ଅଧିକାରୀ ଅନୁମତି ଦିଅନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-63",
+    "question": {
+      "en": "What is the term for throwing the javelin with minimal run-up, often as a drill?",
+      "hi": "न्यूनतम रन-अप के साथ भाला फेंकने के लिए क्या शब्द है, जो अक्सर एक ड्रिल के रूप में होता है?",
+      "or": "ସର୍ବନିମ୍ନ ରନ୍-ଅପ୍ ସହିତ ଜାଭେଲିନ୍ ଫିଙ୍ଗିବା ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ, ଯାହା ପ୍ରାୟତଃ ଏକ ଡ୍ରିଲ୍ ଭାବରେ ହୋଇଥାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A short throw", "hi": "एक छोटा थ्रो", "or": "ଏକ ଛୋଟ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A standing throw", "hi": "एक स्टैंडिंग थ्रो", "or": "ଏକ ଷ୍ଟାଣ୍ଡିଂ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "A practice throw", "hi": "एक अभ्यास थ्रो", "or": "ଏକ ଅଭ୍ୟାସ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A warm-up toss", "hi": "एक वार्म-अप टॉस", "or": "ଏକ ୱାର୍ମ-ଅପ୍ ଟସ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-64",
+    "question": {
+      "en": "What does 'throwing through the point' mean?",
+      "hi": "'पॉइंट के माध्यम से फेंकने' का क्या मतलब है?",
+      "or": "'ପଏଣ୍ଟ ମାଧ୍ୟମରେ ଫିଙ୍ଗିବା'ର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Aiming for a specific point in the sector", "hi": "सेक्टर में एक विशिष्ट बिंदु के लिए लक्ष्य करना", "or": "ସେକ୍ଟରରେ ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ବିନ୍ଦୁ ପାଇଁ ଲକ୍ଷ୍ୟ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Applying force in a straight line through the javelin's length", "hi": "भाला की लंबाई के माध्यम से एक सीधी रेखा में बल लगाना", "or": "ଜାଭେଲିନର ଦୈର୍ଘ୍ୟ ମାଧ୍ୟମରେ ଏକ ସରଳ ରେଖାରେ ବଳ ପ୍ରୟୋଗ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Making sure the point lands first", "hi": "यह सुनिश्चित करना कि पॉइंट पहले उतरे", "or": "ପଏଣ୍ଟ ପ୍ରଥମେ ପଡ଼ିବା ସୁନିଶ୍ଚିତ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "A type of grip", "hi": "एक प्रकार की पकड़", "or": "ଏକ ପ୍ରକାରର ଗ୍ରିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-65",
+    "question": {
+      "en": "An athlete's personal best is often abbreviated as:",
+      "hi": "एक एथलीट का व्यक्तिगत सर्वश्रेष्ठ अक्सर संक्षिप्त रूप में होता है:",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କ ବ୍ୟକ୍ତିଗତ ଶ୍ରେଷ୍ଠକୁ ପ୍ରାୟତଃ ସଂକ୍ଷେପରେ କ'ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "PB", "hi": "पीबी", "or": "ପିବି" }, "isCorrect": true },
+      { "text": { "en": "AT", "hi": "एटी", "or": "ଏଟି" }, "isCorrect": false },
+      { "text": { "en": "WR", "hi": "डब्ल्यूआर", "or": "ଡବ୍ଲୁଆର୍" }, "isCorrect": false },
+      { "text": { "en": "SB", "hi": "एसबी", "or": "ଏସବି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-66",
+    "question": {
+      "en": "In what situation would an official use a steel tape for measurement?",
+      "hi": "एक अधिकारी किस स्थिति में माप के लिए स्टील टेप का उपयोग करेगा?",
+      "or": "କେଉଁ ପରିସ୍ଥିତିରେ ଜଣେ ଅଧିକାରୀ ମାପ ପାଇଁ ଷ୍ଟିଲ୍ ଟେପ୍ ବ୍ୟବହାର କରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "For all throws", "hi": "सभी थ्रो के लिए", "or": "ସମସ୍ତ ଥ୍ରୋ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "Only when a record is being attempted or broken", "hi": "केवल जब किसी रिकॉर्ड का प्रयास किया जा रहा हो या तोड़ा जा रहा हो", "or": "କେବଳ ଯେତେବେଳେ ଏକ ରେକର୍ଡ ପାଇଁ ପ୍ରୟାସ କରାଯାଉଥାଏ ବା ଭଙ୍ଗାଯାଉଥାଏ" }, "isCorrect": true },
+      { "text": { "en": "For foul throws", "hi": "फाउल थ्रो के लिए", "or": "ଫାଉଲ୍ ଥ୍ରୋ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "When the electronic measurement fails", "hi": "जब इलेक्ट्रॉनिक माप विफल हो जाता है", "or": "ଯେତେବେଳେ ଇଲେକ୍ଟ୍ରୋନିକ୍ ମାପ ବିଫଳ ହୁଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-67",
+    "question": {
+      "en": "What is a key difference between a training javelin and a competition javelin?",
+      "hi": "एक प्रशिक्षण भाला और एक प्रतियोगिता भाला के बीच एक महत्वपूर्ण अंतर क्या है?",
+      "or": "ଏକ ପ୍ରଶିକ୍ଷଣ ଜାଭେଲିନ୍ ଏବଂ ଏକ ପ୍ରତିଯୋଗିତା ଜାଭେଲିନ୍ ମଧ୍ୟରେ ଏକ ମୁଖ୍ୟ ପାର୍ଥକ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Training javelins are heavier", "hi": "प्रशिक्षण भाला भारी होते हैं", "or": "ପ୍ରଶିକ୍ଷଣ ଜାଭେଲିନ୍ ଓଜନିଆ ଅଟେ" }, "isCorrect": false },
+      { "text": { "en": "Competition javelins have stricter specifications and are less durable", "hi": "प्रतियोगिता भाला में सख्त विनिर्देश होते हैं और वे कम टिकाऊ होते हैं", "or": "ପ୍ରତିଯୋଗିତା ଜାଭେଲିନର କଠୋର ନିର୍ଦ୍ଦିଷ୍ଟତା ଥାଏ ଏବଂ କମ୍ ଟେକসই ଅଟେ" }, "isCorrect": true },
+      { "text": { "en": "There is no difference", "hi": "कोई अंतर नहीं है", "or": "କୌଣସି ପାର୍ଥକ୍ୟ ନାହିଁ" }, "isCorrect": false },
+      { "text": { "en": "Training javelins have rubber tips", "hi": "प्रशिक्षण भाला में रबर के टिप होते हैं", "or": "ପ୍ରଶିକ୍ଷଣ ଜାଭେଲିନର ରବର ଟିପ୍ ଥାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-68",
+    "question": {
+      "en": "What does a 'flat' throw mean?",
+      "hi": "एक 'फ्लैट' थ्रो का क्या मतलब है?",
+      "or": "ଏକ 'ଫ୍ଲାଟ୍' ଥ୍ରୋର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A throw with a very low trajectory and poor lift", "hi": "बहुत कम प्रक्षेपवक्र और खराब लिफ्ट के साथ एक थ्रो", "or": "ବହୁତ କମ୍ ଟ୍ରାଜେକ୍ଟୋରୀ ଏବଂ ଖରାପ ଲିଫ୍ଟ ସହିତ ଏକ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "A throw that lands perfectly flat", "hi": "एक थ्रो जो पूरी तरह से सपाट उतरता है", "or": "ଏକ ଥ୍ରୋ ଯାହା ସମ୍ପୂର୍ଣ୍ଣ ସମତଳ ଭାବରେ ପଡ଼େ" }, "isCorrect": false },
+      { "text": { "en": "A throw with no spin", "hi": "बिना स्पिन के एक थ्रो", "or": "ବିନା ସ୍ପିନରେ ଏକ ଥ୍ରୋ" }, "isCorrect": false },
+      { "text": { "en": "A personal best throw", "hi": "एक व्यक्तिगत सर्वश्रेष्ठ थ्रो", "or": "ଏକ ବ୍ୟକ୍ତିଗତ ଶ୍ରେଷ୍ଠ ଥ୍ରୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-69",
+    "question": {
+      "en": "Which of the following is an example of a javelin-specific conditioning drill?",
+      "hi": "निम्नलिखित में से कौन सा भाला-विशिष्ट कंडीशनिंग ड्रिल का एक उदाहरण है?",
+      "or": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ଜାଭେଲିନ୍-ନିର୍ଦ୍ଦିଷ୍ଟ କଣ୍ଡିସନିଂ ଡ୍ରିଲର ଏକ ଉଦାହରଣ?"
+    },
+    "options": [
+      { "text": { "en": "Marathon running", "hi": "मैराथन दौड़", "or": "ମାରାଥନ୍ ଦୌଡ଼" }, "isCorrect": false },
+      { "text": { "en": "Backward overhead medicine ball throws", "hi": "पीछे की ओर ओवरहेड मेडिसिन बॉल थ्रो", "or": "ପଛକୁ ଓଭରହେଡ୍ ମେଡିସିନ୍ ବଲ୍ ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "Cycling", "hi": "साइकिल चलाना", "or": "ସାଇକେଲ୍ ଚଲାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Swimming", "hi": "तैराकी", "or": "ପହଁରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "jav-70",
+    "question": {
+      "en": "An athlete can use a marker on the runway for what purpose?",
+      "hi": "एक एथलीट रनवे पर एक मार्कर का उपयोग किस उद्देश्य के लिए कर सकता है?",
+      "or": "ଜଣେ ଆଥଲେଟ୍ ରନୱେରେ ଏକ ମାର୍କର୍ କେଉଁ ଉଦ୍ଦେଶ୍ୟରେ ବ୍ୟବହାର କରିପାରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "To mark their best throw", "hi": "अपने सर्वश्रेष्ठ थ्रो को चिह्नित करने के लिए", "or": "ନିଜର ସର୍ବୋତ୍ତମ ଥ୍ରୋ ଚିହ୍ନିତ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To mark a check-point in their run-up", "hi": "अपने रन-अप में एक चेक-पॉइंट चिह्नित करने के लिए", "or": "ନିଜ ରନ୍-ଅପରେ ଏକ ଚେକ୍-ପଏଣ୍ଟ ଚିହ୍ନିତ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To indicate their nationality", "hi": "अपनी राष्ट्रीयता को इंगित करने के लिए", "or": "ନିଜ ଜାତୀୟତା ସୂଚାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "Markers are not allowed", "hi": "मार्करों की अनुमति नहीं है", "or": "ମାର୍କର୍ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  }
+]
+

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "run-1",
+    "question": {
+      "en": "In a 100m sprint, what is the initial phase out of the starting blocks called?",
+      "hi": "100 मीटर स्प्रिंट में, स्टार्टिंग ब्लॉक से बाहर निकलने के प्रारंभिक चरण को क्या कहा जाता है?",
+      "or": "୧୦୦ ମିଟର ସ୍ପ୍ରିଣ୍ଟରେ, ଷ୍ଟାର୍ଟିଂ ବ୍ଲକରୁ ବାହାରିବାର ପ୍ରାରମ୍ଭିକ ପର୍ଯ୍ୟାୟକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "en": "Cruise", "hi": "क्रूज", "or": "କ୍ରୁଜ୍" },
+      { "en": "Drive", "hi": "ड्राइव", "or": "ଡ୍ରାଇଭ୍" },
+      { "en": "Float", "hi": "फ्लोट", "or": "ଫ୍ଲୋଟ୍" },
+      { "en": "Jog", "hi": "जॉग", "or": "ଜଗ୍" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-2",
+    "question": {
+      "en": "What is the standard width of a lane on a 400m athletics track?",
+      "hi": "400 मीटर एथलेटिक्स ट्रैक पर एक लेन की मानक चौड़ाई क्या है?",
+      "or": "୪୦୦ ମିଟର ଆଥଲେଟିକ୍ସ ଟ୍ରାକରେ ଗୋଟିଏ ଲେନର ମାନକ ପ୍ରସ୍ଥ କେତେ?"
+    },
+    "options": [
+      { "en": "1.00 m", "hi": "1.00 मीटर", "or": "୧.୦୦ ମିଟର" },
+      { "en": "1.12 m", "hi": "1.12 मीटर", "or": "୧.୧୨ ମିଟର" },
+      { "en": "1.22 m", "hi": "1.22 मीटर", "or": "୧.୨୨ ମିଟର" },
+      { "en": "1.50 m", "hi": "1.50 मीटर", "or": "୧.୫୦ ମିଟର" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-3",
+    "question": {
+      "en": "Under current international rules, what is the consequence of a single false start?",
+      "hi": "वर्तमान अंतरराष्ट्रीय नियमों के तहत, एक बार गलत शुरुआत करने का क्या परिणाम होता है?",
+      "or": "ବର୍ତ୍ତମାନର ଆନ୍ତର୍ଜାତୀୟ ନିୟମ ଅନୁଯାୟୀ, ଗୋଟିଏ ଭୁଲ୍ ଷ୍ଟାର୍ଟର ପରିଣାମ କ'ଣ?"
+    },
+    "options": [
+      { "en": "A warning", "hi": "एक चेतावनी", "or": "ଏକ ଚେତାବନୀ" },
+      { "en": "Disqualification", "hi": "अयोग्यता", "or": "ଅଯୋଗ୍ୟତା" },
+      { "en": "Time penalty", "hi": "समय का जुर्माना", "or": "ସମୟ ଦଣ୍ଡ" },
+      { "en": "Restart from behind the line", "hi": "लाइन के पीछे से पुनरारंभ", "or": "ଲାଇନ ପଛରୁ ପୁନାରମ୍ଭ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-4",
+    "question": {
+      "en": "What part of the body determines the winner when crossing the finish line?",
+      "hi": "फिनिश लाइन पार करते समय शरीर का कौन सा हिस्सा विजेता का निर्धारण करता है?",
+      "or": "ଫିନିଶ୍ ଲାଇନ୍ ପାର୍ ହେବାବେଳେ ଶରୀରର କେଉଁ ଅଂଶ ବିଜେତା ନିର୍ଣ୍ଣୟ କରେ?"
+    },
+    "options": [
+      { "en": "Head", "hi": "सिर", "or": "ମୁଣ୍ଡ" },
+      { "en": "Hands", "hi": "हाथ", "or": "ହାତ" },
+      { "en": "Torso", "hi": "धड़", "or": "ଧଡ଼" },
+      { "en": "Foot", "hi": "पैर", "or": "ପାଦ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-5",
+    "question": {
+      "en": "What is the maximum allowable wind assistance for a 100m time to be valid for records?",
+      "hi": "100 मीटर के समय को रिकॉर्ड के लिए वैध होने के लिए अधिकतम स्वीकार्य पवन सहायता क्या है?",
+      "or": "ରେକର୍ଡ ପାଇଁ ୧୦୦ ମିଟର ସମୟ ବୈଧ ହେବାକୁ ସର୍ବାଧିକ ଅନୁମତିପ୍ରାପ୍ତ ପବନ ସହାୟତା କେତେ?"
+    },
+    "options": [
+      { "en": "1.0 m/s", "hi": "1.0 मीटर/सेकंड", "or": "୧.୦ ମି/ସେ" },
+      { "en": "1.5 m/s", "hi": "1.5 मीटर/सेकंड", "or": "୧.୫ ମି/ସେ" },
+      { "en": "2.0 m/s", "hi": "2.0 मीटर/सेकंड", "or": "୨.୦ ମି/ସେ" },
+      { "en": "2.5 m/s", "hi": "2.5 मीटर/सेकंड", "or": "୨.୫ ମି/ସେ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-6",
+    "question": {
+      "en": "What is the term for the phase where a sprinter reaches their highest speed?",
+      "hi": "उस चरण के लिए क्या शब्द है जहां एक धावक अपनी उच्चतम गति तक पहुंचता है?",
+      "or": "ଯେଉଁ ପର୍ଯ୍ୟାୟରେ ଜଣେ ସ୍ପ୍ରିଣ୍ଟର୍ ସର୍ବୋଚ୍ଚ ଗତିରେ ପହଞ୍ଚେ, ସେଥିପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Acceleration", "hi": "एक्सीलरेशन", "or": "ତ୍ୱରଣ" },
+      { "en": "Maximum Velocity", "hi": "मैक्सिमम वेलोसिटी", "or": "ସର୍ବାଧିକ ବେଗ" },
+      { "en": "Speed Endurance", "hi": "स्पीड एंड्योरेंस", "or": "ଗତି ସହନଶୀଳତା" },
+      { "en": "Deceleration", "hi": "डिसेलेरेशन", "or": "ମନ୍ଥରତା" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-7",
+    "question": {
+      "en": "What command from the starter follows 'On your marks'?",
+      "hi": "स्टार्टर से 'ऑन योर मार्क्स' के बाद कौन सा कमांड आता है?",
+      "or": "'ଅନ୍ ୟୋର୍ ମାର୍କସ୍' ପରେ ଷ୍ଟାର୍ଟରଙ୍କ କେଉଁ ଆଦେଶ ଆସେ?"
+    },
+    "options": [
+      { "en": "Go", "hi": "गो", "or": "ଗୋ" },
+      { "en": "Ready", "hi": "रेडी", "or": "ରେଡି" },
+      { "en": "Set", "hi": "सेट", "or": "ସେଟ୍" },
+      { "en": "Run", "hi": "रन", "or": "ରନ୍" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-8",
+    "question": {
+      "en": "Sprinting shoes are commonly known as what?",
+      "hi": "स्प्रिंटिंग शूज़ को आमतौर पर क्या कहा जाता है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂ ଜୋତା ସାଧାରଣତଃ କ'ଣ ଭାବରେ ଜଣାଶୁଣା?"
+    },
+    "options": [
+      { "en": "Cleats", "hi": "क्लीट्स", "or": "କ୍ଲିଟସ୍" },
+      { "en": "Spikes", "hi": "स्पाइक्स", "or": "ସ୍ପାଇକ୍ସ" },
+      { "en": "Flats", "hi": "फ्लैट्स", "or": "ଫ୍ଲାଟସ୍" },
+      { "en": "Trainers", "hi": "ट्रेनर्स", "or": "ଟ୍ରେନର୍ସ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-9",
+    "question": {
+      "en": "What is the term for an athlete's personal best time in an event?",
+      "hi": "किसी इवेंट में एथलीट के व्यक्तिगत सर्वश्रेष्ठ समय के लिए क्या शब्द है?",
+      "or": "ଗୋଟିଏ ଇଭେଣ୍ଟରେ ଜଣେ ଆଥଲେଟଙ୍କ ବ୍ୟକ୍ତିଗତ ସର୍ବୋତ୍ତମ ସମୟ ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "WR (World Record)", "hi": "डब्ल्यूआर (विश्व रिकॉर्ड)", "or": "ଡବ୍ଲୁଆର୍ (ବିଶ୍ୱ ରେକର୍ଡ)" },
+      { "en": "SB (Season Best)", "hi": "एसबी (सीजन का सर्वश्रेष्ठ)", "or": "ଏସବି (ଋତୁର ସର୍ବୋତ୍ତମ)" },
+      { "en": "PB (Personal Best)", "hi": "पीबी (व्यक्तिगत सर्वश्रेष्ठ)", "or": "ପିବି (ବ୍ୟକ୍ତିଗତ ସର୍ବୋତ୍ତମ)" },
+      { "en": "MR (Meet Record)", "hi": "एमआर (मीट रिकॉर्ड)", "or": "ଏମଆର୍ (ମିଟ୍ ରେକର୍ଡ)" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-10",
+    "question": {
+      "en": "What piece of equipment measures wind speed during a 100m race?",
+      "hi": "100 मीटर दौड़ के दौरान कौन सा उपकरण हवा की गति को मापता है?",
+      "or": "୧୦୦ ମିଟର ଦୌଡ଼ ସମୟରେ କେଉଁ ଉପକରଣ ପବନର ଗତି ମାପେ?"
+    },
+    "options": [
+      { "en": "Barometer", "hi": "बैरोमीटर", "or": "ବାରୋମିଟର" },
+      { "en": "Speedometer", "hi": "स्पीडोमीटर", "or": "ସ୍ପିଡୋମିଟର" },
+      { "en": "Thermometer", "hi": "थर्मामीटर", "or": "ଥର୍ମୋମିଟର" },
+      { "en": "Anemometer", "hi": "एनीमोमीटर", "or": "ଆନେମୋମିଟର" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-11",
+    "question": {
+      "en": "In the 'set' position, where should an athlete's hips be?",
+      "hi": "'सेट' स्थिति में, एक एथलीट के कूल्हे कहाँ होने चाहिए?",
+      "or": "'ସେଟ୍' ସ୍ଥିତିରେ, ଜଣେ ଆଥଲେଟଙ୍କ ନିତମ୍ବ କେଉଁଠାରେ ରହିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "en": "Lower than the shoulders", "hi": "कंधों से नीचे", "or": "କାନ୍ଧଠାରୁ ନୀଚା" },
+      { "en": "Level with the shoulders", "hi": "कंधों के बराबर", "or": "କାନ୍ଧ ସହିତ ସମାନ" },
+      { "en": "Slightly higher than the shoulders", "hi": "कंधों से थोड़ा ऊपर", "or": "କାନ୍ଧଠାରୁ ସାମାନ୍ୟ ଉଚ୍ଚ" },
+      { "en": "As low as possible", "hi": "जितना संभव हो उतना नीचे", "or": "ଯଥାସମ୍ଭବ ନୀଚା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-12",
+    "question": {
+      "en": "What is the primary muscle group used for explosive power from the starting blocks?",
+      "hi": "स्टार्टिंग ब्लॉक से विस्फोटक शक्ति के लिए उपयोग किया जाने वाला प्राथमिक मांसपेशी समूह कौन सा है?",
+      "or": "ଷ୍ଟାର୍ଟିଂ ବ୍ଲକରୁ ବିସ୍ଫୋରକ ଶକ୍ତି ପାଇଁ କେଉଁ ପ୍ରାଥମିକ ମାଂସପେଶୀ ଗୋଷ୍ଠୀ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Abdominals", "hi": "पेट की मांसपेशियां", "or": "ପେଟର ମାଂସପେଶୀ" },
+      { "en": "Biceps", "hi": "बाइसेप्स", "or": "ବାଇସେପ୍ସ" },
+      { "en": "Glutes and Quadriceps", "hi": "ग्लूट्स और क्वाड्रिसेप्स", "or": "ଗ୍ଲୁଟ୍ସ ଏବଂ କ୍ୱାଡ୍ରିସେପ୍ସ" },
+      { "en": "Calves", "hi": "पिंडली", "or": "ପିଚା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-13",
+    "question": {
+      "en": "What is 'reaction time' in the context of a 100m start?",
+      "hi": "100 मीटर की शुरुआत के संदर्भ में 'प्रतिक्रिया समय' क्या है?",
+      "or": "୧୦୦ ମିଟର ଷ୍ଟାର୍ଟ ପ୍ରସଙ୍ଗରେ 'ପ୍ରତିକ୍ରିୟା ସମୟ' କ'ଣ?"
+    },
+    "options": [
+      { "en": "The time it takes to run the first 10 meters", "hi": "पहले 10 मीटर दौड़ने में लगने वाला समय", "or": "ପ୍ରଥମ ୧୦ ମିଟର ଦୌଡ଼ିବାକୁ ଲାଗୁଥିବା ସମୟ" },
+      { "en": "The time between the starting gun and the athlete leaving the blocks", "hi": "स्टार्टिंग गन और एथलीट के ब्लॉक छोड़ने के बीच का समय", "or": "ଷ୍ଟାର୍ଟିଂ ବନ୍ଧୁକ ଏବଂ ଆଥଲେଟ୍ ବ୍ଲକ୍ ଛାଡ଼ିବା ମଧ୍ୟରେ ସମୟ" },
+      { "en": "The total time of the race", "hi": "दौड़ का कुल समय", "or": "ଦୌଡ଼ର ମୋଟ ସମୟ" },
+      { "en": "The time it takes to reach top speed", "hi": "शीर्ष गति तक पहुंचने में लगने वाला समय", "or": "ସର୍ବୋଚ୍ଚ ଗତିରେ ପହଞ୍ଚିବାକୁ ଲାଗୁଥିବା ସମୟ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-14",
+    "question": {
+      "en": "A reaction time below what threshold is considered a false start?",
+      "hi": "किस सीमा से नीचे की प्रतिक्रिया समय को गलत शुरुआत माना जाता है?",
+      "or": "କେଉଁ ସୀମାଠାରୁ କମ୍ ପ୍ରତିକ୍ରିୟା ସମୟକୁ ଏକ ଭୁଲ୍ ଷ୍ଟାର୍ଟ ଭାବରେ ବିବେଚନା କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "0.200 seconds", "hi": "0.200 सेकंड", "or": "୦.୨୦୦ ସେକେଣ୍ଡ" },
+      { "en": "0.150 seconds", "hi": "0.150 सेकंड", "or": "୦.୧୫୦ ସେକେଣ୍ଡ" },
+      { "en": "0.120 seconds", "hi": "0.120 सेकंड", "or": "୦.୧୨୦ ସେକେଣ୍ଡ" },
+      { "en": "0.100 seconds", "hi": "0.100 सेकंड", "or": "୦.୧୦୦ ସେକେଣ୍ଡ" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-15",
+    "question": {
+      "en": "What is the term for the slight forward lean an athlete maintains during the acceleration phase?",
+      "hi": "त्वरण चरण के दौरान एक एथलीट द्वारा बनाए रखा जाने वाला हल्का आगे का झुकाव के लिए क्या शब्द है?",
+      "or": "ତ୍ୱରଣ ପର୍ଯ୍ୟାୟ ସମୟରେ ଜଣେ ଆଥଲେଟ୍ ବଜାୟ ରଖୁଥିବା ସାମାନ୍ୟ ଆଗକୁ ଢଳିବା ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Drive Angle", "hi": "ड्राइव एंगल", "or": "ଡ୍ରାଇଭ୍ ଆଙ୍ଗଲ୍" },
+      { "en": "Slouch", "hi": "स्लाउच", "or": "ସ୍ଲାଉଚ୍" },
+      { "en": "Dip", "hi": "डिप", "or": "ଡିପ୍" },
+      { "en": "Hunch", "hi": "हंच", "or": "ହଞ୍ଚ୍" }
+    ],
+    "correct_answer_index": 0
+  },
+  {
+    "id": "run-16",
+    "question": {
+      "en": "What type of training involves short bursts of intense exercise alternated with recovery periods?",
+      "hi": "किस प्रकार के प्रशिक्षण में तीव्र व्यायाम के छोटे-छोटे अंतराल के बाद आराम की अवधि होती है?",
+      "or": "କେଉଁ ପ୍ରକାରର ପ୍ରଶିକ୍ଷଣରେ ତୀବ୍ର ବ୍ୟାୟାମର ଛୋଟ ଛୋଟ ଅନ୍ତରାଳ ସହିତ ବିଶ୍ରାମ ଅବଧି ଥାଏ?"
+    },
+    "options": [
+      { "en": "Endurance Training", "hi": "एंड्योरेंस ट्रेनिंग", "or": "ସହନଶୀଳତା ପ୍ରଶିକ୍ଷଣ" },
+      { "en": "Weight Training", "hi": "वेट ट्रेनिंग", "or": "ଓଜନ ପ୍ରଶିକ୍ଷଣ" },
+      { "en": "Interval Training", "hi": "इंटरवल ट्रेनिंग", "or": "ଅନ୍ତରାଳ ପ୍ରଶିକ୍ଷଣ" },
+      { "en": "Flexibility Training", "hi": "फ्लेक्सिबिलिटी ट्रेनिंग", "or": "ନମନୀୟତା ପ୍ରଶିକ୍ଷଣ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-17",
+    "question": {
+      "en": "What is a 'staggered start' used for?",
+      "hi": "'स्टैगर्ड स्टार्ट' का उपयोग किस लिए किया जाता है?",
+      "or": "'ଷ୍ଟାଗର୍ଡ ଷ୍ଟାର୍ଟ' କ'ଣ ପାଇଁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "To give faster runners a handicap", "hi": "तेज धावकों को बाधा देने के लिए", "or": "ଦ୍ରୁତ ଦୌଡ଼ାଳିମାନଙ୍କୁ ଏକ ବାଧା ଦେବା ପାଇଁ" },
+      { "en": "To ensure all runners cover the same distance on a curved track", "hi": "यह सुनिश्चित करने के लिए कि सभी धावक एक घुमावदार ट्रैक पर समान दूरी तय करें", "or": "ସମସ୍ତ ଦୌଡ଼ାଳି ଏକ ବକ୍ର ଟ୍ରାକରେ ସମାନ ଦୂରତା ଅତିକ୍ରମ କରୁଛନ୍ତି ବୋଲି ସୁନିଶ୍ଚିତ କରିବା ପାଇଁ" },
+      { "en": "For races longer than 100m", "hi": "100 मीटर से लंबी दौड़ के लिए", "or": "୧୦୦ ମିଟରରୁ ଅଧିକ ଦୂର ଦୌଡ଼ ପାଇଁ" },
+      { "en": "Only in relay races", "hi": "केवल रिले दौड़ में", "or": "କେବଳ ରିଲେ ଦୌଡ଼ରେ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-18",
+    "question": {
+      "en": "The movement of the arms during a sprint should primarily be in which direction?",
+      "hi": "स्प्रिंट के दौरान भुजाओं की गति मुख्य रूप से किस दिशा में होनी चाहिए?",
+      "or": "ଏକ ସ୍ପ୍ରିଣ୍ଟ ସମୟରେ ବାହୁର ଗତି ମୁଖ୍ୟତଃ କେଉଁ ଦିଗରେ ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "en": "Side to side across the body", "hi": "शरीर के आर-पार एक तरफ से दूसरी तरफ", "or": "ଶରୀରର ଏକ ପାର୍ଶ୍ୱରୁ ଅନ୍ୟ ପାର୍ଶ୍ୱକୁ" },
+      { "en": "Forward and backward", "hi": "आगे और पीछे", "or": "ଆଗକୁ ଏବଂ ପଛକୁ" },
+      { "en": "In a circular motion", "hi": "एक गोलाकार गति में", "or": "ଏକ ବୃତ୍ତାକାର ଗତିରେ" },
+      { "en": "Kept still at the sides", "hi": "किनारों पर स्थिर रखा जाए", "or": "ପାର୍ଶ୍ୱରେ ସ୍ଥିର ରଖାଯାଏ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-19",
+    "question": {
+      "en": "What is the term for the number of steps a runner takes per minute?",
+      "hi": "एक धावक द्वारा प्रति मिनट उठाए गए कदमों की संख्या के लिए क्या शब्द है?",
+      "or": "ଜଣେ ଦୌଡ଼ାଳି ପ୍ରତି ମିନିଟରେ ନେଉଥିବା ପଦକ୍ଷେପ ସଂଖ୍ୟା ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Pace", "hi": "पेस", "or": "ଗତି" },
+      { "en": "Rhythm", "hi": "रिदम", "or": "ତାଳ" },
+      { "en": "Stride Length", "hi": "स्ट्राइड लेंथ", "or": "ପଦକ୍ଷେପର ଦୈର୍ଘ୍ୟ" },
+      { "en": "Cadence", "hi": "कैडेंस", "or": "କ୍ୟାଡେନ୍ସ" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-20",
+    "question": {
+      "en": "In sprinting, what does 'drive phase' refer to?",
+      "hi": "स्प्रिंटिंग में, 'ड्राइव फेज' का क्या अर्थ है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂରେ, 'ଡ୍ରାଇଭ୍ ଫେଜ୍' କ'ଣକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "en": "The last 20 meters of the race", "hi": "दौड़ के अंतिम 20 मीटर", "or": "ଦୌଡ଼ର ଶେଷ ୨୦ ମିଟର" },
+      { "en": "The initial acceleration from the blocks", "hi": "ब्लॉक से प्रारंभिक त्वरण", "or": "ବ୍ଲକରୁ ପ୍ରାରମ୍ଭିକ ତ୍ୱରଣ" },
+      { "en": "The middle section of the race at top speed", "hi": "उच्चतम गति पर दौड़ का मध्य भाग", "or": "ସର୍ବୋଚ୍ଚ ଗତିରେ ଦୌଡ଼ର ମଧ୍ୟ ଭାଗ" },
+      { "en": "The warm-up routine before the race", "hi": "दौड़ से पहले का वार्म-अप रूटीन", "or": "ଦୌଡ଼ ପୂର୍ବରୁ ୱାର୍ମ-ଅପ୍ ରୁଟିନ୍" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-21",
+    "question": {
+      "en": "What is a 'photo finish' used to determine?",
+      "hi": "'फोटो फिनिश' का उपयोग क्या निर्धारित करने के लिए किया जाता है?",
+      "or": "'ଫଟୋ ଫିନିଶ୍' କ'ଣ ନିର୍ଣ୍ଣୟ କରିବାକୁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "The exact speed of the winner", "hi": "विजेता की सटीक गति", "or": "ବିଜେତାର ସଠିକ୍ ଗତି" },
+      { "en": "If a false start occurred", "hi": "यदि कोई गलत शुरुआत हुई हो", "or": "ଯଦି ଏକ ଭୁଲ୍ ଷ୍ଟାର୍ଟ ହୋଇଥାଏ" },
+      { "en": "The precise order of finish in a close race", "hi": "एक करीबी दौड़ में खत्म होने का सटीक क्रम", "or": "ଏକ ନିକଟତର ଦୌଡ଼ରେ ଶେଷ ହେବାର ସଠିକ୍ କ୍ରମ" },
+      { "en": "The wind speed during the race", "hi": "दौड़ के दौरान हवा की गति", "or": "ଦୌଡ଼ ସମୟରେ ପବନର ଗତି" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-22",
+    "question": {
+      "en": "What is the name of the object sprinters push off from at the start?",
+      "hi": "शुरुआत में धावक जिस वस्तु से धक्का देते हैं उसका नाम क्या है?",
+      "or": "ଆରମ୍ଭରେ ସ୍ପ୍ରିଣ୍ଟରମାନେ ଯେଉଁ ବସ୍ତୁରୁ ଠେଲି ହୁଅନ୍ତି, ତାହାର ନାମ କ'ଣ?"
+    },
+    "options": [
+      { "en": "Starting Platform", "hi": "स्टार्टिंग प्लेटफॉर्म", "or": "ଷ୍ଟାର୍ଟିଂ ପ୍ଲାଟଫର୍ମ" },
+      { "en": "Launch Pad", "hi": "लॉन्च पैड", "or": "ଲଞ୍ଚ୍ ପ୍ୟାଡ୍" },
+      { "en": "Starting Blocks", "hi": "स्टार्टिंग ब्लॉक्स", "or": "ଷ୍ଟାର୍ଟିଂ ବ୍ଲକ୍ସ" },
+      { "en": "Sprint Gates", "hi": "स्प्रिंट गेट्स", "or": "ସ୍ପ୍ରିଣ୍ଟ୍ ଗେଟ୍ସ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-23",
+    "question": {
+      "en": "What is the purpose of a 'cool-down' after a sprint session?",
+      "hi": "स्प्रिंट सत्र के बाद 'कूल-डाउन' का उद्देश्य क्या है?",
+      "or": "ଏକ ସ୍ପ୍ରିଣ୍ଟ୍ ସେସନ୍ ପରେ 'କୁଲ୍-ଡାଉନ୍'ର ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "en": "To increase top speed", "hi": "उच्चतम गति बढ़ाने के लिए", "or": "ସର୍ବୋଚ୍ଚ ଗତି ବଢ଼ାଇବା ପାଇଁ" },
+      { "en": "To build muscle mass", "hi": "मांसपेशियों का निर्माण करने के लिए", "or": "ମାଂସପେଶୀ ଗଠନ ପାଇଁ" },
+      { "en": "To gradually lower heart rate and prevent muscle soreness", "hi": "हृदय गति को धीरे-धीरे कम करने और मांसपेशियों में दर्द को रोकने के लिए", "or": "ହୃଦ୍‌ସ୍ପନ୍ଦନକୁ ଧୀରେ ଧୀରେ କମାଇବା ଏବଂ ମାଂସପେଶୀ ଯନ୍ତ୍ରଣାକୁ ରୋକିବା ପାଇଁ" },
+      { "en": "To practice starting technique", "hi": "शुरुआती तकनीक का अभ्यास करने के लिए", "or": "ଆରମ୍ଭ କରିବାର କୌଶଳ ଅଭ୍ୟାସ କରିବା ପାଇଁ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-24",
+    "question": {
+      "en": "Which foot is typically placed in the front starting block?",
+      "hi": "आमतौर पर कौन सा पैर सामने के स्टार्टिंग ब्लॉक में रखा जाता है?",
+      "or": "ସାଧାରଣତଃ କେଉଁ ପାଦ ସାମ୍ନା ଷ୍ଟାର୍ଟିଂ ବ୍ଲକରେ ରଖାଯାଏ?"
+    },
+    "options": [
+      { "en": "The non-dominant foot", "hi": "गैर-प्रमुख पैर", "or": "ଅ-ପ୍ରମୁଖ ପାଦ" },
+      { "en": "The dominant or stronger foot", "hi": "प्रमुख या मजबूत पैर", "or": "ପ୍ରମୁଖ ବା ଶକ୍ତିଶାଳୀ ପାଦ" },
+      { "en": "It does not matter", "hi": "इससे कोई फर्क नहीं पड़ता", "or": "ଏଥିରେ କୌଣସି ଫରକ ପଡ଼େ ନାହିଁ" },
+      { "en": "The left foot for all runners", "hi": "सभी धावकों के लिए बायां पैर", "or": "ସମସ୍ତ ଦୌଡ଼ାଳିଙ୍କ ପାଇଁ ବାମ ପାଦ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-25",
+    "question": {
+      "en": "Dynamic stretches, like high knees and butt kicks, are part of what pre-race routine?",
+      "hi": "हाई नीज़ और बट किक्स जैसे डायनेमिक स्ट्रेच, दौड़-पूर्व किस रूटीन का हिस्सा हैं?",
+      "or": "ଉଚ୍ଚ ଆଣ୍ଠୁ ଏବଂ ବଟ୍ କିକ୍ସ ଭଳି ଡାଇନାମିକ୍ ଷ୍ଟ୍ରେଚ୍, ଦୌଡ଼ ପୂର୍ବର କେଉଁ ରୁଟିନ୍‌ର ଅଂଶ?"
+    },
+    "options": [
+      { "en": "Cool-down", "hi": "कूल-डाउन", "or": "କୁଲ୍-ଡାଉନ୍" },
+      { "en": "Warm-up", "hi": "वार्म-अप", "or": "ୱାର୍ମ-ଅପ୍" },
+      { "en": "Hydration", "hi": "हाइड्रेशन", "or": "ହାଇଡ୍ରେସନ୍" },
+      { "en": "Carbo-loading", "hi": "कार्बो-लोडिंग", "or": "କାର୍ବୋ-ଲୋଡିଂ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-26",
+    "question": {
+      "en": "What is the term for the length of a single step while running?",
+      "hi": "दौड़ते समय एक ही कदम की लंबाई के लिए क्या शब्द है?",
+      "or": "ଦୌଡ଼ିବା ସମୟରେ ଗୋଟିଏ ପଦକ୍ଷେପର ଦୈର୍ଘ୍ୟ ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Pace", "hi": "पेस", "or": "ଗତି" },
+      { "en": "Stride Length", "hi": "स्ट्राइड लेंथ", "or": "ପଦକ୍ଷେପର ଦୈର୍ଘ୍ୟ" },
+      { "en": "Cadence", "hi": "कैडेंस", "or": "କ୍ୟାଡେନ୍ସ" },
+      { "en": "Frequency", "hi": "फ्रीक्वेंसी", "or": "ଆବୃତ୍ତି" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-27",
+    "question": {
+      "en": "In a 100m race, runners must stay in their assigned _____ for the entire race.",
+      "hi": "100 मीटर की दौड़ में, धावकों को पूरी दौड़ के लिए अपने निर्धारित _____ में रहना चाहिए।",
+      "or": "୧୦୦ ମିଟର ଦୌଡ଼ରେ, ଦୌଡ଼ାଳିମାନଙ୍କୁ ସମ୍ପୂର୍ଣ୍ଣ ଦୌଡ଼ ପାଇଁ ସେମାନଙ୍କର ନିର୍ଦ୍ଧାରିତ _____ରେ ରହିବାକୁ ପଡ଼ିବ।"
+    },
+    "options": [
+      { "en": "Zone", "hi": "ज़ोन", "or": "ଜୋନ୍" },
+      { "en": "Lane", "hi": "लेन", "or": "ଲେନ୍" },
+      { "en": "Position", "hi": "पोजीशन", "or": "ପୋଜିସନ୍" },
+      { "en": "Section", "hi": "सेक्शन", "or": "ସେକ୍ସନ୍" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-28",
+    "question": {
+      "en": "What does 'dipping' at the finish line mean?",
+      "hi": "फिनिश लाइन पर 'डिपिंग' का क्या मतलब है?",
+      "or": "ଫିନିଶ୍ ଲାଇନରେ 'ଡିପିଂ'ର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "en": "Slowing down intentionally", "hi": "जानबूझकर धीमा होना", "or": "ଜାଣିଶୁଣି ଧୀର ହେବା" },
+      { "en": "Leaning the torso forward to cross the line sooner", "hi": "लाइन को जल्दी पार करने के लिए धड़ को आगे झुकाना", "or": "ଶୀଘ୍ର ଲାଇନ୍ ପାର୍ ହେବା ପାଇଁ ଧଡ଼କୁ ଆଗକୁ ଢଳାଇବା" },
+      { "en": "Falling over at the finish", "hi": "फिनिश पर गिरना", "or": "ଫିନିଶ୍‌ରେ ପଡ଼ିଯିବା" },
+      { "en": "Looking at the clock", "hi": "घड़ी को देखना", "or": "ଘଣ୍ଟାକୁ ଦେଖିବା" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-29",
+    "question": {
+      "en": "Which of these is NOT a phase of a 100m sprint?",
+      "hi": "इनमें से कौन 100 मीटर स्प्रिंट का एक चरण नहीं है?",
+      "or": "ଏଥିମଧ୍ୟରୁ କେଉଁଟି ୧୦୦ ମିଟର ସ୍ପ୍ରିଣ୍ଟର ଏକ ପର୍ଯ୍ୟାୟ ନୁହେଁ?"
+    },
+    "options": [
+      { "en": "Acceleration", "hi": "एक्सीलरेशन", "or": "ତ୍ୱରଣ" },
+      { "en": "Maximum Velocity", "hi": "मैक्सिमम वेलोसिटी", "or": "ସର୍ବାଧିକ ବେଗ" },
+      { "en": "Deceleration", "hi": "डिसेलेरेशन", "or": "ମନ୍ଥରତା" },
+      { "en": "Resting", "hi": "रेस्टिंग", "or": "ବିଶ୍ରାମ" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-30",
+    "question": {
+      "en": "Plyometric exercises, like box jumps, are designed to improve what for a sprinter?",
+      "hi": "बॉक्स जंप जैसे प्लायोमेट्रिक व्यायाम एक धावक के लिए क्या सुधारने के लिए डिज़ाइन किए गए हैं?",
+      "or": "ବକ୍ସ ଜମ୍ପ୍ ଭଳି ପ୍ଲାଇଓମେଟ୍ରିକ୍ ବ୍ୟାୟାମ, ଜଣେ ସ୍ପ୍ରିଣ୍ଟରଙ୍କ ପାଇଁ କ'ଣ ଉନ୍ନତ କରିବାକୁ ଡିଜାଇନ୍ କରାଯାଇଛି?"
+    },
+    "options": [
+      { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" },
+      { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" },
+      { "en": "Explosive power", "hi": "विस्फोटक शक्ति", "or": "ବିସ୍ଫୋରକ ଶକ୍ତି" },
+      { "en": "Breathing technique", "hi": "श्वास तकनीक", "or": "ଶ୍ୱାସକ୍ରିୟା କୌଶଳ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-31",
+    "question": {
+      "en": "A runner's 'form' refers to their:",
+      "hi": "एक धावक का 'फॉर्म' उनके _____ को संदर्भित करता है:",
+      "or": "ଜଣେ ଦୌଡ଼ାଳିଙ୍କ 'ଫର୍ମ' ତାଙ୍କର _____କୁ ବୁଝାଏ:"
+    },
+    "options": [
+      { "en": "Uniform", "hi": "यूनिफॉर्म", "or": "ୟୁନିଫର୍ମ" },
+      { "en": "Running technique and posture", "hi": "दौड़ने की तकनीक और मुद्रा", "or": "ଦୌଡ଼ିବା କୌଶଳ ଏବଂ ମୁଦ୍ରା" },
+      { "en": "Mood before a race", "hi": "दौड़ से पहले का मूड", "or": "ଦୌଡ଼ ପୂର୍ବରୁ ମନୋଭାବ" },
+      { "en": "Shoe type", "hi": "जूते का प्रकार", "or": "ଜୋତାର ପ୍ରକାର" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-32",
+    "question": {
+      "en": "What is the penalty for obstructing another runner during a race?",
+      "hi": "दौड़ के दौरान दूसरे धावक को बाधित करने पर क्या दंड है?",
+      "or": "ଦୌଡ଼ ସମୟରେ ଅନ୍ୟ ଦୌଡ଼ାଳିଙ୍କୁ ବାଧା ଦେବାର ଦଣ୍ଡ କ'ଣ?"
+    },
+    "options": [
+      { "en": "A time penalty", "hi": "एक समय दंड", "or": "ଏକ ସମୟ ଦଣ୍ଡ" },
+      { "en": "A verbal warning", "hi": "एक मौखिक चेतावनी", "or": "ଏକ ମୌଖିକ ଚେତାବନୀ" },
+      { "en": "Disqualification", "hi": "अयोग्यता", "or": "ଅଯୋଗ୍ୟତା" },
+      { "en": "No penalty", "hi": "कोई दंड नहीं", "or": "କୌଣସି ଦଣ୍ଡ ନାହିଁ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-33",
+    "question": {
+      "en": "What is the term for the final, high-speed portion of a race?",
+      "hi": "दौड़ के अंतिम, उच्च-गति वाले हिस्से के लिए क्या शब्द है?",
+      "or": "ଦୌଡ଼ର ଶେଷ, ଉଚ୍ଚ-ଗତି ଅଂଶ ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "The Kick", "hi": "द किक", "or": "ଦ କିକ୍" },
+      { "en": "The Coast", "hi": "द कोस्ट", "or": "ଦ କୋଷ୍ଟ" },
+      { "en": "The Jog", "hi": "द जॉग", "or": "ଦ ଜଗ୍" },
+      { "en": "The Start", "hi": "द स्टार्ट", "or": "ଦ ଷ୍ଟାର୍ଟ" }
+    ],
+    "correct_answer_index": 0
+  },
+  {
+    "id": "run-34",
+    "question": {
+      "en": "What does a tailwind do to a sprinter's time?",
+      "hi": "एक टेलविंड एक धावक के समय पर क्या प्रभाव डालता है?",
+      "or": "ଏକ ଟେଲୱିଣ୍ଡ୍ ଜଣେ ସ୍ପ୍ରିଣ୍ଟରଙ୍କ ସମୟରେ କ'ଣ କରେ?"
+    },
+    "options": [
+      { "en": "Increases it (slower)", "hi": "बढ़ाता है (धीमा)", "or": "ଏହାକୁ ବଢ଼ାଏ (ଧୀର)" },
+      { "en": "Decreases it (faster)", "hi": "घटाता है (तेज)", "or": "ଏହାକୁ କମାଏ (ଦ୍ରୁତ)" },
+      { "en": "Has no effect", "hi": "कोई प्रभाव नहीं डालता", "or": "କୌଣସି ପ୍ରଭାବ ପକାଏ ନାହିଁ" },
+      { "en": "Makes it unpredictable", "hi": "इसे अप्रत्याशित बनाता है", "or": "ଏହାକୁ ଅପ୍ରତ୍ୟାଶିତ କରେ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-35",
+    "question": {
+      "en": "A 'headwind' is wind that blows in which direction relative to the runner?",
+      "hi": "एक 'हेडविंड' वह हवा है जो धावक के सापेक्ष किस दिशा में बहती है?",
+      "or": "ଏକ 'ହେଡୱିଣ୍ଡ୍' ହେଉଛି ପବନ ଯାହା ଦୌଡ଼ାଳିଙ୍କ ସାପେକ୍ଷରେ କେଉଁ ଦିଗରେ ବହେ?"
+    },
+    "options": [
+      { "en": "From behind", "hi": "पीछे से", "or": "ପଛରୁ" },
+      { "en": "From the side", "hi": "बगल से", "or": "ପାର୍ଶ୍ୱରୁ" },
+      { "en": "Against the runner", "hi": "धावक के विरुद्ध", "or": "ଦୌଡ଼ାଳିଙ୍କ ବିପକ୍ଷରେ" },
+      { "en": "Diagonally", "hi": "तिरछे", "or": "ବକ୍ର ଭାବରେ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-36",
+    "question": {
+      "en": "What is the primary energy system used during a 100m sprint?",
+      "hi": "100 मीटर स्प्रिंट के दौरान उपयोग की जाने वाली प्राथमिक ऊर्जा प्रणाली क्या है?",
+      "or": "୧୦୦ ମିଟର ସ୍ପ୍ରିଣ୍ଟ୍ ସମୟରେ କେଉଁ ପ୍ରାଥମିକ ଶକ୍ତି ପ୍ରଣାଳୀ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Aerobic system", "hi": "एरोबिक प्रणाली", "or": "ଏରୋବିକ୍ ପ୍ରଣାଳୀ" },
+      { "en": "Anaerobic system (ATP-PC)", "hi": "एनारोबिक प्रणाली (एटीपी-पीसी)", "or": "ଆନାରୋବିକ୍ ପ୍ରଣାଳୀ (ଏଟିପି-ପିସି)" },
+      { "en": "Digestive system", "hi": "पाचन तंत्र", "or": "ପାଚନ ତନ୍ତ୍ର" },
+      { "en": "Respiratory system", "hi": "श्वसन तंत्र", "or": "ଶ୍ୱସନ ତନ୍ତ୍ର" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-37",
+    "question": {
+      "en": "The final stage of a 100m race, where fatigue sets in and speed decreases, is called what?",
+      "hi": "100 मीटर दौड़ का अंतिम चरण, जहां थकान होती है और गति कम हो जाती है, क्या कहलाता है?",
+      "or": "୧୦୦ ମିଟର ଦୌଡ଼ର ଶେଷ ପର୍ଯ୍ୟାୟ, ଯେଉଁଠାରେ କ୍ଲାନ୍ତି ଆସେ ଏବଂ ଗତି କମିଯାଏ, ତାହାକୁ କ'ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "en": "Acceleration Maintenance", "hi": "एक्सीलरेशन मेंटेनेंस", "or": "ତ୍ୱରଣ ରକ୍ଷଣାବେକ୍ଷଣ" },
+      { "en": "Speed Decay / Deceleration", "hi": "स्पीड डेके / डिसेलेरेशन", "or": "ଗତି କ୍ଷୟ / ମନ୍ଥରତା" },
+      { "en": "The Finish Drive", "hi": "द फिनिश ड्राइव", "or": "ଫିନିଶ୍ ଡ୍ରାଇଭ୍" },
+      { "en": "The Second Wind", "hi": "द सेकंड विंड", "or": "ଦ୍ୱିତୀୟ ପବନ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-38",
+    "question": {
+      "en": "What surface are modern all-weather athletics tracks typically made of?",
+      "hi": "आधुनिक ऑल-वेदर एथलेटिक्स ट्रैक आमतौर पर किस सतह से बने होते हैं?",
+      "or": "ଆଧୁନିକ ସବୁ-ପାଗ ଆଥଲେଟିକ୍ସ ଟ୍ରାକ୍ ସାଧାରଣତଃ କେଉଁ ପୃଷ୍ଠରୁ ତିଆରି ହୋଇଥାଏ?"
+    },
+    "options": [
+      { "en": "Cinder", "hi": "सिंडर", "or": "ସିଣ୍ଡର୍" },
+      { "en": "Grass", "hi": "घास", "or": "ଘାସ" },
+      { "en": "Asphalt", "hi": "एस्फाल्ट", "or": "ଆସଫାଲ୍ଟ" },
+      { "en": "Synthetic rubber (Tartan)", "hi": "सिंथेटिक रबर (टार्टन)", "or": "ସିନ୍ଥେଟିକ୍ ରବର (ଟାର୍ଟାନ୍)" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-39",
+    "question": {
+      "en": "The 'triple extension' in sprinting refers to the extension of which three joints?",
+      "hi": "स्प्रिंटिंग में 'ट्रिपल एक्सटेंशन' किन तीन जोड़ों के विस्तार को संदर्भित करता है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂରେ 'ଟ୍ରିପଲ୍ ଏକ୍ସଟେନ୍ସନ୍' କେଉଁ ତିନୋଟି ଗଣ୍ଠିର ସମ୍ପ୍ରସାରଣକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "en": "Shoulder, elbow, wrist", "hi": "कंधे, कोहनी, कलाई", "or": "କାନ୍ଧ, କହୁଣୀ, କଚଟି" },
+      { "en": "Hip, knee, ankle", "hi": "कूल्हे, घुटने, टखने", "or": "ନିତମ୍ବ, ଆଣ୍ଠୁ, ଗୋଡ଼ଗଣ୍ଠି" },
+      { "en": "Neck, spine, hip", "hi": "गर्दन, रीढ़, कूल्हे", "or": "ବେକ, ମେରୁଦଣ୍ଡ, ନିତମ୍ବ" },
+      { "en": "Knee, ankle, toes", "hi": "घुटने, टखने, पैर की उंगलियां", "or": "ଆଣ୍ଠୁ, ଗୋଡ଼ଗଣ୍ଠି, ପାଦ ଆଙ୍ଗୁଠି" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-40",
+    "question": {
+      "en": "What is a 'heat' in a track meet?",
+      "hi": "एक ट्रैक मीट में 'हीट' क्या है?",
+      "or": "ଏକ ଟ୍ରାକ୍ ମିଟ୍‌ରେ 'ହିଟ୍' କ'ଣ?"
+    },
+    "options": [
+      { "en": "The final race", "hi": "अंतिम दौड़", "or": "ଶେଷ ଦୌଡ଼" },
+      { "en": "A practice race", "hi": "एक अभ्यास दौड़", "or": "ଏକ ଅଭ୍ୟାସ ଦୌଡ଼" },
+      { "en": "A preliminary race to qualify for the next round", "hi": "अगले दौर के लिए अर्हता प्राप्त करने के लिए एक प्रारंभिक दौड़", "or": "ପରବର୍ତ୍ତୀ ରାଉଣ୍ଡ ପାଇଁ ଯୋଗ୍ୟତା ଅର୍ଜନ କରିବାକୁ ଏକ ପ୍ରାରମ୍ଭିକ ଦୌଡ଼" },
+      { "en": "A race run in hot weather", "hi": "गर्म मौसम में दौड़", "or": "ଗରମ ପାଗରେ ଦୌଡ଼" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-41",
+    "question": {
+      "en": "What is the role of dorsiflexion (bringing toes toward the shin) during sprinting?",
+      "hi": "स्प्रिंटिंग के दौरान डॉर्सिफ्लेक्सन (पैर की उंगलियों को पिंडली की ओर लाना) की क्या भूमिका है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂ ସମୟରେ ଡୋର୍ସିଫ୍ଲେକ୍ସନ୍‌ର (ପାଦ ଆଙ୍ଗୁଠିକୁ ପିଚା ଆଡକୁ ଆଣିବା) ଭୂମିକା କ'ଣ?"
+    },
+    "options": [
+      { "en": "It slows the runner down", "hi": "यह धावक को धीमा कर देता है", "or": "ଏହା ଦୌଡ଼ାଳିଙ୍କୁ ଧୀର କରିଦିଏ" },
+      { "en": "It has no function", "hi": "इसका कोई कार्य नहीं है", "or": "ଏହାର କୌଣସି କାର୍ଯ୍ୟ ନାହିଁ" },
+      { "en": "It prepares the foot for optimal ground contact and force application", "hi": "यह पैर को इष्टतम जमीन संपर्क और बल अनुप्रयोग के लिए तैयार करता है", "or": "ଏହା ପାଦକୁ ସର୍ବୋତ୍ତମ ଭୂମି ସଂସ୍ପର୍ଶ ଏବଂ ବଳ ପ୍ରୟୋଗ ପାଇଁ ପ୍ରସ୍ତୁତ କରେ" },
+      { "en": "It is only important for long-distance runners", "hi": "यह केवल लंबी दूरी के धावकों के लिए महत्वपूर्ण है", "or": "ଏହା କେବଳ ଦୀର୍ଘ ଦୂର ଦୌଡ଼ାଳିଙ୍କ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-42",
+    "question": {
+      "en": "What does a recall starter do?",
+      "hi": "एक रिकॉल स्टार्टर क्या करता है?",
+      "or": "ଜଣେ ରିକଲ୍ ଷ୍ଟାର୍ଟର୍ କ'ଣ କରନ୍ତି?"
+    },
+    "options": [
+      { "en": "Times the race", "hi": "दौड़ का समय बताता है", "or": "ଦୌଡ଼ର ସମୟ ନିର୍ଣ୍ଣୟ କରନ୍ତି" },
+      { "en": "Announces the winner", "hi": "विजेता की घोषणा करता है", "or": "ବିଜେତା ଘୋଷଣା କରନ୍ତି" },
+      { "en": "Signals a false start by firing a second gun", "hi": "दूसरी बंदूक चलाकर गलत शुरुआत का संकेत देता है", "or": "ଦ୍ୱିତୀୟ ବନ୍ଧୁକ ଚଳାଇ ଏକ ଭୁଲ୍ ଷ୍ଟାର୍ଟର ସଙ୍କେତ ଦିଅନ୍ତି" },
+      { "en": "Checks the wind speed", "hi": "हवा की गति की जाँच करता है", "or": "ପବନର ଗତି ଯାଞ୍ଚ କରନ୍ତି" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-43",
+    "question": {
+      "en": "Why is a good 'block clearance' important?",
+      "hi": "एक अच्छा 'ब्लॉक क्लीयरेंस' क्यों महत्वपूर्ण है?",
+      "or": "ଏକ ଭଲ 'ବ୍ଲକ୍ କ୍ଲିୟରାନ୍ସ' କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "en": "It looks stylish", "hi": "यह स्टाइलिश दिखता है", "or": "ଏହା ଷ୍ଟାଇଲିସ୍ ଦେଖାଯାଏ" },
+      { "en": "It ensures a quick and efficient transition into the drive phase", "hi": "यह ड्राइव चरण में एक त्वरित और कुशल संक्रमण सुनिश्चित करता है", "or": "ଏହା ଡ୍ରାଇଭ୍ ପର୍ଯ୍ୟାୟକୁ ଏକ ଦ୍ରୁତ ଏବଂ ଦକ୍ଷ ସଂକ୍ରମଣ ସୁନିଶ୍ଚିତ କରେ" },
+      { "en": "It prevents injury", "hi": "यह चोट से बचाता है", "or": "ଏହା ଆଘାତରୁ ରକ୍ଷା କରେ" },
+      { "en": "It is the only way to avoid a false start", "hi": "गलत शुरुआत से बचने का यह एकमात्र तरीका है", "or": "ଏକ ଭୁଲ୍ ଷ୍ଟାର୍ଟରୁ ବଞ୍ଚିବାର ଏହା ଏକମାତ୍ର ଉପାୟ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-44",
+    "question": {
+      "en": "In the 'on your marks' position, how many points of contact should an athlete have with the ground/blocks?",
+      "hi": "'ऑन योर मार्क्स' स्थिति में, एक एथलीट के जमीन/ब्लॉक के साथ कितने संपर्क बिंदु होने चाहिए?",
+      "or": "'ଅନ୍ ୟୋର୍ ମାର୍କସ୍' ସ୍ଥିତିରେ, ଜଣେ ଆଥଲେଟଙ୍କର ଭୂମି/ବ୍ଲକ୍ ସହିତ କେତେ ସଂସ୍ପର୍ଶ ବିନ୍ଦୁ ରହିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "en": "4 (2 hands, 2 feet)", "hi": "4 (2 हाथ, 2 पैर)", "or": "୪ (୨ ହାତ, ୨ ପାଦ)" },
+      { "en": "5 (2 hands, 2 feet, 1 knee)", "hi": "5 (2 हाथ, 2 पैर, 1 घुटना)", "or": "୫ (୨ ହାତ, ୨ ପାଦ, ୧ ଆଣ୍ଠୁ)" },
+      { "en": "6 (2 hands, 2 feet, 2 knees)", "hi": "6 (2 हाथ, 2 पैर, 2 घुटने)", "or": "୬ (୨ ହାତ, ୨ ପାଦ, ୨ ଆଣ୍ଠୁ)" },
+      { "en": "3 (2 feet, 1 hand)", "hi": "3 (2 पैर, 1 हाथ)", "or": "୩ (୨ ପାଦ, ୧ ହାତ)" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-45",
+    "question": {
+      "en": "What is the common length of spikes (pins) for a synthetic track?",
+      "hi": "सिंथेटिक ट्रैक के लिए स्पाइक्स (पिन) की सामान्य लंबाई क्या है?",
+      "or": "ଏକ ସିନ୍ଥେଟିକ୍ ଟ୍ରାକ୍ ପାଇଁ ସ୍ପାଇକ୍ସ (ପିନ୍)ର ସାଧାରଣ ଲମ୍ବ କେତେ?"
+    },
+    "options": [
+      { "en": "15mm (pyramid)", "hi": "15मिमी (पिरामिड)", "or": "୧୫ମିମି (ପିରାମିଡ୍)" },
+      { "en": "12mm (needle)", "hi": "12मिमी (सुई)", "or": "୧୨ମିମି (ଛୁଞ୍ଚି)" },
+      { "en": "9mm (tartan)", "hi": "9मिमी (टार्टन)", "or": "୯ମିମି (ଟାର୍ଟାନ୍)" },
+      { "en": "6mm (pyramid)", "hi": "6मिमी (पिरामिड)", "or": "୬ମିମି (ପିରାମିଡ୍)" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-46",
+    "question": {
+      "en": "The final signal to start the race is typically what?",
+      "hi": "दौड़ शुरू करने का अंतिम संकेत आमतौर पर क्या होता है?",
+      "or": "ଦୌଡ଼ ଆରମ୍ଭ କରିବାର ଶେଷ ସଙ୍କେତ ସାଧାରଣତଃ କ'ଣ?"
+    },
+    "options": [
+      { "en": "A whistle", "hi": "एक सीटी", "or": "ଏକ ହ୍ୱିସିଲ୍" },
+      { "en": "The starter's gun", "hi": "स्टार्टर की बंदूक", "or": "ଷ୍ଟାର୍ଟରଙ୍କ ବନ୍ଧୁକ" },
+      { "en": "A shout of 'Go'", "hi": " 'गो' का नारा", "or": "'ଗୋ'ର ଚିତ୍କାର" },
+      { "en": "A green light", "hi": "एक हरी बत्ती", "or": "ଏକ ସବୁଜ ଆଲୋକ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-47",
+    "question": {
+      "en": "What is 'speed endurance' for a sprinter?",
+      "hi": "एक धावक के लिए 'स्पीड एंड्योरेंस' क्या है?",
+      "or": "ଜଣେ ସ୍ପ୍ରିଣ୍ଟରଙ୍କ ପାଇଁ 'ଗତି ସହନଶୀଳତା' କ'ଣ?"
+    },
+    "options": [
+      { "en": "The ability to jog for a long time", "hi": "लंबे समय तक जॉगिंग करने की क्षमता", "or": "ବହୁ ସମୟ ଧରି ଜଗିଂ କରିବାର କ୍ଷମତା" },
+      { "en": "The ability to accelerate quickly", "hi": "तेजी से गति बढ़ाने की क्षमता", "or": "ଶୀଘ୍ର ତ୍ୱରାନ୍ୱିତ ହେବାର କ୍ଷମତା" },
+      { "en": "The ability to maintain a high speed for as long as possible", "hi": "यथासंभव लंबे समय तक उच्च गति बनाए रखने की क्षमता", "or": "ଯଥାସମ୍ଭବ ଅଧିକ ସମୟ ପାଇଁ ଉଚ୍ଚ ଗତି ବଜାୟ ରଖିବାର କ୍ଷମତା" },
+      { "en": "The ability to run a marathon", "hi": "मैराथन दौड़ने की क्षमता", "or": "ମାରାଥନ୍ ଦୌଡ଼ିବାର କ୍ଷମତା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-48",
+    "question": {
+      "en": "Which of the following is a key component of a sprinter's posture at maximum velocity?",
+      "hi": "निम्नलिखित में से कौन सा अधिकतम वेग पर एक धावक की मुद्रा का एक प्रमुख घटक है?",
+      "or": "ନିମ୍ନଲିଖିତ ମଧ୍ୟରୁ କେଉଁଟି ସର୍ବାଧିକ ବେଗରେ ଜଣେ ସ୍ପ୍ରିଣ୍ଟରଙ୍କ ମୁଦ୍ରାର ଏକ ମୁଖ୍ୟ ଉପାଦାନ?"
+    },
+    "options": [
+      { "en": "Leaning far backward", "hi": "बहुत पीछे झुकना", "or": "ବହୁତ ପଛକୁ ଢଳିବା" },
+      { "en": "Running on heels", "hi": "एड़ी पर दौड़ना", "or": "ଗୋଇଠି ଉପରେ ଦୌଡ଼ିବା" },
+      { "en": "A tall, upright posture with relaxed shoulders", "hi": "आराम से कंधों के साथ एक लंबा, सीधा आसन", "or": "ଆରାମଦାୟକ କାନ୍ଧ ସହିତ ଏକ ଲମ୍ବା, ସିଧା ମୁଦ୍ରା" },
+      { "en": "Looking at their feet", "hi": "अपने पैरों को देखना", "or": "ନିଜ ପାଦକୁ ଦେଖିବା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-49",
+    "question": {
+      "en": "What is the common term for a race between four runners from the same team?",
+      "hi": "एक ही टीम के चार धावकों के बीच की दौड़ के लिए सामान्य शब्द क्या है?",
+      "or": "ଗୋଟିଏ ଦଳର ଚାରି ଜଣ ଦୌଡ଼ାଳିଙ୍କ ମଧ୍ୟରେ ହେଉଥିବା ଦୌଡ଼ ପାଇଁ ସାଧାରଣ ଶବ୍ଦ କ'ଣ?"
+    },
+    "options": [
+      { "en": "A marathon", "hi": "एक मैराथन", "or": "ଏକ ମାରାଥନ୍" },
+      { "en": "A heat", "hi": "एक हीट", "or": "ଏକ ହିଟ୍" },
+      { "en": "A final", "hi": "एक फाइनल", "or": "ଏକ ଫାଇନାଲ୍" },
+      { "en": "A relay", "hi": "एक रिले", "or": "ଏକ ରିଲେ" }
+    ],
+    "correct_answer_index": 3
+  },
+  {
+    "id": "run-50",
+    "question": {
+      "en": "What is the name for the stick passed in a relay race?",
+      "hi": "रिले दौड़ में पास की जाने वाली छड़ी का नाम क्या है?",
+      "or": "ରିଲେ ଦୌଡ଼ରେ ପାସ୍ କରାଯାଉଥିବା ବାଡ଼ିର ନାମ କ'ଣ?"
+    },
+    "options": [
+      { "en": "Rod", "hi": "रॉड", "or": "ରଡ୍" },
+      { "en": "Baton", "hi": "बैटन", "or": "ବାଟନ୍" },
+      { "en": "Stick", "hi": "स्टिक", "or": "ଷ୍ଟିକ୍" },
+      { "en": "Wand", "hi": "वांड", "or": "ୱାଣ୍ଡ୍" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-51",
+    "question": {
+      "en": "The area where the baton must be passed is called the:",
+      "hi": "वह क्षेत्र जहाँ बैटन पास किया जाना चाहिए, क्या कहलाता है:",
+      "or": "ଯେଉଁ ଅଞ୍ଚଳରେ ବାଟନ୍ ପାସ୍ କରାଯିବା ଉଚିତ୍, ତାହାକୁ କ'ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "en": "Passing Zone", "hi": "पासिंग जोन", "or": "ପାସିଂ ଜୋନ୍" },
+      { "en": "Switching Box", "hi": "स्विचिंग बॉक्स", "or": "ସ୍ୱିଚିଂ ବକ୍ସ" },
+      { "en": "Exchange Zone", "hi": "एक्सचेंज जोन", "or": "ଏକ୍ସଚେଞ୍ଜ୍ ଜୋନ୍" },
+      { "en": "Relay Area", "hi": "रिले एरिया", "or": "ରିଲେ ଏରିଆ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-52",
+    "question": {
+      "en": "What is the term for the final runner in a relay team?",
+      "hi": "रिले टीम में अंतिम धावक के लिए क्या शब्द है?",
+      "or": "ରିଲେ ଦଳରେ ଶେଷ ଦୌଡ଼ାଳି ପାଇଁ କେଉଁ ଶବ୍ଦ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "en": "Closer", "hi": "क्लोजर", "or": "କ୍ଲୋଜର୍" },
+      { "en": "Finisher", "hi": "फिनिशर", "or": "ଫିନିଶର୍" },
+      { "en": "Anchor", "hi": "एंकर", "or": "ଆଙ୍କର୍" },
+      { "en": "Terminator", "hi": "टर्मिनेटर", "or": "ଟର୍ମିନେଟର୍" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-53",
+    "question": {
+      "en": "What is 'high knee' action important for in sprinting?",
+      "hi": "स्प्रिंटिंग में 'हाई नी' एक्शन क्यों महत्वपूर्ण है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂରେ 'ଉଚ୍ଚ ଆଣ୍ଠୁ' କ୍ରିୟା କ'ଣ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "en": "It helps in slowing down", "hi": "यह धीमा होने में मदद करता है", "or": "ଏହା ଧୀର ହେବାରେ ସାହାଯ୍ୟ କରେ" },
+      { "en": "It increases stride length and power", "hi": "यह स्ट्राइड की लंबाई और शक्ति को बढ़ाता है", "or": "ଏହା ପଦକ୍ଷେପର ଦୈର୍ଘ୍ୟ ଏବଂ ଶକ୍ତି ବଢ଼ାଏ" },
+      { "en": "It is a way to rest during the race", "hi": "यह दौड़ के दौरान आराम करने का एक तरीका है", "or": "ଏହା ଦୌଡ଼ ସମୟରେ ବିଶ୍ରାମ କରିବାର ଏକ ଉପାୟ" },
+      { "en": "It has no specific importance", "hi": "इसका कोई विशेष महत्व नहीं है", "or": "ଏହାର କୌଣସି ବିଶେଷ ଗୁରୁତ୍ୱ ନାହିଁ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-54",
+    "question": {
+      "en": "The 'split time' refers to the:",
+      "hi": "'स्प्लिट टाइम' का क्या अर्थ है:",
+      "or": "'ସ୍ପ୍ଲିଟ୍ ଟାଇମ୍' କ'ଣକୁ ବୁଝାଏ:"
+    },
+    "options": [
+      { "en": "Total race time", "hi": "कुल दौड़ का समय", "or": "ମୋଟ ଦୌଡ଼ ସମୟ" },
+      { "en": "Time difference between first and second place", "hi": "पहले और दूसरे स्थान के बीच समय का अंतर", "or": "ପ୍ରଥମ ଏବଂ ଦ୍ୱିତୀୟ ସ୍ଥାନ ମଧ୍ୟରେ ସମୟର ପାର୍ଥକ୍ୟ" },
+      { "en": "Time taken to complete a specific segment of the race", "hi": "दौड़ के एक विशिष्ट खंड को पूरा करने में लगने वाला समय", "or": "ଦୌଡ଼ର ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ଅଂଶ ସମାପ୍ତ କରିବାକୁ ଲାଗୁଥିବା ସମୟ" },
+      { "en": "The reaction time at the start", "hi": "शुरुआत में प्रतिक्रिया समय", "or": "ଆରମ୍ଭରେ ପ୍ରତିକ୍ରିୟା ସମୟ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-55",
+    "question": {
+      "en": "What is a 'track official' responsible for?",
+      "hi": "एक 'ट्रैक ऑफिशियल' किसके लिए जिम्मेदार है?",
+      "or": "ଜଣେ 'ଟ୍ରାକ୍ ଅଫିସିଆଲ୍' କ'ଣ ପାଇଁ ଦାୟୀ?"
+    },
+    "options": [
+      { "en": "Coaching the athletes", "hi": "एथलीटों को कोचिंग देना", "or": "ଆଥଲେଟମାନଙ୍କୁ ପ୍ରଶିକ୍ଷଣ ଦେବା" },
+      { "en": "Selling tickets", "hi": "टिकट बेचना", "or": "ଟିକେଟ୍ ବିକ୍ରି କରିବା" },
+      { "en": "Enforcing the rules of the competition", "hi": "प्रतियोगिता के नियमों को लागू करना", "or": "ପ୍ରତିଯୋଗିତାର ନିୟମ ଲାଗୁ କରିବା" },
+      { "en": "Providing refreshments", "hi": "जलपान उपलब्ध कराना", "or": "ଜଳପାନ ଯୋଗାଇବା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-56",
+    "question": {
+      "en": "Why should a sprinter keep their hands and jaw relaxed?",
+      "hi": "एक धावक को अपने हाथ और जबड़े को आराम क्यों देना चाहिए?",
+      "or": "ଜଣେ ସ୍ପ୍ରିଣ୍ଟର୍ ନିଜ ହାତ ଏବଂ ମାଢ଼ିକୁ କାହିଁକି ଆରାମ ଦେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "en": "It has no effect on performance", "hi": "इसका प्रदर्शन पर कोई प्रभाव नहीं पड़ता", "or": "ଏହାର ପ୍ରଦର୍ଶନ ଉପରେ କୌଣସି ପ୍ରଭାବ ପଡ଼େ ନାହିଁ" },
+      { "en": "To conserve energy for the finish", "hi": "फिनिश के लिए ऊर्जा बचाने के लिए", "or": "ଶେଷ ପାଇଁ ଶକ୍ତି ସଞ୍ଚୟ କରିବାକୁ" },
+      { "en": "To prevent unnecessary tension from spreading to the rest of the body", "hi": "अनावश्यक तनाव को शरीर के बाकी हिस्सों में फैलने से रोकने के लिए", "or": "ଅନାବଶ୍ୟକ ଚାପକୁ ଶରୀରର ବାକି ଅଂଶକୁ ବ୍ୟାପିବାରୁ ରୋକିବା ପାଇଁ" },
+      { "en": "It is a sign of confidence", "hi": "यह आत्मविश्वास का संकेत है", "or": "ଏହା ଆତ୍ମବିଶ୍ୱାସର ସଙ୍କେତ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-57",
+    "question": {
+      "en": "What does 'DNS' next to a runner's name in the results mean?",
+      "hi": "परिणामों में एक धावक के नाम के आगे 'DNS' का क्या अर्थ है?",
+      "or": "ଫଳାଫଳରେ ଜଣେ ଦୌଡ଼ାଳିଙ୍କ ନାମ ପାଖରେ 'DNS'ର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "en": "Did Not Succeed", "hi": "सफल नहीं हुआ", "or": "ସଫଳ ହେଲେ ନାହିଁ" },
+      { "en": "Did Not Start", "hi": "शुरू नहीं किया", "or": "ଆରମ୍ଭ କଲେ ନାହିଁ" },
+      { "en": "Disqualified, No Score", "hi": "अयोग्य, कोई स्कोर नहीं", "or": "ଅଯୋଗ୍ୟ, କୌଣସି ସ୍କୋର୍ ନାହିଁ" },
+      { "en": "Decisive New Speed", "hi": "निर्णायक नई गति", "or": "ନିର୍ଣ୍ଣାୟକ ନୂତନ ଗତି" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-58",
+    "question": {
+      "en": "What does 'DNF' mean in race results?",
+      "hi": "दौड़ के परिणामों में 'DNF' का क्या अर्थ है?",
+      "or": "ଦୌଡ଼ ଫଳାଫଳରେ 'DNF'ର ଅର୍ଥ କ'ଣ?"
+    },
+    "options": [
+      { "en": "Did Not Finish", "hi": "खत्म नहीं किया", "or": "ଶେଷ କଲେ ନାହିଁ" },
+      { "en": "Did Nothing False", "hi": "कुछ भी गलत नहीं किया", "or": "କିଛି ଭୁଲ୍ କଲେ ନାହିଁ" },
+      { "en": "Do Not Follow", "hi": "पीछा न करें", "or": "ଅନୁସରଣ କରନ୍ତୁ ନାହିଁ" },
+      { "en": "Definitely Not First", "hi": "निश्चित रूप से पहले नहीं", "or": "ନିଶ୍ଚିତ ଭାବରେ ପ୍ରଥମ ନୁହେଁ" }
+    ],
+    "correct_answer_index": 0
+  },
+  {
+    "id": "run-59",
+    "question": {
+      "en": "What does a 'scratch line' refer to at the start?",
+      "hi": "शुरुआत में 'स्क्रैच लाइन' का क्या अर्थ है?",
+      "or": "ଆରମ୍ଭରେ 'ସ୍କ୍ରାଚ୍ ଲାଇନ୍' କ'ଣକୁ ବୁଝାଏ?"
+    },
+    "options": [
+      { "en": "The finish line", "hi": "फिनिश लाइन", "or": "ଫିନିଶ୍ ଲାଇନ୍" },
+      { "en": "A line runners should scratch their feet on", "hi": "एक लाइन जिस पर धावकों को अपने पैर खरोंचने चाहिए", "or": "ଏକ ଲାଇନ୍ ଯେଉଁଥିରେ ଦୌଡ଼ାଳିମାନେ ନିଜ ପାଦ ଘଷିବା ଉଚିତ୍" },
+      { "en": "Another name for the starting line", "hi": "स्टार्टिंग लाइन का दूसरा नाम", "or": "ଷ୍ଟାର୍ଟିଂ ଲାଇନର ଅନ୍ୟ ଏକ ନାମ" },
+      { "en": "The line marking the exchange zone", "hi": "एक्सचेंज जोन को चिह्नित करने वाली लाइन", "or": "ଏକ୍ସଚେଞ୍ଜ୍ ଜୋନ୍ ଚିହ୍ନିତ କରୁଥିବା ଲାଇନ୍" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-60",
+    "question": {
+      "en": "Which of these is a common type of sprint training drill?",
+      "hi": "इनमें से कौन सा एक सामान्य प्रकार का स्प्रिंट प्रशिक्षण ड्रिल है?",
+      "or": "ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଏକ ସାଧାରଣ ପ୍ରକାରର ସ୍ପ୍ରିଣ୍ଟ୍ ପ୍ରଶିକ୍ଷଣ ଡ୍ରିଲ୍?"
+    },
+    "options": [
+      { "en": "Long distance jogging", "hi": "लंबी दूरी की जॉगिंग", "or": "ଦୀର୍ଘ ଦୂର ଜଗିଂ" },
+      { "en": "A-Skips and B-Skips", "hi": "ए-स्किप्स और बी-स्किप्स", "or": "ଏ-ସ୍କିପ୍ସ ଏବଂ ବି-ସ୍କିପ୍ସ" },
+      { "en": "Static stretching only", "hi": "केवल स्टेटिक स्ट्रेचिंग", "or": "କେବଳ ଷ୍ଟାଟିକ୍ ଷ୍ଟ୍ରେଚିଂ" },
+      { "en": "Heavy weightlifting", "hi": "भारी वजन उठाना", "or": "ଭାରୀ ଓଜନ ଉଠାଇବା" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-61",
+    "question": {
+      "en": "Why do sprinters use starting blocks?",
+      "hi": "धावक स्टार्टिंग ब्लॉक का उपयोग क्यों करते हैं?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟରମାନେ ଷ୍ଟାର୍ଟିଂ ବ୍ଲକ୍ କାହିଁକି ବ୍ୟବହାର କରନ୍ତି?"
+    },
+    "options": [
+      { "en": "To rest before the race", "hi": "दौड़ से पहले आराम करने के लिए", "or": "ଦୌଡ଼ ପୂର୍ବରୁ ବିଶ୍ରାମ କରିବା ପାଇଁ" },
+      { "en": "To provide a stable surface to push against for a more powerful start", "hi": "अधिक शक्तिशाली शुरुआत के लिए एक स्थिर सतह प्रदान करने के लिए", "or": "ଅଧିକ ଶକ୍ତିଶାଳୀ ଆରମ୍ଭ ପାଇଁ ଏକ ସ୍ଥିର ପୃଷ୍ଠ ଯୋଗାଇବା ପାଇଁ" },
+      { "en": "To elevate their feet", "hi": "अपने पैरों को ऊपर उठाने के लिए", "or": "ନିଜ ପାଦକୁ ଉଚ୍ଚରେ ରଖିବା ପାଇଁ" },
+      { "en": "It is just a tradition", "hi": "यह सिर्फ एक परंपरा है", "or": "ଏହା କେବଳ ଏକ ପରମ୍ପରା" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-62",
+    "question": {
+      "en": "The ideal body angle during the initial drive phase is approximately?",
+      "hi": "प्रारंभिक ड्राइव चरण के दौरान आदर्श शरीर का कोण लगभग कितना होता है?",
+      "or": "ପ୍ରାରମ୍ଭିକ ଡ୍ରାଇଭ୍ ପର୍ଯ୍ୟାୟ ସମୟରେ ଆଦର୍ଶ ଶରୀରର କୋଣ ପ୍ରାୟ କେତେ?"
+    },
+    "options": [
+      { "en": "90 degrees (upright)", "hi": "90 डिग्री (सीधा)", "or": "୯୦ ଡିଗ୍ରୀ (ସିଧା)" },
+      { "en": "45 degrees", "hi": "45 डिग्री", "or": "୪୫ ଡିଗ୍ରୀ" },
+      { "en": "10 degrees", "hi": "10 डिग्री", "or": "୧୦ ଡିଗ୍ରୀ" },
+      { "en": "75 degrees", "hi": "75 डिग्री", "or": "୭୫ ଡିଗ୍ରୀ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-63",
+    "question": {
+      "en": "What is a 'fully automatic time' (FAT) system?",
+      "hi": "'पूरी तरह से स्वचालित समय' (FAT) प्रणाली क्या है?",
+      "or": "'ପୂର୍ଣ୍ଣ ସ୍ୱୟଂଚାଳିତ ସମୟ' (FAT) ପ୍ରଣାଳୀ କ'ଣ?"
+    },
+    "options": [
+      { "en": "A system where coaches time their own athletes", "hi": "एक प्रणाली जहां कोच अपने स्वयं के एथलीटों का समय लेते हैं", "or": "ଏକ ପ୍ରଣାଳୀ ଯେଉଁଥିରେ ପ୍ରଶିକ୍ଷକମାନେ ନିଜ ଆଥଲେଟଙ୍କ ସମୟ ନିଅନ୍ତି" },
+      { "en": "A timing system started and stopped by a human official", "hi": "एक मानव अधिकारी द्वारा शुरू और बंद की गई एक समय प्रणाली", "or": "ଜଣେ ମାନବ ଅଧିକାରୀଙ୍କ ଦ୍ୱାରା ଆରମ୍ଭ ଏବଂ ବନ୍ଦ କରାଯାଇଥିବା ଏକ ସମୟ ପ୍ରଣାଳୀ" },
+      { "en": "A system where timing is started by the gun and stopped by a photo finish camera", "hi": "एक प्रणाली जहां समय बंदूक द्वारा शुरू किया जाता है और एक फोटो फिनिश कैमरे द्वारा बंद कर दिया जाता है", "or": "ଏକ ପ୍ରଣାଳୀ ଯେଉଁଥିରେ ସମୟ ବନ୍ଧୁକ ଦ୍ୱାରା ଆରମ୍ଭ ହୁଏ ଏବଂ ଏକ ଫଟୋ ଫିନିଶ୍ କ୍ୟାମେରା ଦ୍ୱାରା ବନ୍ଦ ହୁଏ" },
+      { "en": "An estimate of the race time", "hi": "दौड़ के समय का एक अनुमान", "or": "ଦୌଡ଼ ସମୟର ଏକ ଅନୁମାନ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-64",
+    "question": {
+      "en": "What is the key to a good arm action in sprinting?",
+      "hi": "स्प्रिंटिंग में एक अच्छी भुजा क्रिया की कुंजी क्या है?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟିଂରେ ଏକ ଭଲ ବାହୁ କ୍ରିୟାର ଚାବିକାଠି କ'ଣ?"
+    },
+    "options": [
+      { "en": "Crossing the arms over the chest", "hi": "छाती पर भुजाओं को पार करना", "or": "ଛାତି ଉପରେ ବାହୁ ପାର୍ କରିବା" },
+      { "en": "Keeping the arms perfectly straight", "hi": "भुजाओं को बिल्कुल सीधा रखना", "or": "ବାହୁକୁ ସମ୍ପୂର୍ଣ୍ଣ ସିଧା ରଖିବା" },
+      { "en": "Powerful, relaxed swings from the shoulder ('cheek to pocket')", "hi": "कंधे से शक्तिशाली, आराम से झूलना ('गाल से जेब तक')", "or": "କାନ୍ଧରୁ ଶକ୍ତିଶାଳୀ, ଆରାମଦାୟକ ଦୋଳନ ('ଗାଲରୁ ପକେଟ୍ ପର୍ଯ୍ୟନ୍ତ')" },
+      { "en": "Clenching the fists tightly", "hi": "मुट्ठियों को कसकर भींचना", "or": "ମୁଠିକୁ ଜୋରରେ ବାନ୍ଧିବା" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-65",
+    "question": {
+      "en": "When a runner is disqualified, what is often shown in the results?",
+      "hi": "जब एक धावक को अयोग्य घोषित कर दिया जाता है, तो परिणामों में अक्सर क्या दिखाया जाता है?",
+      "or": "ଯେତେବେଳେ ଜଣେ ଦୌଡ଼ାଳି ଅଯୋଗ୍ୟ ହୁଅନ୍ତି, ଫଳାଫଳରେ ପ୍ରାୟତଃ କ'ଣ ଦେଖାଯାଏ?"
+    },
+    "options": [
+      { "en": "DQ", "hi": "डीक्यू", "or": "ଡିକ୍ୟୁ" },
+      { "en": "OUT", "hi": "आउट", "or": "ଆଉଟ୍" },
+      { "en": "FAIL", "hi": "फेल", "or": "ଫେଲ୍" },
+      { "en": "STOP", "hi": "स्टॉप", "or": "ଷ୍ଟପ୍" }
+    ],
+    "correct_answer_index": 0
+  },
+  {
+    "id": "run-66",
+    "question": {
+      "en": "Why do sprinters try to land on the balls of their feet?",
+      "hi": "धावक अपने पैरों की गेंदों पर उतरने की कोशिश क्यों करते हैं?",
+      "or": "ସ୍ପ୍ରିଣ୍ଟରମାନେ ନିଜ ପାଦର ଆଗ ଭାଗରେ କାହିଁକି ଓହ୍ଲାଇବାକୁ ଚେଷ୍ଟା କରନ୍ତି?"
+    },
+    "options": [
+      { "en": "It is quieter", "hi": "यह शांत है", "or": "ଏହା ଶାନ୍ତ ଅଟେ" },
+      { "en": "To reduce ground contact time and maximize energy return", "hi": "जमीन से संपर्क का समय कम करने और ऊर्जा वापसी को अधिकतम करने के लिए", "or": "ଭୂମି ସଂସ୍ପର୍ଶ ସମୟ କମାଇବା ଏବଂ ଶକ୍ତି ଫେରସ୍ତକୁ ସର୍ବାଧିକ କରିବା ପାଇଁ" },
+      { "en": "It is less tiring on the ankles", "hi": "यह टखनों पर कम थका देने वाला होता है", "or": "ଏହା ଗୋଡ଼ଗଣ୍ଠିରେ କମ୍ କ୍ଲାନ୍ତିକର" },
+      { "en": "To have better balance", "hi": "बेहतर संतुलन के लिए", "or": "ଭଲ ସନ୍ତୁଳନ ପାଇଁ" }
+    ],
+    "correct_answer_index": 1
+  },
+  {
+    "id": "run-67",
+    "question": {
+      "en": "A track meet is another name for what?",
+      "hi": "एक ट्रैक मीट किसका दूसरा नाम है?",
+      "or": "ଏକ ଟ୍ରାକ୍ ମିଟ୍ କାହାର ଅନ୍ୟ ନାମ?"
+    },
+    "options": [
+      { "en": "A training session", "hi": "एक प्रशिक्षण सत्र", "or": "ଏକ ପ୍ରଶିକ୍ଷଣ ସେସନ୍" },
+      { "en": "A team meeting", "hi": "एक टीम बैठक", "or": "ଏକ ଦଳୀୟ ବୈଠକ" },
+      { "en": "An athletics competition", "hi": "एक एथलेटिक्स प्रतियोगिता", "or": "ଏକ ଆଥଲେଟିକ୍ସ ପ୍ରତିଯୋଗିତା" },
+      { "en": "A fan club gathering", "hi": "एक फैन क्लब सभा", "or": "ଏକ ଫ୍ୟାନ୍ କ୍ଲବ୍ ସମାବେଶ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-68",
+    "question": {
+      "en": "What is the main purpose of the blocks' pedals being angled?",
+      "hi": "ब्लॉक के पैडल के कोण पर होने का मुख्य उद्देश्य क्या है?",
+      "or": "ବ୍ଲକର ପେଡାଲ୍ କୋଣୀୟ ହେବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "en": "For comfort", "hi": "आराम के लिए", "or": "ଆରାମ ପାଇଁ" },
+      { "en": "To fit different shoe sizes", "hi": "विभिन्न जूते के आकार में फिट होने के लिए", "or": "ବିଭିନ୍ନ ଜୋତା ଆକାରରେ ଫିଟ୍ ହେବା ପାଇଁ" },
+      { "en": "To allow the runner to apply force more directly and powerfully", "hi": "धावक को अधिक सीधे और शक्तिशाली रूप से बल लगाने की अनुमति देने के लिए", "or": "ଦୌଡ଼ାଳିଙ୍କୁ ଅଧିକ ସିଧାସଳଖ ଏବଂ ଶକ୍ତିଶାଳୀ ଭାବରେ ବଳ ପ୍ରୟୋଗ କରିବାକୁ ଅନୁମତି ଦେବା ପାଇଁ" },
+      { "en": "For aesthetic reasons", "hi": "सौंदर्य कारणों से", "or": "ସୌନ୍ଦର୍ଯ୍ୟ କାରଣରୁ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-69",
+    "question": {
+      "en": "The final command before the gun is 'Set'. What should a runner NOT do in this position?",
+      "hi": "बंदूक से पहले अंतिम आदेश 'सेट' है। एक धावक को इस स्थिति में क्या नहीं करना चाहिए?",
+      "or": "ବନ୍ଧୁକ ପୂର୍ବରୁ ଶେଷ ଆଦେଶ ହେଉଛି 'ସେଟ୍'। ଏହି ସ୍ଥିତିରେ ଜଣେ ଦୌଡ଼ାଳି କ'ଣ କରିବା ଉଚିତ୍ ନୁହେଁ?"
+    },
+    "options": [
+      { "en": "Raise their hips", "hi": "अपने कूल्हे उठाएं", "or": "ନିଜ ନିତମ୍ବ ଉଠାନ୍ତୁ" },
+      { "en": "Hold their breath", "hi": "अपनी सांस रोकें", "or": "ନିଜ ଶ୍ୱାସ ରୋକନ୍ତୁ" },
+      { "en": "Begin moving forward", "hi": "आगे बढ़ना शुरू करें", "or": "ଆଗକୁ ବଢ଼ିବା ଆରମ୍ଭ କରନ୍ତୁ" },
+      { "en": "Focus on the track ahead", "hi": "आगे के ट्रैक पर ध्यान केंद्रित करें", "or": "ଆଗରେ ଥିବା ଟ୍ରାକ୍ ଉପରେ ଧ୍ୟାନ କେନ୍ଦ୍ରିତ କରନ୍ତୁ" }
+    ],
+    "correct_answer_index": 2
+  },
+  {
+    "id": "run-70",
+    "question": {
+      "en": "What is the distance of a standard outdoor athletics track?",
+      "hi": "एक मानक आउटडोर एथलेटिक्स ट्रैक की दूरी क्या है?",
+      "or": "ଏକ ମାନକ ବାହ୍ୟ ଆଥଲେଟିକ୍ସ ଟ୍ରାକର ଦୂରତା କେତେ?"
+    },
+    "options": [
+      { "en": "200 meters", "hi": "200 मीटर", "or": "୨୦୦ ମିଟର" },
+      { "en": "400 meters", "hi": "400 मीटर", "or": "୪୦୦ ମିଟର" },
+      { "en": "800 meters", "hi": "800 मीटर", "or": "୮୦୦ ମିଟର" },
+      { "en": "100 meters", "hi": "100 मीटर", "or": "୧୦୦ ମିଟର" }
+    ],
+    "correct_answer_index": 1
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "arch-1",
+    "question": {
+      "en": "What is the standard distance for Olympic archery targets?",
+      "hi": "ओलिंपिक तीरंदाज़ी के लक्ष्य की मानक दूरी क्या है?",
+      "or": "ଓଲିମ୍ପିକ୍ ଧନୁର୍ବିଦ୍ୟା ଲକ୍ଷ୍ୟର ସ୍ତାଣ୍ଡାର୍ଡ ଦୂରତା କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "50 m", "hi": "50 मीटर", "or": "50 ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "60 m", "hi": "60 मीटर", "or": "60 ମିଟର" }, "isCorrect": false },
+      { "text": { "en": "70 m", "hi": "70 मीटर", "or": "70 ମିଟର" }, "isCorrect": true },
+      { "text": { "en": "90 m", "hi": "90 मीटर", "or": "90 ମିଟର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-2",
+    "question": {
+      "en": "How many arrows are shot in the Olympic individual archery ranking round?",
+      "hi": "ओलिंपिक व्यक्तिगत तीरंदाज़ी रैंकिंग राउंड में कितनी तीरें छोड़ी जाती हैं?",
+      "or": "ଓଲିମ୍ପିକ୍ ବ୍ୟକ୍ତିଗତ ଧନୁର୍ବିଦ୍ୟା ର୍ୟାଙ୍କିଂ ରାଉଣ୍ଡରେ କେତେ ତୀର ଛୋଡ଼ାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "60", "hi": "60", "or": "60" }, "isCorrect": false },
+      { "text": { "en": "72", "hi": "72", "or": "72" }, "isCorrect": true },
+      { "text": { "en": "90", "hi": "90", "or": "90" }, "isCorrect": false },
+      { "text": { "en": "100", "hi": "100", "or": "100" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-3",
+    "question": {
+      "en": "What type of bow is used in Olympic archery?",
+      "hi": "ओलिंपिक तीरंदाज़ी में किस प्रकार का धनुष उपयोग किया जाता है?",
+      "or": "ଓଲିମ୍ପିକ୍ ଧନୁର୍ବିଦ୍ୟାରେ କେଉଁ ପ୍ରକାରର ଧନୁଷ୍କୁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "Recurve bow", "hi": "रीकर्व धनुष", "or": "ରିକର୍ଭ ଧନୁଷ" }, "isCorrect": true },
+      { "text": { "en": "Compound bow", "hi": "कम्पाउंड धनुष", "or": "କମ୍ପାଉଣ୍ଡ ଧନୁଷ" }, "isCorrect": false },
+      { "text": { "en": "Longbow", "hi": "लॉन्गबो", "or": "ଲଙ୍ଗବୋ" }, "isCorrect": false },
+      { "text": { "en": "Crossbow", "hi": "क्रॉसबो", "or": "କ୍ରସ୍‌ବୋ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-4",
+    "question": {
+      "en": "Which country won the first Olympic archery gold medal since 1920, when archery returned to the Olympics in 1972?",
+      "hi": "1972 में जब तीरंदाज़ी ओलिम्पिक्स में फिर शामिल हुई, तो 1920 के बाद पहला ओलंपिक तीरंदाज़ी स्वर्ण पदक किस देश ने जीता?",
+      "or": "1972ରେ ତୀରନ୍ଦାଜୀ ଯେତେ ବାର୍ତ୍ତମାନିକ ଭାବରେ ଓଲିମ୍ପିକ୍‌ରେ ଫେରିଲା, 1920 ପରେ ପ୍ରଥମ ତୀରନ୍ଦାଜୀ ସ୍ବର୍ଣ୍ଣ ପଦକ କେଉଁ ଦେଶ ଜିତିଲା?"
+    },
+    "options": [
+      { "text": { "en": "USA", "hi": "यूएसए", "or": "ୟୁଏସଏ" }, "isCorrect": true },
+      { "text": { "en": "South Korea", "hi": "दक्षिण कोरिया", "or": "ଦକ୍ଷିଣ କୋରିଆ" }, "isCorrect": false },
+      { "text": { "en": "Italy", "hi": "इटली", "or": "ଇଟାଲୀ" }, "isCorrect": false },
+      { "text": { "en": "France", "hi": "फ्रांस", "or": "ଫ୍ରାନ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-5",
+    "question": {
+      "en": "In archery scoring, what is the maximum score for one arrow?",
+      "hi": "तीरंदाज़ी अंक गणना में, एक तीर के लिए अधिकतम स्कोर क्या है?",
+      "or": "ଧନୁର୍ବିଦ୍ୟା ମାପା ଆଙ୍କରେ, ଗୋଟିଏ ତୀରରି ଅଧିକତମ ଅଙ୍କ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "8", "hi": "8", "or": "8" }, "isCorrect": false },
+      { "text": { "en": "9", "hi": "9", "or": "9" }, "isCorrect": false },
+      { "text": { "en": "10", "hi": "10", "or": "10" }, "isCorrect": true },
+      { "text": { "en": "11", "hi": "11", "or": "11" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-6",
+    "question": {
+      "en": "How many rounds are in an Olympic archery match elimination phase?",
+      "hi": "एक ओलंपिक तीरंदाज़ी मुकाबले के इलीमिनेशन फेज़ में कितने राउंड होते हैं?",
+      "or": "ଓଲିମ୍ପିକ୍ ଧନୁର୍ବିଦ୍ୟା ପ୍ରତିଯୋଗିତାର ଇଲିମିନେସନ୍ ପର୍ଯ୍ୟାୟରେ କେତେ ରାଉଣ୍ଡ ଥାଏ?"
+    },
+    "options": [
+      { "text": { "en": "3", "hi": "3", "or": "3" }, "isCorrect": false },
+      { "text": { "en": "5", "hi": "5", "or": "5" }, "isCorrect": false },
+      { "text": { "en": "7", "hi": "7", "or": "7" }, "isCorrect": true },
+      { "text": { "en": "9", "hi": "9", "or": "9" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-7",
+    "question": {
+      "en": "Which part of the arrow is the fletching?",
+      "hi": "तीर का कौन-सा भाग फ्लेचिंग कहलाता है?",
+      "or": "ତୀରର କେଉଁ ଅଂଶକୁ ଫ୍ଲେଚିଂ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The shaft", "hi": "डंठल", "or": "ଧାଡ଼" }, "isCorrect": false },
+      { "text": { "en": "The feathers at back", "hi": "पीछे की पंख", "or": "ପଛର ପାଖୁନା" }, "isCorrect": true },
+      { "text": { "en": "The nock", "hi": "नाक", "or": "ନକ" }, "isCorrect": false },
+      { "text": { "en": "The tip", "hi": "नाकुचन", "or": "ଛୁରି ଅଂଶ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-8",
+    "question": {
+      "en": "What is the diameter of the 10-ring on a standard 122 cm target face?",
+      "hi": "एक मानक 122 सेमी लक्ष्य मुंह पर 10-रिंग का व्यास क्या है?",
+      "or": "ଏକ ସ୍ତାଣ୍ଡାର୍ଡ 122 ସେମି ଟାର୍ଗେଟ ମୁହଁରେ 10-ରିଙ୍ଗର ବ୍ୟାସ କେତେ?"
+    },
+    "options": [
+      { "text": { "en": "12.2 cm", "hi": "12.2 सेमी", "or": "12.2 ସେମି" }, "isCorrect": true },
+      { "text": { "en": "10 cm", "hi": "10 सेमी", "or": "10 ସେମି" }, "isCorrect": false },
+      { "text": { "en": "8 cm", "hi": "8 सेमी", "or": "8 ସେମି" }, "isCorrect": false },
+      { "text": { "en": "15 cm", "hi": "15 सेमी", "or": "15 ସେମି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-9",
+    "question": {
+      "en": "Who introduced the 'set system' in Olympic archery matches in 2010?",
+      "hi": "ओलिंपिक तीरंदाज़ी मैचों में 2010 में 'सेट सिस्टम' किसने पेश किया?",
+      "or": "2010ରେ ଓଲିମ୍ପିକ୍ ଧନୁର୍ବିଦ୍ୟା ମ୍ୟାଚ୍‌ଗୁଡିକରେ 'ସେଟ୍ ସିଷ୍ଟମ୍' କାହାଙ୍କ ଦ୍ୱାରା ପରିଚୟ କରାଯାଇଥିଲା?"
+    },
+    "options": [
+      { "text": { "en": "World Archery Federation", "hi": "वर्ल्ड आर्चरी फेडरेशन", "or": "ୱର୍ଲ୍ଡ ଆର୍ଚିରୀ ଫେଡେରେସନ୍" }, "isCorrect": true },
+      { "text": { "en": "IOC", "hi": "अंतरराष्ट्रीय ओलिंपिक समिति", "or": "ଆଇଓସି" }, "isCorrect": false },
+      { "text": { "en": "FITAR", "hi": "FITAR", "or": "FITAR" }, "isCorrect": false },
+      { "text": { "en": "US Archery", "hi": "यूएस आर्चरी", "or": "ୟୁଏସ୍ ଆର୍ଚିରୀ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "arch-10",
+    "question": {
+      "en": "What is an archery “Robin Hood” shot?",
+      "hi": "धनुर्विद्या में “रॉबिन हुड” शॉट क्या होता है?",
+      "or": "ଧନୁର୍ବିଦ୍ୟାରେ “ରବିନ ହୁଡ୍” ଶଟ୍ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "When an arrow splits another arrow already in the target", "hi": "जब एक तीर लक्ष्य पर पहले से लगे एक अन्य तीर को विभाजित कर देता है", "or": "ଯେତେବେଳେ ଏକ ତୀର ଲକ୍ଷ୍ୟରେ ପୂର୍ବରୁ ଲଗିଥିବା ତୀରକୁ ଭାଙ୍ଗି ଦିଏ" }, "isCorrect": true },
+      { "text": { "en": "When the archer shoots two arrows at once", "hi": "जब तीरंदाज़ एक साथ दो तीर छोड़ता है", "or": "ତୀରନ୍ଦାଜ୍ ବେଳେ ଏକ ସମୟରେ ଦୁଇ ତୀର ଛୋଡ଼େ" }, "isCorrect": false },
+      { "text": { "en": "When the archer hits the 10-ring twice", "hi": "जब तीरंदाज़ 10-रिंग दो बार मारता है", "or": "ତୀରନ୍ଦାଜ୍ 10-ରିଙ୍ଗ୍ ଦୁଇଥର ଲକ୍ଷ୍ୟ କରେ" }, "isCorrect": false },
+      { "text": { "en": "When an arrow hits the bull’s eye perfectly", "hi": "जब तीर लक्ष्य-केंद्र को पूरी तरह से भेदता है", "or": "ତୀର bull’s ଆଇ ଠିକ୍ ଭାବେ ଲକ୍ଷ୍ୟକୁ ପହଞ୍ଚାଏ" }, "isCorrect": false }
+    ]
+  }
+]

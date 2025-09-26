@@ -1,0 +1,983 @@
+[
+  {
+    "id": "lj-1",
+    "question": {
+      "en": "What is the main goal of the approach run?",
+      "hi": "अप्रोच रन (दौड़) का मुख्य लक्ष्य क्या है?",
+      "or": "ଆପ୍ରୋଚ୍ ରନ୍ (ଦୌଡ଼)ର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To run as far as possible", "hi": "जितना संभव हो उतनी दूर दौड़ना", "or": "ଯଥାସମ୍ଭବ ଦୂରକୁ ଦୌଡ଼ିବା" }, "isCorrect": false },
+      { "text": { "en": "To build up maximum controlled speed", "hi": "अधिकतम नियंत्रित गति बनाना", "or": "ସର୍ବାଧିକ ନିୟନ୍ତ୍ରିତ ଗତି ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To warm up before the jump", "hi": "कूद से पहले वार्म अप करना", "or": "ଡେଇଁବା ପୂର୍ବରୁ ୱାର୍ମ ଅପ୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To jump as high as possible", "hi": "जितना संभव हो उतना ऊंचा कूदना", "or": "ଯଥାସମ୍ଭବ ଉଚ୍ଚକୁ ଡେଇଁବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-2",
+    "question": {
+      "en": "What happens if any part of your foot goes over the front edge of the take-off board?",
+      "hi": "यदि आपके पैर का कोई भी हिस्सा टेक-ऑफ बोर्ड के सामने के किनारे से आगे निकल जाता है तो क्या होता है?",
+      "or": "ଯଦି ଆପଣଙ୍କ ପାଦର କୌଣସି ଅଂଶ ଟେକ୍-ଅଫ୍ ବୋର୍ଡର ଆଗ ପାର୍ଶ୍ୱକୁ ଚାଲିଯାଏ, ତେବେ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "You get a shorter measurement", "hi": "आपको एक छोटा माप मिलता है", "or": "ଆପଣଙ୍କୁ ଏକ ଛୋଟ ମାପ ମିଳେ" }, "isCorrect": false },
+      { "text": { "en": "Nothing, the jump is legal", "hi": "कुछ नहीं, कूद वैध है", "or": "କିଛି ନୁହେଁ, ଜମ୍ପଟି ବୈଧ ଅଟେ" }, "isCorrect": false },
+      { "text": { "en": "It is a foul and the jump does not count", "hi": "यह एक फाउल है और कूद की गिनती नहीं होती है", "or": "ଏହା ଏକ ଫାଉଲ୍ ଏବଂ ଜମ୍ପଟି ଗଣନା କରାଯାଏ ନାହିଁ" }, "isCorrect": true },
+      { "text": { "en": "You get one more chance immediately", "hi": "आपको तुरंत एक और मौका मिलता है", "or": "ଆପଣଙ୍କୁ ତୁରନ୍ତ ଆଉ ଏକ ସୁଯୋଗ ମିଳେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-3",
+    "question": {
+      "en": "From which point is your jump distance measured?",
+      "hi": "आपकी कूद की दूरी किस बिंदु से मापी जाती है?",
+      "or": "ଆପଣଙ୍କ ଜମ୍ପର ଦୂରତା କେଉଁ ବିନ୍ଦୁରୁ ମାପ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "From where your feet land", "hi": "जहाँ आपके पैर उतरते हैं", "or": "ଯେଉଁଠାରେ ଆପଣଙ୍କ ପାଦ ପଡେ" }, "isCorrect": false },
+      { "text": { "en": "From the mark in the sand closest to the take-off board", "hi": "रेत में टेक-ऑफ बोर्ड के सबसे नजदीक के निशान से", "or": "ବାଲିରେ ଟେକ୍-ଅଫ୍ ବୋର୍ଡର ନିକଟତମ ଚିହ୍ନରୁ" }, "isCorrect": true },
+      { "text": { "en": "From the middle of the sand pit", "hi": "रेत के गड्ढे के बीच से", "or": "ବାଲି ଗାତର ମଝିରୁ" }, "isCorrect": false },
+      { "text": { "en": "From where your hands touch the sand", "hi": "जहाँ आपके हाथ रेत को छूते हैं", "or": "ଯେଉଁଠାରେ ଆପଣଙ୍କ ହାତ ବାଲିକୁ ଛୁଏଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-4",
+    "question": {
+      "en": "After landing, which direction should you walk out of the sand pit?",
+      "hi": "लैंडिंग के बाद, आपको रेत के गड्ढे से किस दिशा में बाहर निकलना चाहिए?",
+      "or": "ଲ୍ୟାଣ୍ଡିଂ ପରେ, ଆପଣଙ୍କୁ ବାଲି ଗାତରୁ କେଉଁ ଦିଗରେ ବାହାରକୁ ଯିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Walk backwards towards the runway", "hi": "रनवे की ओर पीछे की ओर चलना", "or": "ରନୱେ ଆଡକୁ ପଛକୁ ଚାଲିବା" }, "isCorrect": false },
+      { "text": { "en": "Walk forwards or sideways, away from the runway", "hi": "रनवे से दूर, आगे या बगल में चलना", "or": "ରନୱେଠାରୁ ଦୂରରେ, ଆଗକୁ କିମ୍ବା ପାର୍ଶ୍ୱକୁ ଚାଲିବା" }, "isCorrect": true },
+      { "text": { "en": "Jump out the same way you came in", "hi": "जिस तरह से आप अंदर आए थे उसी तरह से बाहर कूदना", "or": "ଯେଉଁ ବାଟରେ ଆସିଥିଲେ ସେହି ବାଟରେ ବାହାରକୁ ଡେଇଁବା" }, "isCorrect": false },
+      { "text": { "en": "It does not matter which way you exit", "hi": "इससे कोई फर्क नहीं पड़ता कि आप किस रास्ते से बाहर निकलते हैं", "or": "ଆପଣ କେଉଁ ବାଟରେ ବାହାରକୁ ଯାଆନ୍ତି ସେଥିରେ କୌଣସି ଫରକ ପଡ଼େ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-5",
+    "question": {
+      "en": "What is the soft strip on the take-off board used for?",
+      "hi": "टेक-ऑफ बोर्ड पर नरम पट्टी का उपयोग किस लिए किया जाता है?",
+      "or": "ଟେକ୍-ଅଫ୍ ବୋର୍ଡରେ ଥିବା ନରମ ପଟି କେଉଁଥିପାଇଁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "To give the athlete better grip", "hi": "एथलीट को बेहतर पकड़ देने के लिए", "or": "ଆଥଲେଟଙ୍କୁ ଭଲ ଗ୍ରିପ୍ ଦେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To show a footprint if a foul occurs (plasticine)", "hi": "फाउल होने पर पदचिह्न दिखाने के लिए (प्लास्टिसिन)", "or": "ଫାଉଲ୍ ହେଲେ ପାଦଚିହ୍ନ ଦେଖାଇବା ପାଇଁ (ପ୍ଲାଷ୍ଟିସିନ୍)" }, "isCorrect": true },
+      { "text": { "en": "To mark the center of the board", "hi": "बोर्ड के केंद्र को चिह्नित करने के लिए", "or": "ବୋର୍ଡର କେନ୍ଦ୍ରକୁ ଚିହ୍ନିତ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To measure the jump from", "hi": "से कूद को मापने के लिए", "or": "ଜମ୍ପ ମାପିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-6",
+    "question": {
+      "en": "How many feet must you take off from?",
+      "hi": "आपको कितने पैरों से छलांग लगानी चाहिए?",
+      "or": "ଆପଣଙ୍କୁ କେତୋଟି ପାଦରୁ ଡେଇଁବାକୁ ପଡିବ?"
+    },
+    "options": [
+      { "text": { "en": "One foot", "hi": "एक पैर", "or": "ଗୋଟିଏ ପାଦ" }, "isCorrect": true },
+      { "text": { "en": "Two feet", "hi": "दो पैर", "or": "ଦୁଇ ପାଦ" }, "isCorrect": false },
+      { "text": { "en": "Either one or two", "hi": "या तो एक या दो", "or": "ଏକ କିମ୍ବା ଦୁଇ" }, "isCorrect": false },
+      { "text": { "en": "It does not matter", "hi": "यह मायने नहीं रखता", "or": "ଏଥିରେ କିଛି ଫରକ ପଡ଼େ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-7",
+    "question": {
+      "en": "The 'hitch-kick' technique looks like you are doing what in the air?",
+      "hi": "'हिच-किक' तकनीक ऐसी दिखती है जैसे आप हवा में क्या कर रहे हैं?",
+      "or": "'ହିଚ୍-କିକ୍' କୌଶଳଟି ଦେଖିବାକୁ ଏପରି ଲାଗେ ଯେପରି ଆପଣ ବାୟୁରେ କ’ଣ କରୁଛନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "Swimming", "hi": "तैराकी", "or": "ପହଁରିବା" }, "isCorrect": false },
+      { "text": { "en": "Running or cycling", "hi": "दौड़ना या साइकिल चलाना", "or": "ଦୌଡ଼ିବା କିମ୍ବା ସାଇକେଲ୍ ଚଲାଇବା" }, "isCorrect": true },
+      { "text": { "en": "Doing a somersault", "hi": "कलाबाजी करना", "or": "କଳାବାଜି କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Stretching", "hi": "खिंचाव", "or": "ଷ୍ଟ୍ରେଚିଂ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-8",
+    "question": {
+      "en": "What is the second to last step before take-off often called?",
+      "hi": "टेक-ऑफ से ठीक पहले वाले कदम को अक्सर क्या कहा जाता है?",
+      "or": "ଟେକ୍-ଅଫ୍ ପୂର୍ବରୁ ଶେଷରୁ ଦ୍ୱିତୀୟ ପଦକ୍ଷେପକୁ ପ୍ରାୟତଃ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The power step", "hi": "शक्ति कदम", "or": "ପାୱାର୍ ଷ୍ଟେପ୍" }, "isCorrect": false },
+      { "text": { "en": "The penultimate step", "hi": "पेनल्टीमेट स्टेप", "or": "ପେନାଲ୍ଟିମେଟ୍ ଷ୍ଟେପ୍" }, "isCorrect": true },
+      { "text": { "en": "The brake step", "hi": "ब्रेक कदम", "or": "ବ୍ରେକ୍ ଷ୍ଟେପ୍" }, "isCorrect": false },
+      { "text": { "en": "The first step", "hi": "पहला कदम", "or": "ପ୍ରଥମ ଷ୍ଟେପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-9",
+    "question": {
+      "en": "Why is it important to drive your free knee up and forward during take-off?",
+      "hi": "टेक-ऑफ के दौरान अपने फ्री घुटने को ऊपर और आगे की ओर चलाना क्यों महत्वपूर्ण है?",
+      "or": "ଟେକ୍-ଅଫ୍ ସମୟରେ ଆପଣଙ୍କ ମୁକ୍ତ ଆଣ୍ଠୁକୁ ଉପରକୁ ଏବଂ ଆଗକୁ ଚାଳନା କରିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To look good for the crowd", "hi": "भीड़ के लिए अच्छा दिखने के लिए", "or": "ଦର୍ଶକଙ୍କ ପାଇଁ ଭଲ ଦେଖାଯିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To help you gain height and momentum", "hi": "ऊंचाई और गति प्राप्त करने में आपकी मदद करने के लिए", "or": "ଉଚ୍ଚତା ଏବଂ ଗତି ହାସଲ କରିବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To help you stop at the board", "hi": "बोर्ड पर रुकने में आपकी मदद करने के लिए", "or": "ବୋର୍ଡରେ ଅଟକିବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To slow you down for a safe landing", "hi": "सुरक्षित लैंडिंग के लिए आपको धीमा करने के लिए", "or": "ସୁରକ୍ଷିତ ଲ୍ୟାଣ୍ଡିଂ ପାଇଁ ଆପଣଙ୍କୁ ଧୀର କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-10",
+    "question": {
+      "en": "What does a red flag from an official mean after your jump?",
+      "hi": "आपकी कूद के बाद अधिकारी का लाल झंडा क्या दर्शाता है?",
+      "or": "ଆପଣଙ୍କ ଜମ୍ପ ପରେ ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଲାଲ୍ ପତାକା କ’ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "It was a good jump", "hi": "यह एक अच्छी कूद थी", "or": "ଏହା ଏକ ଭଲ ଜମ୍ପ ଥିଲା" }, "isCorrect": false },
+      { "text": { "en": "It was a foul", "hi": "यह एक फाउल था", "or": "ଏହା ଏକ ଫାଉଲ୍ ଥିଲା" }, "isCorrect": true },
+      { "text": { "en": "It was a new record", "hi": "यह एक नया रिकॉर्ड था", "or": "ଏହା ଏକ ନୂଆ ରେକର୍ଡ ଥିଲା" }, "isCorrect": false },
+      { "text": { "en": "The measurement is being checked", "hi": "माप की जाँच की जा रही है", "or": "ମାପ ଯାଞ୍ଚ କରାଯାଉଛି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-11",
+    "question": {
+      "en": "What is the purpose of raking the sand pit after each jump?",
+      "hi": "प्रत्येक कूद के बाद रेत के गड्ढे को रेक करने का उद्देश्य क्या है?",
+      "or": "ପ୍ରତ୍ୟେକ ଜମ୍ପ ପରେ ବାଲି ଗାତକୁ ରେକ୍ କରିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To make the sand harder", "hi": "रेत को सख्त बनाने के लिए", "or": "ବାଲିକୁ କଠିନ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To create a smooth, level surface for the next jumper and for accurate measurement", "hi": "अगले जम्पर के लिए और सटीक माप के लिए एक चिकनी, समतल सतह बनाने के लिए", "or": "ପରବର୍ତ୍ତୀ ଜମ୍ପର୍ ପାଇଁ ଏବଂ ସଠିକ୍ ମାପ ପାଇଁ ଏକ ସମତଳ ପୃଷ୍ଠ ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To find any lost items", "hi": "कोई भी खोई हुई वस्तु खोजने के लिए", "or": "କୌଣସି ହଜିଯାଇଥିବା ଜିନିଷ ଖୋଜିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To help the sand dry faster", "hi": "रेत को तेजी से सूखने में मदद करने के लिए", "or": "ବାଲିକୁ ଶୀଘ୍ର ଶୁଖାଇବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-12",
+    "question": {
+      "en": "A jump is measured at what angle to the take-off board?",
+      "hi": "एक कूद को टेक-ऑफ बोर्ड से किस कोण पर मापा जाता है?",
+      "or": "ଏକ ଜମ୍ପକୁ ଟେକ୍-ଅଫ୍ ବୋର୍ଡରୁ କେଉଁ କୋଣରେ ମାପ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "At a 45-degree angle", "hi": "45-डिग्री के कोण पर", "or": "୪୫-ଡିଗ୍ରୀ କୋଣରେ" }, "isCorrect": false },
+      { "text": { "en": "Perpendicular (90 degrees)", "hi": "लंबवत (90 डिग्री)", "or": "ଲମ୍ବ (୯୦ ଡିଗ୍ରୀ)" }, "isCorrect": true },
+      { "text": { "en": "Parallel to the runway", "hi": "रनवे के समानांतर", "or": "ରନୱେ ସହିତ ସମାନ୍ତରାଳ" }, "isCorrect": false },
+      { "text": { "en": "It depends on where the athlete lands", "hi": "यह इस पर निर्भर करता है कि एथलीट कहाँ उतरता है", "or": "ଏହା ଆଥଲେଟ୍ କେଉଁଠାରେ ପଡ଼ନ୍ତି ତାହା ଉପରେ ନିର୍ଭର କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-13",
+    "question": {
+      "en": "The 'sail' technique is the most common for which group of athletes?",
+      "hi": "'सेल' तकनीक एथलीटों के किस समूह के लिए सबसे आम है?",
+      "or": "'ସେଲ୍' କୌଶଳ କେଉଁ ଗୋଷ୍ଠୀର ଆଥଲେଟଙ୍କ ପାଇଁ ସବୁଠାରୁ ସାଧାରଣ?"
+    },
+    "options": [
+      { "text": { "en": "Elite professionals", "hi": "अभिजात वर्ग के पेशेवर", "or": "ବିଶିଷ୍ଟ ପେସାଦାର" }, "isCorrect": false },
+      { "text": { "en": "Beginners and young athletes", "hi": "शुरुआती और युवा एथलीट", "or": "ଆରମ୍ଭକାରୀ ଏବଂ ଯୁବ ଆଥଲେଟ୍" }, "isCorrect": true },
+      { "text": { "en": "High jumpers", "hi": "हाई जम्पर", "or": "ଉଚ୍ଚ ଡିଆଁକାରୀ" }, "isCorrect": false },
+      { "text": { "en": "Triple jumpers", "hi": "ट्रिपल जम्पर", "or": "ଟ୍ରିପଲ୍ ଜମ୍ପର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-14",
+    "question": {
+      "en": "If you land and fall backwards, your jump is measured from:",
+      "hi": "यदि आप उतरते हैं और पीछे की ओर गिर जाते हैं, तो आपकी कूद कहाँ से मापी जाती है:",
+      "or": "ଯଦି ଆପଣ ଲ୍ୟାଣ୍ଡିଂ କରି ପଛକୁ ପଡ଼ିଯାଆନ୍ତି, ତେବେ ଆପଣଙ୍କ ଜମ୍ପ କେଉଁଠାରୁ ମାପ କରାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Where your feet landed", "hi": "जहाँ आपके पैर उतरे", "or": "ଯେଉଁଠାରେ ଆପଣଙ୍କ ପାଦ ପଡ଼ିଲା" }, "isCorrect": false },
+      { "text": { "en": "The mark made by your hands or body, whichever is closer to the board", "hi": "आपके हाथों या शरीर द्वारा बनाए गए निशान से, जो भी बोर्ड के करीब हो", "or": "ଆପଣଙ୍କ ହାତ କିମ୍ବା ଶରୀର ଦ୍ୱାରା କରାଯାଇଥିବା ଚିହ୍ନରୁ, ଯାହା ବୋର୍ଡର ନିକଟତର" }, "isCorrect": true },
+      { "text": { "en": "The furthest point you reached", "hi": "आपके द्वारा पहुँचे गए सबसे दूर के बिंदु से", "or": "ଆପଣ ପହଞ୍ଚିଥିବା ସବୁଠାରୁ ଦୂର ବିନ୍ଦୁରୁ" }, "isCorrect": false },
+      { "text": { "en": "The jump is a foul", "hi": "कूद एक फाउल है", "or": "ଜମ୍ପଟି ଏକ ଫାଉଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-15",
+    "question": {
+      "en": "What is the purpose of using your arms during the jump?",
+      "hi": "कूद के दौरान अपनी भुजाओं का उपयोग करने का उद्देश्य क्या है?",
+      "or": "ଜମ୍ପ ସମୟରେ ଆପଣଙ୍କ ବାହୁ ବ୍ୟବହାର କରିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To help with balance and add lift", "hi": "संतुलन में मदद करने और लिफ्ट जोड़ने के लिए", "or": "ସନ୍ତୁଳନରେ ସାହାଯ୍ୟ କରିବା ଏବଂ ଲିଫ୍ଟ ଯୋଡ଼ିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To slow yourself down in the air", "hi": "हवा में खुद को धीमा करने के लिए", "or": "ବାୟୁରେ ନିଜକୁ ଧୀର କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To point where you want to land", "hi": "यह इंगित करने के लिए कि आप कहाँ उतरना चाहते हैं", "or": "ଆପଣ କେଉଁଠାରେ ପଡ଼ିବାକୁ ଚାହାଁନ୍ତି ତାହା ସୂଚାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "They have no real purpose", "hi": "उनका कोई वास्तविक उद्देश्य नहीं है", "or": "ସେମାନଙ୍କର କୌଣସି ପ୍ରକୃତ ଉଦ୍ଦେଶ୍ୟ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-16",
+    "question": {
+      "en": "What is it called when you decide not to take a jump?",
+      "hi": "जब आप कूद न करने का निर्णय लेते हैं तो उसे क्या कहा जाता है?",
+      "or": "ଯେତେବେଳେ ଆପଣ ଜମ୍ପ ନକରିବାକୁ ନିଷ୍ପତ୍ତି ନିଅନ୍ତି, ତାହାକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A foul", "hi": "एक फाउल", "or": "ଏକ ଫାଉଲ୍" }, "isCorrect": false },
+      { "text": { "en": "A miss", "hi": "एक मिस", "or": "ଏକ ମିସ୍" }, "isCorrect": false },
+      { "text": { "en": "A pass", "hi": "एक पास", "or": "ଏକ ପାସ୍" }, "isCorrect": true },
+      { "text": { "en": "A skip", "hi": "एक स्किप", "or": "ଏକ ସ୍କିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-17",
+    "question": {
+      "en": "What is the most important physical quality for a long jumper?",
+      "hi": "एक लॉन्ग जम्पर के लिए सबसे महत्वपूर्ण शारीरिक गुण क्या है?",
+      "or": "ଜଣେ ଲମ୍ବା ଡିଆଁକାରୀଙ୍କ ପାଇଁ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ଶାରୀରିକ ଗୁଣ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Endurance", "hi": "सहनशक्ति", "or": "ସହନଶୀଳତା" }, "isCorrect": false },
+      { "text": { "en": "Speed and explosive power", "hi": "गति और विस्फोटक शक्ति", "or": "ଗତି ଏବଂ ବିସ୍ଫୋରକ ଶକ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Flexibility", "hi": "लचीलापन", "or": "ନମନୀୟତା" }, "isCorrect": false },
+      { "text": { "en": "Upper body strength", "hi": "ऊपरी शरीर की ताकत", "or": "ଉପର ଶରୀରର ଶକ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-18",
+    "question": {
+      "en": "A wind gauge is used during a competition to measure what?",
+      "hi": "प्रतियोगिता के दौरान विंड गेज का उपयोग क्या मापने के लिए किया जाता है?",
+      "or": "ପ୍ରତିଯୋଗିତା ସମୟରେ ୱିଣ୍ଡ୍ ଗେଜ୍ କ’ଣ ମାପିବା ପାଇଁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The temperature", "hi": "तापमान", "or": "ତାପମାତ୍ରା" }, "isCorrect": false },
+      { "text": { "en": "The speed of the wind", "hi": "हवा की गति", "or": "ପବନର ଗତି" }, "isCorrect": true },
+      { "text": { "en": "The athlete's running speed", "hi": "एथलीट की दौड़ने की गति", "or": "ଆଥଲେଟଙ୍କ ଦୌଡ଼ିବାର ଗତି" }, "isCorrect": false },
+      { "text": { "en": "The humidity", "hi": "नमी", "or": "ଆର୍ଦ୍ରତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-19",
+    "question": {
+      "en": "Bounding or hopping drills are designed to improve what?",
+      "hi": "बाउंडिंग या हॉपिंग ड्रिल क्या सुधारने के लिए डिज़ाइन किए गए हैं?",
+      "or": "ବାଉଣ୍ଡିଂ କିମ୍ବା ହପିଂ ଡ୍ରିଲ୍ କ’ଣ ଉନ୍ନତ କରିବା ପାଇଁ ଡିଜାଇନ୍ କରାଯାଇଛି?"
+    },
+    "options": [
+      { "text": { "en": "Your landing technique", "hi": "आपकी लैंडिंग तकनीक", "or": "ଆପଣଙ୍କ ଲ୍ୟାଣ୍ଡିଂ କୌଶଳ" }, "isCorrect": false },
+      { "text": { "en": "Your jumping power and coordination", "hi": "आपकी कूदने की शक्ति और समन्वय", "or": "ଆପଣଙ୍କ ଡେଇଁବା ଶକ୍ତି ଏବଂ ସମନ୍ୱୟ" }, "isCorrect": true },
+      { "text": { "en": "Your running speed", "hi": "आपकी दौड़ने की गति", "or": "ଆପଣଙ୍କ ଦୌଡ଼ିବାର ଗତି" }, "isCorrect": false },
+      { "text": { "en": "Your flexibility", "hi": "आपका लचीलापन", "or": "ଆପଣଙ୍କ ନମନୀୟତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-20",
+    "question": {
+      "en": "The area where you run before jumping is called the:",
+      "hi": "जिस क्षेत्र में आप कूदने से पहले दौड़ते हैं उसे क्या कहा जाता है:",
+      "or": "ଆପଣ ଡେଇଁବା ପୂର୍ବରୁ ଯେଉଁ ସ୍ଥାନରେ ଦୌଡ଼ନ୍ତି ତାହାକୁ କ’ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The track", "hi": "ट्रैक", "or": "ଟ୍ରାକ୍" }, "isCorrect": false },
+      { "text": { "en": "The runway", "hi": "रनवे", "or": "ରନୱେ" }, "isCorrect": true },
+      { "text": { "en": "The path", "hi": "पथ", "or": "ପଥ" }, "isCorrect": false },
+      { "text": { "en": "The strip", "hi": "पट्टी", "or": "ଷ୍ଟ୍ରିପ୍" }, "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": "lj-21",
+    "question": {
+      "en": "What is the main purpose of the 'hang' technique during the flight?",
+      "hi": "उड़ान के दौरान 'हैंग' तकनीक का मुख्य उद्देश्य क्या है?",
+      "or": "ଉଡ଼ାଣ ସମୟରେ 'ହ୍ୟାଙ୍ଗ୍' କୌଶଳର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ'ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To look stylish in the air", "hi": "हवा में स्टाइलिश दिखने के लिए", "or": "ବାୟୁରେ ଷ୍ଟାଇଲିସ୍ ଦେଖାଯିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To prepare for an efficient landing by keeping the body long", "hi": "शरीर को लंबा रखकर एक कुशल लैंडिंग की तैयारी के लिए", "or": "ଶରୀରକୁ ଲମ୍ବା ରଖି ଏକ ଦକ୍ଷ ଲ୍ୟାଣ୍ଡିଂ ପାଇଁ ପ୍ରସ୍ତୁତ ହେବା" }, "isCorrect": true },
+      { "text": { "en": "To slow down before landing", "hi": "लैंडिंग से पहले धीमा होने के लिए", "or": "ଲ୍ୟାଣ୍ଡିଂ ପୂର୍ବରୁ ଧୀର ହେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To jump higher", "hi": "ऊंचा कूदने के लिए", "or": "ଅଧିକ ଉଚ୍ଚକୁ ଡେଇଁବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-22",
+    "question": {
+      "en": "What does a white flag from an official signify?",
+      "hi": "एक अधिकारी का सफेद झंडा क्या दर्शाता है?",
+      "or": "ଜଣେ ଅଧିକାରୀଙ୍କଠାରୁ ଏକ ଧଳା ପତାକା କ'ଣ ସୂଚାଏ?"
+    },
+    "options": [
+      { "text": { "en": "A foul jump", "hi": "एक फाउल जम्प", "or": "ଏକ ଫାଉଲ୍ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "A legal jump", "hi": "एक वैध जम्प", "or": "ଏକ ବୈଧ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "One attempt remaining", "hi": "एक प्रयास शेष है", "or": "ଗୋଟିଏ ପ୍ରୟାସ ବାକି ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "The competition is over", "hi": "प्रतियोगिता समाप्त हो गई है", "or": "ପ୍ରତିଯୋଗିତା ସମାପ୍ତ ହୋଇଛି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-23",
+    "question": {
+      "en": "Why is it important to have a consistent number of steps in your run-up?",
+      "hi": "आपके रन-अप में कदमों की संख्या एक समान होना क्यों महत्वपूर्ण है?",
+      "or": "ଆପଣଙ୍କ ରନ୍-ଅପରେ ପଦକ୍ଷେପ ସଂଖ୍ୟା ସମାନ ରହିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To make the jump look rhythmic", "hi": "कूद को लयबद्ध दिखाने के लिए", "or": "ଜମ୍ପକୁ ତାଳବଦ୍ଧ ଦେଖାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To help you hit the take-off board accurately every time", "hi": "हर बार टेक-ऑफ बोर्ड पर सटीक रूप से प्रहार करने में आपकी मदद करने के लिए", "or": "ପ୍ରତ୍ୟେକ ଥର ଟେକ୍-ଅଫ୍ ବୋର୍ଡରେ ସଠିକ୍ ଭାବରେ ପାଦ ପକାଇବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To run faster", "hi": "तेज दौड़ने के लिए", "or": "ଦ୍ରୁତ ଦୌଡ଼ିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is not important", "hi": "यह महत्वपूर्ण नहीं है", "or": "ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-24",
+    "question": {
+      "en": "What part of the foot should you primarily use to take off from the board?",
+      "hi": "बोर्ड से टेक ऑफ करने के लिए आपको मुख्य रूप से पैर के किस हिस्से का उपयोग करना चाहिए?",
+      "or": "ବୋର୍ଡରୁ ଟେକ୍ ଅଫ୍ କରିବା ପାଇଁ ଆପଣଙ୍କୁ ମୁଖ୍ୟତଃ ପାଦର କେଉଁ ଅଂଶ ବ୍ୟବହାର କରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "The heel", "hi": "एड़ी", "or": "ଗୋଇଠି" }, "isCorrect": false },
+      { "text": { "en": "The ball of the foot", "hi": "पैर का पंजा", "or": "ପାଦର ଆଗ ଭାଗ" }, "isCorrect": true },
+      { "text": { "en": "The entire flat foot", "hi": "पूरा सपाट पैर", "or": "ପୂରା ସମତଳ ପାଦ" }, "isCorrect": false },
+      { "text": { "en": "The toes", "hi": "पैर की उंगलियां", "or": "ପାଦ ଆଙ୍ଗୁଠି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-25",
+    "question": {
+      "en": "If you jump from outside the width of the take-off board, what happens?",
+      "hi": "यदि आप टेक-ऑफ बोर्ड की चौड़ाई के बाहर से कूदते हैं, तो क्या होता है?",
+      "or": "ଯଦି ଆପଣ ଟେକ୍-ଅଫ୍ ବୋର୍ଡର ପ୍ରସ୍ଥ ବାହାରୁ ଡେଇଁପଡନ୍ତି, ତେବେ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "It is a foul", "hi": "यह एक फाउल है", "or": "ଏହା ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "It is a legal jump", "hi": "यह एक वैध कूद है", "or": "ଏହା ଏକ ବୈଧ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "The jump is measured from the side", "hi": "कूद को बगल से मापा जाता है", "or": "ଜମ୍ପକୁ ପାର୍ଶ୍ୱରୁ ମାପ କରାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "You get a warning", "hi": "आपको एक चेतावनी मिलती है", "or": "ଆପଣଙ୍କୁ ଏକ ଚେତାବନୀ ମିଳେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-26",
+    "question": {
+      "en": "What is a simple way to practice your run-up without actually jumping?",
+      "hi": "वास्तव में कूदे बिना अपने रन-अप का अभ्यास करने का एक सरल तरीका क्या है?",
+      "or": "ପ୍ରକୃତରେ ନ ଡେଇଁ ନିଜ ରନ୍-ଅପ୍ ଅଭ୍ୟାସ କରିବାର ଏକ ସରଳ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "By jumping in place", "hi": "जगह पर कूदकर", "or": "ଗୋଟିଏ ସ୍ଥାନରେ ଡେଇଁବା" }, "isCorrect": false },
+      { "text": { "en": "By doing run-throughs without taking off", "hi": "बिना टेक ऑफ किए रन-थ्रू करके", "or": "ଟେକ୍ ଅଫ୍ ନ କରି ରନ୍-ଥ୍ରୁ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "By watching other athletes", "hi": "अन्य एथलीटों को देखकर", "or": "ଅନ୍ୟ ଆଥଲେଟଙ୍କୁ ଦେଖିବା" }, "isCorrect": false },
+      { "text": { "en": "By jogging slowly", "hi": "धीरे-धीरे जॉगिंग करके", "or": "ଧୀରେ ଧୀରେ ଜଗିଂ କରି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-27",
+    "question": {
+      "en": "What is the name of the white board you jump from?",
+      "hi": "जिस सफेद बोर्ड से आप कूदते हैं उसका नाम क्या है?",
+      "or": "ଆପଣ ଯେଉଁ ଧଳା ବୋର୍ଡରୁ ଡେଇଁପଡନ୍ତି ତାହାର ନାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The jump line", "hi": "जंप लाइन", "or": "ଜମ୍ପ ଲାଇନ୍" }, "isCorrect": false },
+      { "text": { "en": "The take-off board", "hi": "टेक-ऑफ बोर्ड", "or": "ଟେକ୍-ଅଫ୍ ବୋର୍ଡ" }, "isCorrect": true },
+      { "text": { "en": "The starting block", "hi": "स्टार्टिंग ब्लॉक", "or": "ଷ୍ଟାର୍ଟିଂ ବ୍ଲକ୍" }, "isCorrect": false },
+      { "text": { "en": "The runway marker", "hi": "रनवे मार्कर", "or": "ରନୱେ ମାର୍କର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-28",
+    "question": {
+      "en": "Why do athletes often lower their body slightly on the second to last step?",
+      "hi": "एथलीट अक्सर दूसरे से अंतिम कदम पर अपने शरीर को थोड़ा नीचे क्यों करते हैं?",
+      "or": "ଆଥଲେଟମାନେ ଶେଷରୁ ଦ୍ୱିତୀୟ ପଦକ୍ଷେପରେ ନିଜ ଶରୀରକୁ ସାମାନ୍ୟ ତଳକୁ କାହିଁକି କରନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "To rest before the jump", "hi": "कूद से पहले आराम करने के लिए", "or": "ଡେଇଁବା ପୂର୍ବରୁ ଆରାମ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To prepare for an explosive upward jump", "hi": "एक विस्फोटक ऊर्ध्वगामी कूद की तैयारी के लिए", "or": "ଏକ ବିସ୍ଫୋରକ ଉପରକୁ ଜମ୍ପ ପାଇଁ ପ୍ରସ୍ତୁତ ହେବା" }, "isCorrect": true },
+      { "text": { "en": "To avoid a foul", "hi": "फाउल से बचने के लिए", "or": "ଫାଉଲ୍ ଏଡ଼ାଇବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To see the board better", "hi": "बोर्ड को बेहतर देखने के लिए", "or": "ବୋର୍ଡକୁ ଭଲଭାବେ ଦେଖିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-29",
+    "question": {
+      "en": "If a competition has many jumpers, what often happens after the first three rounds?",
+      "hi": "यदि किसी प्रतियोगिता में कई जम्पर होते हैं, तो पहले तीन राउंड के बाद अक्सर क्या होता है?",
+      "or": "ଯଦି ଏକ ପ୍ରତିଯୋଗିତାରେ ଅନେକ ଜମ୍ପର୍ ଥାଆନ୍ତି, ତେବେ ପ୍ରଥମ ତିନି ରାଉଣ୍ଡ ପରେ ପ୍ରାୟତଃ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "The competition ends", "hi": "प्रतियोगिता समाप्त हो जाती है", "or": "ପ୍ରତିଯୋଗିତା ସମାପ୍ତ ହୁଏ" }, "isCorrect": false },
+      { "text": { "en": "Only the top jumpers get more attempts (the 'final')", "hi": "केवल शीर्ष जम्परों को और प्रयास मिलते हैं ('फाइनल')", "or": "କେବଳ ଶୀର୍ଷ ଜମ୍ପରମାନଙ୍କୁ ଅଧିକ ପ୍ରୟାସ ମିଳେ ('ଫାଇନାଲ୍')" }, "isCorrect": true },
+      { "text": { "en": "Everyone gets three more attempts", "hi": "सभी को तीन और प्रयास मिलते हैं", "or": "ସମସ୍ତଙ୍କୁ ଆଉ ତିନୋଟି ପ୍ରୟାସ ମିଳେ" }, "isCorrect": false },
+      { "text": { "en": "The jump distances are reset to zero", "hi": "कूद की दूरी शून्य पर रीसेट हो जाती है", "or": "ଜମ୍ପ ଦୂରତା ଶୂନ୍ୟକୁ ପୁନଃ ସେଟ୍ ହୁଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-30",
+    "question": {
+      "en": "What does 'PR' or 'PB' stand for?",
+      "hi": "'पीआर' या 'पीबी' का क्या अर्थ है?",
+      "or": "'ପିଆର୍' ବା 'ପିବି'ର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Practice Run / Practice Best", "hi": "प्रैक्टिस रन / प्रैक्टिस बेस्ट", "or": "ପ୍ରାକ୍ଟିସ୍ ରନ୍ / ପ୍ରାକ୍ଟିସ୍ ବେଷ୍ଟ" }, "isCorrect": false },
+      { "text": { "en": "Personal Record / Personal Best", "hi": "पर्सनल रिकॉर्ड / पर्सनल बेस्ट", "or": "ପର୍ସନାଲ୍ ରେକର୍ଡ / ପର୍ସନାଲ୍ ବେଷ୍ଟ" }, "isCorrect": true },
+      { "text": { "en": "Passed Round / Passed Board", "hi": "पास्ड राउंड / पास्ड बोर्ड", "or": "ପାସ୍ଡ ରାଉଣ୍ଡ / ପାସ୍ଡ ବୋର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "Positive Result / Positive Bounce", "hi": "पॉजिटिव रिजल्ट / पॉजिटिव बाउंस", "or": "ପଜିଟିଭ୍ ରେଜଲ୍ଟ / ପଜିଟିଭ୍ ବାଉନ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-31",
+    "question": {
+      "en": "During landing, your heels should touch the sand first, followed by what motion?",
+      "hi": "लैंडिंग के दौरान, आपकी एड़ी पहले रेत को छूनी चाहिए, उसके बाद कौन सी गति होनी चाहिए?",
+      "or": "ଲ୍ୟାଣ୍ଡିଂ ସମୟରେ, ଆପଣଙ୍କ ଗୋଇଠି ପ୍ରଥମେ ବାଲିକୁ ଛୁଇଁବା ଉଚିତ୍, ତା'ପରେ କେଉଁ ଗତି ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Falling straight back", "hi": "सीधे पीछे गिरना", "or": "ସିଧା ପଛକୁ ପଡ଼ିବା" }, "isCorrect": false },
+      { "text": { "en": "Collapsing your knees and falling forward or sideways", "hi": "अपने घुटनों को मोड़ना और आगे या बगल में गिरना", "or": "ଆପଣଙ୍କ ଆଣ୍ଠୁ ଭାଙ୍ଗି ଆଗକୁ କିମ୍ବା ପାର୍ଶ୍ୱକୁ ପଡ଼ିବା" }, "isCorrect": true },
+      { "text": { "en": "Trying to stand up straight", "hi": "सीधे खड़े होने की कोशिश करना", "or": "ସିଧା ଠିଆ ହେବାକୁ ଚେଷ୍ଟା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Putting your hands behind you", "hi": "अपने हाथों को पीछे रखना", "or": "ଆପଣଙ୍କ ହାତ ପଛରେ ରଖିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-32",
+    "question": {
+      "en": "Can you place a marker next to the runway to guide your run-up?",
+      "hi": "क्या आप अपने रन-अप को निर्देशित करने के लिए रनवे के बगल में एक मार्कर रख सकते हैं?",
+      "or": "ଆପଣ ନିଜ ରନ୍-ଅପକୁ ନିର୍ଦ୍ଦେଶିତ କରିବା ପାଇଁ ରନୱେ ପାଖରେ ଏକ ମାର୍କର୍ ରଖିପାରିବେ କି?"
+    },
+    "options": [
+      { "text": { "en": "No, markers are not allowed", "hi": "नहीं, मार्करों की अनुमति नहीं है", "or": "ନା, ମାର୍କର୍ ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": false },
+      { "text": { "en": "Yes, usually one or two markers are allowed", "hi": "हाँ, आमतौर पर एक या दो मार्करों की अनुमति होती है", "or": "ହଁ, ସାଧାରଣତଃ ଏକ କିମ୍ବା ଦୁଇଟି ମାର୍କର୍ ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": true },
+      { "text": { "en": "Only if the official places it for you", "hi": "केवल अगर अधिकारी इसे आपके लिए रखता है", "or": "କେବଳ ଯଦି ଅଧିକାରୀ ଏହାକୁ ଆପଣଙ୍କ ପାଇଁ ରଖନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Yes, you can place as many as you want", "hi": "हाँ, आप जितने चाहें उतने रख सकते हैं", "or": "ହଁ, ଆପଣ ଯେତେ ଚାହିଁବେ ସେତେ ରଖିପାରିବେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-33",
+    "question": {
+      "en": "What is the primary purpose of a cool-down after a jumping session?",
+      "hi": "जंपिंग सत्र के बाद कूल-डाउन का प्राथमिक उद्देश्य क्या है?",
+      "or": "ଜମ୍ପିଂ ସେସନ୍ ପରେ କୁଲ୍-ଡାଉନର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To practice jumping more", "hi": "और अधिक कूदने का अभ्यास करने के लिए", "or": "ଅଧିକ ଡେଇଁବା ଅଭ୍ୟାସ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To help your muscles recover and prevent soreness", "hi": "आपकी मांसपेशियों को ठीक होने में मदद करने और दर्द को रोकने के लिए", "or": "ଆପଣଙ୍କ ମାଂସପେଶୀକୁ ପୁନରୁଦ୍ଧାର କରିବାରେ ସାହାଯ୍ୟ କରିବା ଏବଂ ଯନ୍ତ୍ରଣା ରୋକିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To measure your final jump", "hi": "अपनी अंतिम कूद को मापने के लिए", "or": "ଆପଣଙ୍କ ଅନ୍ତିମ ଜମ୍ପ ମାପିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To build speed", "hi": "गति बनाने के लिए", "or": "ଗତି ସୃଷ୍ଟି କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-34",
+    "question": {
+      "en": "If you touch the ground outside the sand pit during landing, what is the result?",
+      "hi": "यदि आप लैंडिंग के दौरान रेत के गड्ढे के बाहर जमीन को छूते हैं, तो परिणाम क्या होता है?",
+      "or": "ଯଦି ଆପଣ ଲ୍ୟାଣ୍ଡିଂ ସମୟରେ ବାଲି ଗାତ ବାହାରେ ଭୂମିକୁ ଛୁଅଁନ୍ତି, ତେବେ ଫଳାଫଳ କ’ଣ ହୁଏ?"
+    },
+    "options": [
+      { "text": { "en": "It is a foul", "hi": "यह एक फाउल है", "or": "ଏହା ଏକ ଫାଉଲ୍" }, "isCorrect": true },
+      { "text": { "en": "It is measured to that point", "hi": "इसे उस बिंदु तक मापा जाता है", "or": "ଏହାକୁ ସେହି ବିନ୍ଦୁ ପର୍ଯ୍ୟନ୍ତ ମାପ କରାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "It is a legal jump", "hi": "यह एक वैध कूद है", "or": "ଏହା ଏକ ବୈଧ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "You get a re-jump", "hi": "आपको एक री-जंप मिलता है", "or": "ଆପଣଙ୍କୁ ଏକ ପୁନର୍ଜମ୍ପ ମିଳେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-35",
+    "question": {
+      "en": "What is the typical time limit an athlete has to start their attempt?",
+      "hi": "एक एथलीट को अपना प्रयास शुरू करने के लिए सामान्य समय सीमा क्या है?",
+      "or": "ଜଣେ ଆଥଲେଟ୍‌ଙ୍କୁ ନିଜ ପ୍ରୟାସ ଆରମ୍ଭ କରିବା ପାଇଁ ସାଧାରଣ ସମୟ ସୀମା କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "30 seconds", "hi": "30 सेकंड", "or": "୩୦ ସେକେଣ୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "1 minute", "hi": "1 मिनट", "or": "୧ ମିନିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "2 minutes", "hi": "2 मिनट", "or": "୨ ମିନିଟ୍" }, "isCorrect": false },
+      { "text": { "en": "There is no limit", "hi": "कोई सीमा नहीं है", "or": "କୌଣସି ସୀମା ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-36",
+    "question": {
+      "en": "What should your eyes be focused on during the last few steps of the run-up?",
+      "hi": "रन-अप के अंतिम कुछ कदमों के दौरान आपकी आँखें किस पर केंद्रित होनी चाहिए?",
+      "or": "ରନ୍-ଅପର ଶେଷ କିଛି ପଦକ୍ଷେପ ସମୟରେ ଆପଣଙ୍କ ଆଖି କେଉଁଥିରେ କେନ୍ଦ୍ରିତ ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Looking down at your feet", "hi": "अपने पैरों को नीचे देखना", "or": "ନିଜ ପାଦକୁ ତଳକୁ ଦେଖିବା" }, "isCorrect": false },
+      { "text": { "en": "Looking up and ahead, not directly at the board", "hi": "ऊपर और आगे देखना, सीधे बोर्ड पर नहीं", "or": "ଉପରକୁ ଏବଂ ଆଗକୁ ଦେଖିବା, ସିଧା ବୋର୍ଡରେ ନୁହେଁ" }, "isCorrect": true },
+      { "text": { "en": "Looking at the official", "hi": "अधिकारी को देखना", "or": "ଅଧିକାରୀଙ୍କୁ ଦେଖିବା" }, "isCorrect": false },
+      { "text": { "en": "Closing your eyes", "hi": "अपनी आँखें बंद करना", "or": "ଆପଣଙ୍କ ଆଖି ବନ୍ଦ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-37",
+    "question": {
+      "en": "What does a 'tailwind' do to your jump?",
+      "hi": "एक 'टेलविंड' आपकी कूद पर क्या प्रभाव डालता है?",
+      "or": "ଏକ 'ଟେଲୱିଣ୍ଡ୍' ଆପଣଙ୍କ ଜମ୍ପରେ କ’ଣ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "It makes you jump shorter", "hi": "यह आपको छोटा कूदने पर मजबूर करता है", "or": "ଏହା ଆପଣଙ୍କୁ ଛୋଟ ଡେଇଁବାକୁ ବାଧ୍ୟ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It can help you jump farther", "hi": "यह आपको दूर कूदने में मदद कर सकता है", "or": "ଏହା ଆପଣଙ୍କୁ ଦୂରକୁ ଡେଇଁବାରେ ସାହାଯ୍ୟ କରିପାରେ" }, "isCorrect": true },
+      { "text": { "en": "It makes your jump a foul", "hi": "यह आपकी कूद को एक फाउल बना देता है", "or": "ଏହା ଆପଣଙ୍କ ଜମ୍ପକୁ ଏକ ଫାଉଲ୍ କରିଦିଏ" }, "isCorrect": false },
+      { "text": { "en": "It has no effect", "hi": "इसका कोई प्रभाव नहीं है", "or": "ଏହାର କୌଣସି ପ୍ରଭାବ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-38",
+    "question": {
+      "en": "What is a 'headwind'?",
+      "hi": "एक 'हेडविंड' क्या है?",
+      "or": "ଏକ 'ହେଡୱିଣ୍ଡ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Wind coming from behind you", "hi": "आपके पीछे से आने वाली हवा", "or": "ଆପଣଙ୍କ ପଛରୁ ଆସୁଥିବା ପବନ" }, "isCorrect": false },
+      { "text": { "en": "Wind coming from against you", "hi": "आपके विरुद्ध आने वाली हवा", "or": "ଆପଣଙ୍କ ବିପକ୍ଷରେ ଆସୁଥିବା ପବନ" }, "isCorrect": true },
+      { "text": { "en": "Wind coming from the side", "hi": "बगल से आने वाली हवा", "or": "ପାର୍ଶ୍ୱରୁ ଆସୁଥିବା ପବନ" }, "isCorrect": false },
+      { "text": { "en": "No wind at all", "hi": "बिल्कुल भी हवा नहीं", "or": "ବିଲକୁଲ ପବନ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-39",
+    "question": {
+      "en": "What is the main advantage of the 'hang' or 'hitch-kick' techniques over the 'sail'?",
+      "hi": "'सेल' पर 'हैंग' या 'हिच-किक' तकनीकों का मुख्य लाभ क्या है?",
+      "or": "'ସେଲ୍' ତୁଳନାରେ 'ହ୍ୟାଙ୍ଗ୍' ବା 'ହିଚ୍-କିକ୍' କୌଶଳର ମୁଖ୍ୟ ଲାଭ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "They are easier to learn", "hi": "उन्हें सीखना आसान है", "or": "ସେଗୁଡିକ ଶିଖିବା ସହଜ" }, "isCorrect": false },
+      { "text": { "en": "They help reduce forward rotation and prepare a better landing", "hi": "वे आगे के घुमाव को कम करने में मदद करते हैं और एक बेहतर लैंडिंग तैयार करते हैं", "or": "ସେଗୁଡିକ ଆଗକୁ ଘୂର୍ଣ୍ଣନ କମାଇବାରେ ସାହାଯ୍ୟ କରନ୍ତି ଏବଂ ଏକ ଭଲ ଲ୍ୟାଣ୍ଡିଂ ପ୍ରସ୍ତୁତ କରନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "They make you jump higher", "hi": "वे आपको ऊंचा कूदने पर मजबूर करते हैं", "or": "ସେଗୁଡିକ ଆପଣଙ୍କୁ ଉଚ୍ଚକୁ ଡେଇଁବାକୁ ବାଧ୍ୟ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "There is no advantage", "hi": "कोई लाभ नहीं है", "or": "କୌଣସି ଲାଭ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-40",
+    "question": {
+      "en": "A competitor's final result is based on what?",
+      "hi": "एक प्रतियोगी का अंतिम परिणाम किस पर आधारित होता है?",
+      "or": "ଜଣେ ପ୍ରତିଯୋଗୀଙ୍କ ଅନ୍ତିମ ଫଳାଫଳ କେଉଁଥିରେ ଆଧାରିତ?"
+    },
+    "options": [
+      { "text": { "en": "Their last jump only", "hi": "केवल उनकी अंतिम कूद", "or": "କେବଳ ତାଙ୍କର ଅନ୍ତିମ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "Their single best legal jump of the entire competition", "hi": "पूरी प्रतियोगिता में उनका एकमात्र सर्वश्रेष्ठ वैध कूद", "or": "ପୂରା ପ୍ରତିଯୋଗିତାରେ ତାଙ୍କର ଏକମାତ୍ର ସର୍ବୋତ୍ତମ ବୈଧ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "The average of all their jumps", "hi": "उनकी सभी कूदों का औसत", "or": "ତାଙ୍କର ସମସ୍ତ ଜମ୍ପର ହାରାହାରି" }, "isCorrect": false },
+      { "text": { "en": "Their first jump only", "hi": "केवल उनकी पहली कूद", "or": "କେବଳ ତାଙ୍କର ପ୍ରଥମ ଜମ୍ପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-41",
+    "question": {
+      "en": "If you are the next jumper, you can begin your attempt when?",
+      "hi": "यदि आप अगले जम्पर हैं, तो आप अपना प्रयास कब शुरू कर सकते हैं?",
+      "or": "ଯଦି ଆପଣ ପରବର୍ତ୍ତୀ ଜମ୍ପର୍, ତେବେ ଆପଣ ନିଜ ପ୍ରୟାସ କେବେ ଆରମ୍ଭ କରିପାରିବେ?"
+    },
+    "options": [
+      { "text": { "en": "Anytime you feel ready", "hi": "जब भी आप तैयार महसूस करें", "or": "ଯେତେବେଳେ ଆପଣ ପ୍ରସ୍ତୁତ ଅନୁଭବ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "After the official signals it is your turn", "hi": "अधिकारी के संकेत के बाद कि आपकी बारी है", "or": "ଅଧିକାରୀ ସଙ୍କେତ ଦେବା ପରେ ଯେ ଆପଣଙ୍କ ପାଳି" }, "isCorrect": true },
+      { "text": { "en": "As soon as the previous jumper leaves the pit", "hi": "जैसे ही पिछला जम्पर गड्ढे से निकलता है", "or": "ପୂର୍ବ ଜମ୍ପର୍ ଗାତରୁ ବାହାରିବା ମାତ୍ରେ" }, "isCorrect": false },
+      { "text": { "en": "After the sand has been raked", "hi": "रेत को रेक करने के बाद", "or": "ବାଲି ରେକ୍ ହେବା ପରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-42",
+    "question": {
+      "en": "What is the best type of food to eat for quick energy about an hour before competing?",
+      "hi": "प्रतियोगिता से लगभग एक घंटे पहले त्वरित ऊर्जा के लिए खाने के लिए सबसे अच्छा प्रकार का भोजन क्या है?",
+      "or": "ପ୍ରତିଯୋଗିତା ପୂର୍ବରୁ ପ୍ରାୟ ଏକ ଘଣ୍ଟା ଆଗରୁ ଶୀଘ୍ର ଶକ୍ତି ପାଇଁ ଖାଇବାକୁ ସର୍ବୋତ୍ତମ ପ୍ରକାରର ଖାଦ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A large meal with lots of protein", "hi": "बहुत सारे प्रोटीन के साथ एक बड़ा भोजन", "or": "ବହୁତ ପ୍ରୋଟିନ୍ ସହିତ ଏକ ବଡ଼ ଭୋଜନ" }, "isCorrect": false },
+      { "text": { "en": "Simple carbohydrates like a banana or toast", "hi": "एक केला या टोस्ट जैसे सरल कार्बोहाइड्रेट", "or": "ଏକ କଦଳୀ କିମ୍ବା ଟୋଷ୍ଟ ଭଳି ସରଳ କାର୍ବୋହାଇଡ୍ରେଟ୍" }, "isCorrect": true },
+      { "text": { "en": "Fatty foods like fried snacks", "hi": "तले हुए स्नैक्स जैसे वसायुक्त खाद्य पदार्थ", "or": "ଭଜା ସ୍ନାକ୍ସ ଭଳି ଚର୍ବିଯୁକ୍ତ ଖାଦ୍ୟ" }, "isCorrect": false },
+      { "text": { "en": "Nothing at all", "hi": "बिल्कुल कुछ नहीं", "or": "ବିଲକୁଲ କିଛି ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-43",
+    "question": {
+      "en": "If two jumpers have the exact same best distance, how is the tie usually broken?",
+      "hi": "यदि दो जम्परों की सबसे अच्छी दूरी बिल्कुल समान है, तो टाई को आमतौर पर कैसे तोड़ा जाता है?",
+      "or": "ଯଦି ଦୁଇ ଜମ୍ପରଙ୍କ ସର୍ବୋତ୍ତମ ଦୂରତା ସମ୍ପୂର୍ଣ୍ଣ ସମାନ, ତେବେ ଟାଇ ସାଧାରଣତଃ କିପରି ଭଙ୍ଗାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "By who is taller", "hi": "जो लंबा है उसके द्वारा", "or": "ଯିଏ ଡେଙ୍ଗା" }, "isCorrect": false },
+      { "text": { "en": "By comparing their second-best jumps", "hi": "उनकी दूसरी-सर्वश्रेष्ठ कूदों की तुलना करके", "or": "ତାଙ୍କର ଦ୍ୱିତୀୟ-ସର୍ବୋତ୍ତମ ଜମ୍ପ ତୁଳନା କରି" }, "isCorrect": true },
+      { "text": { "en": "By a coin toss", "hi": "एक सिक्के की उछाल से", "or": "ଏକ ମୁଦ୍ରା ଟସ୍ ଦ୍ୱାରା" }, "isCorrect": false },
+      { "text": { "en": "They share the prize", "hi": "वे पुरस्कार साझा करते हैं", "or": "ସେମାନେ ପୁରସ୍କାର ବାଣ୍ଟି ନିଅନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-44",
+    "question": {
+      "en": "Why do jumpers wear shoes with spikes (spikes)?",
+      "hi": "जम्पर स्पाइक्स वाले जूते (स्पाइक्स) क्यों पहनते हैं?",
+      "or": "ଜମ୍ପରମାନେ ସ୍ପାଇକ୍ସ ଥିବା ଜୋତା କାହିଁକି ପିନ୍ଧନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "To protect their feet from the sand", "hi": "अपने पैरों को रेत से बचाने के लिए", "or": "ନିଜ ପାଦକୁ ବାଲିରୁ ରକ୍ଷା କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To get a better grip on the runway and not slip", "hi": "रनवे पर बेहतर पकड़ पाने और फिसलने से बचने के लिए", "or": "ରନୱେରେ ଭଲ ଗ୍ରିପ୍ ପାଇବା ଏବଂ ନ ଖସିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To make their feet lighter", "hi": "अपने पैरों को हल्का बनाने के लिए", "or": "ନିଜ ପାଦକୁ ହାଲୁକା କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To help them dig into the sand on landing", "hi": "लैंडिंग पर रेत में खोदने में उनकी मदद करने के लिए", "or": "ଲ୍ୟାଣ୍ଡିଂରେ ବାଲିରେ ଖୋଳିବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-45",
+    "question": {
+      "en": "Which of these is NOT a phase of the long jump?",
+      "hi": "इनमें से कौन सा लंबी कूद का एक चरण नहीं है?",
+      "or": "ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଲମ୍ବା ଡିଆଁର ଏକ ପର୍ଯ୍ୟାୟ ନୁହେଁ?"
+    },
+    "options": [
+      { "text": { "en": "Approach Run", "hi": "अप्रोच रन", "or": "ଆପ୍ରୋଚ୍ ରନ୍" }, "isCorrect": false },
+      { "text": { "en": "Take-off", "hi": "टेक-ऑफ", "or": "ଟେକ୍-ଅଫ୍" }, "isCorrect": false },
+      { "text": { "en": "Throw", "hi": "थ्रो", "or": "ଥ୍ରୋ" }, "isCorrect": true },
+      { "text": { "en": "Landing", "hi": "लैंडिंग", "or": "ଲ୍ୟାଣ୍ଡିଂ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-46",
+    "question": {
+      "en": "Is it a foul if you run through the sand pit without making a jump?",
+      "hi": "क्या यह एक फाउल है यदि आप बिना कूदे रेत के गड्ढे से होकर दौड़ते हैं?",
+      "or": "ଯଦି ଆପଣ ବିନା ଜମ୍ପରେ ବାଲି ଗାତ ଦେଇ ଦୌଡ଼ନ୍ତି, ତେବେ ଏହା କ’ଣ ଏକ ଫାଉଲ୍?"
+    },
+    "options": [
+      { "text": { "en": "Yes, always", "hi": "हाँ, हमेशा", "or": "ହଁ, ସବୁବେଳେ" }, "isCorrect": false },
+      { "text": { "en": "No, it is not a foul", "hi": "नहीं, यह एक फाउल नहीं है", "or": "ନା, ଏହା ଏକ ଫାଉଲ୍ ନୁହେଁ" }, "isCorrect": true },
+      { "text": { "en": "Only if you touch the sand", "hi": "केवल अगर आप रेत को छूते हैं", "or": "କେବଳ ଯଦି ଆପଣ ବାଲିକୁ ଛୁଅଁନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Only in the final round", "hi": "केवल अंतिम दौर में", "or": "କେବଳ ଅନ୍ତିମ ରାଉଣ୍ଡରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-47",
+    "question": {
+      "en": "What is the primary job of the official holding the rake?",
+      "hi": "रेक पकड़े हुए अधिकारी का प्राथमिक काम क्या है?",
+      "or": "ରେକ୍ ଧରିଥିବା ଅଧିକାରୀଙ୍କ ମୁଖ୍ୟ କାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To measure the jump", "hi": "कूद को मापना", "or": "ଜମ୍ପ ମାପିବା" }, "isCorrect": false },
+      { "text": { "en": "To level the sand after each jump", "hi": "प्रत्येक कूद के बाद रेत को समतल करना", "or": "ପ୍ରତ୍ୟେକ ଜମ୍ପ ପରେ ବାଲି ସମତଳ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To call out the fouls", "hi": "फाउल की घोषणा करना", "or": "ଫାଉଲ୍ ଘୋଷଣା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To give water to the athletes", "hi": "एथलीटों को पानी देना", "or": "ଆଥଲେଟମାନଙ୍କୁ ପାଣି ଦେବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-48",
+    "question": {
+      "en": "If you perform a somersault during your jump, it is:",
+      "hi": "यदि आप अपनी कूद के दौरान एक कलाबाजी करते हैं, तो यह है:",
+      "or": "ଯଦି ଆପଣ ନିଜ ଜମ୍ପ ସମୟରେ ଏକ କଳାବାଜି କରନ୍ତି, ତେବେ ଏହା ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "A legal jump", "hi": "एक वैध कूद", "or": "ଏକ ବୈଧ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "An illegal jump (a foul)", "hi": "एक अवैध कूद (एक फाउल)", "or": "ଏକ ଅବୈଧ ଜମ୍ପ (ଏକ ଫାଉଲ୍)" }, "isCorrect": true },
+      { "text": { "en": "Awarded extra points for style", "hi": "शैली के लिए अतिरिक्त अंक दिए जाते हैं", "or": "ଶୈଳୀ ପାଇଁ ଅତିରିକ୍ତ ପଏଣ୍ଟ ଦିଆଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "Only allowed for experienced jumpers", "hi": "केवल अनुभवी जम्परों के लिए अनुमति है", "or": "କେବଳ ଅଭିଜ୍ଞ ଜମ୍ପରମାନଙ୍କ ପାଇଁ ଅନୁମତିପ୍ରାପ୍ତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-49",
+    "question": {
+      "en": "Which of these is a good exercise to improve explosive leg power?",
+      "hi": "विस्फोटक पैर की शक्ति में सुधार के लिए इनमें से कौन सा एक अच्छा व्यायाम है?",
+      "or": "ବିସ୍ଫୋରକ ଗୋଡ଼ ଶକ୍ତିରେ ଉନ୍ନତି ଆଣିବା ପାଇଁ ଏଥିମଧ୍ୟରୁ କେଉଁଟି ଏକ ଭଲ ବ୍ୟାୟାମ?"
+    },
+    "options": [
+      { "text": { "en": "Long-distance running", "hi": "लंबी दूरी की दौड़", "or": "ଦୀର୍ଘ ଦୂର ଦୌଡ଼" }, "isCorrect": false },
+      { "text": { "en": "Squats and box jumps", "hi": "स्क्वैट्स और बॉक्स जंप", "or": "ସ୍କ୍ୱାଟ୍ସ ଏବଂ ବକ୍ସ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "Sit-ups", "hi": "सिट-अप्स", "or": "ସିଟ୍-ଅପ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "Arm curls", "hi": "आर्म कर्ल्स", "or": "ଆର୍ମ କର୍ଲ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-50",
+    "question": {
+      "en": "How should the sand in the pit feel for a safe landing?",
+      "hi": "सुरक्षित लैंडिंग के लिए गड्ढे में रेत कैसी महसूस होनी चाहिए?",
+      "or": "ସୁରକ୍ଷିତ ଲ୍ୟାଣ୍ଡିଂ ପାଇଁ ଗାତରେ ଥିବା ବାଲି କିପରି ଅନୁଭବ ହେବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Hard and compact", "hi": "कठोर और ठोस", "or": "କଠିନ ଏବଂ ସଂକ୍ଷିପ୍ତ" }, "isCorrect": false },
+      { "text": { "en": "Soft and loosened", "hi": "नरम और ढीला", "or": "ନରମ ଏବଂ ଢିଲା" }, "isCorrect": true },
+      { "text": { "en": "Wet and muddy", "hi": "गीला और कीचड़युक्त", "or": "ଓଦା ଏବଂ କାଦୁଅ" }, "isCorrect": false },
+      { "text": { "en": "Mixed with small stones", "hi": "छोटे पत्थरों के साथ मिश्रित", "or": "ଛୋଟ ପଥର ସହିତ ମିଶ୍ରିତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-51",
+    "question": {
+      "en": "What does converting horizontal speed to vertical lift mean at take-off?",
+      "hi": "टेक-ऑफ पर क्षैतिज गति को ऊर्ध्वाधर लिफ्ट में बदलने का क्या मतलब है?",
+      "or": "ଟେକ୍-ଅଫରେ ଭୂସମାନ୍ତରାଳ ଗତିକୁ ଉର୍ଦ୍ଧ୍ୱଗାମୀ ଲିଫ୍ଟରେ ପରିବର୍ତ୍ତନ କରିବାର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Stopping suddenly", "hi": "अचानक रुकना", "or": "ହଠାତ୍ ଅଟକିଯିବା" }, "isCorrect": false },
+      { "text": { "en": "Using your running speed to jump upwards", "hi": "अपनी दौड़ने की गति का उपयोग ऊपर की ओर कूदने के लिए करना", "or": "ଆପଣଙ୍କ ଦୌଡ଼ିବାର ଗତିକୁ ଉପରକୁ ଡେଇଁବା ପାଇଁ ବ୍ୟବହାର କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Jumping forwards only", "hi": "केवल आगे की ओर कूदना", "or": "କେବଳ ଆଗକୁ ଡେଇଁବା" }, "isCorrect": false },
+      { "text": { "en": "Slowing down", "hi": "धीमा होना", "or": "ଧୀର ହେବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-52",
+    "question": {
+      "en": "How many attempts does an athlete get in a standard competition (preliminary rounds)?",
+      "hi": "एक मानक प्रतियोगिता (प्रारंभिक दौर) में एक एथलीट को कितने प्रयास मिलते हैं?",
+      "or": "ଏକ ମାନକ ପ୍ରତିଯୋଗିତାରେ (ପ୍ରାରମ୍ଭିକ ରାଉଣ୍ଡ) ଜଣେ ଆଥଲେଟ୍ କେତୋଟି ପ୍ରୟାସ ପାଆନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "One", "hi": "एक", "or": "ଏକ" }, "isCorrect": false },
+      { "text": { "en": "Three", "hi": "तीन", "or": "ତିନି" }, "isCorrect": true },
+      { "text": { "en": "Six", "hi": "छह", "or": "ଛଅ" }, "isCorrect": false },
+      { "text": { "en": "As many as they want", "hi": "जितने वे चाहें", "or": "ଯେତେ ସେମାନେ ଚାହାଁନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-53",
+    "question": {
+      "en": "What is the take-off board usually made of?",
+      "hi": "टेक-ऑफ बोर्ड आमतौर पर किससे बना होता है?",
+      "or": "ଟେକ୍-ଅଫ୍ ବୋର୍ଡ ସାଧାରଣତଃ କେଉଁଥିରେ ତିଆରି?"
+    },
+    "options": [
+      { "text": { "en": "Metal", "hi": "धातु", "or": "ଧାତୁ" }, "isCorrect": false },
+      { "text": { "en": "Wood or a synthetic material", "hi": "लकड़ी या एक सिंथेटिक सामग्री", "or": "କାଠ କିମ୍ବା ଏକ ସିନ୍ଥେଟିକ୍ ସାମଗ୍ରୀ" }, "isCorrect": true },
+      { "text": { "en": "Rubber", "hi": "रबड़", "or": "ରବର" }, "isCorrect": false },
+      { "text": { "en": "Hard plastic", "hi": "कठोर प्लास्टिक", "or": "କଠିନ ପ୍ଲାଷ୍ଟିକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-54",
+    "question": {
+      "en": "A good warm-up before jumping helps to do what?",
+      "hi": "कूदने से पहले एक अच्छा वार्म-अप क्या करने में मदद करता है?",
+      "or": "ଡେଇଁବା ପୂର୍ବରୁ ଏକ ଭଲ ୱାର୍ମ-ଅପ୍ କ’ଣ କରିବାରେ ସାହାଯ୍ୟ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "Make you tired", "hi": "आपको थकाना", "or": "ଆପଣଙ୍କୁ କ୍ଳାନ୍ତ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Prevent injuries and prepare your muscles", "hi": "चोटों को रोकना और अपनी मांसपेशियों को तैयार करना", "or": "ଆଘାତ ରୋକିବା ଏବଂ ଆପଣଙ୍କ ମାଂସପେଶୀକୁ ପ୍ରସ୍ତୁତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Make the jump shorter", "hi": "कूद को छोटा करना", "or": "ଜମ୍ପକୁ ଛୋଟ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Help you remember your steps", "hi": "अपने कदमों को याद रखने में मदद करना", "or": "ଆପଣଙ୍କ ପଦକ୍ଷେପ ମନେ ରଖିବାରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-55",
+    "question": {
+      "en": "Why should you extend your legs forward as far as possible just before landing?",
+      "hi": "लैंडिंग से ठीक पहले आपको अपने पैरों को जितना संभव हो उतना आगे क्यों बढ़ाना चाहिए?",
+      "or": "ଲ୍ୟାଣ୍ଡିଂ ପୂର୍ବରୁ ଆପଣଙ୍କୁ ନିଜ ଗୋଡକୁ ଯଥାସମ୍ଭବ ଆଗକୁ କାହିଁକି ବଢ଼ାଇବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "To slow down", "hi": "धीमा होने के लिए", "or": "ଧୀର ହେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To maximize your measured distance", "hi": "अपनी मापी गई दूरी को अधिकतम करने के लिए", "or": "ଆପଣଙ୍କ ମାପ କରାଯାଇଥିବା ଦୂରତାକୁ ସର୍ବାଧିକ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To have a softer landing", "hi": "एक नरम लैंडिंग के लिए", "or": "ଏକ ନରମ ଲ୍ୟାଣ୍ଡିଂ ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To prepare to stand up", "hi": "खड़े होने की तैयारी के लिए", "or": "ଠିଆ ହେବାକୁ ପ୍ରସ୍ତୁତ ହେବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-56",
+    "question": {
+      "en": "If you are the last of 8 jumpers in a final, how many total jumps will you get?",
+      "hi": "यदि आप एक फाइनल में 8 जम्परों में से अंतिम हैं, तो आपको कुल कितने जंप मिलेंगे?",
+      "or": "ଯଦି ଆପଣ ଏକ ଫାଇନାଲରେ ୮ ଜଣ ଜମ୍ପରଙ୍କ ମଧ୍ୟରୁ ଶେଷ, ତେବେ ଆପଣଙ୍କୁ ମୋଟ କେତୋଟି ଜମ୍ପ ମିଳିବ?"
+    },
+    "options": [
+      { "text": { "en": "3", "hi": "3", "or": "୩" }, "isCorrect": false },
+      { "text": { "en": "6", "hi": "6", "or": "୬" }, "isCorrect": true },
+      { "text": { "en": "8", "hi": "8", "or": "୮" }, "isCorrect": false },
+      { "text": { "en": "1", "hi": "1", "or": "୧" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-57",
+    "question": {
+      "en": "What is the name of the area filled with sand?",
+      "hi": "रेत से भरे क्षेत्र का नाम क्या है?",
+      "or": "ବାଲିରେ ଭର୍ତ୍ତି ହୋଇଥିବା ସ୍ଥାନର ନାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The beach", "hi": "बीच", "or": "ବେଳାଭୂମି" }, "isCorrect": false },
+      { "text": { "en": "The landing pit", "hi": "लैंडिंग पिट", "or": "ଲ୍ୟାଣ୍ଡିଂ ପିଟ୍" }, "isCorrect": true },
+      { "text": { "en": "The runway end", "hi": "रनवे का अंत", "or": "ରନୱେର ଶେଷ" }, "isCorrect": false },
+      { "text": { "en": "The jump box", "hi": "जंप बॉक्स", "or": "ଜମ୍ପ ବକ୍ସ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-58",
+    "question": {
+      "en": "Dynamic stretches, like leg swings, are best done when?",
+      "hi": "लेग स्विंग्स जैसे डायनेमिक स्ट्रेच सबसे अच्छे कब किए जाते हैं?",
+      "or": "ଲେଗ୍ ସ୍ୱିଙ୍ଗ୍ ଭଳି ଡାଇନାମିକ୍ ଷ୍ଟ୍ରେଚ୍ ସବୁଠାରୁ ଭଲ କେବେ କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "After the competition", "hi": "प्रतियोगिता के बाद", "or": "ପ୍ରତିଯୋଗିତା ପରେ" }, "isCorrect": false },
+      { "text": { "en": "During the warm-up before jumping", "hi": "कूदने से पहले वार्म-अप के दौरान", "or": "ଡେଇଁବା ପୂର୍ବରୁ ୱାର୍ମ-ଅପ୍ ସମୟରେ" }, "isCorrect": true },
+      { "text": { "en": "The night before", "hi": "पिछली रात", "or": "ପୂର୍ବ ରାତିରେ" }, "isCorrect": false },
+      { "text": { "en": "They are not recommended", "hi": "उनकी सिफारिश नहीं की जाती है", "or": "ସେଗୁଡିକ ସୁପାରିଶ କରାଯାଏ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-59",
+    "question": {
+      "en": "What is the main reason to accelerate throughout your entire run-up?",
+      "hi": "अपने पूरे रन-अप में गति बढ़ाने का मुख्य कारण क्या है?",
+      "or": "ଆପଣଙ୍କ ସମ୍ପୂର୍ଣ୍ଣ ରନ୍-ଅପରେ ତ୍ୱରାନ୍ୱିତ ହେବାର ମୁଖ୍ୟ କାରଣ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To look powerful", "hi": "शक्तिशाली दिखने के लिए", "or": "ଶକ୍ତିଶାଳୀ ଦେଖାଯିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To build maximum usable speed for the take-off", "hi": "टेक-ऑफ के लिए अधिकतम प्रयोग करने योग्य गति बनाने के लिए", "or": "ଟେକ୍-ଅଫ୍ ପାଇଁ ସର୍ବାଧିକ ବ୍ୟବହାରଯୋଗ୍ୟ ଗତି ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To get tired before the jump", "hi": "कूद से पहले थकने के लिए", "or": "ଡେଇଁବା ପୂର୍ବରୁ କ୍ଳାନ୍ତ ହେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To make sure you foul", "hi": "यह सुनिश्चित करने के लिए कि आप फाउल करें", "or": "ଆପଣ ଫାଉଲ୍ କରୁଛନ୍ତି ବୋଲି ସୁନିଶ୍ଚିତ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-60",
+    "question": {
+      "en": "A jump where you don't use your full approach run is often called a:",
+      "hi": "एक कूद जिसमें आप अपने पूरे अप्रोच रन का उपयोग नहीं करते हैं, उसे अक्सर क्या कहा जाता है:",
+      "or": "ଏକ ଜମ୍ପ ଯେଉଁଥିରେ ଆପଣ ନିଜର ସମ୍ପୂର୍ଣ୍ଣ ଆପ୍ରୋଚ୍ ରନ୍ ବ୍ୟବହାର କରନ୍ତି ନାହିଁ, ତାହାକୁ ପ୍ରାୟତଃ କ’ଣ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "A foul jump", "hi": "एक फाउल जम्प", "or": "ଏକ ଫାଉଲ୍ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "A short approach jump", "hi": "एक छोटा अप्रोच जम्प", "or": "ଏକ ଛୋଟ ଆପ୍ରୋଚ୍ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "An illegal jump", "hi": "एक अवैध जम्प", "or": "ଏକ ଅବୈଧ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "A standing long jump", "hi": "एक स्टैंडिंग लॉन्ग जंप", "or": "ଏକ ଷ୍ଟାଣ୍ଡିଂ ଲଙ୍ଗ୍ ଜମ୍ପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-61",
+    "question": {
+      "en": "If the plasticine is disturbed, it means:",
+      "hi": "यदि प्लास्टिसिन में कोई निशान है, तो इसका मतलब है:",
+      "or": "ଯଦି ପ୍ଲାଷ୍ଟିସିନ୍ ବିଚଳିତ ହୁଏ, ଏହାର ଅର୍ଥ:"
+    },
+    "options": [
+      { "text": { "en": "The jump was good", "hi": "कूद अच्छी थी", "or": "ଜମ୍ପଟି ଭଲ ଥିଲା" }, "isCorrect": false },
+      { "text": { "en": "The jump was a foul", "hi": "कूद एक फाउल थी", "or": "ଜମ୍ପଟି ଏକ ଫାଉଲ୍ ଥିଲା" }, "isCorrect": true },
+      { "text": { "en": "The jump was a record", "hi": "कूद एक रिकॉर्ड थी", "or": "ଜମ୍ପଟି ଏକ ରେକର୍ଡ ଥିଲା" }, "isCorrect": false },
+      { "text": { "en": "The sand needs to be raked", "hi": "रेत को रेक करने की जरूरत है", "or": "ବାଲିକୁ ରେକ୍ କରିବାର ଆବଶ୍ୟକତା ଅଛି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-62",
+    "question": {
+      "en": "The final result of a competition is determined by the:",
+      "hi": "एक प्रतियोगिता का अंतिम परिणाम किसके द्वारा निर्धारित किया जाता है:",
+      "or": "ଏକ ପ୍ରତିଯୋଗିତାର ଅନ୍ତିମ ଫଳାଫଳ କାହା ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କରାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "The athlete's style", "hi": "एथलीट की शैली", "or": "ଆଥଲେଟଙ୍କ ଶୈଳୀ" }, "isCorrect": false },
+      { "text": { "en": "The single longest legal jump", "hi": "एकल सबसे लंबी वैध कूद", "or": "ଏକକ ସବୁଠାରୁ ଲମ୍ବା ବୈଧ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "The average of the best three jumps", "hi": "सर्वश्रेष्ठ तीन कूदों का औसत", "or": "ସର୍ବୋତ୍ତମ ତିନୋଟି ଜମ୍ପର ହାରାହାରି" }, "isCorrect": false },
+      { "text": { "en": "The distance of the last jump", "hi": "अंतिम कूद की दूरी", "or": "ଅନ୍ତିମ ଜମ୍ପର ଦୂରତା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-63",
+    "question": {
+      "en": "What is the main danger of putting your hands down behind you on landing?",
+      "hi": "लैंडिंग पर अपने हाथों को पीछे रखने का मुख्य खतरा क्या है?",
+      "or": "ଲ୍ୟାଣ୍ଡିଂରେ ଆପଣଙ୍କ ହାତ ପଛରେ ରଖିବାର ମୁଖ୍ୟ ବିପଦ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is a foul", "hi": "यह एक फाउल है", "or": "ଏହା ଏକ ଫାଉଲ୍" }, "isCorrect": false },
+      { "text": { "en": "It significantly shortens your measured distance", "hi": "यह आपकी मापी गई दूरी को काफी कम कर देता है", "or": "ଏହା ଆପଣଙ୍କ ମାପ କରାଯାଇଥିବା ଦୂରତାକୁ ଯଥେଷ୍ଟ କମ୍ କରିଦିଏ" }, "isCorrect": true },
+      { "text": { "en": "You might hurt your hands", "hi": "आप अपने हाथों को चोट पहुंचा सकते हैं", "or": "ଆପଣ ନିଜ ହାତରେ ଆଘାତ ପାଇପାରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "It looks unprofessional", "hi": "यह अव्यवसायिक दिखता है", "or": "ଏହା ଅପେସାଦାର ଦେଖାଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-64",
+    "question": {
+      "en": "What is the take-off foot?",
+      "hi": "टेक-ऑफ फुट क्या है?",
+      "or": "ଟେକ୍-ଅଫ୍ ଫୁଟ୍ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The foot you land on", "hi": "जिस पैर पर आप उतरते हैं", "or": "ଯେଉଁ ପାଦରେ ଆପଣ ପଡ଼ନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The foot that pushes off from the board", "hi": "वह पैर जो बोर्ड से धक्का देता है", "or": "ଯେଉଁ ପାଦ ବୋର୍ଡରୁ ଠେଲି ହୁଏ" }, "isCorrect": true },
+      { "text": { "en": "The foot that swings forward (free leg)", "hi": "वह पैर जो आगे की ओर झूलता है (फ्री लेग)", "or": "ଯେଉଁ ପାଦ ଆଗକୁ ଝୁଲେ (ମୁକ୍ତ ଗୋଡ)" }, "isCorrect": false },
+      { "text": { "en": "Both feet", "hi": "दोनों पैर", "or": "ଉଭୟ ପାଦ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-65",
+    "question": {
+      "en": "If you abort your run-up and run past the take-off board, is it a foul?",
+      "hi": "यदि आप अपना रन-अप रद्द कर देते हैं और टेक-ऑफ बोर्ड से आगे निकल जाते हैं, तो क्या यह एक फाउल है?",
+      "or": "ଯଦି ଆପଣ ନିଜ ରନ୍-ଅପ୍ ବାତିଲ କରନ୍ତି ଏବଂ ଟେକ୍-ଅଫ୍ ବୋର୍ଡ ପାର୍ କରିଯାଆନ୍ତି, ତେବେ ଏହା କ’ଣ ଏକ ଫାଉଲ୍?"
+    },
+    "options": [
+      { "text": { "en": "Yes, it is always a foul", "hi": "हाँ, यह हमेशा एक फाउल होता है", "or": "ହଁ, ଏହା ସବୁବେଳେ ଏକ ଫାଉଲ୍" }, "isCorrect": false },
+      { "text": { "en": "No, not if you didn't attempt a jump", "hi": "नहीं, यदि आपने कूदने का प्रयास नहीं किया", "or": "ନା, ଯଦି ଆପଣ ଡେଇଁବାକୁ ଚେଷ୍ଟା କରିନାହାଁନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Only if you step in the sand", "hi": "केवल अगर आप रेत में कदम रखते हैं", "or": "କେବଳ ଯଦି ଆପଣ ବାଲିରେ ପାଦ ପକାନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Only if you raise your arms", "hi": "केवल अगर आप अपनी बाहें उठाते हैं", "or": "କେବଳ ଯଦି ଆପଣ ନିଜ ବାହୁ ଉଠାନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-66",
+    "question": {
+      "en": "The 'flight' phase is the part of the jump where you are:",
+      "hi": "'उड़ान' चरण कूद का वह हिस्सा है जहाँ आप:",
+      "or": "'ଫ୍ଲାଇଟ୍' ପର୍ଯ୍ୟାୟ ଜମ୍ପର ସେହି ଅଂଶ ଯେଉଁଠାରେ ଆପଣ:"
+    },
+    "options": [
+      { "text": { "en": "Running on the runway", "hi": "रनवे पर दौड़ रहे हैं", "or": "ରନୱେରେ ଦୌଡ଼ୁଛନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "In the air", "hi": "हवा में हैं", "or": "ବାୟୁରେ ଅଛନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Landing in the sand", "hi": "रेत में उतर रहे हैं", "or": "ବାଲିରେ ପଡ଼ୁଛନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Taking off from the board", "hi": "बोर्ड से टेक ऑफ कर रहे हैं", "or": "ବୋର୍ଡରୁ ଟେକ୍ ଅଫ୍ କରୁଛନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-67",
+    "question": {
+      "en": "Why is hydration (drinking enough water) important for an athlete?",
+      "hi": "एक एथलीट के लिए हाइड्रेशन (पर्याप्त पानी पीना) क्यों महत्वपूर्ण है?",
+      "or": "ଜଣେ ଆଥଲେଟଙ୍କ ପାଇଁ ହାଇଡ୍ରେସନ୍ (ପର୍ଯ୍ୟାପ୍ତ ପାଣି ପିଇବା) କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It makes you heavier", "hi": "यह आपको भारी बनाता है", "or": "ଏହା ଆପଣଙ୍କୁ ଓଜନିଆ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It helps muscles work properly and prevents cramps", "hi": "यह मांसपेशियों को ठीक से काम करने में मदद करता है और ऐंठन को रोकता है", "or": "ଏହା ମାଂସପେଶୀକୁ ଠିକ୍ ଭାବରେ କାମ କରିବାରେ ସାହାଯ୍ୟ କରେ ଏବଂ କ୍ରାମ୍ପ ରୋକିଥାଏ" }, "isCorrect": true },
+      { "text": { "en": "It is not very important", "hi": "यह बहुत महत्वपूर्ण नहीं है", "or": "ଏହା ବହୁତ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false },
+      { "text": { "en": "It helps you run slower", "hi": "यह आपको धीमा दौड़ने में मदद करता है", "or": "ଏହା ଆପଣଙ୍କୁ ଧୀରେ ଦୌଡ଼ିବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-68",
+    "question": {
+      "en": "What does the term 'check mark' refer to in long jump?",
+      "hi": "लंबी कूद में 'चेक मार्क' शब्द का क्या अर्थ है?",
+      "or": "ଲମ୍ବା ଡିଆଁରେ 'ଚେକ୍ ମାର୍କ' ଶବ୍ଦର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The mark made in the sand", "hi": "रेत में बनाया गया निशान", "or": "ବାଲିରେ କରାଯାଇଥିବା ଚିହ୍ନ" }, "isCorrect": false },
+      { "text": { "en": "A marker an athlete places next to the runway", "hi": "एक मार्कर जिसे एक एथलीट रनवे के बगल में रखता है", "or": "ଏକ ମାର୍କର୍ ଯାହାକୁ ଜଣେ ଆଥଲେଟ୍ ରନୱେ ପାଖରେ ରଖନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "A mark on the take-off board", "hi": "टेक-ऑफ बोर्ड पर एक निशान", "or": "ଟେକ୍-ଅଫ୍ ବୋର୍ଡରେ ଏକ ଚିହ୍ନ" }, "isCorrect": false },
+      { "text": { "en": "The official's final score", "hi": "अधिकारी का अंतिम स्कोर", "or": "ଅଧିକାରୀଙ୍କ ଅନ୍ତିମ ସ୍କୋର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-69",
+    "question": {
+      "en": "A 'no-jump' is another term for what?",
+      "hi": "'नो-जंप' किसका दूसरा शब्द है?",
+      "or": "'ନୋ-ଜମ୍ପ' କାହାର ଅନ୍ୟ ନାମ?"
+    },
+    "options": [
+      { "text": { "en": "A really good jump", "hi": "एक बहुत अच्छी कूद", "or": "ଏକ ବହୁତ ଭଲ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "A foul jump", "hi": "एक फाउल जम्प", "or": "ଏକ ଫାଉଲ୍ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "A practice jump", "hi": "एक अभ्यास कूद", "or": "ଏକ ଅଭ୍ୟାସ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "A short jump", "hi": "एक छोटी कूद", "or": "ଏକ ଛୋଟ ଜମ୍ପ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "lj-70",
+    "question": {
+      "en": "What is the very first part of a long jump competition?",
+      "hi": "एक लंबी कूद प्रतियोगिता का सबसे पहला हिस्सा क्या है?",
+      "or": "ଏକ ଲମ୍ବା ଡିଆଁ ପ୍ରତିଯୋଗିତାର ସବୁଠାରୁ ପ୍ରଥମ ଅଂଶ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The final jumps", "hi": "अंतिम कूद", "or": "ଅନ୍ତିମ ଜମ୍ପ" }, "isCorrect": false },
+      { "text": { "en": "The warm-up and practice jumps", "hi": "वार्म-अप और अभ्यास कूद", "or": "ୱାର୍ମ-ଅପ୍ ଏବଂ ଅଭ୍ୟାସ ଜମ୍ପ" }, "isCorrect": true },
+      { "text": { "en": "The measurement of the winner", "hi": "विजेता का माप", "or": "ବିଜେତାର ମାପ" }, "isCorrect": false },
+      { "text": { "en": "The prize ceremony", "hi": "पुरस्कार समारोह", "or": "ପୁରସ୍କାର ସମାରୋହ" }, "isCorrect": false }
+    ]
+  }
+]

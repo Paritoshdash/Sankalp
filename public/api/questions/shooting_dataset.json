@@ -1,0 +1,982 @@
+[
+  {
+    "id": "sht-1",
+    "question": {
+      "en": "What is the most important rule in all shooting sports?",
+      "hi": "सभी शूटिंग खेलों में सबसे महत्वपूर्ण नियम क्या है?",
+      "or": "ସମସ୍ତ ସୁଟିଂ ଖେଳରେ ସବୁଠାରୁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନିୟମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Hitting the center of the target", "hi": "लक्ष्य के केंद्र में मारना", "or": "ଲକ୍ଷ୍ୟର କେନ୍ଦ୍ରରେ ମାରିବା" }, "isCorrect": false },
+      { "text": { "en": "Safety first", "hi": "पहले सुरक्षा", "or": "ପ୍ରଥମେ ସୁରକ୍ଷା" }, "isCorrect": true },
+      { "text": { "en": "Having the best equipment", "hi": "सबसे अच्छे उपकरण होना", "or": "ସର୍ବୋତ୍ତମ ଉପକରଣ ରହିବା" }, "isCorrect": false },
+      { "text": { "en": "Shooting very fast", "hi": "बहुत तेजी से शूटिंग करना", "or": "ବହୁତ ଶୀଘ୍ର ସୁଟିଂ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-2",
+    "question": {
+      "en": "In which direction should you always keep the muzzle (front end) of a firearm pointed?",
+      "hi": "आपको हमेशा बन्दूक का मुँह (आगे का सिरा) किस दिशा में रखना चाहिए?",
+      "or": "ଆପଣଙ୍କୁ ସର୍ବଦା ବନ୍ଧୁକର ମୁହଁ (ଆଗ ଅଂଶ) କେଉଁ ଦିଗରେ ରଖିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Towards the sky", "hi": "आसमान की ओर", "or": "ଆକାଶ ଆଡକୁ" }, "isCorrect": false },
+      { "text": { "en": "Towards the ground in front of you", "hi": "आपके सामने जमीन की ओर", "or": "ଆପଣଙ୍କ ସାମ୍ନାରେ ଭୂମି ଆଡକୁ" }, "isCorrect": false },
+      { "text": { "en": "In a safe direction, usually downrange or at the target", "hi": "एक सुरक्षित दिशा में, आमतौर पर डाउनरेंज या लक्ष्य पर", "or": "ଏକ ସୁରକ୍ଷିତ ଦିଗରେ, ସାଧାରଣତଃ ଡାଉନରେଞ୍ଜ୍ କିମ୍ବା ଲକ୍ଷ୍ୟ ଆଡକୁ" }, "isCorrect": true },
+      { "text": { "en": "Towards your feet", "hi": "अपने पैरों की ओर", "or": "ଆପଣଙ୍କ ପାଦ ଆଡକୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-3",
+    "question": {
+      "en": "When should you put your finger on the trigger?",
+      "hi": "आपको अपनी उंगली ट्रिगर पर कब रखनी चाहिए?",
+      "or": "ଆପଣଙ୍କୁ ନିଜ ଆଙ୍ଗୁଠି ଟ୍ରିଗର ଉପରେ କେତେବେଳେ ରଖିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "As soon as you pick up the firearm", "hi": "जैसे ही आप बन्दूक उठाते हैं", "or": "ଆପଣ ବନ୍ଧୁକ ଉଠାଇବା ମାତ୍ରେ" }, "isCorrect": false },
+      { "text": { "en": "Only when you are ready to shoot at the target", "hi": "केवल जब आप लक्ष्य पर गोली चलाने के लिए तैयार हों", "or": "କେବଳ ଯେତେବେଳେ ଆପଣ ଲକ୍ଷ୍ୟରେ ଗୁଳି ଚଳାଇବାକୁ ପ୍ରସ୍ତୁତ" }, "isCorrect": true },
+      { "text": { "en": "While you are loading the firearm", "hi": "जब आप बन्दूक लोड कर रहे हों", "or": "ଯେତେବେଳେ ଆପଣ ବନ୍ଧୁକ ଲୋଡ୍ କରୁଛନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "When the official tells you to", "hi": "जब अधिकारी आपको करने के लिए कहे", "or": "ଯେତେବେଳେ ଅଧିକାରୀ ଆପଣଙ୍କୁ କହିବେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-4",
+    "question": {
+      "en": "What are the metal bumps on top of a firearm used for aiming called?",
+      "hi": "निशाना लगाने के लिए इस्तेमाल होने वाले बन्दूक के ऊपर के धातु के उभारों को क्या कहा जाता है?",
+      "or": "ଲକ୍ଷ୍ୟ କରିବା ପାଇଁ ବ୍ୟବହୃତ ବନ୍ଧୁକ ଉପରେ ଥିବା ଧାତୁ ବମ୍ପଗୁଡ଼ିକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The scope", "hi": "स्कोप", "or": "ସ୍କୋପ୍" }, "isCorrect": false },
+      { "text": { "en": "The sights (front sight and rear sight)", "hi": "साइट्स (फ्रंट साइट और रियर साइट)", "or": "ସାଇଟ୍ସ (ଫ୍ରଣ୍ଟ ସାଇଟ୍ ଏବଂ ରିୟର ସାଇଟ୍)" }, "isCorrect": true },
+      { "text": { "en": "The barrel", "hi": "बैरल", "or": "ବ୍ୟାରେଲ୍" }, "isCorrect": false },
+      { "text": { "en": "The stock", "hi": "स्टॉक", "or": "ଷ୍ଟକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-5",
+    "question": {
+      "en": "In target shooting, what is the center of the target called?",
+      "hi": "निशानेबाजी में, लक्ष्य के केंद्र को क्या कहा जाता है?",
+      "or": "ଟାର୍ଗେଟ୍ ସୁଟିଂରେ, ଲକ୍ଷ୍ୟର କେନ୍ଦ୍ରକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The dot", "hi": "डॉट", "or": "ଡଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The bullseye", "hi": "बुल्सआई", "or": "ବୁଲ୍ସଆଇ" }, "isCorrect": true },
+      { "text": { "en": "The zero point", "hi": "शून्य बिंदु", "or": "ଶୂନ୍ୟ ବିନ୍ଦୁ" }, "isCorrect": false },
+      { "text": { "en": "The main point", "hi": "मुख्य बिंदु", "or": "ମୁଖ୍ୟ ବିନ୍ଦୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-6",
+    "question": {
+      "en": "What does the command 'Ceasefire' or 'Stop' mean at a shooting range?",
+      "hi": "एक शूटिंग रेंज में 'सीजफायर' या 'स्टॉप' कमांड का क्या मतलब है?",
+      "or": "ଏକ ସୁଟିଂ ରେଞ୍ଜରେ 'ସିଜ୍‌ଫାୟାର୍' ବା 'ଷ୍ଟପ୍' ଆଦେଶର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Finish shooting quickly", "hi": "जल्दी से शूटिंग खत्म करो", "or": "ଶୀଘ୍ର ସୁଟିଂ ସମାପ୍ତ କରନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Immediately stop shooting, unload the firearm, and wait for instructions", "hi": "तुरंत शूटिंग बंद करें, बन्दूक को अनलोड करें, और निर्देशों की प्रतीक्षा करें", "or": "ତୁରନ୍ତ ସୁଟିଂ ବନ୍ଦ କରନ୍ତୁ, ବନ୍ଧୁକ ଅନଲୋଡ୍ କରନ୍ତୁ, ଏବଂ ନିର୍ଦ୍ଦେଶ ପାଇଁ ଅପେକ୍ଷା କରନ୍ତୁ" }, "isCorrect": true },
+      { "text": { "en": "Shoot at the fire", "hi": "आग पर गोली चलाओ", "or": "ନିଆଁରେ ଗୁଳି ଚଲାନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Change your target", "hi": "अपना लक्ष्य बदलो", "or": "ଆପଣଙ୍କ ଲକ୍ଷ୍ୟ ପରିବର୍ତ୍ତନ କରନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-7",
+    "question": {
+      "en": "What should you always do when someone gives you a firearm?",
+      "hi": "जब कोई आपको बन्दूक देता है तो आपको हमेशा क्या करना चाहिए?",
+      "or": "ଯେତେବେଳେ କେହି ଆପଣଙ୍କୁ ବନ୍ଧୁକ ଦିଅନ୍ତି, ଆପଣଙ୍କୁ ସର୍ବଦା କ’ଣ କରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Say thank you and point it at the target", "hi": "धन्यवाद कहें और इसे लक्ष्य पर इंगित करें", "or": "ଧନ୍ୟବାଦ କୁହନ୍ତୁ ଏବଂ ଏହାକୁ ଲକ୍ଷ୍ୟ ଆଡକୁ ଦେଖାନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Check for yourself that it is unloaded and safe", "hi": "खुद जांचें कि यह अनलोड और सुरक्षित है", "or": "ନିଜେ ଯାଞ୍ଚ କରନ୍ତୁ ଯେ ଏହା ଅନଲୋଡ୍ ଏବଂ ସୁରକ୍ଷିତ ଅଛି" }, "isCorrect": true },
+      { "text": { "en": "Immediately load it", "hi": "इसे तुरंत लोड करें", "or": "ଏହାକୁ ତୁରନ୍ତ ଲୋଡ୍ କରନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Put your finger on the trigger", "hi": "अपनी उंगली ट्रिगर पर रखें", "or": "ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଟ୍ରିଗର ଉପରେ ରଖନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-8",
+    "question": {
+      "en": "What part of the rifle do you place against your shoulder?",
+      "hi": "राइफल का कौन सा हिस्सा आप अपने कंधे पर रखते हैं?",
+      "or": "ରାଇଫଲର କେଉଁ ଅଂଶ ଆପଣ ନିଜ କାନ୍ଧରେ ରଖନ୍ତି?"
+    },
+    "options": [
+      { "text": { "en": "The barrel", "hi": "बैरल", "or": "ବ୍ୟାରେଲ୍" }, "isCorrect": false },
+      { "text": { "en": "The stock (butt)", "hi": "स्टॉक (बट)", "or": "ଷ୍ଟକ୍ (ବଟ୍)" }, "isCorrect": true },
+      { "text": { "en": "The trigger guard", "hi": "ट्रिगर गार्ड", "or": "ଟ୍ରିଗର ଗାର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "The muzzle", "hi": "मज़ल", "or": "ମଜଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-9",
+    "question": {
+      "en": "In shooting, what is a 'grouping'?",
+      "hi": "शूटिंग में, 'ग्रुपिंग' क्या है?",
+      "or": "ସୁଟିଂରେ, 'ଗ୍ରୁପିଂ' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A team of shooters", "hi": "निशानेबाजों की एक टीम", "or": "ସୁଟରମାନଙ୍କର ଏକ ଦଳ" }, "isCorrect": false },
+      { "text": { "en": "How close your shots are to each other on the target", "hi": "लक्ष्य पर आपके शॉट एक दूसरे के कितने करीब हैं", "or": "ଲକ୍ଷ୍ୟରେ ଆପଣଙ୍କ ଶଟଗୁଡ଼ିକ ପରସ୍ପରର କେତେ ନିକଟରେ ଅଛି" }, "isCorrect": true },
+      { "text": { "en": "The different types of targets", "hi": "विभिन्न प्रकार के लक्ष्य", "or": "ବିଭିନ୍ନ ପ୍ରକାରର ଲକ୍ଷ୍ୟ" }, "isCorrect": false },
+      { "text": { "en": "The total score of all your shots", "hi": "आपके सभी शॉट्स का कुल स्कोर", "or": "ଆପଣଙ୍କ ସମସ୍ତ ଶଟର ମୋଟ ସ୍କୋର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-10",
+    "question": {
+      "en": "What is the correct way to control your breathing while taking a shot?",
+      "hi": "शॉट लेते समय अपनी सांस को नियंत्रित करने का सही तरीका क्या है?",
+      "or": "ଶଟ୍ ନେବା ସମୟରେ ନିଜ ଶ୍ୱାସକ୍ରିୟାକୁ ନିୟନ୍ତ୍ରଣ କରିବାର ସଠିକ୍ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Breathe very fast to stay alert", "hi": "सतर्क रहने के लिए बहुत तेजी से सांस लें", "or": "ସତର୍କ ରହିବା ପାଇଁ ବହୁତ ଶୀଘ୍ର ଶ୍ୱାସ ନିଅନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Hold your breath for as long as possible", "hi": "जितनी देर हो सके अपनी सांस रोकें", "or": "ଯେତେ ସମ୍ଭବ ନିଜ ଶ୍ୱାସ ରୋକନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Breathe normally, then hold gently for a moment as you shoot", "hi": "सामान्य रूप से सांस लें, फिर गोली चलाते समय एक क्षण के लिए धीरे से रोकें", "or": "ସାଧାରଣ ଭାବରେ ଶ୍ୱାସ ନିଅନ୍ତୁ, ତା'ପରେ ଗୁଳି ଚଳାଇବା ସମୟରେ କିଛି ସମୟ ପାଇଁ ଧୀରେ ଧରି ରଖନ୍ତୁ" }, "isCorrect": true },
+      { "text": { "en": "Breathe out completely before you shoot", "hi": "गोली चलाने से पहले पूरी तरह से सांस छोड़ें", "or": "ଗୁଳି ଚଳାଇବା ପୂର୍ବରୁ ସମ୍ପୂର୍ଣ୍ଣ ଶ୍ୱାସ ଛାଡନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-11",
+    "question": {
+      "en": "What is the name for the empty metal case that is ejected after a shot is fired?",
+      "hi": "गोली चलने के बाद निकलने वाले खाली धातु के केस का नाम क्या है?",
+      "or": "ଗୁଳି ଚାଳନା ପରେ ବାହାରୁଥିବା ଖାଲି ଧାତୁ କେସର ନାମ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The bullet", "hi": "बुलेट", "or": "ବୁଲେଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The cartridge case or shell", "hi": "कारतूस केस या शेल", "or": "କାର୍ଟ୍ରିଜ୍ କେସ୍ ବା ଶେଲ୍" }, "isCorrect": true },
+      { "text": { "en": "The gunpowder", "hi": "गनपाउडर", "or": "ଗନପାଉଡର୍" }, "isCorrect": false },
+      { "text": { "en": "The primer", "hi": "प्राइमर", "or": "ପ୍ରାଇମର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-12",
+    "question": {
+      "en": "What is the 'follow-through' in shooting?",
+      "hi": "शूटिंग में 'फॉलो-थ्रू' क्या है?",
+      "or": "ସୁଟିଂରେ 'ଫଲୋ-ଥ୍ରୁ' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Following the rules", "hi": "नियमों का पालन करना", "or": "ନିୟମ ପାଳନ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Keeping the firearm pointed at the target for a moment after the shot", "hi": "शॉट के बाद एक क्षण के लिए बन्दूक को लक्ष्य पर इंगित रखना", "or": "ଶଟ୍ ପରେ କିଛି ସମୟ ପାଇଁ ବନ୍ଧୁକକୁ ଲକ୍ଷ୍ୟ ଆଡକୁ ରଖିବା" }, "isCorrect": true },
+      { "text": { "en": "Following the bullet with your eyes", "hi": "अपनी आँखों से गोली का पीछा करना", "or": "ଆପଣଙ୍କ ଆଖିରେ ଗୁଳିକୁ ଅନୁସରଣ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "The path the bullet takes", "hi": "गोली का रास्ता", "or": "ଗୁଳି ଯେଉଁ ରାସ୍ତାରେ ଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-13",
+    "question": {
+      "en": "What is a 'misfire'?",
+      "hi": "'मिसफायर' क्या है?",
+      "or": "'ମିସଫାୟାର୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "When you miss the target", "hi": "जब आप लक्ष्य से चूक जाते हैं", "or": "ଯେତେବେଳେ ଆପଣ ଲକ୍ଷ୍ୟରୁ ଚ୍ୟୁତ ହୁଅନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "When you pull the trigger but the gun does not fire", "hi": "जब आप ट्रिगर खींचते हैं लेकिन बंदूक नहीं चलती है", "or": "ଯେତେବେଳେ ଆପଣ ଟ୍ରିଗର ଟାଣନ୍ତି କିନ୍ତୁ ବନ୍ଧୁକ ଫାୟାର୍ କରେ ନାହିଁ" }, "isCorrect": true },
+      { "text": { "en": "When the firearm fires twice", "hi": "जब बन्दूक दो बार फायर करती है", "or": "ଯେତେବେଳେ ବନ୍ଧୁକ ଦୁଇଥର ଫାୟାର୍ କରେ" }, "isCorrect": false },
+      { "text": { "en": "When you fire at the wrong target", "hi": "जब आप गलत लक्ष्य पर फायर करते हैं", "or": "ଯେତେବେଳେ ଆପଣ ଭୁଲ୍ ଲକ୍ଷ୍ୟରେ ଫାୟାର୍ କରନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-14",
+    "question": {
+      "en": "What is the purpose of a shooting jacket in rifle shooting?",
+      "hi": "राइफल शूटिंग में शूटिंग जैकेट का उद्देश्य क्या है?",
+      "or": "ରାଇଫଲ୍ ସୁଟିଂରେ ସୁଟିଂ ଜ୍ୟାକେଟର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To keep the shooter warm", "hi": "शूटर को गर्म रखने के लिए", "or": "ସୁଟରଙ୍କୁ ଗରମ ରଖିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To provide stability and support to the upper body", "hi": "ऊपरी शरीर को स्थिरता और समर्थन प्रदान करने के लिए", "or": "ଉପର ଶରୀରକୁ ସ୍ଥିରତା ଏବଂ ସମର୍ଥନ ପ୍ରଦାନ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To carry extra ammunition", "hi": "अतिरिक्त गोला-बारूद ले जाने के लिए", "or": "ଅତିରିକ୍ତ ଗୁଳିଗୋଳା ବହନ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is only for style", "hi": "यह केवल स्टाइल के लिए है", "or": "ଏହା କେବଳ ଷ୍ଟାଇଲ୍ ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-15",
+    "question": {
+      "en": "The 'stance' in shooting refers to:",
+      "hi": "शूटिंग में 'स्टांस' का अर्थ है:",
+      "or": "ସୁଟିଂରେ 'ଷ୍ଟାନ୍ସ'ର ଅର୍ଥ:"
+    },
+    "options": [
+      { "text": { "en": "How you hold the gun", "hi": "आप बंदूक कैसे पकड़ते हैं", "or": "ଆପଣ କିପରି ବନ୍ଧୁକ ଧରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The position of your feet and body", "hi": "आपके पैरों और शरीर की स्थिति", "or": "ଆପଣଙ୍କ ପାଦ ଏବଂ ଶରୀରର ସ୍ଥିତି" }, "isCorrect": true },
+      { "text": { "en": "The type of gun you use", "hi": "आप जिस प्रकार की बंदूक का उपयोग करते हैं", "or": "ଆପଣ ଯେଉଁ ପ୍ରକାରର ବନ୍ଧୁକ ବ୍ୟବହାର କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Your score", "hi": "आपका स्कोर", "or": "ଆପଣଙ୍କ ସ୍କୋର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-16",
+    "question": {
+      "en": "What is the 'line of sight'?",
+      "hi": "'लाइन ऑफ साइट' क्या है?",
+      "or": "'ଲାଇନ୍ ଅଫ୍ ସାଇଟ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The line marking the shooting distance", "hi": "शूटिंग दूरी को चिह्नित करने वाली रेखा", "or": "ସୁଟିଂ ଦୂରତା ଚିହ୍ନିତ କରୁଥିବା ରେଖା" }, "isCorrect": false },
+      { "text": { "en": "The straight line from your eye, through the sights, to the target", "hi": "आपकी आंख से, साइट्स के माध्यम से, लक्ष्य तक सीधी रेखा", "or": "ଆପଣଙ୍କ ଆଖିରୁ, ସାଇଟ୍ସ ମାଧ୍ୟମରେ, ଲକ୍ଷ୍ୟ ପର୍ଯ୍ୟନ୍ତ ସରଳ ରେଖା" }, "isCorrect": true },
+      { "text": { "en": "The path the bullet travels", "hi": "गोली का रास्ता", "or": "ଗୁଳି ଯାଉଥିବା ରାସ୍ତା" }, "isCorrect": false },
+      { "text": { "en": "A line on the target", "hi": "लक्ष्य पर एक रेखा", "or": "ଲକ୍ଷ୍ୟ ଉପରେ ଏକ ରେଖା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-17",
+    "question": {
+      "en": "What does 'dry firing' mean?",
+      "hi": "'ड्राई फायरिंग' का क्या मतलब है?",
+      "or": "'ଡ୍ରାଏ ଫାୟାରିଂ'ର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Shooting in the rain", "hi": "बारिश में शूटिंग करना", "or": "ବର୍ଷାରେ ସୁଟିଂ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Practicing by pulling the trigger of an unloaded firearm", "hi": "एक अनलोड की हुई बन्दूक का ट्रिगर खींचकर अभ्यास करना", "or": "ଏକ ଅନଲୋଡ୍ ହୋଇଥିବା ବନ୍ଧୁକର ଟ୍ରିଗର ଟାଣି ଅଭ୍ୟାସ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Cleaning your firearm", "hi": "अपनी बन्दूक साफ करना", "or": "ଆପଣଙ୍କ ବନ୍ଧୁକ ସଫା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Shooting without aiming", "hi": "बिना निशाना लगाए शूटिंग करना", "or": "ବିନା ଲକ୍ଷ୍ୟରେ ସୁଟିଂ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-18",
+    "question": {
+      "en": "What is the groove pattern inside the barrel of a rifle called?",
+      "hi": "राइफल की बैरल के अंदर के खांचे के पैटर्न को क्या कहा जाता है?",
+      "or": "ରାଇଫଲର ବ୍ୟାରେଲ୍ ଭିତରେ ଥିବା ଖାଞ୍ଚ ପ୍ୟାଟର୍ନକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The chamber", "hi": "चैंबर", "or": "ଚାମ୍ବର୍" }, "isCorrect": false },
+      { "text": { "en": "The rifling", "hi": "राइफलिंग", "or": "ରାଇଫଲିଂ" }, "isCorrect": true },
+      { "text": { "en": "The muzzle", "hi": "मज़ल", "or": "ମଜଲ୍" }, "isCorrect": false },
+      { "text": { "en": "The bore", "hi": "बोर", "or": "ବୋର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-19",
+    "question": {
+      "en": "In pistol shooting, a stable stance requires your feet to be:",
+      "hi": "पिस्टल शूटिंग में, एक स्थिर मुद्रा के लिए आपके पैर होने चाहिए:",
+      "or": "ପିସ୍ତଲ ସୁଟିଂରେ, ଏକ ସ୍ଥିର ମୁଦ୍ରା ପାଇଁ ଆପଣଙ୍କ ପାଦ କିପରି ରହିବା ଆବଶ୍ୟକ:"
+    },
+    "options": [
+      { "text": { "en": "Close together", "hi": "एक साथ करीब", "or": "ପାଖାପାଖି" }, "isCorrect": false },
+      { "text": { "en": "About shoulder-width apart", "hi": "लगभग कंधे की चौड़ाई के बराबर", "or": "ପ୍ରାୟ କାନ୍ଧ-ପ୍ରସ୍ଥ ଦୂରରେ" }, "isCorrect": true },
+      { "text": { "en": "One in front of the other", "hi": "एक दूसरे के सामने", "or": "ଗୋଟିଏ ଆଗରେ ଅନ୍ୟଟି" }, "isCorrect": false },
+      { "text": { "en": "As wide apart as possible", "hi": "जितना संभव हो उतना दूर", "or": "ଯଥାସମ୍ଭବ ଦୂରରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-20",
+    "question": {
+      "en": "What is a 'sighting shot'?",
+      "hi": "'साइटिंग शॉट' क्या है?",
+      "or": "'ସାଇଟିଂ ଶଟ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The final shot of a competition", "hi": "एक प्रतियोगिता का अंतिम शॉट", "or": "ଏକ ପ୍ରତିଯୋଗିତାର ଅନ୍ତିମ ଶଟ୍" }, "isCorrect": false },
+      { "text": { "en": "A practice shot taken before the main competition to check your aim", "hi": "मुख्य प्रतियोगिता से पहले अपना निशाना जांचने के लिए लिया गया एक अभ्यास शॉट", "or": "ମୁଖ୍ୟ ପ୍ରତିଯୋଗିତା ପୂର୍ବରୁ ଆପଣଙ୍କ ଲକ୍ଷ୍ୟ ଯାଞ୍ଚ କରିବା ପାଇଁ ନିଆଯାଇଥିବା ଏକ ଅଭ୍ୟାସ ଶଟ୍" }, "isCorrect": true },
+      { "text": { "en": "A shot that hits the bullseye", "hi": "एक शॉट जो बुल्सआई पर लगता है", "or": "ଏକ ଶଟ୍ ଯାହା ବୁଲ୍ସଆଇରେ ବାଜେ" }, "isCorrect": false },
+      { "text": { "en": "A shot fired without looking", "hi": "बिना देखे फायर किया गया एक शॉट", "or": "ବିନା ଦେଖି ଫାୟାର୍ କରାଯାଇଥିବା ଏକ ଶଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-21",
+    "question": {
+      "en": "The part of the rifle you look through is the:",
+      "hi": "राइफल का वह हिस्सा जिससे आप देखते हैं, वह है:",
+      "or": "ରାଇଫଲର ଯେଉଁ ଅଂଶ ଦେଇ ଆପଣ ଦେଖନ୍ତି, ତାହା ହେଉଛି:"
+    },
+    "options": [
+      { "text": { "en": "Muzzle", "hi": "मज़ल", "or": "ମଜଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Rear sight", "hi": "रियर साइट", "or": "ରିୟର ସାଇଟ୍" }, "isCorrect": true },
+      { "text": { "en": "Front sight", "hi": "फ्रंट साइट", "or": "ଫ୍ରଣ୍ଟ ସାଇଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Trigger", "hi": "ट्रिगर", "or": "ଟ୍ରିଗର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-22",
+    "question": {
+      "en": "What is the best way to clean a firearm's barrel?",
+      "hi": "एक बन्दूक की बैरल को साफ करने का सबसे अच्छा तरीका क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକର ବ୍ୟାରେଲ୍ ସଫା କରିବାର ସର୍ବୋତ୍ତମ ଉପାୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Wipe the outside with a cloth", "hi": "बाहर से एक कपड़े से पोंछना", "or": "ବାହାରକୁ ଏକ କପଡାରେ ପୋଛିବା" }, "isCorrect": false },
+      { "text": { "en": "Push a cleaning rod with a patch from the breech to the muzzle", "hi": "ब्रीच से मज़ल तक एक पैच के साथ एक सफाई रॉड को धकेलना", "or": "ବ୍ରିଚରୁ ମଜଲ୍ ପର୍ଯ୍ୟନ୍ତ ଏକ ପ୍ୟାଚ୍ ସହିତ ଏକ ସଫେଇ ରଡ୍ ଠେଲିବା" }, "isCorrect": true },
+      { "text": { "en": "Blow air through it", "hi": "इसमें से हवा फूंकना", "or": "ଏଥିରେ ପବନ ଫୁଙ୍କିବା" }, "isCorrect": false },
+      { "text": { "en": "Pour water through it", "hi": "इसमें से पानी डालना", "or": "ଏଥିରେ ପାଣି ଢାଳିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-23",
+    "question": {
+      "en": "What does the 'stock' of a rifle do?",
+      "hi": "एक राइफल का 'स्टॉक' क्या करता है?",
+      "or": "ଏକ ରାଇଫଲର 'ଷ୍ଟକ୍' କ’ଣ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "It holds the bullets", "hi": "यह गोलियों को रखता है", "or": "ଏହା ଗୁଳି ଧରିଥାଏ" }, "isCorrect": false },
+      { "text": { "en": "It provides a stable platform to hold and aim the rifle", "hi": "यह राइफल को पकड़ने और निशाना लगाने के लिए एक स्थिर मंच प्रदान करता है", "or": "ଏହା ରାଇଫଲକୁ ଧରିବା ଏବଂ ଲକ୍ଷ୍ୟ କରିବା ପାଇଁ ଏକ ସ୍ଥିର ପ୍ଲାଟଫର୍ମ ପ୍ରଦାନ କରେ" }, "isCorrect": true },
+      { "text": { "en": "It makes the gun fire", "hi": "यह बंदूक को फायर करता है", "or": "ଏହା ବନ୍ଧୁକକୁ ଫାୟାର୍ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It is just for decoration", "hi": "यह सिर्फ सजावट के लिए है", "or": "ଏହା କେବଳ ସାଜସଜ୍ଜା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-24",
+    "question": {
+      "en": "What is 'sight alignment'?",
+      "hi": "'साइट एलाइनमेंट' क्या है?",
+      "or": "'ସାଇଟ୍ ଆଲାଇନମେଣ୍ଟ' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "When the target is aligned with the barrel", "hi": "जब लक्ष्य बैरल के साथ संरेखित होता है", "or": "ଯେତେବେଳେ ଲକ୍ଷ୍ୟ ବ୍ୟାରେଲ୍ ସହିତ ସମରେଖିତ ହୁଏ" }, "isCorrect": false },
+      { "text": { "en": "Properly lining up the front and rear sights with each other", "hi": "फ्रंट और रियर साइट्स को एक दूसरे के साथ ठीक से संरेखित करना", "or": "ଫ୍ରଣ୍ଟ ଏବଂ ରିୟର ସାଇଟ୍ସକୁ ପରସ୍ପର ସହିତ ଠିକ୍ ଭାବରେ ସମରେଖିତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Adjusting the sights for wind", "hi": "हवा के लिए साइट्स को समायोजित करना", "or": "ପବନ ପାଇଁ ସାଇଟ୍ସକୁ ସଜାଡିବା" }, "isCorrect": false },
+      { "text": { "en": "Cleaning the sights", "hi": "साइट्स की सफाई करना", "or": "ସାଇଟ୍ସ ସଫା କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-25",
+    "question": {
+      "en": "What is 'trigger control'?",
+      "hi": "'ट्रिगर कंट्रोल' क्या है?",
+      "or": "'ଟ୍ରିଗର କଣ୍ଟ୍ରୋଲ' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Pulling the trigger as fast as possible", "hi": "जितनी जल्दी हो सके ट्रिगर खींचना", "or": "ଯଥାସମ୍ଭବ ଶୀଘ୍ର ଟ୍ରିଗର ଟାଣିବା" }, "isCorrect": false },
+      { "text": { "en": "Pulling the trigger smoothly and straight back without moving the sights", "hi": "बिना साइट्स को हिलाए ट्रिगर को धीरे-धीरे और सीधे पीछे खींचना", "or": "ସାଇଟ୍ସକୁ ନ ହଲାଇ ଟ୍ରିଗରକୁ ସୁଗମ ଭାବରେ ଏବଂ ସିଧା ପଛକୁ ଟାଣିବା" }, "isCorrect": true },
+      { "text": { "en": "Putting a lock on the trigger", "hi": "ट्रिगर पर एक ताला लगाना", "or": "ଟ୍ରିଗର ଉପରେ ଏକ ତାଲା ଲଗାଇବା" }, "isCorrect": false },
+      { "text": { "en": "Using only your fingertip on the trigger", "hi": "ट्रिगर पर केवल अपनी उंगली का उपयोग करना", "or": "ଟ୍ରିଗର ଉପରେ କେବଳ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଅଗ ବ୍ୟବହାର କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-26",
+    "question": {
+      "en": "What is the main purpose of wearing eye protection (shooting glasses)?",
+      "hi": "आंखों की सुरक्षा (शूटिंग चश्मा) पहनने का मुख्य उद्देश्य क्या है?",
+      "or": "ଆଖି ସୁରକ୍ଷା (ସୁଟିଂ ଚଷମା) ପିନ୍ଧିବାର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To see the target more clearly", "hi": "लक्ष्य को और अधिक स्पष्ट रूप से देखने के लिए", "or": "ଲକ୍ଷ୍ୟକୁ ଅଧିକ ସ୍ପଷ୍ଟ ଭାବରେ ଦେଖିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To protect your eyes from ejected casings and debris", "hi": "अपनी आंखों को निकले हुए केसिंग और मलबे से बचाने के लिए", "or": "ଆପଣଙ୍କ ଆଖିକୁ ବାହାରୁଥିବା କେସିଂ ଏବଂ ଆବର୍ଜନାରୁ ରକ୍ଷା କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To look like a professional shooter", "hi": "एक पेशेवर शूटर की तरह दिखने के लिए", "or": "ଏକ ପେସାଦାର ସୁଟର୍ ଭଳି ଦେଖାଯିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To reduce sun glare", "hi": "सूरज की चकाचौंध को कम करने के लिए", "or": "ସୂର୍ଯ୍ୟ କିରଣକୁ କମ୍ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-27",
+    "question": {
+      "en": "What is the purpose of wearing ear protection (earmuffs or earplugs)?",
+      "hi": "कान की सुरक्षा (इयरमफ या इयरप्लग) पहनने का उद्देश्य क्या है?",
+      "or": "କାନ ସୁରକ୍ଷା (ଇୟରମଫ୍ ବା ଇୟରପ୍ଲଗ୍) ପିନ୍ଧିବାର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To hear the official's commands better", "hi": "अधिकारी के आदेशों को बेहतर ढंग से सुनने के लिए", "or": "ଅଧିକାରୀଙ୍କ ଆଦେଶକୁ ଭଲ ଭାବରେ ଶୁଣିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To protect your hearing from the loud noise of the shot", "hi": "शॉट के तेज शोर से अपनी सुनवाई की रक्षा करने के लिए", "or": "ଶଟର ଜୋର ଶବ୍ଦରୁ ଆପଣଙ୍କ ଶ୍ରବଣ ଶକ୍ତିକୁ ରକ୍ଷା କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "To keep your ears warm", "hi": "अपने कानों को गर्म रखने के लिए", "or": "ଆପଣଙ୍କ କାନକୁ ଗରମ ରଖିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "They are not necessary for small firearms", "hi": "वे छोटे आग्नेयास्त्रों के लिए आवश्यक नहीं हैं", "or": "ସେଗୁଡିକ ଛୋଟ ବନ୍ଧୁକ ପାଇଁ ଆବଶ୍ୟକ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-28",
+    "question": {
+      "en": "The part of the pistol you hold is called the:",
+      "hi": "पिस्तौल का वह हिस्सा जिसे आप पकड़ते हैं, उसे कहा जाता है:",
+      "or": "ପିସ୍ତଲର ଯେଉଁ ଅଂଶ ଆପଣ ଧରନ୍ତି, ତାହାକୁ କୁହାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Stock", "hi": "स्टॉक", "or": "ଷ୍ଟକ୍" }, "isCorrect": false },
+      { "text": { "en": "Grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": true },
+      { "text": { "en": "Barrel", "hi": "बैरल", "or": "ବ୍ୟାରେଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Slide", "hi": "स्लाइड", "or": "ସ୍ଲାଇଡ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-29",
+    "question": {
+      "en": "What is the 'chamber' of a firearm?",
+      "hi": "एक बन्दूक का 'चैंबर' क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକର 'ଚାମ୍ବର୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The place where you store ammunition", "hi": "वह स्थान जहाँ आप गोला-बारूद संग्रहीत करते हैं", "or": "ଯେଉଁଠାରେ ଆପଣ ଗୁଳିଗୋଳା ସଂରକ୍ଷଣ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The part of the barrel where the cartridge sits before being fired", "hi": "बैरल का वह हिस्सा जहाँ कारतूस फायर होने से पहले बैठता है", "or": "ବ୍ୟାରେଲର ସେହି ଅଂଶ ଯେଉଁଠାରେ କାର୍ଟ୍ରିଜ୍ ଫାୟାର୍ ହେବା ପୂର୍ବରୁ ରହିଥାଏ" }, "isCorrect": true },
+      { "text": { "en": "The handle of the firearm", "hi": "बन्दूक का हैंडल", "or": "ବନ୍ଧୁକର ହ୍ୟାଣ୍ଡେଲ୍" }, "isCorrect": false },
+      { "text": { "en": "The safety switch", "hi": "सेफ्टी स्विच", "or": "ସେଫ୍ଟି ସୁଇଚ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-30",
+    "question": {
+      "en": "A 'cross-shot' is when you:",
+      "hi": "'क्रॉस-शॉट' तब होता है जब आप:",
+      "or": "'କ୍ରସ୍-ଶଟ୍' ସେତେବେଳେ ହୁଏ ଯେତେବେଳେ ଆପଣ:"
+    },
+    "options": [
+      { "text": { "en": "Shoot with your arms crossed", "hi": "अपने हाथों को क्रॉस करके शूट करें", "or": "ଆପଣଙ୍କ ହାତ କ୍ରସ୍ କରି ସୁଟ୍ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Accidentally shoot at a neighbor's target", "hi": "गलती से पड़ोसी के लक्ष्य पर गोली चला दें", "or": "ଭୁଲରେ ପଡୋଶୀଙ୍କ ଲକ୍ଷ୍ୟରେ ଗୁଳି ଚଳାନ୍ତି" }, "isCorrect": true },
+      { "text": { "en": "Shoot from a sitting position", "hi": "बैठने की स्थिति से शूट करें", "or": "ବସିବା ସ୍ଥିତିରୁ ସୁଟ୍ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "Hit two scoring rings with one shot", "hi": "एक शॉट से दो स्कोरिंग रिंग को हिट करें", "or": "ଗୋଟିଏ ଶଟରେ ଦୁଇଟି ସ୍କୋରିଂ ରିଙ୍ଗକୁ ହିଟ୍ କରନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-31",
+    "question": {
+      "en": "What does 'unloaded' mean for a firearm?",
+      "hi": "एक बन्दूक के लिए 'अनलोडेड' का क्या मतलब है?",
+      "or": "ଏକ ବନ୍ଧୁକ ପାଇଁ 'ଅନଲୋଡେଡ୍'ର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The safety is on", "hi": "सेफ्टी चालू है", "or": "ସେଫ୍ଟି ଅନ୍ ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "There is no ammunition in the chamber or magazine", "hi": "चैंबर या मैगज़ीन में कोई गोला-बारूद नहीं है", "or": "ଚାମ୍ବର୍ ବା ମାଗାଜିନରେ କୌଣସି ଗୁଳିଗୋଳା ନାହିଁ" }, "isCorrect": true },
+      { "text": { "en": "It is clean", "hi": "यह साफ है", "or": "ଏହା ସଫା ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "It has not been fired today", "hi": "इसे आज फायर नहीं किया गया है", "or": "ଏହାକୁ ଆଜି ଫାୟାର୍ କରାଯାଇ ନାହିଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-32",
+    "question": {
+      "en": "What is the 'prone' shooting position?",
+      "hi": "'प्रोन' शूटिंग पोजीशन क्या है?",
+      "or": "'ପ୍ରୋନ୍' ସୁଟିଂ ପୋଜିସନ୍ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Standing up", "hi": "खड़े होना", "or": "ଠିଆ ହେବା" }, "isCorrect": false },
+      { "text": { "en": "Lying on your stomach", "hi": "अपने पेट के बल लेटना", "or": "ପେଟ ଉପରେ ଶୋଇବା" }, "isCorrect": true },
+      { "text": { "en": "Sitting down", "hi": "बैठना", "or": "ବସିବା" }, "isCorrect": false },
+      { "text": { "en": "Kneeling on one knee", "hi": "एक घुटने पर झुकना", "or": "ଗୋଟିଏ ଆଣ୍ଠୁରେ ବସିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-33",
+    "question": {
+      "en": "The 'kneeling' position requires you to have support on:",
+      "hi": "'नीलिंग' पोजीशन में आपको किस पर समर्थन की आवश्यकता होती है:",
+      "or": "'ନିଲିଂ' ପୋଜିସନରେ ଆପଣଙ୍କୁ କେଉଁଥିରେ ସମର୍ଥନ ଆବଶ୍ୟକ:"
+    },
+    "options": [
+      { "text": { "en": "Both knees", "hi": "दोनों घुटने", "or": "ଉଭୟ ଆଣ୍ଠୁ" }, "isCorrect": false },
+      { "text": { "en": "One knee and one foot", "hi": "एक घुटना और एक पैर", "or": "ଗୋଟିଏ ଆଣ୍ଠୁ ଏବଂ ଗୋଟିଏ ପାଦ" }, "isCorrect": true },
+      { "text": { "en": "Your hands and knees", "hi": "आपके हाथ और घुटने", "or": "ଆପଣଙ୍କ ହାତ ଏବଂ ଆଣ୍ଠୁ" }, "isCorrect": false },
+      { "text": { "en": "A special chair", "hi": "एक विशेष कुर्सी", "or": "ଏକ ବିଶେଷ ଚେୟାର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-34",
+    "question": {
+      "en": "What is the 'sight picture'?",
+      "hi": "'साइट पिक्चर' क्या है?",
+      "or": "'ସାଇଟ୍ ପିକ୍ଚର୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A photo of your target", "hi": "आपके लक्ष्य की एक तस्वीर", "or": "ଆପଣଙ୍କ ଲକ୍ଷ୍ୟର ଏକ ଫଟୋ" }, "isCorrect": false },
+      { "text": { "en": "The correct alignment of your sights on the target", "hi": "लक्ष्य पर आपकी साइट्स का सही संरेखण", "or": "ଲକ୍ଷ୍ୟ ଉପରେ ଆପଣଙ୍କ ସାଇଟ୍ସର ସଠିକ୍ ସମରେଖଣ" }, "isCorrect": true },
+      { "text": { "en": "A drawing of the firearm", "hi": "बन्दूक का एक चित्र", "or": "ବନ୍ଧୁକର ଏକ ଚିତ୍ର" }, "isCorrect": false },
+      { "text": { "en": "The view through a scope", "hi": "एक स्कोप के माध्यम से दृश्य", "or": "ଏକ ସ୍କୋପ୍ ମାଧ୍ୟମରେ ଦୃଶ୍ୟ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-35",
+    "question": {
+      "en": "Why is a consistent shooting routine important?",
+      "hi": "एक सुसंगत शूटिंग रूटीन क्यों महत्वपूर्ण है?",
+      "or": "ଏକ ନିରନ୍ତର ସୁଟିଂ ରୁଟିନ୍ କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It is not important", "hi": "यह महत्वपूर्ण नहीं है", "or": "ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false },
+      { "text": { "en": "It helps you repeat the same successful action every time", "hi": "यह आपको हर बार एक ही सफल क्रिया को दोहराने में मदद करता है", "or": "ଏହା ଆପଣଙ୍କୁ ପ୍ରତ୍ୟେକ ଥର ସମାନ ସଫଳ କ୍ରିୟାକୁ ପୁନରାବୃତ୍ତି କରିବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": true },
+      { "text": { "en": "It makes the competition faster", "hi": "यह प्रतियोगिता को तेज बनाता है", "or": "ଏହା ପ୍ରତିଯୋଗିତାକୁ ଦ୍ରୁତ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It impresses the officials", "hi": "यह अधिकारियों को प्रभावित करता है", "or": "ଏହା ଅଧିକାରୀମାନଙ୍କୁ ପ୍ରଭାବିତ କରେ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-36",
+    "question": {
+      "en": "What is a 'flyer' or 'errant shot'?",
+      "hi": "'फ्लायर' या 'एरेंट शॉट' क्या है?",
+      "or": "'ଫ୍ଲାୟାର୍' ବା 'ଏରାଣ୍ଟ ଶଟ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A shot that hits the bullseye", "hi": "एक शॉट जो बुल्सआई पर लगता है", "or": "ଏକ ଶଟ୍ ଯାହା ବୁଲ୍ସଆଇରେ ବାଜେ" }, "isCorrect": false },
+      { "text": { "en": "A shot that is far away from your main group of shots", "hi": "एक शॉट जो आपके शॉट्स के मुख्य समूह से बहुत दूर है", "or": "ଏକ ଶଟ୍ ଯାହା ଆପଣଙ୍କ ଶଟର ମୁଖ୍ୟ ଗୋଷ୍ଠୀଠାରୁ ବହୁତ ଦୂରରେ" }, "isCorrect": true },
+      { "text": { "en": "A very fast shot", "hi": "एक बहुत तेज शॉट", "or": "ଏକ ବହୁତ ଦ୍ରୁତ ଶଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The first shot of the day", "hi": "दिन का पहला शॉट", "or": "ଦିନର ପ୍ରଥମ ଶଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-37",
+    "question": {
+      "en": "The 'magazine' of a firearm is used to:",
+      "hi": "एक बन्दूक की 'मैगज़ीन' का उपयोग किया जाता है:",
+      "or": "ଏକ ବନ୍ଧୁକର 'ମାଗାଜିନ୍' କେଉଁଥିପାଇଁ ବ୍ୟବହାର କରାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Clean the barrel", "hi": "बैरल को साफ करना", "or": "ବ୍ୟାରେଲ୍ ସଫା କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Hold a supply of cartridges", "hi": "कारतूस की आपूर्ति रखना", "or": "କାର୍ଟ୍ରିଜର ଯୋଗାଣ ଧରିବା" }, "isCorrect": true },
+      { "text": { "en": "Help with aiming", "hi": "निशाना लगाने में मदद करना", "or": "ଲକ୍ଷ୍ୟ କରିବାରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Make the gun safer", "hi": "बंदूक को सुरक्षित बनाना", "or": "ବନ୍ଧୁକକୁ ସୁରକ୍ଷିତ କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-38",
+    "question": {
+      "en": "What is a 'pellet' in air rifle or air pistol shooting?",
+      "hi": "एयर राइफल या एयर पिस्टल शूटिंग में 'पेलेट' क्या है?",
+      "or": "ଏୟାର୍ ରାଇଫଲ୍ ବା ଏୟାର୍ ପିସ୍ତଲ ସୁଟିଂରେ 'ପେଲେଟ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A type of target", "hi": "एक प्रकार का लक्ष्य", "or": "ଏକ ପ୍ରକାରର ଲକ୍ଷ୍ୟ" }, "isCorrect": false },
+      { "text": { "en": "The small projectile that is shot from the gun", "hi": "बंदूक से छोड़ा जाने वाला छोटा प्रक्षेप्य", "or": "ବନ୍ଧୁକରୁ ଛଡାଯାଉଥିବା ଛୋଟ ପ୍ରକ୍ଷେପକ" }, "isCorrect": true },
+      { "text": { "en": "A part of the gun", "hi": "बंदूक का एक हिस्सा", "or": "ବନ୍ଧୁକର ଏକ ଅଂଶ" }, "isCorrect": false },
+      { "text": { "en": "A cleaning tool", "hi": "एक सफाई उपकरण", "or": "ଏକ ସଫେଇ ଉପକରଣ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-39",
+    "question": {
+      "en": "Why is it important to have a firm but not overly tight grip on a pistol?",
+      "hi": "पिस्तौल पर एक मजबूत लेकिन बहुत तंग पकड़ न होना क्यों महत्वपूर्ण है?",
+      "or": "ପିସ୍ତଲ ଉପରେ ଏକ ଦୃଢ଼ କିନ୍ତୁ ଅତ୍ୟଧିକ କଠିନ ଗ୍ରିପ୍ ନହେବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "So your hand does not get tired", "hi": "ताकि आपका हाथ न थके", "or": "ଯାହାଫଳରେ ଆପଣଙ୍କ ହାତ କ୍ଳାନ୍ତ ନହେବ" }, "isCorrect": false },
+      { "text": { "en": "To control recoil without causing the gun to shake", "hi": "बंदूक को हिलाए बिना रिकॉइल को नियंत्रित करने के लिए", "or": "ବନ୍ଧୁକକୁ ନ ହଲାଇ ରିକଏଲ୍ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ" }, "isCorrect": true },
+      { "text": { "en": "It is better to have a very loose grip", "hi": "बहुत ढीली पकड़ रखना बेहतर है", "or": "ବହୁତ ଢିଲା ଗ୍ରିପ୍ ରଖିବା ଭଲ" }, "isCorrect": false },
+      { "text": { "en": "To make the gun fire faster", "hi": "बंदूक को तेजी से फायर करने के लिए", "or": "ବନ୍ଧୁକକୁ ଦ୍ରୁତ ଫାୟାର୍ କରିବା ପାଇଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-40",
+    "question": {
+      "en": "What does a 'scorecard' do?",
+      "hi": "'स्कोरकार्ड' क्या करता है?",
+      "or": "'ସ୍କୋରକାର୍ଡ' କ’ଣ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "It tells you the rules", "hi": "यह आपको नियम बताता है", "or": "ଏହା ଆପଣଙ୍କୁ ନିୟମ କହେ" }, "isCorrect": false },
+      { "text": { "en": "It is used to record the score of each shot", "hi": "इसका उपयोग प्रत्येक शॉट के स्कोर को रिकॉर्ड करने के लिए किया जाता है", "or": "ଏହା ପ୍ରତ୍ୟେକ ଶଟର ସ୍କୋର୍ ରେକର୍ଡ କରିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ" }, "isCorrect": true },
+      { "text": { "en": "It is your shooting license", "hi": "यह आपका शूटिंग लाइसेंस है", "or": "ଏହା ଆପଣଙ୍କ ସୁଟିଂ ଲାଇସେନ୍ସ" }, "isCorrect": false },
+      { "text": { "en": "It shows a picture of the target", "hi": "यह लक्ष्य की एक तस्वीर दिखाता है", "or": "ଏହା ଲକ୍ଷ୍ୟର ଏକ ଚିତ୍ର ଦେଖାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-41",
+    "question": {
+      "en": "Before a competition, it is important to check that your equipment is:",
+      "hi": "प्रतियोगिता से पहले, यह जांचना महत्वपूर्ण है कि आपके उपकरण:",
+      "or": "ପ୍ରତିଯୋଗିତା ପୂର୍ବରୁ, ଆପଣଙ୍କ ଉପକରଣ କିପରି ଅଛି ତାହା ଯାଞ୍ଚ କରିବା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ:"
+    },
+    "options": [
+      { "text": { "en": "Brand new", "hi": "एकदम नया", "or": "ସମ୍ପୂର୍ଣ୍ଣ ନୂଆ" }, "isCorrect": false },
+      { "text": { "en": "Working correctly and complies with the rules", "hi": "सही ढंग से काम कर रहा है और नियमों का अनुपालन करता है", "or": "ଠିକ୍ ଭାବରେ କାମ କରୁଛି ଏବଂ ନିୟମ ପାଳନ କରୁଛି" }, "isCorrect": true },
+      { "text": { "en": "The most expensive available", "hi": "सबसे महंगा उपलब्ध", "or": "ସବୁଠାରୁ ମହଙ୍ଗା ଉପଲବ୍ଧ" }, "isCorrect": false },
+      { "text": { "en": "Decorated", "hi": "सजाया हुआ", "or": "ସଜାଯାଇଥିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-42",
+    "question": {
+      "en": "The small explosion that ignites the main gunpowder is caused by the:",
+      "hi": "मुख्य गनपाउडर को प्रज्वलित करने वाला छोटा विस्फोट किसके कारण होता है:",
+      "or": "ମୁଖ୍ୟ ଗନପାଉଡରକୁ ପ୍ରଜ୍ୱଳିତ କରୁଥିବା ଛୋଟ ବିସ୍ଫୋରଣ କାହା ଦ୍ୱାରା ହୁଏ:"
+    },
+    "options": [
+      { "text": { "en": "Bullet", "hi": "बुलेट", "or": "ବୁଲେଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Primer", "hi": "प्राइमर", "or": "ପ୍ରାଇମର୍" }, "isCorrect": true },
+      { "text": { "en": "Barrel", "hi": "बैरल", "or": "ବ୍ୟାରେଲ୍" }, "isCorrect": false },
+      { "text": { "en": "Trigger", "hi": "ट्रिगर", "or": "ଟ୍ରିଗର" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-43",
+    "question": {
+      "en": "What is the 'firing line' at a shooting range?",
+      "hi": "एक शूटिंग रेंज में 'फायरिंग लाइन' क्या है?",
+      "or": "ଏକ ସୁଟିଂ ରେଞ୍ଜରେ 'ଫାୟାରିଂ ଲାଇନ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The line where targets are placed", "hi": "वह रेखा जहाँ लक्ष्य रखे जाते हैं", "or": "ଯେଉଁଠାରେ ଲକ୍ଷ୍ୟଗୁଡ଼ିକ ରଖାଯାଏ" }, "isCorrect": false },
+      { "text": { "en": "The line that shooters must stand at or behind", "hi": "वह रेखा जिस पर निशानेबाजों को खड़ा होना चाहिए या पीछे रहना चाहिए", "or": "ଯେଉଁ ରେଖାରେ ସୁଟରମାନେ ଠିଆ ହେବା ବା ପଛରେ ରହିବା ଆବଶ୍ୟକ" }, "isCorrect": true },
+      { "text": { "en": "A line for spectators", "hi": "दर्शकों के लिए एक रेखा", "or": "ଦର୍ଶକମାନଙ୍କ ପାଇଁ ଏକ ରେଖା" }, "isCorrect": false },
+      { "text": { "en": "The line showing the middle of the range", "hi": "रेंज के मध्य को दर्शाने वाली रेखा", "or": "ରେଞ୍ଜର ମଧ୍ୟଭାଗ ଦର୍ଶାଉଥିବା ରେଖା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-44",
+    "question": {
+      "en": "To shoot accurately, a stable stance should be:",
+      "hi": "सटीक रूप से शूट करने के लिए, एक स्थिर मुद्रा होनी चाहिए:",
+      "or": "ସଠିକ୍ ଭାବରେ ସୁଟ୍ କରିବା ପାଇଁ, ଏକ ସ୍ଥିର ମୁଦ୍ରା କିପରି ହେବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "Stiff and rigid", "hi": "कठोर और अचल", "or": "କଠିନ ଏବଂ ଦୃଢ଼" }, "isCorrect": false },
+      { "text": { "en": "Balanced and natural", "hi": "संतुलित और प्राकृतिक", "or": "ସନ୍ତୁଳିତ ଏବଂ ପ୍ରାକୃତିକ" }, "isCorrect": true },
+      { "text": { "en": "Leaning far forward", "hi": "बहुत आगे की ओर झुका हुआ", "or": "ବହୁତ ଆଗକୁ ଢଳି" }, "isCorrect": false },
+      { "text": { "en": "Constantly moving", "hi": "लगातार गतिशील", "or": "ନିରନ୍ତର ଗତିଶୀଳ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-45",
+    "question": {
+      "en": "What is the purpose of the 'safety' switch on a firearm?",
+      "hi": "एक बन्दूक पर 'सेफ्टी' स्विच का उद्देश्य क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକରେ 'ସେଫ୍ଟି' ସୁଇଚର ଉଦ୍ଦେଶ୍ୟ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "To help aim the firearm", "hi": "बन्दूक का निशाना लगाने में मदद करने के लिए", "or": "ବନ୍ଧୁକକୁ ଲକ୍ଷ୍ୟ କରିବାରେ ସାହାଯ୍ୟ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To block the trigger from being pulled accidentally", "hi": "ट्रिगर को गलती से खींचे जाने से रोकने के लिए", "or": "ଟ୍ରିଗରକୁ ଭୁଲରେ ଟାଣି ହେବାରୁ ରୋକିବା" }, "isCorrect": true },
+      { "text": { "en": "To make the firearm shoot faster", "hi": "बन्दूक को तेजी से शूट करने के लिए", "or": "ବନ୍ଧୁକକୁ ଦ୍ରୁତ ଗତିରେ ସୁଟ୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "To eject the magazine", "hi": "मैगज़ीन को बाहर निकालने के लिए", "or": "ମାଗାଜିନ୍ ବାହାର କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-46",
+    "question": {
+      "en": "When using iron sights, your main focus should be on:",
+      "hi": "आयरन साइट्स का उपयोग करते समय, आपका मुख्य ध्यान किस पर होना चाहिए:",
+      "or": "ଆଇରନ୍ ସାଇଟ୍ସ ବ୍ୟବହାର କରିବା ସମୟରେ, ଆପଣଙ୍କର ମୁଖ୍ୟ ଧ୍ୟାନ କେଉଁଥିରେ ରହିବା ଉଚିତ୍:"
+    },
+    "options": [
+      { "text": { "en": "The target", "hi": "लक्ष्य", "or": "ଲକ୍ଷ୍ୟ" }, "isCorrect": false },
+      { "text": { "en": "The front sight", "hi": "फ्रंट साइट", "or": "ଫ୍ରଣ୍ଟ ସାଇଟ୍" }, "isCorrect": true },
+      { "text": { "en": "The rear sight", "hi": "रियर साइट", "or": "ରିୟର ସାଇଟ୍" }, "isCorrect": false },
+      { "text": { "en": "Your hands", "hi": "आपके हाथ", "or": "ଆପଣଙ୍କ ହାତ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-47",
+    "question": {
+      "en": "What is 'recoil'?",
+      "hi": "'रिकॉइल' क्या है?",
+      "or": "'ରିକଏଲ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The sound the gun makes", "hi": "बंदूक की आवाज", "or": "ବନ୍ଧୁକର ଶବ୍ଦ" }, "isCorrect": false },
+      { "text": { "en": "The backward movement or 'kick' of the gun after firing", "hi": "फायरिंग के बाद बंदूक का पीछे की ओर mouvement या 'किक'", "or": "ଫାୟାରିଂ ପରେ ବନ୍ଧୁକର ପଛକୁ ଗତି ବା 'କିକ୍'" }, "isCorrect": true },
+      { "text": { "en": "The spinning of the bullet", "hi": "गोली का घूमना", "or": "ଗୁଳିର ଘୂର୍ଣ୍ଣନ" }, "isCorrect": false },
+      { "text": { "en": "A type of ammunition", "hi": "एक प्रकार का गोला-बारूद", "or": "ଏକ ପ୍ରକାରର ଗୁଳିଗୋଳା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-48",
+    "question": {
+      "en": "The 'dominant eye' is important for what?",
+      "hi": "'प्रमुख आंख' किस लिए महत्वपूर्ण है?",
+      "or": "'ପ୍ରମୁଖ ଆଖି' କେଉଁଥିପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Checking your score", "hi": "अपना स्कोर जांचना", "or": "ଆପଣଙ୍କ ସ୍କୋର୍ ଯାଞ୍ଚ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Aiming and aligning the sights", "hi": "निशाना लगाना और साइट्स को संरेखित करना", "or": "ଲକ୍ଷ୍ୟ କରିବା ଏବଂ ସାଇଟ୍ସକୁ ସମରେଖିତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Loading the firearm", "hi": "बन्दूक लोड करना", "or": "ବନ୍ଧୁକ ଲୋଡ୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "It is not important in shooting", "hi": "यह शूटिंग में महत्वपूर्ण नहीं है", "or": "ଏହା ସୁଟିଂରେ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-49",
+    "question": {
+      "en": "A 'range officer' or 'R.O.' is responsible for:",
+      "hi": "एक 'रेंज ऑफिसर' या 'आर.ओ.' किसके लिए जिम्मेदार है:",
+      "or": "ଜଣେ 'ରେଞ୍ଜ୍ ଅଫିସର୍' ବା 'ଆର.ଓ.' କେଉଁଥିପାଇଁ ଦାୟୀ:"
+    },
+    "options": [
+      { "text": { "en": "Coaching the athletes", "hi": "एथलीटों को कोचिंग देना", "or": "ଆଥଲେଟମାନଙ୍କୁ ପ୍ରଶିକ୍ଷଣ ଦେବା" }, "isCorrect": false },
+      { "text": { "en": "Ensuring safety and enforcing the rules on the range", "hi": "रेंज पर सुरक्षा सुनिश्चित करना और नियमों को लागू करना", "or": "ରେଞ୍ଜରେ ସୁରକ୍ଷା ସୁନିଶ୍ଚିତ କରିବା ଏବଂ ନିୟମ ଲାଗୁ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "Scoring the targets", "hi": "लक्ष्यों का स्कोर करना", "or": "ଲକ୍ଷ୍ୟଗୁଡ଼ିକର ସ୍କୋର୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Selling ammunition", "hi": "गोला-बारूद बेचना", "or": "ଗୁଳିଗୋଳା ବିକ୍ରି କରିବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-50",
+    "question": {
+      "en": "What is the 'muzzle' of a firearm?",
+      "hi": "एक बन्दूक का 'मज़ल' क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକର 'ମଜଲ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The rear end", "hi": "पिछला सिरा", "or": "ପଛ ଅଂଶ" }, "isCorrect": false },
+      { "text": { "en": "The front end of the barrel where the bullet exits", "hi": "बैरल का अगला सिरा जहाँ से गोली निकलती है", "or": "ବ୍ୟାରେଲର ଆଗ ଅଂଶ ଯେଉଁଠାରୁ ଗୁଳି ବାହାରେ" }, "isCorrect": true },
+      { "text": { "en": "The trigger", "hi": "ट्रिगर", "or": "ଟ୍ରିଗର" }, "isCorrect": false },
+      { "text": { "en": "The handle", "hi": "हैंडल", "or": "ହ୍ୟାଣ୍ଡେଲ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-51",
+    "question": {
+      "en": "Why is it important to know what is behind your target?",
+      "hi": "यह जानना क्यों महत्वपूर्ण है कि आपके लक्ष्य के पीछे क्या है?",
+      "or": "ଆପଣଙ୍କ ଲକ୍ଷ୍ୟ ପଛରେ କ’ଣ ଅଛି ତାହା ଜାଣିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ?"
+    },
+    "options": [
+      { "text": { "en": "It can distract you", "hi": "यह आपको विचलित कर सकता है", "or": "ଏହା ଆପଣଙ୍କୁ ବିଚଳିତ କରିପାରେ" }, "isCorrect": false },
+      { "text": { "en": "To ensure that any missed shot will not cause harm", "hi": "यह सुनिश्चित करने के लिए कि कोई भी छूटा हुआ शॉट कोई नुकसान नहीं पहुंचाएगा", "or": "କୌଣସି ମିସ୍ ହୋଇଥିବା ଶଟ୍ କୌଣସି କ୍ଷତି କରିବ ନାହିଁ ବୋଲି ସୁନିଶ୍ଚିତ କରିବା" }, "isCorrect": true },
+      { "text": { "en": "It helps you aim better", "hi": "यह आपको बेहतर निशाना लगाने में मदद करता है", "or": "ଏହା ଆପଣଙ୍କୁ ଭଲ ଲକ୍ଷ୍ୟ କରିବାରେ ସାହାଯ୍ୟ କରେ" }, "isCorrect": false },
+      { "text": { "en": "It is not important on a shooting range", "hi": "यह एक शूटिंग रेंज में महत्वपूर्ण नहीं है", "or": "ଏକ ସୁଟିଂ ରେଞ୍ଜରେ ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-52",
+    "question": {
+      "en": "What is the part of the trigger that your finger touches?",
+      "hi": "ट्रिगर का वह हिस्सा जिसे आपकी उंगली छूती है, वह क्या है?",
+      "or": "ଟ୍ରିଗରର ଯେଉଁ ଅଂଶକୁ ଆପଣଙ୍କ ଆଙ୍ଗୁଠି ଛୁଏଁ, ତାହା କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The blade", "hi": "ब्लेड", "or": "ବ୍ଲେଡ୍" }, "isCorrect": true },
+      { "text": { "en": "The guard", "hi": "गार्ड", "or": "ଗାର୍ଡ" }, "isCorrect": false },
+      { "text": { "en": "The pin", "hi": "पिन", "or": "ପିନ୍" }, "isCorrect": false },
+      { "text": { "en": "The hammer", "hi": "हथौड़ा", "or": "ହାତୁଡ଼ି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-53",
+    "question": {
+      "en": "A steady position is built from:",
+      "hi": "एक स्थिर स्थिति किससे बनती है:",
+      "or": "ଏକ ସ୍ଥିର ସ୍ଥିତି କେଉଁଥିରୁ ଗଠିତ:"
+    },
+    "options": [
+      { "text": { "en": "The hands up", "hi": "हाथों से ऊपर", "or": "ହାତରୁ ଉପରକୁ" }, "isCorrect": false },
+      { "text": { "en": "The ground up", "hi": "जमीन से ऊपर", "or": "ଭୂମିରୁ ଉପରକୁ" }, "isCorrect": true },
+      { "text": { "en": "The shoulders down", "hi": "कंधों से नीचे", "or": "କାନ୍ଧରୁ ତଳକୁ" }, "isCorrect": false },
+      { "text": { "en": "The head down", "hi": "सिर से नीचे", "or": "ମୁଣ୍ଡରୁ ତଳକୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-54",
+    "question": {
+      "en": "What does 'caliber' refer to?",
+      "hi": "'कैलिबर' का क्या अर्थ है?",
+      "or": "'କ୍ୟାଲିବର୍'ର ଅର୍ଥ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The length of the firearm", "hi": "बन्दूक की लंबाई", "or": "ବନ୍ଧୁକର ଲମ୍ବ" }, "isCorrect": false },
+      { "text": { "en": "The internal diameter of the barrel", "hi": "बैरल का आंतरिक व्यास", "or": "ବ୍ୟାରେଲର ଆଭ୍ୟନ୍ତରୀଣ ବ୍ୟାସ" }, "isCorrect": true },
+      { "text": { "en": "The weight of the bullet", "hi": "गोली का वजन", "or": "ଗୁଳିର ଓଜନ" }, "isCorrect": false },
+      { "text": { "en": "The brand of the firearm", "hi": "बन्दूक का ब्रांड", "or": "ବନ୍ଧୁକର ବ୍ରାଣ୍ଡ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-55",
+    "question": {
+      "en": "Why should you never rely solely on a firearm's safety mechanism?",
+      "hi": "आपको कभी भी केवल एक बन्दूक के सुरक्षा तंत्र पर भरोसा क्यों नहीं करना चाहिए?",
+      "or": "ଆପଣଙ୍କୁ କାହିଁକି କେବଳ ଏକ ବନ୍ଧୁକର ସୁରକ୍ଷା ଯନ୍ତ୍ରକୌଶଳ ଉପରେ ନିର୍ଭର କରିବା ଉଚିତ୍ ନୁହେଁ?"
+    },
+    "options": [
+      { "text": { "en": "It is difficult to use", "hi": "इसका उपयोग करना मुश्किल है", "or": "ଏହା ବ୍ୟବହାର କରିବା କଷ୍ଟକର" }, "isCorrect": false },
+      { "text": { "en": "It is a mechanical device that can fail", "hi": "यह एक यांत्रिक उपकरण है जो विफल हो सकता है", "or": "ଏହା ଏକ ଯାନ୍ତ୍ରିକ ଉପକରଣ ଯାହା ବିଫଳ ହୋଇପାରେ" }, "isCorrect": true },
+      { "text": { "en": "It makes the trigger harder to pull", "hi": "यह ट्रिगर को खींचना कठिन बना देता है", "or": "ଏହା ଟ୍ରିଗର ଟାଣିବା କଷ୍ଟକର କରିଦିଏ" }, "isCorrect": false },
+      { "text": { "en": "It slows down your shooting", "hi": "यह आपकी शूटिंग को धीमा कर देता है", "or": "ଏହା ଆପଣଙ୍କ ସୁଟିଂକୁ ଧୀର କରିଦିଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-56",
+    "question": {
+      "en": "What is the 'zero' of a rifle's sights?",
+      "hi": "एक राइफल की साइट्स का 'जीरो' क्या है?",
+      "or": "ଏକ ରାଇଫଲର ସାଇଟ୍ସର 'ଜିରୋ' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The lowest possible score", "hi": "सबसे कम संभव स्कोर", "or": "ସର୍ବନିମ୍ନ ସମ୍ଭାବ୍ୟ ସ୍କୋର୍" }, "isCorrect": false },
+      { "text": { "en": "The adjustment where the point of aim is the same as the point of impact", "hi": "वह समायोजन जहाँ उद्देश्य का बिंदु प्रभाव के बिंदु के समान होता है", "or": "ସେହି ସମାୟୋଜନ ଯେଉଁଠାରେ ଲକ୍ଷ୍ୟର ବିନ୍ଦୁ ପ୍ରଭାବର ବିନ୍ଦୁ ସହିତ ସମାନ" }, "isCorrect": true },
+      { "text": { "en": "The middle of the target", "hi": "लक्ष्य का मध्य", "or": "ଲକ୍ଷ୍ୟର ମଧ୍ୟଭାଗ" }, "isCorrect": false },
+      { "text": { "en": "A perfect score of zero", "hi": "शून्य का एक आदर्श स्कोर", "or": "ଶୂନ୍ୟର ଏକ ଉତ୍ତମ ସ୍କୋର୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-57",
+    "question": {
+      "en": "What is the path a bullet takes to the target called?",
+      "hi": "एक गोली लक्ष्य तक जो रास्ता तय करती है उसे क्या कहा जाता है?",
+      "or": "ଏକ ଗୁଳି ଲକ୍ଷ୍ୟ ପର୍ଯ୍ୟନ୍ତ ଯେଉଁ ରାସ୍ତା ନିଏ ତାହାକୁ କ’ଣ କୁହାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "The line of sight", "hi": "लाइन ऑफ साइट", "or": "ଲାଇନ୍ ଅଫ୍ ସାଇଟ୍" }, "isCorrect": false },
+      { "text": { "en": "The trajectory", "hi": "ट्रैजेक्टरी", "or": "ଟ୍ରାଜେକ୍ଟୋରୀ" }, "isCorrect": true },
+      { "text": { "en": "The firing line", "hi": "फायरिंग लाइन", "or": "ଫାୟାରିଂ ଲାଇନ୍" }, "isCorrect": false },
+      { "text": { "en": "The grouping", "hi": "ग्रुपिंग", "or": "ଗ୍ରୁପିଂ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-58",
+    "question": {
+      "en": "What is the 'breech' of a firearm?",
+      "hi": "एक बन्दूक का 'ब्रीच' क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକର 'ବ୍ରିଚ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The front end", "hi": "अगला सिरा", "or": "ଆଗ ଅଂଶ" }, "isCorrect": false },
+      { "text": { "en": "The rear end of the barrel", "hi": "बैरल का पिछला सिरा", "or": "ବ୍ୟାରେଲର ପଛ ଅଂଶ" }, "isCorrect": true },
+      { "text": { "en": "The ammunition", "hi": "गोला-बारूद", "or": "ଗୁଳିଗୋଳା" }, "isCorrect": false },
+      { "text": { "en": "The grip", "hi": "पकड़", "or": "ଗ୍ରିପ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-59",
+    "question": {
+      "en": "A good mental approach to shooting involves being:",
+      "hi": "शूटिंग के लिए एक अच्छा मानसिक दृष्टिकोण में शामिल है:",
+      "or": "ସୁଟିଂ ପାଇଁ ଏକ ଭଲ ମାନସିକ ଦୃଷ୍ଟିକୋଣରେ କ’ଣ ସାମିଲ:"
+    },
+    "options": [
+      { "text": { "en": "Angry and aggressive", "hi": "क्रोधित और आक्रामक", "or": "କ୍ରୋଧିତ ଏବଂ ଆକ୍ରମଣାତ୍ମକ" }, "isCorrect": false },
+      { "text": { "en": "Calm and focused", "hi": "शांत और केंद्रित", "or": "ଶାନ୍ତ ଏବଂ କେନ୍ଦ୍ରିତ" }, "isCorrect": true },
+      { "text": { "en": "Tired and relaxed", "hi": "थका हुआ और आराम से", "or": "କ୍ଳାନ୍ତ ଏବଂ ଆରାମରେ" }, "isCorrect": false },
+      { "text": { "en": "Excited and jumpy", "hi": "उत्साहित और उछल-कूद करने वाला", "or": "ଉତ୍ସାହିତ ଏବଂ ଚଞ୍ଚଳ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-60",
+    "question": {
+      "en": "What piece of equipment helps you see a distant target more clearly?",
+      "hi": "कौन सा उपकरण आपको दूर के लक्ष्य को अधिक स्पष्ट रूप से देखने में मदद करता है?",
+      "or": "କେଉଁ ଉପକରଣ ଆପଣଙ୍କୁ ଦୂର ଲକ୍ଷ୍ୟକୁ ଅଧିକ ସ୍ପଷ୍ଟ ଭାବରେ ଦେଖିବାରେ ସାହାଯ୍ୟ କରେ?"
+    },
+    "options": [
+      { "text": { "en": "A cleaning rod", "hi": "एक सफाई रॉड", "or": "ଏକ ସଫେଇ ରଡ୍" }, "isCorrect": false },
+      { "text": { "en": "A spotting scope or binoculars", "hi": "एक स्पॉटिंग स्कोप या दूरबीन", "or": "ଏକ ସ୍ପଟିଂ ସ୍କୋପ୍ ବା ଦୂରବୀକ୍ଷଣ" }, "isCorrect": true },
+      { "text": { "en": "A shooting mat", "hi": "एक शूटिंग मैट", "or": "ଏକ ସୁଟିଂ ମ୍ୟାଟ୍" }, "isCorrect": false },
+      { "text": { "en": "A shooting jacket", "hi": "एक शूटिंग जैकेट", "or": "ଏକ ସୁଟିଂ ଜ୍ୟାକେଟ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-61",
+    "question": {
+      "en": "The score of a shot is determined by which scoring ring the:",
+      "hi": "एक शॉट का स्कोर इस बात से निर्धारित होता है कि शॉट किस स्कोरिंग रिंग में है:",
+      "or": "ଏକ ଶଟର ସ୍କୋର୍ କେଉଁ ସ୍କୋରିଂ ରିଙ୍ଗରେ ଶଟ୍ ଅଛି ତାହା ଦ୍ୱାରା ନିର୍ଣ୍ଣୟ କରାଯାଏ:"
+    },
+    "options": [
+      { "text": { "en": "Edge of the hole touches", "hi": "छेद का किनारा छूता है", "or": "ଛିଦ୍ରର କିନାରା ଛୁଏଁ" }, "isCorrect": true },
+      { "text": { "en": "Center of the hole is in", "hi": "छेद का केंद्र है", "or": "ଛିଦ୍ରର କେନ୍ଦ୍ର ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "Majority of the hole is in", "hi": "छेद का अधिकांश हिस्सा है", "or": "ଛିଦ୍ରର ଅଧିକାଂଶ ଅଂଶ ଅଛି" }, "isCorrect": false },
+      { "text": { "en": "Bullet stops in", "hi": "गोली रुकती है", "or": "ଗୁଳି ଅଟକିଯାଏ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-62",
+    "question": {
+      "en": "After you finish shooting, what is the first safety step?",
+      "hi": "शूटिंग खत्म करने के बाद, पहला सुरक्षा कदम क्या है?",
+      "or": "ସୁଟିଂ ସମାପ୍ତ କରିବା ପରେ, ପ୍ରଥମ ସୁରକ୍ଷା ପଦକ୍ଷେପ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "Put the gun down", "hi": "बंदूक नीचे रख दो", "or": "ବନ୍ଧୁକ ତଳେ ରଖନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Unload the firearm and show it is clear", "hi": "बन्दूक को अनलोड करें और दिखाएँ कि यह खाली है", "or": "ବନ୍ଧୁକ ଅନଲୋଡ୍ କରନ୍ତୁ ଏବଂ ଦେଖାନ୍ତୁ ଯେ ଏହା ଖାଲି ଅଛି" }, "isCorrect": true },
+      { "text": { "en": "Clean the firearm", "hi": "बन्दूक साफ करें", "or": "ବନ୍ଧୁକ ସଫା କରନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Check your score", "hi": "अपना स्कोर जांचें", "or": "ଆପଣଙ୍କ ସ୍କୋର୍ ଯାଞ୍ଚ କରନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-63",
+    "question": {
+      "en": "What is the part that protects your finger from the trigger?",
+      "hi": "आपकी उंगली को ट्रिगर से बचाने वाला हिस्सा क्या है?",
+      "or": "ଆପଣଙ୍କ ଆଙ୍ଗୁଠିକୁ ଟ୍ରିଗରରୁ ରକ୍ଷା କରୁଥିବା ଅଂଶ କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The grip", "hi": "ग्रिप", "or": "ଗ୍ରିପ୍" }, "isCorrect": false },
+      { "text": { "en": "The trigger guard", "hi": "ट्रिगर गार्ड", "or": "ଟ୍ରିଗର ଗାର୍ଡ" }, "isCorrect": true },
+      { "text": { "en": "The safety", "hi": "सेफ्टी", "or": "ସେଫ୍ଟି" }, "isCorrect": false },
+      { "text": { "en": "The stock", "hi": "स्टॉक", "or": "ଷ୍ଟକ୍" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-64",
+    "question": {
+      "en": "When practicing, it is best to focus on:",
+      "hi": "अभ्यास करते समय, किस पर ध्यान केंद्रित करना सबसे अच्छा है:",
+      "or": "ଅଭ୍ୟାସ କରିବା ସମୟରେ, କେଉଁଥିରେ ଧ୍ୟାନ ଦେବା ସର୍ବୋତ୍ତମ:"
+    },
+    "options": [
+      { "text": { "en": "Shooting as many rounds as possible", "hi": "जितना संभव हो उतने राउंड शूट करना", "or": "ଯେତେ ସମ୍ଭବ ରାଉଣ୍ଡ ସୁଟ୍ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Quality and consistency over quantity", "hi": "मात्रा से अधिक गुणवत्ता और निरंतरता", "or": "ପରିମାଣଠାରୁ ଗୁଣବତ୍ତା ଏବଂ ନିରନ୍ତରତା" }, "isCorrect": true },
+      { "text": { "en": "Shooting faster than everyone else", "hi": "बाकी सभी से तेज शूटिंग करना", "or": "ଅନ୍ୟ ସମସ୍ତଙ୍କଠାରୁ ଦ୍ରୁତ ସୁଟିଂ କରିବା" }, "isCorrect": false },
+      { "text": { "en": "Getting a high score every time", "hi": "हर बार एक उच्च स्कोर प्राप्त करना", "or": "ପ୍ରତ୍ୟେକ ଥର ଏକ ଉଚ୍ଚ ସ୍କୋର୍ ପାଇବା" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-65",
+    "question": {
+      "en": "What is a rifle sling used for in the prone or kneeling positions?",
+      "hi": "प्रोन या नीलिंग पोजीशन में राइफल स्लिंग का उपयोग किस लिए किया जाता है?",
+      "or": "ପ୍ରୋନ୍ ବା ନିଲିଂ ପୋଜିସନରେ ରାଇଫଲ୍ ସ୍ଲିଙ୍ଗ୍ କେଉଁଥିପାଇଁ ବ୍ୟବହାର କରାଯାଏ?"
+    },
+    "options": [
+      { "text": { "en": "To carry the rifle", "hi": "राइफल ले जाने के लिए", "or": "ରାଇଫଲ୍ ବହନ କରିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "To create a stable support by connecting the rifle to the shooter's body", "hi": "राइफल को शूटर के शरीर से जोड़कर एक स्थिर समर्थन बनाने के लिए", "or": "ରାଇଫଲକୁ ସୁଟରଙ୍କ ଶରୀର ସହିତ ସଂଯୋଗ କରି ଏକ ସ୍ଥିର ସମର୍ଥନ ସୃଷ୍ଟି କରିବା" }, "isCorrect": true },
+      { "text": { "en": "To adjust the sights", "hi": "साइट्स को समायोजित करने के लिए", "or": "ସାଇଟ୍ସକୁ ସଜାଡିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is not allowed", "hi": "इसकी अनुमति नहीं है", "or": "ଏହା ଅନୁମତିପ୍ରାପ୍ତ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-66",
+    "question": {
+      "en": "What is the 'action' of a firearm?",
+      "hi": "एक बन्दूक का 'एक्शन' क्या है?",
+      "or": "ଏକ ବନ୍ଧୁକର 'ଆକ୍ସନ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "The way you shoot it", "hi": "जिस तरह से आप इसे शूट करते हैं", "or": "ଆପଣ ଯେଉଁଭଳି ଏହାକୁ ସୁଟ୍ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The mechanism that loads, fires, and ejects cartridges", "hi": "वह तंत्र जो कारतूस को लोड, फायर और बाहर निकालता है", "or": "ସେହି ଯନ୍ତ୍ରକୌଶଳ ଯାହା କାର୍ଟ୍ରିଜକୁ ଲୋଡ୍, ଫାୟାର୍ ଏବଂ ବାହାର କରେ" }, "isCorrect": true },
+      { "text": { "en": "The sound it makes", "hi": "यह जो आवाज करता है", "or": "ଏହା ଯେଉଁ ଶବ୍ଦ କରେ" }, "isCorrect": false },
+      { "text": { "en": "The recoil you feel", "hi": "जो रिकॉइल आप महसूस करते हैं", "or": "ଆପଣ ଯେଉଁ ରିକଏଲ୍ ଅନୁଭବ କରନ୍ତି" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-67",
+    "question": {
+      "en": "Why is it important to stay still after the shot is fired (follow-through)?",
+      "hi": "शॉट फायर होने के बाद स्थिर रहना क्यों महत्वपूर्ण है (फॉलो-थ्रू)?",
+      "or": "ଶଟ୍ ଫାୟାର୍ ହେବା ପରେ ସ୍ଥିର ରହିବା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ (ଫଲୋ-ଥ୍ରୁ)?"
+    },
+    "options": [
+      { "text": { "en": "To hear where the bullet hits", "hi": "यह सुनने के लिए कि गोली कहाँ लगी", "or": "ଗୁଳି କେଉଁଠାରେ ବାଜିଲା ତାହା ଶୁଣିବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "The bullet is still in the barrel for a fraction of a second, so moving can affect accuracy", "hi": "गोली एक सेकंड के एक अंश के लिए अभी भी बैरल में है, इसलिए हिलने से सटीकता प्रभावित हो सकती है", "or": "ଗୁଳି ଏକ ସେକେଣ୍ଡର ଏକ ଅଂଶ ପାଇଁ ଏବେ ବି ବ୍ୟାରେଲରେ ଅଛି, ତେଣୁ ହଲିବା ସଠିକତାକୁ ପ୍ରଭାବିତ କରିପାରେ" }, "isCorrect": true },
+      { "text": { "en": "To show respect to other shooters", "hi": "अन्य निशानेबाजों का सम्मान करने के लिए", "or": "ଅନ୍ୟ ସୁଟରମାନଙ୍କୁ ସମ୍ମାନ ଦେବା ପାଇଁ" }, "isCorrect": false },
+      { "text": { "en": "It is not important", "hi": "यह महत्वपूर्ण नहीं है", "or": "ଏହା ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ନୁହେଁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-68",
+    "question": {
+      "en": "What is the 'butt plate' on a rifle?",
+      "hi": "एक राइफल पर 'बट प्लेट' क्या है?",
+      "or": "ଏକ ରାଇଫଲରେ 'ବଟ୍ ପ୍ଲେଟ୍' କ’ଣ?"
+    },
+    "options": [
+      { "text": { "en": "A plate you shoot at", "hi": "एक प्लेट जिस पर आप शूट करते हैं", "or": "ଏକ ପ୍ଲେଟ୍ ଯେଉଁଥିରେ ଆପଣ ସୁଟ୍ କରନ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The back end of the stock that rests on your shoulder", "hi": "स्टॉक का पिछला सिरा जो आपके कंधे पर टिका होता है", "or": "ଷ୍ଟକର ପଛ ଅଂଶ ଯାହା ଆପଣଙ୍କ କାନ୍ଧରେ ରହେ" }, "isCorrect": true },
+      { "text": { "en": "A part of the trigger mechanism", "hi": "ट्रिगर तंत्र का एक हिस्सा", "or": "ଟ୍ରିଗର ଯନ୍ତ୍ରକୌଶଳର ଏକ ଅଂଶ" }, "isCorrect": false },
+      { "text": { "en": "A tool for cleaning", "hi": "सफाई के लिए एक उपकरण", "or": "ସଫେଇ ପାଇଁ ଏକ ଉପକରଣ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-69",
+    "question": {
+      "en": "Before going downrange to check targets, what must all shooters do?",
+      "hi": "लक्ष्य जांचने के लिए डाउनरेंज जाने से पहले, सभी निशानेबाजों को क्या करना चाहिए?",
+      "or": "ଲକ୍ଷ୍ୟ ଯାଞ୍ଚ କରିବାକୁ ଡାଉନରେଞ୍ଜ୍ ଯିବା ପୂର୍ବରୁ, ସମସ୍ତ ସୁଟରମାନଙ୍କୁ କ’ଣ କରିବା ଉଚିତ୍?"
+    },
+    "options": [
+      { "text": { "en": "Reload their firearms", "hi": "अपनी बन्दूकों को फिर से लोड करें", "or": "ନିଜ ବନ୍ଧୁକକୁ ପୁନର୍ବାର ଲୋଡ୍ କରନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Unload their firearms and make them safe", "hi": "अपनी बन्दूकों को अनलोड करें और उन्हें सुरक्षित बनाएं", "or": "ନିଜ ବନ୍ଧୁକକୁ ଅନଲୋଡ୍ କରନ୍ତୁ ଏବଂ ସେଗୁଡିକୁ ସୁରକ୍ଷିତ କରନ୍ତୁ" }, "isCorrect": true },
+      { "text": { "en": "Take their scorecards", "hi": "अपने स्कोरकार्ड लें", "or": "ନିଜ ସ୍କୋରକାର୍ଡ ନିଅନ୍ତୁ" }, "isCorrect": false },
+      { "text": { "en": "Clean their shooting spot", "hi": "अपनी शूटिंग जगह को साफ करें", "or": "ନିଜ ସୁଟିଂ ସ୍ଥାନ ସଫା କରନ୍ତୁ" }, "isCorrect": false }
+    ]
+  },
+  {
+    "id": "sht-70",
+    "question": {
+      "en": "A consistent grip on a firearm helps improve:",
+      "hi": "एक बन्दूक पर एक सुसंगत पकड़ किसमें सुधार करने में मदद करती है:",
+      "or": "ଏକ ବନ୍ଧୁକରେ ଏକ ନିରନ୍ତର ଗ୍ରିପ୍ କ’ଣ ଉନ୍ନତ କରିବାରେ ସାହାଯ୍ୟ କରେ:"
+    },
+    "options": [
+      { "text": { "en": "The speed of loading", "hi": "लोडिंग की गति", "or": "ଲୋଡିଂର ଗତି" }, "isCorrect": false },
+      { "text": { "en": "Accuracy and consistency", "hi": "सटीकता और निरंतरता", "or": "ସଠିକତା ଏବଂ ନିରନ୍ତରତା" }, "isCorrect": true },
+      { "text": { "en": "The power of the shot", "hi": "शॉट की शक्ति", "or": "ଶଟର ଶକ୍ତି" }, "isCorrect": false },
+      { "text": { "en": "The sound of the shot", "hi": "शॉट की आवाज", "or": "ଶଟର ଶବ୍ଦ" }, "isCorrect": false }
+    ]
+  }
+]
