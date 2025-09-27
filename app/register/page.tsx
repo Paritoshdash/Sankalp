@@ -17,12 +17,9 @@ const indianStates = [
   "Uttar Pradesh", "Uttarakhand", "West Bengal", "Delhi", "Jammu and Kashmir", "Ladakh",
 ];
 
-// Mock data for districts to simulate API call
+// Mock data for districts, specifically for Odisha as requested
 const mockDistricts: Record<string, string[]> = {
-    "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Thane"],
-    "Delhi": ["New Delhi", "North Delhi", "South Delhi"],
-    "Karnataka": ["Bengaluru", "Mysuru", "Mangaluru"],
-    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai"],
+    "Odisha": ["Angul", "Balangir", "Balasore", "Bargarh", "Bhadrak", "Boudh", "Cuttack", "Deogarh", "Dhenkanal", "Gajapati", "Ganjam", "Jagatsinghpur", "Jajpur", "Jharsuguda", "Kalahandi", "Kandhamal", "Kendrapara", "Keonjhar", "Khordha", "Koraput", "Malkangiri", "Mayurbhanj", "Nabarangpur", "Nayagarh", "Nuapada", "Puri", "Rayagada", "Sambalpur", "Subarnapur", "Sundargarh"]
 };
 
 // A simple OTP Modal component for demonstration
@@ -89,10 +86,12 @@ export default function RegisterPage() {
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [showOTP, setShowOTP] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
-  const [successMessage, setSuccessMessage] = useState<string | null>(null)
-
+  const [feedbackMessage, setFeedbackMessage] = useState<string | null>(null)
+  
   const [districts, setDistricts] = useState<string[]>([]);
   const [isFetchingDistricts, setIsFetchingDistricts] = useState(false);
+  const [showDistrictDropdown, setShowDistrictDropdown] = useState(false);
+
 
   const validateForm = () => {
     const newErrors: Record<string, string> = {}
@@ -103,7 +102,7 @@ export default function RegisterPage() {
     if (formData.password.length < 8) newErrors.password = "Password must be at least 8 characters"
     if (formData.password !== formData.confirmPassword) newErrors.confirmPassword = "Passwords do not match"
     if (!formData.state) newErrors.state = "State is required"
-    if (!formData.district) newErrors.district = "District is required"
+    if (!formData.district.trim()) newErrors.district = "District is required"
     if (!formData.city.trim()) newErrors.city = "City/Village is required"
     if (!formData.pincode.trim() || !/^\d{6}$/.test(formData.pincode)) newErrors.pincode = "Pin code must be 6 digits"
     setErrors(newErrors)
@@ -112,16 +111,17 @@ export default function RegisterPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+    setFeedbackMessage(null); 
+    
     if (validateForm()) {
       setIsLoading(true)
-      setSuccessMessage(null)
-      // Simulate API call delay
       setTimeout(() => {
         setIsLoading(false);
-        setSuccessMessage("Registration successful! Proceeding to phone verification...");
-        // Show OTP modal after a short delay
+        setFeedbackMessage("Registration successful! Proceeding to phone verification...");
         setTimeout(() => setShowOTP(true), 1500);
       }, 2000);
+    } else {
+      setFeedbackMessage("Please fix the errors highlighted in red before submitting.");
     }
   }
 
@@ -132,16 +132,20 @@ export default function RegisterPage() {
 
   const handleStateChange = (stateName: string) => {
     setFormData(prev => ({ ...prev, state: stateName, district: "" }));
-    setDistricts([]);
     if (errors.state) setErrors(prev => ({...prev, state: ""}));
 
-    if (stateName) {
-      setIsFetchingDistricts(true);
-      // Simulate fetching districts from mock data
-      setTimeout(() => {
-        setDistricts(mockDistricts[stateName] || ["District 1", "District 2 (Mock)"]);
-        setIsFetchingDistricts(false);
-      }, 500);
+    // Check if the selected state is Odisha to show the dropdown
+    if (stateName === "Odisha") {
+        setIsFetchingDistricts(true);
+        // Simulate fetching districts
+        setTimeout(() => {
+            setDistricts(mockDistricts.Odisha);
+            setShowDistrictDropdown(true);
+            setIsFetchingDistricts(false);
+        }, 500);
+    } else {
+        setShowDistrictDropdown(false);
+        setDistricts([]);
     }
   };
 
@@ -223,20 +227,31 @@ export default function RegisterPage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="district" className="text-[#EEEFA8]">District *</Label>
-                    <Select
-                      value={formData.district}
-                      onValueChange={(value) => handleInputChange("district", value)}
-                      disabled={!formData.state || isFetchingDistricts || districts.length === 0}
-                    >
-                      <SelectTrigger className={`${inputStyles} ${errors.district ? "border-red-500" : ""}`}>
-                        <SelectValue placeholder={ isFetchingDistricts ? "Loading districts..." : !formData.state ? "Select a state first" : "Select your district" } />
-                      </SelectTrigger>
-                      <SelectContent className="bg-[#014f86] border-white/20 text-[#FAFDF6]">
-                        {districts.map((district) => (
-                          <SelectItem key={district} value={district} className="focus:bg-black/20 focus:text-[#FAFDF6]">{district}</SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
+                    {showDistrictDropdown ? (
+                       <Select
+                        value={formData.district}
+                        onValueChange={(value) => handleInputChange("district", value)}
+                        disabled={isFetchingDistricts}
+                      >
+                        <SelectTrigger className={`${inputStyles} ${errors.district ? "border-red-500" : ""}`}>
+                          <SelectValue placeholder={isFetchingDistricts ? "Loading..." : "Select your district"} />
+                        </SelectTrigger>
+                        <SelectContent className="bg-[#014f86] border-white/20 text-[#FAFDF6]">
+                          {districts.map((district) => (
+                            <SelectItem key={district} value={district} className="focus:bg-black/20 focus:text-[#FAFDF6]">{district}</SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    ) : (
+                      <Input
+                        id="district"
+                        value={formData.district}
+                        onChange={(e) => handleInputChange("district", e.target.value)}
+                        className={`${inputStyles} ${errors.district ? "border-red-500" : ""}`}
+                        placeholder="Enter district name"
+                        disabled={!formData.state}
+                      />
+                    )}
                     {errors.district && <p className="text-sm text-red-400">{errors.district}</p>}
                   </div>
                 </div>
@@ -271,9 +286,9 @@ export default function RegisterPage() {
                 </div>
               </div>
 
-              {successMessage && (
-                <div className="bg-green-900/50 border border-green-500/50 rounded-lg p-4">
-                  <p className="text-sm text-green-400">{successMessage}</p>
+              {feedbackMessage && (
+                <div className={`border rounded-lg p-4 ${ feedbackMessage.includes("successful") ? "bg-green-900/50 border-green-500/50" : "bg-red-900/50 border-red-500/50" }`}>
+                  <p className={`text-sm ${feedbackMessage.includes("successful") ? "text-green-400" : "text-red-400"}`}>{feedbackMessage}</p>
                 </div>
               )}
 
