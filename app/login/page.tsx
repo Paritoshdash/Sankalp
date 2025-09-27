@@ -18,6 +18,7 @@ export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [loginError, setLoginError] = useState<string | null>(null)
+  const [successMessage, setSuccessMessage] = useState<string | null>(null)
 
   const validateForm = () => {
     const newErrors: Record<string, string> = {}
@@ -36,6 +37,7 @@ export default function LoginPage() {
     if (validateForm()) {
       setIsLoading(true)
       setLoginError(null)
+      setSuccessMessage(null)
       
       // Simulate API call delay without a real backend
       setTimeout(() => {
@@ -47,10 +49,12 @@ export default function LoginPage() {
         localStorage.setItem("currentUser", JSON.stringify(mockUser));
 
         setIsLoading(false);
+        setSuccessMessage("Login successful! Redirecting...");
         
-        // Redirect to the sports selection page after successful mock login
-        alert("Login successful! Redirecting to sports selection.");
-        window.location.href = "/sports-selection"; 
+        // Redirect to the sports selection page after a short delay
+        setTimeout(() => {
+            window.location.href = "/sports-selection"; 
+        }, 1000);
         
       }, 1500); // Simulate a 1.5-second network delay
     }
@@ -122,7 +126,13 @@ export default function LoginPage() {
                 {errors.password && <p className="text-sm text-red-400">{errors.password}</p>}
               </div>
 
-              {loginError && (
+              {successMessage && (
+                <div className="bg-green-900/50 border border-green-500/50 rounded-lg p-4">
+                  <p className="text-sm text-green-400">{successMessage}</p>
+                </div>
+              )}
+
+              {loginError && !successMessage && (
                 <div className="bg-red-900/50 border border-red-500/50 rounded-lg p-4">
                   <p className="text-sm text-red-400">{loginError}</p>
                 </div>
