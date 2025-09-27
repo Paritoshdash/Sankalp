@@ -50,7 +50,7 @@ const mockAthletes: AthleteProfile[] = [
     id: "ATH001",
     firstName: "Karan",
     lastName: "Sahu",
-    sport: "Javlien",
+    sport: "100m Running",
     state: "Odisha",
     district: "Sambalpur",
     registrationDate: "2025-09-20",
