@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Trophy, ArrowLeft, Loader2 } from "lucide-react"
+import { Trophy, ArrowLeft, Loader2, CheckCircle } from "lucide-react"
 
 const indianStates = [
   "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa",
@@ -27,40 +27,57 @@ const OTPModal = ({ isOpen, onClose, phoneNumber, onVerified }: { isOpen: boolea
     if (!isOpen) return null;
     const [otp, setOtp] = useState("");
     const [verifying, setVerifying] = useState(false);
+    const [isVerified, setIsVerified] = useState(false);
 
     const handleVerify = () => {
         setVerifying(true);
         setTimeout(() => {
-            alert("Phone number verified successfully! Please log in.");
-            onVerified();
-            onClose();
+            setIsVerified(true);
             setVerifying(false);
+            // Redirect after showing the success message for a moment
+            setTimeout(() => {
+                onVerified();
+                onClose();
+            }, 2000);
         }, 1500);
     };
 
     return (
-        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
             <Card className="w-full max-w-sm bg-[#014f86] border-white/10 text-[#FAFDF6]">
                 <CardHeader>
-                    <CardTitle>Verify Phone Number</CardTitle>
-                    <CardDescription className="text-[#EEEFA8]">
-                        An OTP has been sent to +91 {phoneNumber}.
-                    </CardDescription>
+                    <CardTitle>{isVerified ? "Verification Successful" : "Verify Phone Number"}</CardTitle>
+                    {!isVerified && (
+                        <CardDescription className="text-[#EEEFA8]">
+                            An OTP has been sent to +91 {phoneNumber}.
+                        </CardDescription>
+                    )}
                 </CardHeader>
                 <CardContent className="space-y-4">
-                    <Input 
-                        value={otp}
-                        onChange={(e) => setOtp(e.target.value)}
-                        placeholder="Enter 6-digit OTP" 
-                        className="bg-black/20 border-white/20 text-[#FAFDF6] focus:ring-[#DDD92A] focus:border-[#DDD92A] text-center" 
-                        maxLength={6}
-                    />
-                    <div className="flex gap-4">
-                        <Button variant="outline" onClick={onClose} className="w-full border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Cancel</Button>
-                        <Button onClick={handleVerify} className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#2D2A32]" disabled={verifying}>
-                            {verifying ? <Loader2 className="h-4 w-4 animate-spin" /> : "Verify"}
-                        </Button>
-                    </div>
+                    {isVerified ? (
+                        <div className="flex flex-col items-center space-y-3 text-center">
+                            <CheckCircle className="h-12 w-12 text-green-400" />
+                            <p className="font-semibold text-green-400">Phone number verified!</p>
+                            <p className="text-sm text-[#EEEFA8]">You will be redirected to the login page shortly.</p>
+                        </div>
+                    ) : (
+                        <>
+                            <Input 
+                                value={otp}
+                                onChange={(e) => setOtp(e.target.value)}
+                                placeholder="Enter 6-digit OTP" 
+                                className="bg-black/20 border-white/20 text-[#FAFDF6] focus:ring-[#DDD92A] focus:border-[#DDD92A] text-center" 
+                                maxLength={6}
+                                disabled={verifying}
+                            />
+                            <div className="flex gap-4">
+                                <Button variant="outline" onClick={onClose} className="w-full border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Cancel</Button>
+                                <Button onClick={handleVerify} className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#2D2A32]" disabled={verifying}>
+                                    {verifying ? <Loader2 className="h-4 w-4 animate-spin" /> : "Verify"}
+                                </Button>
+                            </div>
+                        </>
+                    )}
                 </CardContent>
             </Card>
         </div>
@@ -115,10 +132,11 @@ export default function RegisterPage() {
     
     if (validateForm()) {
       setIsLoading(true)
+      setFeedbackMessage("Registering your account...");
       setTimeout(() => {
         setIsLoading(false);
         setFeedbackMessage("Registration successful! Proceeding to phone verification...");
-        setTimeout(() => setShowOTP(true), 1500);
+        setTimeout(() => setShowOTP(true), 1000);
       }, 2000);
     } else {
       setFeedbackMessage("Please fix the errors highlighted in red before submitting.");
@@ -134,10 +152,8 @@ export default function RegisterPage() {
     setFormData(prev => ({ ...prev, state: stateName, district: "" }));
     if (errors.state) setErrors(prev => ({...prev, state: ""}));
 
-    // Check if the selected state is Odisha to show the dropdown
     if (stateName === "Odisha") {
         setIsFetchingDistricts(true);
-        // Simulate fetching districts
         setTimeout(() => {
             setDistricts(mockDistricts.Odisha);
             setShowDistrictDropdown(true);
@@ -287,8 +303,8 @@ export default function RegisterPage() {
               </div>
 
               {feedbackMessage && (
-                <div className={`border rounded-lg p-4 ${ feedbackMessage.includes("successful") ? "bg-green-900/50 border-green-500/50" : "bg-red-900/50 border-red-500/50" }`}>
-                  <p className={`text-sm ${feedbackMessage.includes("successful") ? "text-green-400" : "text-red-400"}`}>{feedbackMessage}</p>
+                <div className={`border rounded-lg p-4 text-center ${ feedbackMessage.includes("successful") || feedbackMessage.includes("Registering") ? "bg-green-900/50 border-green-500/50" : "bg-red-900/50 border-red-500/50" }`}>
+                  <p className={`text-sm ${feedbackMessage.includes("successful") || feedbackMessage.includes("Registering") ? "text-green-400" : "text-red-400"}`}>{feedbackMessage}</p>
                 </div>
               )}
 
