@@ -73,8 +73,8 @@ const OTPModal = ({ isOpen, onClose, phoneNumber, onVerified, generatedOtp }: { 
                                 disabled={verifying}
                             />
                             <div className="flex gap-4">
-                                <Button variant="outline" onClick={onClose} className="w-full border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Cancel</Button>
-                                <Button onClick={handleVerify} className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#2D2A32]" disabled={verifying}>
+                                <Button variant="outline" onClick={onClose} className="flex-1 border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Cancel</Button>
+                                <Button onClick={handleVerify} className="flex-1 bg-[#DDD92A] hover:bg-[#c8c426] text-[#2D2A32]" disabled={verifying}>
                                     {verifying ? <Loader2 className="h-4 w-4 animate-spin" /> : "Verify"}
                                 </Button>
                             </div>
