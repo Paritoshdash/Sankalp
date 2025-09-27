@@ -3,10 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Trophy, ArrowLeft, ArrowRight } from "lucide-react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
-import { useToast } from "@/components/ui/use-toast"
+import { Trophy, ArrowLeft, ArrowRight, Loader2 } from "lucide-react"
 
 const olympicSports = [
   { id: "running-100m", name: "100m Running", description: "Explosive short-distance sprint.", icon: "🏃‍♂️", category: "Athletics" },
@@ -26,93 +23,67 @@ export default function SportsSelectionPage() {
   const [selectedSport, setSelectedSport] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [user, setUser] = useState<any>(null)
-  const router = useRouter()
-  const { toast } = useToast()
 
   const [existingSelection, setExistingSelection] = useState<any>(null)
   const [isChecking, setIsChecking] = useState(true)
 
   useEffect(() => {
-    const checkUserAndSelection = async () => {
+    const checkUserAndSelection = () => {
       const currentUserStr = localStorage.getItem("currentUser");
       if (!currentUserStr) {
-        router.push("/login");
+        window.location.href = "/login";
         return;
       }
       const currentUser = JSON.parse(currentUserStr);
       setUser(currentUser);
 
-      try {
-        const response = await fetch(`/api/user/sports-selection?userId=${currentUser.id}`);
-        const data = await response.json();
-        if (data.selection) {
-          setExistingSelection(data.selection);
-          // Also save to localStorage if found in DB, to ensure consistency
-          localStorage.setItem('sportSelection', JSON.stringify(data.selection));
+      // Check local storage for an existing selection instead of fetching from an API
+      const sportSelectionStr = localStorage.getItem('sportSelection');
+      if (sportSelectionStr) {
+        const selection = JSON.parse(sportSelectionStr);
+        // Make sure the saved selection belongs to the currently logged-in user
+        if (selection.userId === currentUser.id) {
+            setExistingSelection(selection);
         }
-      } catch (error) {
-        console.error("Could not check for existing selection:", error);
-      } finally {
-        setIsChecking(false);
       }
+      setIsChecking(false);
     };
     checkUserAndSelection();
-  }, [router]);
+  }, []);
 
   const filteredSports =
     selectedCategory === "All Sports"
       ? olympicSports
       : olympicSports.filter((sport) => sport.category === selectedCategory)
 
-  const handleConfirmSelection = async (sportId: string, level: string) => {
+  const handleConfirmSelection = (sportId: string, level: string) => {
     if (!user || isLoading) return
     setIsLoading(true)
 
-    try {
-      const selectedSportData = olympicSports.find((sport) => sport.id === sportId)
-      if (!selectedSportData) throw new Error("Sport not found")
-
-      const response = await fetch('/api/user/sports-selection', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          userId: user.id,
-          sportName: selectedSportData.name,
-          sportCategory: selectedSportData.category,
-          skillLevel: level,
-          sportId: sportId,
-        }),
-      });
-
-      const result = await response.json();
-      if (!response.ok) {
-        throw new Error(result.message || 'Failed to save selection.');
-      }
-      
-      // 🚀 --- CRITICAL FIX: Save selection to localStorage --- 🚀
-      localStorage.setItem('sportSelection', JSON.stringify({
-          userId: user.id,
-          sportName: selectedSportData.name,
-          skillLevel: level,
-          sportId: sportId
-      }));
-
-      toast({
-        title: "Selection Saved!",
-        description: `You've selected ${selectedSportData.name} (${level}).`,
-      });
-
-      router.push(`/excellence/${sportId}`)
-      
-    } catch (error: any) {
-      console.error("Error saving sport selection:", error)
-      toast({
-        title: "Error",
-        description: error.message,
-        variant: "destructive",
-      });
-      setIsLoading(false)
+    const selectedSportData = olympicSports.find((sport) => sport.id === sportId)
+    if (!selectedSportData) {
+        alert("Error: Sport not found");
+        setIsLoading(false);
+        return;
     }
+
+    // Simulate saving the data and navigating
+    setTimeout(() => {
+        const selectionData = {
+            userId: user.id,
+            sport_name: selectedSportData.name, // Match property name used in 'existingSelection' card
+            skill_level: level,
+            sport_id: sportId,
+        };
+
+        localStorage.setItem('sportSelection', JSON.stringify(selectionData));
+
+        alert(`Selection Saved! You've selected ${selectedSportData.name} (${level}).`);
+        
+        // Navigate to the next page
+        window.location.href = `/excellence/${sportId}`;
+
+    }, 1000);
   }
   
   if (isChecking || !user) {
@@ -141,11 +112,11 @@ export default function SportsSelectionPage() {
               <p className="text-[#FAF9F6]"><strong>Sport:</strong> {existingSelection.sport_name}</p>
               <p className="text-[#FAF9F6]"><strong>Level:</strong> {existingSelection.skill_level}</p>
             </div>
-             <Button 
-               onClick={() => router.push(`/excellence/${existingSelection.sport_id}`)}
-               className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold"
-             >
-               Continue to Assessment <ArrowRight className="h-4 w-4 ml-2" />
+              <Button 
+                onClick={() => { window.location.href = `/excellence/${existingSelection.sport_id}` }}
+                className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold"
+              >
+                Continue to Assessment <ArrowRight className="h-4 w-4 ml-2" />
             </Button>
           </CardContent>
         </Card>
@@ -158,10 +129,10 @@ export default function SportsSelectionPage() {
       <div className="bg-[#013a63]/80 backdrop-blur-sm border-b border-white/10 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
+            <a href="/" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
               <ArrowLeft className="h-5 w-5" />
               <span>Back to Home</span>
-            </Link>
+            </a>
             <div className="flex items-center space-x-2">
               <Trophy className="h-6 w-6 text-[#DDD92A]" />
               <span className="font-bold text-[#FAF9F6]">Team Sankalp</span>
@@ -231,7 +202,7 @@ export default function SportsSelectionPage() {
                 <div className="flex items-center justify-between pt-2">
                   <span className="text-xs text-white/40">{sport.category}</span>
                   {isLoading && selectedSport === sport.id ? (
-                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-[#DDD92A]"></div>
+                    <Loader2 className="animate-spin h-4 w-4 text-[#DDD92A]" />
                   ) : (
                     <ArrowRight className="h-4 w-4 text-[#DDD92A]" />
                   )}
@@ -241,7 +212,6 @@ export default function SportsSelectionPage() {
           ))}
         </div>
 
-        {/* --- MODIFIED NEXT STEPS SECTION --- */}
         <div className="bg-[#DDD92A] rounded-2xl p-8 text-center text-[#013a63]">
           <h2 className="text-2xl font-bold mb-4">What Happens Next?</h2>
           <div className="grid md:grid-cols-4 gap-6 text-sm">
@@ -272,3 +242,4 @@ export default function SportsSelectionPage() {
     </div>
   )
 }
+
