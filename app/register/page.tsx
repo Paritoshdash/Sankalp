@@ -23,7 +23,7 @@ const mockDistricts: Record<string, string[]> = {
 };
 
 // A simple OTP Modal component for demonstration
-const OTPModal = ({ isOpen, onClose, phoneNumber, onVerified }: { isOpen: boolean, onClose: () => void, phoneNumber: string, onVerified: () => void }) => {
+const OTPModal = ({ isOpen, onClose, phoneNumber, onVerified, generatedOtp }: { isOpen: boolean, onClose: () => void, phoneNumber: string, onVerified: () => void, generatedOtp: string }) => {
     if (!isOpen) return null;
     const [otp, setOtp] = useState("");
     const [verifying, setVerifying] = useState(false);
@@ -50,6 +50,8 @@ const OTPModal = ({ isOpen, onClose, phoneNumber, onVerified }: { isOpen: boolea
                     {!isVerified && (
                         <CardDescription className="text-[#EEEFA8]">
                             An OTP has been sent to +91 {phoneNumber}.
+                            <br />
+                            <span className="text-xs #EEEFA8">Your OTP is: <strong>{generatedOtp}</strong></span>
                         </CardDescription>
                     )}
                 </CardHeader>
@@ -104,6 +106,7 @@ export default function RegisterPage() {
   const [showOTP, setShowOTP] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [feedbackMessage, setFeedbackMessage] = useState<string | null>(null)
+  const [generatedOtp, setGeneratedOtp] = useState("");
   
   const [districts, setDistricts] = useState<string[]>([]);
   const [isFetchingDistricts, setIsFetchingDistricts] = useState(false);
@@ -133,6 +136,9 @@ export default function RegisterPage() {
     if (validateForm()) {
       setIsLoading(true)
       setFeedbackMessage("Registering your account...");
+      const otp = Math.floor(100000 + Math.random() * 900000).toString();
+      setGeneratedOtp(otp);
+
       setTimeout(() => {
         setIsLoading(false);
         setFeedbackMessage("Registration successful! Proceeding to phone verification...");
@@ -329,6 +335,7 @@ export default function RegisterPage() {
         onClose={() => setShowOTP(false)} 
         phoneNumber={formData.phone} 
         onVerified={() => { window.location.href = "/login" }} 
+        generatedOtp={generatedOtp}
       />
     </div>
   )
