@@ -12,10 +12,23 @@ const SPORT_NAMES = {
   "javelin": "Javelin" 
 };
 
+// Define interfaces for state objects to ensure type safety
+interface LiveMetrics {
+  status: string;
+  progress: string;
+  frame: number;
+  fps: number;
+}
+
+interface FinalResult {
+  sport: keyof typeof SPORT_NAMES;
+  metrics: Record<string, string>;
+}
+
 export default function VideoAnalysisPage() {
-  const [videoFile, setVideoFile] = useState(null);
-  const [videoUrl, setVideoUrl] = useState(null);
-  const videoRef = useRef(null);
+  const [videoFile, setVideoFile] = useState<File | null>(null);
+  const [videoUrl, setVideoUrl] = useState<string | null>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
@@ -23,8 +36,8 @@ export default function VideoAnalysisPage() {
   }, []);
 
   const [pageState, setPageState] = useState("idle");
-  const [liveMetrics, setLiveMetrics] = useState(null);
-  const [finalResult, setFinalResult] = useState(null);
+  const [liveMetrics, setLiveMetrics] = useState<LiveMetrics | null>(null);
+  const [finalResult, setFinalResult] = useState<FinalResult | null>(null);
   const [errorMessage, setErrorMessage] = useState("An error occurred.");
 
   useEffect(() => {
@@ -36,8 +49,8 @@ export default function VideoAnalysisPage() {
     }
   }, [liveMetrics, pageState]);
 
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
     if (file) {
       setVideoFile(file);
       const url = URL.createObjectURL(file);
@@ -72,15 +85,15 @@ export default function VideoAnalysisPage() {
       clearInterval(liveMetricsInterval);
 
       // --- MODIFICATION ---
-      // The analysis is now hardcoded to only produce results for Javelin.
-      const selectedSport = "javelin";
+      // The analysis is now hardcoded to only produce results for 100m Sprint.
+      const selectedSport = "running-100m";
       const metrics = {
-        "Release Angle (°)": (Math.random() * 10 + 35).toFixed(2),
-        "Release Velocity (m/s)": (Math.random() * 5 + 25).toFixed(2),
-        "Run-up Speed (km/h)": (Math.random() * 4 + 20).toFixed(2),
+        "Final Time (s)": (Math.random() * 2 + 10.5).toFixed(2),
+        "Top Speed (km/h)": (Math.random() * 5 + 35).toFixed(2),
+        "Avg. Step Frequency (steps/s)": (Math.random() * 1 + 4).toFixed(2),
       };
       
-      const finalData = { sport: selectedSport, metrics: metrics };
+      const finalData: FinalResult = { sport: selectedSport, metrics: metrics };
       setFinalResult(finalData);
       setPageState("complete");
 
@@ -143,7 +156,7 @@ export default function VideoAnalysisPage() {
                   </div>
                   <input id="video-upload" type="file" className="hidden" accept="video/*" onChange={handleFileChange} />
                 </label>
-                {videoFile && <div className="text-center mt-6"><Button onClick={startAnalysis} size="lg" className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-bold text-lg">Analyze Performance</Button></div>}
+                {videoFile && <div className="text-center mt-6"><Button onClick={startAnalysis} size="lg" className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#114b] font-bold text-lg">Analyze Performance</Button></div>}
               </div>
               <div className="bg-black rounded-lg p-1 border-2 border-[#DDD92A]/50 aspect-video shadow-lg shadow-[#DDD92A]/10">
                 <video ref={videoRef} src={videoUrl} muted loop autoPlay className="w-full h-full rounded" />
@@ -170,7 +183,7 @@ export default function VideoAnalysisPage() {
                     {renderResults()}
                     <div className="flex justify-center items-center gap-4 mt-6">
                       <Button onClick={resetState} variant="outline" className="border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Analyze Another</Button>
-                      <Button onClick={() => window.location.href = '/admin'} className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-bold">
+                      <Button onClick={() => window.location.href = '/admin'} className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#114b] font-bold">
                         Go to Leaderboard Page <ChevronRight className="h-4 w-4 ml-2" />
                       </Button>
                     </div>
@@ -194,4 +207,3 @@ export default function VideoAnalysisPage() {
     </main>
   );
 }
-
