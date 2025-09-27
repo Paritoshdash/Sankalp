@@ -1,8 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState, useEffect } from "react" // Added useEffect
-import { useRouter } from "next/navigation"
+import { useState, useEffect } from "react" 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -12,8 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Textarea } from "@/components/ui/textarea"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Badge } from "@/components/ui/badge"
-import { Trophy, ArrowLeft, ArrowRight, Info, AlertTriangle, CheckCircle, XCircle, Ruler, Weight, TrendingUp } from "lucide-react"
-import Link from "next/link"
+import { Trophy, ArrowLeft, ArrowRight, Info, AlertTriangle, CheckCircle, XCircle, Ruler, Weight, TrendingUp, Loader2 } from "lucide-react"
 
 // Combined interface for all form data
 interface CombinedFormData {
@@ -40,7 +38,6 @@ interface CombinedFormData {
 }
 
 export default function FitnessDetailsPage() {
-  const router = useRouter()
   const [formData, setFormData] = useState<CombinedFormData>({
     height: "",
     weight: "",
@@ -68,7 +65,7 @@ export default function FitnessDetailsPage() {
   const [isBlocked, setIsBlocked] = useState(false)
   const [blockingReasons, setBlockingReasons] = useState<string[]>([])
   const [showResults, setShowResults] = useState(false)
-  const [isLoading, setIsLoading] = useState(false); // Add loading state for submission
+  const [isLoading, setIsLoading] = useState(false); 
   const [currentUser, setCurrentUser] = useState<any>(null);
 
 
@@ -77,9 +74,10 @@ useEffect(() => {
     if (user) {
       setCurrentUser(JSON.parse(user));
     } else {
-      router.push('/login');
+      // Use standard navigation for standalone component
+      window.location.href = '/login';
     }
-  }, [router]);
+  }, []);
 
 
   // Combined validation function
@@ -171,7 +169,7 @@ useEffect(() => {
     }
   }
 
- const handleSubmit = async (e: React.FormEvent) => {
+ const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { errors: allErrors, blockingReasons: reasons } = validateForm();
     setErrors(allErrors);
@@ -179,29 +177,14 @@ useEffect(() => {
     if (Object.keys(allErrors).length === 0) {
       setIsLoading(true); // Start loading
 
-      try {
-        const response = await fetch('/api/user/fitness-details', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ userId: currentUser.id, formData: formData })
-        });
-
-        if (!response.ok) {
-            const result = await response.json();
-            throw new Error(result.message || 'Failed to save data.');
-        }
-
-        // If API call is successful, then show results
+      // Simulate API call delay
+      setTimeout(() => {
+        // After the simulated delay, process the results
         setBlockingReasons(reasons);
         setIsBlocked(reasons.length > 0);
         setShowResults(true);
-
-      } catch (error: any) {
-        console.error("Submission Error:", error.message);
-        // Add a toast message for the user here if you have one
-      } finally {
         setIsLoading(false); // Stop loading
-      }
+      }, 2000); 
     }
   };
 
@@ -298,11 +281,11 @@ useEffect(() => {
               )}
               <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
                 {isBlocked ? (
-                  <Link href="/" className="w-full">
+                  <a href="/" className="w-full">
                     <Button variant="outline" className="w-full bg-transparent border-white/20 text-white/80 hover:bg-white/10">Back to Home</Button>
-                  </Link>
+                  </a>
                 ) : (
-                  <Button onClick={() => router.push('/video-analysis')} className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold">
+                  <Button onClick={() => { window.location.href = '/video-analysis' }} className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold">
                     Continue to Video Analysis<ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 )}
@@ -319,10 +302,10 @@ return (
         <div className="container mx-auto px-4">
             {/* Header */}
             <div className="flex items-center justify-between mb-8">
-                <Link href="/sports-selection" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
+                <a href="/sports-selection" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
                     <ArrowLeft className="h-5 w-5" />
                     <span>Back</span>
-                </Link>
+                </a>
                 <div className="flex items-center space-x-2">
                     <Trophy className="h-6 w-6 text-[#DDD92A]" />
                     <span className="font-bold text-[#FAF9F6]">Team Sankalp</span>
@@ -473,14 +456,16 @@ return (
             </Card>
 
             <div className="flex justify-center pt-4">
- <Button type="submit" size="lg" disabled={isLoading} className="...">
-               {isLoading ? 'Submitting...' : 'Complete Assessment'}
-                <ArrowRight className="h-5 w-5 ml-2" />
-               </Button>
-                        </div>
+                <Button type="submit" size="lg" disabled={isLoading} className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold">
+                    {isLoading ? <Loader2 className="h-5 w-5 animate-spin mr-2"/> : null}
+                    {isLoading ? 'Submitting...' : 'Complete Assessment'}
+                    {!isLoading && <ArrowRight className="h-5 w-5 ml-2" />}
+                </Button>
+            </div>
             </form>
         </div>
       </div>
     </TooltipProvider>
 )
 }
+
