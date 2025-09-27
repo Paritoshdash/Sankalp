@@ -52,7 +52,7 @@ const mockAthletes: AthleteProfile[] = [
     lastName: "Sahu",
     sport: "Javlien",
     state: "Odisha",
-    district: "Sundargarh",
+    district: "Sambalpur",
     registrationDate: "2025-09-20",
     validationStatus: "Validated",
     excellenceScore: 85,

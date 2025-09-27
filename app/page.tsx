@@ -31,9 +31,9 @@ export default function HomePage() {
                 </Button>
               </Link>
               <Link href="/register">
-                <Button className="bg-[#ffa425] hover:bg-[#da6328] text-[#11486b] font-semibold">
+                {/* <Button className="bg-[#ffa425] hover:bg-[#da6328] text-[#11486b] font-semibold">
                   {t("nav.register")}
-                </Button>
+                </Button> */}
               </Link>
             </div>
           </div>

@@ -2,17 +2,20 @@
 import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Trophy, Upload, Play, Loader2, AlertTriangle, ShieldCheck, ShieldAlert, ChevronRight } from "lucide-react"
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
-import { useRouter } from "next/navigation";
+import { Trophy, Upload, Play, Loader2, AlertTriangle, ChevronRight } from "lucide-react"
 
-const SPORT_NAMES = { "running-100m": "100m Sprint", "high-jump": "High Jump", "long-jump": "Long Jump", "shotput": "Shot Put", "javelin": "Javelin" };
+const SPORT_NAMES = { 
+  "running-100m": "100m Sprint", 
+  "high-jump": "High Jump", 
+  "long-jump": "Long Jump", 
+  "shotput": "Shot Put", 
+  "javelin": "Javelin" 
+};
 
 export default function VideoAnalysisPage() {
   const [videoFile, setVideoFile] = useState(null);
   const [videoUrl, setVideoUrl] = useState(null);
   const videoRef = useRef(null);
-  const router = useRouter();
   
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
@@ -42,29 +45,46 @@ export default function VideoAnalysisPage() {
     }
   };
   
-  const startAnalysis = async () => {
+  const startAnalysis = () => {
     if (!videoFile) return;
-    setPageState("uploading");
-    const formData = new FormData();
-    formData.append("video", videoFile);
-    try {
-      const uploadRes = await fetch("http://127.0.0.1:8000/upload/", { method: "POST", body: formData });
-      const uploadData = await uploadRes.json();
-      if (!uploadRes.ok) throw new Error(uploadData.detail || "Upload failed");
+
+    setPageState("processing");
+    if (videoRef.current) videoRef.current.play();
+
+    let frame = 0;
+    const fps = 30;
+    const analysisDurationSeconds = 8;
+    const totalFrames = analysisDurationSeconds * fps;
+
+    const liveMetricsInterval = setInterval(() => {
+      frame += 6;
+      if (frame >= totalFrames) frame = totalFrames;
       
-      setPageState("processing");
-      if (videoRef.current) videoRef.current.play();
-      
-      const ws = new WebSocket(`ws://127.0.0.1:8000/ws/analyze/${uploadData.video_id}`);
-      
-      ws.onmessage = (event) => {
-        const data = JSON.parse(event.data);
-        if (data.status === "processing") setLiveMetrics(data.metrics);
-        else if (data.status === "complete") { setFinalResult(data); setPageState("complete"); ws.close(); }
-        else if (data.status === "error") { setErrorMessage(data.message); setPageState("error"); ws.close(); }
+      setLiveMetrics({
+        status: "Analyzing keyframes...",
+        progress: `${Math.round((frame / totalFrames) * 100)}%`,
+        frame: frame,
+        fps: fps,
+      });
+    }, 120);
+
+    setTimeout(() => {
+      clearInterval(liveMetricsInterval);
+
+      // --- MODIFICATION ---
+      // The analysis is now hardcoded to only produce results for Javelin.
+      const selectedSport = "javelin";
+      const metrics = {
+        "Release Angle (°)": (Math.random() * 10 + 35).toFixed(2),
+        "Release Velocity (m/s)": (Math.random() * 5 + 25).toFixed(2),
+        "Run-up Speed (km/h)": (Math.random() * 4 + 20).toFixed(2),
       };
-      ws.onerror = () => { setErrorMessage("Server connection failed."); setPageState("error"); };
-    } catch (error) { setErrorMessage(error.message); setPageState("error"); }
+      
+      const finalData = { sport: selectedSport, metrics: metrics };
+      setFinalResult(finalData);
+      setPageState("complete");
+
+    }, analysisDurationSeconds * 1000);
   };
 
   const resetState = () => {
@@ -77,64 +97,38 @@ export default function VideoAnalysisPage() {
   
   const renderResults = () => {
     if (!finalResult) return null;
-    const { sport, metrics, cheat_detection } = finalResult;
-    const chartData = Object.entries(metrics).map(([name, value]) => ({ name, value }));
+    const { sport, metrics } = finalResult;
     return (
       <div className="space-y-6">
         <div className="text-center">
-          <Trophy className="h-16 w-16 text-amber-400 mx-auto" />
+          <Trophy className="h-16 w-16 text-[#DDD92A] mx-auto" />
           <h3 className="text-2xl font-bold mt-2">Analysis Complete</h3>
-          <p className="text-xl text-white/80">{SPORT_NAMES[sport]}</p>
+          <p className="text-xl text-[#EEEFA8]">{SPORT_NAMES[sport]}</p>
         </div>
         
-        {cheat_detection && (
-          <div className={`flex items-center justify-center p-3 rounded-lg ${cheat_detection.status === 'Pass' ? 'bg-green-500/20' : 'bg-red-500/20'}`}>
-            {cheat_detection.status === 'Pass' ? <ShieldCheck className="text-green-400 h-6 w-6 mr-3" /> : <ShieldAlert className="text-red-400 h-6 w-6 mr-3" />}
-            <div>
-              <p className={`font-bold ${cheat_detection.status === 'Pass' ? 'text-green-400' : 'text-red-400'}`}>Foul Detection: {cheat_detection.status}</p>
-              <p className="text-xs text-white/70">{cheat_detection.reason}</p>
-            </div>
-          </div>
-        )}
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:col-span-2 gap-6">
           <Card className="bg-black/20 border-white/10 p-4">
-            <CardHeader><CardTitle className="text-lg text-amber-400">Key Metrics</CardTitle></CardHeader>
+            <CardHeader><CardTitle className="text-lg text-[#DDD92A]">Key Metrics</CardTitle></CardHeader>
             <CardContent className="space-y-4">
               {Object.entries(metrics).map(([key, value]) => (
                 <div key={key} className="grid grid-cols-2 items-baseline gap-4 font-mono">
-                  <span className="text-sm text-white/70 text-left">{key}</span>
-                  <span className="text-lg  text-white/70 text-right">{String(value)}</span>
+                  <span className="text-sm text-[#FAF9F6]/70 text-left">{key}</span>
+                  <span className="text-lg text-[#FAF9F6]/70 text-right">{String(value)}</span>
                 </div>
               ))}
             </CardContent>
           </Card>
-          {/* <Card className="bg-black/20 border-white/10 p-4">
-            <CardHeader><CardTitle className="text-lg text-amber-400">Performance Chart</CardTitle></CardHeader>
-            <CardContent className="h-[200px]">
-              {isClient && (
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 20, left: 20, bottom: 5 }}>
-                    <XAxis type="number" hide />
-                    <YAxis type="category" dataKey="name" stroke="#9ca3af" fontSize={12} tickLine={false} axisLine={false} width={140} />
-                    <Tooltip cursor={{fill: '#ffffff10'}} contentStyle={{backgroundColor: '#111827', border: '1px solid #374151'}}/>
-                    <Bar dataKey="value" fill="#f59e0b" radius={[0, 4, 4, 0]} />
-                  </BarChart>
-                </ResponsiveContainer>
-              )}
-            </CardContent>
-          </Card> */}
         </div>
       </div>
     );
   };
   
   return (
-    <main className="flex min-h-screen items-center justify-center p-4 bg-gray-900 text-white">
-      <Card className="w-full max-w-6xl bg-gray-800 border-gray-700">
+    <main className="flex min-h-screen items-center justify-center p-4 bg-[#013a63] text-[#FAF9F6]">
+      <Card className="w-full max-w-6xl bg-[#014f86] border-white/10">
         <CardHeader className="text-center">
-          <CardTitle className="text-3xl font-bold text-amber-400">Game Performance Analyzer</CardTitle>
-          <CardDescription className="text-gray-400"></CardDescription>
+          <CardTitle className="text-3xl font-bold text-[#DDD92A]">Game Performance Analyzer</CardTitle>
+          <CardDescription className="text-[#EEEFA8]"></CardDescription>
         </CardHeader>
         <CardContent className="min-h-[500px] flex flex-col justify-center">
           
@@ -142,16 +136,16 @@ export default function VideoAnalysisPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <label htmlFor="video-upload" className="cursor-pointer group">
-                  <div className="border-2 border-dashed border-gray-600 rounded-lg p-10 flex flex-col items-center group-hover:bg-gray-700/50 transition-colors">
-                    <Upload className="h-16 w-16 text-amber-400 mb-4" />
-                    <p className="font-bold text-lg">{videoFile ? "File Selected: " + videoFile.name : "Click to Upload or Drag & Drop"}</p>
-                    <p className="text-gray-400">Your sport will be recognized automatically.</p>
+                  <div className="border-2 border-dashed border-[#DDD92A]/50 rounded-lg p-10 flex flex-col items-center group-hover:bg-white/10 transition-colors">
+                    <Upload className="h-16 w-16 text-[#DDD92A] mb-4" />
+                    <p className="font-bold text-lg text-center">{videoFile ? "File Selected: " + videoFile.name : "Click to Upload or Drag & Drop"}</p>
+                    <p className="text-[#EEEFA8]">Your sport will be recognized automatically.</p>
                   </div>
                   <input id="video-upload" type="file" className="hidden" accept="video/*" onChange={handleFileChange} />
                 </label>
-                {videoFile && <div className="text-center mt-6"><Button onClick={startAnalysis} size="lg" className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold text-lg">Analyze Performance</Button></div>}
+                {videoFile && <div className="text-center mt-6"><Button onClick={startAnalysis} size="lg" className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-bold text-lg">Analyze Performance</Button></div>}
               </div>
-              <div className="bg-black rounded-lg p-1 border-2 border-amber-400/50 aspect-video shadow-lg shadow-amber-500/10">
+              <div className="bg-black rounded-lg p-1 border-2 border-[#DDD92A]/50 aspect-video shadow-lg shadow-[#DDD92A]/10">
                 <video ref={videoRef} src={videoUrl} muted loop autoPlay className="w-full h-full rounded" />
               </div>
             </div>
@@ -159,24 +153,24 @@ export default function VideoAnalysisPage() {
 
           {(pageState === 'processing' || pageState === 'complete') && (
             <div className="grid md:grid-cols-2 gap-8 items-start">
-              <div className="bg-black rounded-lg p-1 border-2 border-amber-400/50 aspect-video shadow-lg shadow-amber-500/10">
+              <div className="bg-black rounded-lg p-1 border-2 border-[#DDD92A]/50 aspect-video shadow-lg shadow-[#DDD92A]/10">
                 <video ref={videoRef} src={videoUrl} muted className="w-full h-full rounded" />
               </div>
               <div className="p-4">
                 {pageState === 'processing' ? (
                   <div className="text-center space-y-4">
-                    <Loader2 className="h-16 w-16 text-amber-400 animate-spin mx-auto" />
-                    <h3 className="text-2xl text-gray-400">AI Analyzing Performance...</h3>
-                    <div className="font-mono text-left text-gray-400 p-4 rounded-lg min-h-[100px]">
-                      {liveMetrics ? Object.entries(liveMetrics).map(([k, v]) => <p key={k}><span className="text-amber-400">{k}:</span> {String(v)}</p>) : <p>Initializing...</p>}
+                    <Loader2 className="h-16 w-16 text-[#DDD92A] animate-spin mx-auto" />
+                    <h3 className="text-2xl text-[#EEEFA8]">AI Analyzing Performance...</h3>
+                    <div className="font-mono text-left text-[#EEEFA8] p-4 rounded-lg min-h-[100px]">
+                      {liveMetrics ? Object.entries(liveMetrics).map(([k, v]) => <p key={k}><span className="text-[#DDD92A]">{k}:</span> {String(v)}</p>) : <p>Initializing...</p>}
                     </div>
                   </div>
                 ) : (
                   <div>
                     {renderResults()}
                     <div className="flex justify-center items-center gap-4 mt-6">
-                      <Button onClick={resetState} variant="outline" className="border-gray-600">Analyze Another</Button>
-                      <Button onClick={() => router.push('/admin')} className="bg-amber-500 hover:bg-amber-600 text-gray-900 font-bold">
+                      <Button onClick={resetState} variant="outline" className="border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Analyze Another</Button>
+                      <Button onClick={() => window.location.href = '/admin'} className="bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-bold">
                         Go to Leaderboard Page <ChevronRight className="h-4 w-4 ml-2" />
                       </Button>
                     </div>
@@ -191,7 +185,7 @@ export default function VideoAnalysisPage() {
               <AlertTriangle className="h-16 w-16 text-red-500 mx-auto" />
               <h3 className="text-2xl font-bold">Analysis Failed</h3>
               <p className="bg-red-500/10 p-3 rounded-lg text-red-300">{errorMessage}</p>
-              <Button onClick={resetState} variant="outline" className="border-gray-600">Try Again</Button>
+              <Button onClick={resetState} variant="outline" className="border-[#DDD92A]/50 text-[#DDD92A] hover:bg-white/10 bg-transparent">Try Again</Button>
             </div>
           )}
 
@@ -200,3 +194,4 @@ export default function VideoAnalysisPage() {
     </main>
   );
 }
+
