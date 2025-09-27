@@ -6,9 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Trophy, ArrowLeft, Eye, EyeOff } from "lucide-react"
-import Link from "next/link"
-import { useRouter } from "next/navigation"
+import { Trophy, ArrowLeft, Eye, EyeOff, Loader2 } from "lucide-react"
 
 export default function LoginPage() {
   const [formData, setFormData] = useState({
@@ -19,7 +17,6 @@ export default function LoginPage() {
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
-  const router = useRouter()
   const [loginError, setLoginError] = useState<string | null>(null)
 
   const validateForm = () => {
@@ -34,33 +31,28 @@ export default function LoginPage() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (validateForm()) {
       setIsLoading(true)
       setLoginError(null)
-      try {
-        const response = await fetch('/api/auth/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            username: formData.username,
-            password: formData.password,
-          }),
-        })
-        const data = await response.json()
-        if (!response.ok) {
-          throw new Error(data.message || 'Login failed.')
-        }
+      
+      // Simulate API call delay without a real backend
+      setTimeout(() => {
+        // Simulate a successful login with any details
+        const mockUser = { 
+          id: `user_${Date.now()}`, 
+          username: formData.username 
+        };
+        localStorage.setItem("currentUser", JSON.stringify(mockUser));
 
-        console.log("[v0] Login successful for user:", data.user.username)
-        localStorage.setItem("currentUser", JSON.stringify(data.user))
-        setIsLoading(false)
-        router.push("/sports-selection")
-      } catch (error: any) {
-        setIsLoading(false)
-        setLoginError(error.message)
-      }
+        setIsLoading(false);
+        
+        // Redirect to the sports selection page after successful mock login
+        alert("Login successful! Redirecting to sports selection.");
+        window.location.href = "/sports-selection"; 
+        
+      }, 1500); // Simulate a 1.5-second network delay
     }
   }
 
@@ -71,17 +63,17 @@ export default function LoginPage() {
     }
   }
 
-  const inputStyles = "bg-black/20 border-white/20 text-[#FAF9F6] focus:ring-[#ffa425] focus:border-[#ffa425]"
+  const inputStyles = "bg-black/20 border-white/20 text-[#FAF9F6] focus:ring-[#DDD92A] focus:border-[#DDD92A]"
 
   return (
     <div className="min-h-screen bg-[#013a63] flex items-center justify-center py-8">
       <div className="max-w-md w-full mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
-          <Link href="/" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
+          <a href="/" className="flex items-center space-x-2 text-[#EAE151] hover:text-[#DDD92A]">
             <ArrowLeft className="h-5 w-5" />
             <span>Back to Home</span>
-          </Link>
+          </a>
           <div className="flex items-center space-x-2">
             <Trophy className="h-6 w-6 text-[#DDD92A]" />
             <span className="font-bold text-[#FAF9F6]">Team Sankalp</span>
@@ -137,9 +129,9 @@ export default function LoginPage() {
               )}
 
               <div className="flex items-center justify-between">
-                <Link href="/forgot-password" className="text-sm text-[#EEEFA8] hover:underline hover:text-[#EEEFA8]">
+                <a href="/forgot-password" className="text-sm text-[#EEEFA8] hover:underline hover:text-[#EEEFA8]">
                   Forgot your password?
-                </Link>
+                </a>
               </div>
 
               <Button
@@ -147,16 +139,16 @@ export default function LoginPage() {
                 className="w-full bg-[#DDD92A] hover:bg-[#c8c426] text-[#11486b] font-semibold py-3"
                 disabled={isLoading}
               >
-                {isLoading ? "Signing In..." : "Sign In"}
+                {isLoading ? <Loader2 className="h-5 w-5 animate-spin" /> : "Sign In"}
               </Button>
             </form>
 
             <div className="text-center pt-4 border-t border-white/10">
               <p className="text-[#FAF9F6]/70">
                 Don't have an account?{" "}
-                <Link href="/register" className="text-[#DDD92A] hover:underline font-medium">
+                <a href="/register" className="text-[#DDD92A] hover:underline font-medium">
                   Create one here
-                </Link>
+                </a>
               </p>
             </div>
           </CardContent>
@@ -165,3 +157,4 @@ export default function LoginPage() {
     </div>
   )
 }
+
