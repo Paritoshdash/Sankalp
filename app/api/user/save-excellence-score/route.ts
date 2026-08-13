@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import pool from '@/lib/db';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
 
 const W_EXCELLENCE = 0.30;
 const W_FITNESS    = 0.30;
@@ -12,7 +12,6 @@ function classifyTier(score: number): string {
 }
 
 export async function POST(request: Request) {
-  const connection = await pool.getConnection();
   try {
     const { userId, excellenceScore } = await request.json();
 
@@ -25,19 +24,17 @@ export async function POST(request: Request) {
       return NextResponse.json({ message: 'excellenceScore must be a number.' }, { status: 400 });
     }
 
-    await connection.beginTransaction();
+    const supabase = getSupabaseServerClient();
 
     // Get current fitness and video scores to recompute overall
-    const [rows] = await connection.query(
-      'SELECT fitness_score, video_analysis_score FROM athlete_scores WHERE user_id = ?',
-      [userId]
-    ) as any[];
-    const existing = Array.isArray(rows) && rows.length > 0
-      ? rows[0]
-      : { fitness_score: 0, video_analysis_score: 0 };
+    const { data: existing } = await supabase
+      .from('athlete_scores')
+      .select('fitness_score, video_analysis_score')
+      .eq('user_id', userId)
+      .maybeSingle();
 
-    const fitnessScore = Number(existing.fitness_score ?? 0);
-    const videoScore   = Number(existing.video_analysis_score ?? 0);
+    const fitnessScore = Number(existing?.fitness_score ?? 0);
+    const videoScore   = Number(existing?.video_analysis_score ?? 0);
     const overallScore = Math.round(
       score        * W_EXCELLENCE +
       fitnessScore * W_FITNESS    +
@@ -45,16 +42,19 @@ export async function POST(request: Request) {
     );
     const tier = classifyTier(overallScore);
 
-    await connection.query(`
-      INSERT INTO athlete_scores (user_id, excellence_score, overall_score, tier)
-      VALUES (?, ?, ?, ?)
-      ON DUPLICATE KEY UPDATE
-        excellence_score = VALUES(excellence_score),
-        overall_score    = VALUES(overall_score),
-        tier             = VALUES(tier)
-    `, [userId, score, overallScore, tier]);
+    const { error: upsertError } = await supabase
+      .from('athlete_scores')
+      .upsert({
+        user_id: userId,
+        excellence_score: score,
+        overall_score: overallScore,
+        tier: tier,
+        updated_at: new Date().toISOString(),
+      }, { onConflict: 'user_id' });
 
-    await connection.commit();
+    if (upsertError) {
+      console.error('Supabase save excellence score error:', upsertError);
+    }
 
     return NextResponse.json({
       message: 'Excellence score saved.',
@@ -63,10 +63,7 @@ export async function POST(request: Request) {
       tier,
     });
   } catch (error) {
-    await connection.rollback();
     console.error('Error saving excellence score:', error);
     return NextResponse.json({ message: 'Failed to save excellence score.' }, { status: 500 });
-  } finally {
-    connection.release();
   }
 }

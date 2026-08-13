@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import pool from '@/lib/db';
-import { writeFile } from 'fs/promises';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
+import { writeFile, mkdir } from 'fs/promises';
 import path from 'path';
 
 export async function POST(request: Request) {
@@ -14,49 +14,43 @@ export async function POST(request: Request) {
     if (!certificateFile || !level || !userId) {
       return NextResponse.json({ message: "Missing required fields." }, { status: 400 });
     }
-    
-    // --- File Handling ---
-    // 1. Convert file data to a buffer
+
     const bytes = await certificateFile.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    // 2. Create a unique filename and path
-    const uniqueFilename = `${Date.now()}_${certificateFile.name}`;
+    const uniqueFilename = `${Date.now()}_${certificateFile.name.replace(/[^a-zA-Z0-9._-]/g, '_')}`;
     const relativeUploadDir = '/uploads/certificates';
     const uploadDir = path.join(process.cwd(), 'public', relativeUploadDir);
-    const filePath = path.join(uploadDir, uniqueFilename);
     
-    // 3. Save the file to the server
+    try {
+      await mkdir(uploadDir, { recursive: true });
+    } catch (_) {}
+
+    const filePath = path.join(uploadDir, uniqueFilename);
     await writeFile(filePath, buffer);
     const fileUrl = path.join(relativeUploadDir, uniqueFilename).replace(/\\/g, "/");
 
-    // --- Database Interaction ---
-    const connection = await pool.getConnection();
-    try {
-      await connection.beginTransaction();
+    const supabase = getSupabaseServerClient();
 
-      // 1. Insert the achievement record
-      await connection.query(
-        'INSERT INTO achievements (user_id, level, experience, certificate_url) VALUES (?, ?, ?, ?)',
-        [userId, level, experience, fileUrl]
-      );
-      
-      // 2. Update the user's record to indicate they have achievements
-      await connection.query(
-        'UPDATE users SET has_achievements = TRUE WHERE id = ?',
-        [userId]
-      );
+    // 1. Insert achievement
+    const { error: achError } = await supabase
+      .from('achievements')
+      .insert({
+        user_id: userId,
+        level: level,
+        experience: experience || '',
+        certificate_url: fileUrl,
+      });
 
-      await connection.commit();
-      
-      return NextResponse.json({ message: 'Achievement saved successfully!' });
-
-    } catch (error) {
-      await connection.rollback();
-      throw error; // Re-throw to be caught by the outer catch block
-    } finally {
-      connection.release();
+    if (achError) {
+      console.error('Achievement insert error:', achError);
+      return NextResponse.json({ message: 'Failed to save achievement.' }, { status: 500 });
     }
+
+    // 2. Update user has_achievements flag
+    await supabase.from('users').update({ has_achievements: true }).eq('id', userId);
+
+    return NextResponse.json({ message: 'Achievement saved successfully!', fileUrl });
 
   } catch (error) {
     console.error("Error saving achievement:", error);

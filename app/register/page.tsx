@@ -129,21 +129,51 @@ export default function RegisterPage() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setFeedbackMessage(null); 
     
     if (validateForm()) {
       setIsLoading(true)
       setFeedbackMessage("Registering your account...");
-      const otp = Math.floor(100000 + Math.random() * 900000).toString();
-      setGeneratedOtp(otp);
+      
+      try {
+        const res = await fetch('/api/auth/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            fullName: formData.fullName,
+            username: formData.username,
+            gmail: formData.gmail,
+            aadhaar: formData.aadhaar,
+            phone: formData.phone,
+            password: formData.password,
+            state: formData.state,
+            district: formData.district,
+            city: formData.city,
+            pincode: formData.pincode,
+          }),
+        });
 
-      setTimeout(() => {
+        const data = await res.json();
+
+        if (!res.ok) {
+          setFeedbackMessage(data.message || "Registration failed. Please try again.");
+          setIsLoading(false);
+          return;
+        }
+
+        const otp = Math.floor(100000 + Math.random() * 900000).toString();
+        setGeneratedOtp(otp);
         setIsLoading(false);
         setFeedbackMessage("Registration successful! Proceeding to phone verification...");
-        setTimeout(() => setShowOTP(true), 1000);
-      }, 2000);
+        setTimeout(() => setShowOTP(true), 800);
+
+      } catch (err) {
+        console.error(err);
+        setFeedbackMessage("Network error during registration. Please try again.");
+        setIsLoading(false);
+      }
     } else {
       setFeedbackMessage("Please fix the errors highlighted in red before submitting.");
     }

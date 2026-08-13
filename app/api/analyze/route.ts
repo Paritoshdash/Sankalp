@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import pool from '@/lib/db';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
 
 const PYTHON_BACKEND_URL = process.env.ML_BACKEND_URL || 'http://127.0.0.1:8000';
 
@@ -9,7 +9,6 @@ const ALLOWED_TYPES = new Set([
 ]);
 const MAX_SIZE_BYTES = 100 * 1024 * 1024; // 100 MB
 
-// Score weights (must match config.py)
 const W_EXCELLENCE = 0.30;
 const W_FITNESS    = 0.30;
 const W_VIDEO      = 0.40;
@@ -29,7 +28,6 @@ export async function POST(request: Request) {
     const athleteAge = parseInt((formData.get('athleteAge') as string) || '18', 10);
     const gender    = (formData.get('gender') as string) || 'male';
 
-    // ── Validation ─────────────────────────────────────────────────────────
     if (!videoFile) {
       return NextResponse.json({ success: false, error: { code: 'MISSING_VIDEO', message: 'No video file provided.' } }, { status: 400 });
     }
@@ -43,7 +41,6 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: false, error: { code: 'INVALID_FILE_TYPE', message: `File type '${videoFile.type}' is not supported.` } }, { status: 400 });
     }
 
-    // ── Forward to Python ML service ────────────────────────────────────────
     const mlFormData = new FormData();
     mlFormData.append('video', videoFile);
     mlFormData.append('sport', sport);
@@ -56,7 +53,7 @@ export async function POST(request: Request) {
       mlResponse = await fetch(`${PYTHON_BACKEND_URL}/analyze`, {
         method: 'POST',
         body: mlFormData,
-        signal: AbortSignal.timeout(120_000), // 2-minute timeout
+        signal: AbortSignal.timeout(120_000),
       });
     } catch (fetchErr: any) {
       const isTimeout = fetchErr?.name === 'TimeoutError';
@@ -82,23 +79,19 @@ export async function POST(request: Request) {
 
     const videoScore: number = mlData.overall_video_score ?? 0;
 
-    // ── Persist to database if userId is provided ───────────────────────────
+    // Persist to Supabase if userId is provided
     if (userId) {
-      const connection = await pool.getConnection();
+      const supabase = getSupabaseServerClient();
       try {
-        await connection.beginTransaction();
+        const { data: existing } = await supabase
+          .from('athlete_scores')
+          .select('excellence_score, fitness_score')
+          .eq('user_id', userId)
+          .maybeSingle();
 
-        // Get existing scores to compute overall
-        const [existingRows] = await connection.query(
-          'SELECT excellence_score, fitness_score FROM athlete_scores WHERE user_id = ?',
-          [userId]
-        ) as any[];
-        const existing = Array.isArray(existingRows) && existingRows.length > 0
-          ? existingRows[0]
-          : { excellence_score: 0, fitness_score: 0 };
+        const excellenceScore = existing?.excellence_score || 0;
+        const fitnessScore    = existing?.fitness_score || 0;
 
-        const excellenceScore: number = Number(existing.excellence_score ?? 0);
-        const fitnessScore: number    = Number(existing.fitness_score ?? 0);
         const overallScore = Math.round(
           excellenceScore * W_EXCELLENCE +
           fitnessScore    * W_FITNESS    +
@@ -106,40 +99,24 @@ export async function POST(request: Request) {
         );
         const tier = classifyTier(overallScore);
 
-        // Upsert athlete_scores
-        await connection.query(`
-          INSERT INTO athlete_scores
-            (user_id, video_analysis_score, overall_score, tier,
-             video_metrics_json, technique_score, performance_score,
-             analysis_timestamp, model_version)
-          VALUES (?, ?, ?, ?, ?, ?, ?, NOW(), ?)
-          ON DUPLICATE KEY UPDATE
-            video_analysis_score = VALUES(video_analysis_score),
-            overall_score        = VALUES(overall_score),
-            tier                 = VALUES(tier),
-            video_metrics_json   = VALUES(video_metrics_json),
-            technique_score      = VALUES(technique_score),
-            performance_score    = VALUES(performance_score),
-            analysis_timestamp   = VALUES(analysis_timestamp),
-            model_version        = VALUES(model_version)
-        `, [
-          userId,
-          videoScore,
-          overallScore,
-          tier,
-          JSON.stringify(mlData.metrics),
-          mlData.technique_score ?? 0,
-          mlData.performance_score ?? 0,
-          mlData.model?.version ?? '1.0.0',
-        ]);
+        const { error: upsertError } = await supabase
+          .from('athlete_scores')
+          .upsert({
+            user_id: userId,
+            video_analysis_score: videoScore,
+            overall_score: overallScore,
+            tier: tier,
+            video_metrics_json: mlData.metrics,
+            technique_score: mlData.technique_score ?? 0,
+            performance_score: mlData.performance_score ?? 0,
+            analysis_timestamp: new Date().toISOString(),
+            model_version: mlData.model?.version ?? '1.0.0',
+            updated_at: new Date().toISOString(),
+          }, { onConflict: 'user_id' });
 
-        // Mark validation_status as 'Pending' if it was null/empty
-        await connection.query(`
-          UPDATE users SET validation_status = COALESCE(NULLIF(validation_status, ''), 'Pending')
-          WHERE id = ?
-        `, [userId]);
-
-        await connection.commit();
+        if (upsertError) {
+          console.error('Supabase upsert error:', upsertError);
+        }
 
         return NextResponse.json({
           success: true,
@@ -151,21 +128,16 @@ export async function POST(request: Request) {
           },
         });
       } catch (dbErr) {
-        await connection.rollback();
         console.error('DB error saving analysis results:', dbErr);
-        // Return the ML result even if DB save fails
         return NextResponse.json({
           success: true,
           ...mlData,
           saved: null,
           db_warning: 'Analysis completed but score could not be saved to database.',
         });
-      } finally {
-        connection.release();
       }
     }
 
-    // No userId — return result without saving
     return NextResponse.json({ success: true, ...mlData });
 
   } catch (error: any) {

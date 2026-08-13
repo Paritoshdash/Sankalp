@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import pool from '@/lib/db';
-import bcrypt from 'bcrypt';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
 
 export async function POST(request: Request) {
   try {
@@ -9,27 +8,40 @@ export async function POST(request: Request) {
     if (!username || !password) {
       return NextResponse.json({ message: "Username and password are required" }, { status: 400 });
     }
-    
-    const query = 'SELECT * FROM users WHERE username = ?';
-    const [users] = await pool.query(query, [username]);
 
-    const user = Array.isArray(users) ? users[0] : null;
+    const supabase = getSupabaseServerClient();
 
-    if (!user) {
+    // Find user profile by username or email
+    const { data: userProfile, error: userError } = await supabase
+      .from('users')
+      .select('*')
+      .or(`username.eq.${username},gmail.eq.${username}`)
+      .maybeSingle();
+
+    if (userError || !userProfile) {
       return NextResponse.json({ message: 'Invalid credentials. User not found.' }, { status: 401 });
     }
 
-    const isPasswordValid = await bcrypt.compare(password, user.password);
+    const targetEmail = userProfile.gmail || `${userProfile.username.toLowerCase()}@sankalp.app`;
 
-    if (!isPasswordValid) {
-      return NextResponse.json({ message: 'Incorrect password. Please try again.' }, { status: 401 });
+    // Authenticate with Supabase Auth
+    const { data: authData, error: authError } = await supabase.auth.signInWithPassword({
+      email: targetEmail,
+      password: password,
+    });
+
+    if (authError || !authData.session) {
+      return NextResponse.json({ message: authError?.message || 'Incorrect password. Please try again.' }, { status: 401 });
     }
-    
-    const { password: _, ...userWithoutPassword } = user;
-    return NextResponse.json({ user: userWithoutPassword }, { status: 200 });
 
-  } catch (error) {
-    console.error(error);
+    return NextResponse.json({
+      message: 'Login successful',
+      user: userProfile,
+      session: authData.session,
+    }, { status: 200 });
+
+  } catch (error: any) {
+    console.error('Login error:', error);
     return NextResponse.json({ message: 'An error occurred during login' }, { status: 500 });
   }
 }

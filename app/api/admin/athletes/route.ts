@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server';
-import pool from '@/lib/db';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
 
 export async function GET(request: NextRequest) {
   try {
@@ -12,87 +12,84 @@ export async function GET(request: NextRequest) {
     const limit  = Math.min(100, Math.max(1, parseInt(searchParams.get('limit') || '50', 10)));
     const offset = (page - 1) * limit;
 
-    // Build dynamic WHERE clauses
-    const conditions: string[] = [];
-    const params: any[] = [];
+    const supabase = getSupabaseServerClient();
 
-    if (sport) {
-      conditions.push('us.sport_name = ?');
-      params.push(sport);
-    }
+    let query = supabase
+      .from('users')
+      .select(`
+        *,
+        athlete_scores (*),
+        user_sports (*)
+      `, { count: 'exact' });
+
     if (state) {
-      conditions.push('u.state = ?');
-      params.push(state);
+      query = query.eq('state', state);
     }
     if (status) {
-      conditions.push('u.validation_status = ?');
-      params.push(status);
+      query = query.eq('validation_status', status);
     }
     if (search) {
-      conditions.push('(u.full_name LIKE ? OR CONCAT("ATH", LPAD(u.id, 3, "0")) LIKE ?)');
-      params.push(`%${search}%`, `%${search}%`);
+      query = query.or(`full_name.ilike.%${search}%,username.ilike.%${search}%`);
     }
 
-    const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+    const { data: usersData, count, error } = await query.range(offset, offset + limit - 1);
 
-    const query = `
-      SELECT
-        CONCAT('ATH', LPAD(u.id, 3, '0'))        AS id,
-        u.id                                       AS userId,
-        u.full_name                                AS fullName,
-        us.sport_name                              AS sport,
-        u.state,
-        u.district,
-        DATE_FORMAT(u.registered_at, '%Y-%m-%d')   AS registrationDate,
-        COALESCE(u.validation_status, 'Pending')   AS validationStatus,
-        COALESCE(sc.excellence_score, 0)           AS excellenceScore,
-        COALESCE(sc.fitness_score, 0)              AS fitnessScore,
-        COALESCE(sc.video_analysis_score, 0)       AS videoAnalysisScore,
-        COALESCE(sc.overall_score, 0)              AS overallScore,
-        COALESCE(sc.tier, 'Beginner')              AS tier,
-        TIMESTAMPDIFF(YEAR, u.date_of_birth, CURDATE()) AS age,
-        u.phone,
-        u.gmail                                    AS email,
-        COALESCE(u.health_status, 'Cleared')       AS healthStatus,
-        sc.technique_score                         AS techniqueScore,
-        sc.performance_score                       AS performanceScore,
-        sc.analysis_timestamp                      AS analysisTimestamp,
-        sc.model_version                           AS modelVersion,
-        sc.video_metrics_json                      AS videoMetricsJson
-      FROM
-        users u
-      LEFT JOIN user_sports us   ON u.id = us.user_id
-      LEFT JOIN athlete_scores sc ON u.id = sc.user_id
-      ${whereClause}
-      ORDER BY COALESCE(sc.overall_score, 0) DESC
-      LIMIT ? OFFSET ?
-    `;
+    if (error) {
+      console.error('Supabase admin fetch error:', error);
+      return NextResponse.json({ message: 'Failed to fetch athlete data.' }, { status: 500 });
+    }
 
-    const countQuery = `
-      SELECT COUNT(*) AS total
-      FROM users u
-      LEFT JOIN user_sports us ON u.id = us.user_id
-      ${whereClause}
-    `;
+    let athletes = (usersData || []).map((u: any, index: number) => {
+      const score = u.athlete_scores && u.athlete_scores.length > 0 ? u.athlete_scores[0] : {};
+      const userSport = u.user_sports && u.user_sports.length > 0 ? u.user_sports[0] : {};
 
-    const [rows] = await pool.query(query, [...params, limit, offset]) as any[];
-    const [countRows] = await pool.query(countQuery, params) as any[];
+      // Short readable ID
+      const shortId = `ATH${String(index + 1).padStart(3, '0')}`;
 
-    const total = Array.isArray(countRows) && countRows.length > 0
-      ? (countRows[0] as any).total
-      : 0;
+      // Calculate approximate age if date_of_birth exists
+      let age = null;
+      if (u.date_of_birth) {
+        const birthDate = new Date(u.date_of_birth);
+        const ageDifMs = Date.now() - birthDate.getTime();
+        const ageDate = new Date(ageDifMs);
+        age = Math.abs(ageDate.getUTCFullYear() - 1970);
+      }
 
-    // Parse JSON metrics field safely
-    const athletes = Array.isArray(rows)
-      ? rows.map((row: any) => ({
-          ...row,
-          videoMetricsJson: row.videoMetricsJson
-            ? (typeof row.videoMetricsJson === 'string'
-                ? JSON.parse(row.videoMetricsJson)
-                : row.videoMetricsJson)
-            : null,
-        }))
-      : [];
+      return {
+        id: shortId,
+        userId: u.id,
+        fullName: u.full_name,
+        sport: userSport.sport_name || 'N/A',
+        state: u.state || 'N/A',
+        district: u.district || 'N/A',
+        registrationDate: u.registered_at ? u.registered_at.split('T')[0] : '',
+        validationStatus: u.validation_status || 'Pending',
+        excellenceScore: score.excellence_score || 0,
+        fitnessScore: score.fitness_score || 0,
+        videoAnalysisScore: score.video_analysis_score || 0,
+        overallScore: score.overall_score || 0,
+        tier: score.tier || 'Beginner',
+        age: age,
+        phone: u.phone || '',
+        email: u.gmail || '',
+        healthStatus: u.health_status || 'Cleared',
+        techniqueScore: score.technique_score || 0,
+        performanceScore: score.performance_score || 0,
+        analysisTimestamp: score.analysis_timestamp || null,
+        modelVersion: score.model_version || '1.0.0',
+        videoMetricsJson: score.video_metrics_json || null,
+      };
+    });
+
+    // Filter by sport client side if requested
+    if (sport) {
+      athletes = athletes.filter((a: any) => a.sport.toLowerCase() === sport.toLowerCase());
+    }
+
+    // Sort by overallScore descending
+    athletes.sort((a: any, b: any) => b.overallScore - a.overallScore);
+
+    const total = count || athletes.length;
 
     return NextResponse.json({
       athletes,

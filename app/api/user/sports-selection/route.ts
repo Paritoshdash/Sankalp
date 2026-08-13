@@ -1,7 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
-import pool from '@/lib/db';
+import { getSupabaseServerClient } from '@/lib/supabaseClient';
 
-// Handles checking if a selection already exists
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
@@ -11,14 +10,18 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ message: "User ID is required" }, { status: 400 });
     }
 
-    const [rows] = await pool.query(
-      'SELECT sport_name, skill_level, sport_id FROM user_sports WHERE user_id = ?',
-      [userId]
-    );
-    
-    const selection = Array.isArray(rows) ? rows[0] : null;
+    const supabase = getSupabaseServerClient();
+    const { data: selection, error } = await supabase
+      .from('user_sports')
+      .select('sport_name, skill_level, sport_id')
+      .eq('user_id', userId)
+      .maybeSingle();
 
-    return NextResponse.json({ selection });
+    if (error) {
+      console.error("Error fetching sport selection:", error);
+    }
+
+    return NextResponse.json({ selection: selection || null });
 
   } catch (error) {
     console.error("Error fetching sport selection:", error);
@@ -26,7 +29,6 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// Handles saving a new selection
 export async function POST(request: Request) {
   try {
     const { userId, sportName, sportCategory, skillLevel, sportId } = await request.json();
@@ -35,20 +37,26 @@ export async function POST(request: Request) {
       return NextResponse.json({ message: "Missing required fields" }, { status: 400 });
     }
 
-    // A simple INSERT. The database's UNIQUE key on user_id will reject any duplicates.
-    const query = `
-      INSERT INTO user_sports (user_id, sport_name, sport_category, skill_level, sport_id)
-      VALUES (?, ?, ?, ?, ?)
-    `;
+    const supabase = getSupabaseServerClient();
 
-    await pool.query(query, [userId, sportName, sportCategory, skillLevel, sportId]);
+    const { error } = await supabase
+      .from('user_sports')
+      .upsert({
+        user_id: userId,
+        sport_name: sportName,
+        sport_category: sportCategory,
+        skill_level: skillLevel,
+        sport_id: sportId,
+      }, { onConflict: 'user_id' });
+
+    if (error) {
+      console.error("Error saving sport selection:", error);
+      return NextResponse.json({ message: 'Failed to save sport selection.' }, { status: 500 });
+    }
 
     return NextResponse.json({ message: 'Sport selection saved successfully!' });
 
   } catch (error: any) {
-    if (error.code === 'ER_DUP_ENTRY') {
-      return NextResponse.json({ message: 'A sport has already been selected for this user.' }, { status: 409 });
-    }
     console.error("Error saving sport selection:", error);
     return NextResponse.json({ message: 'Failed to save sport selection.' }, { status: 500 });
   }

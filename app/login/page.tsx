@@ -56,6 +56,9 @@ export default function LoginPage() {
 
       // Store user in localStorage (existing session pattern)
       localStorage.setItem('currentUser', JSON.stringify(data.user))
+      if (data.session) {
+        localStorage.setItem('supabaseSession', JSON.stringify(data.session))
+      }
       setSuccessMessage('Login successful! Redirecting…')
       setTimeout(() => { window.location.href = '/sports-selection' }, 800)
 
