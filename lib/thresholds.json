@@ -2,31 +2,101 @@
   "running-100m": {
     "age_14-16": {
       "speed_m_s": 7.5,
-      "reaction_time_s": 0.2
+      "reaction_time_s": 0.2,
+      "step_frequency_hz": 3.5
     },
     "age_17-19": {
       "speed_m_s": 8.5,
-      "reaction_time_s": 0.18
+      "reaction_time_s": 0.18,
+      "step_frequency_hz": 4.0
+    },
+    "age_20+": {
+      "speed_m_s": 9.0,
+      "reaction_time_s": 0.16,
+      "step_frequency_hz": 4.3
     }
   },
   "long-jump": {
     "age_14-16": {
       "takeoff_speed_m_s": 6.0,
-      "takeoff_angle_deg": 18
+      "takeoff_angle_deg": 18,
+      "knee_angle_deg": 140
     },
     "age_17-19": {
       "takeoff_speed_m_s": 7.0,
-      "takeoff_angle_deg": 20
+      "takeoff_angle_deg": 20,
+      "knee_angle_deg": 145
+    },
+    "age_20+": {
+      "takeoff_speed_m_s": 7.5,
+      "takeoff_angle_deg": 22,
+      "knee_angle_deg": 150
     }
   },
   "shotput": {
     "age_14-16": {
       "release_speed_m_s": 10.0,
-      "release_angle_deg": 35
+      "release_angle_deg": 35,
+      "hip_shoulder_rotation_deg": 30
     },
     "age_17-19": {
       "release_speed_m_s": 12.0,
-      "release_angle_deg": 38
+      "release_angle_deg": 38,
+      "hip_shoulder_rotation_deg": 40
+    },
+    "age_20+": {
+      "release_speed_m_s": 13.5,
+      "release_angle_deg": 40,
+      "hip_shoulder_rotation_deg": 45
+    }
+  },
+  "javelin": {
+    "age_14-16": {
+      "release_angle_deg": 30,
+      "elbow_angle_deg": 160,
+      "shoulder_rotation_deg": 35
+    },
+    "age_17-19": {
+      "release_angle_deg": 33,
+      "elbow_angle_deg": 165,
+      "shoulder_rotation_deg": 40
+    },
+    "age_20+": {
+      "release_angle_deg": 35,
+      "elbow_angle_deg": 168,
+      "shoulder_rotation_deg": 45
+    }
+  },
+  "high-jump": {
+    "age_14-16": {
+      "knee_drive_angle_deg": 130,
+      "hip_elevation_score": 60,
+      "body_arch_score": 55
+    },
+    "age_17-19": {
+      "knee_drive_angle_deg": 140,
+      "hip_elevation_score": 70,
+      "body_arch_score": 65
+    },
+    "age_20+": {
+      "knee_drive_angle_deg": 150,
+      "hip_elevation_score": 80,
+      "body_arch_score": 75
+    }
+  },
+  "archery": {
+    "all_ages": {
+      "shoulder_alignment_deg": 5,
+      "elbow_angle_deg": 150,
+      "body_sway_px": 20,
+      "draw_consistency_score": 70
+    }
+  },
+  "shooting": {
+    "all_ages": {
+      "body_sway_px": 15,
+      "arm_stability_score": 70,
+      "shoulder_alignment_deg": 5
     }
   }
 }

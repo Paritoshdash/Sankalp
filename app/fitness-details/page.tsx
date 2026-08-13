@@ -169,22 +169,39 @@ useEffect(() => {
     }
   }
 
- const handleSubmit = (e: React.FormEvent) => {
+ const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const { errors: allErrors, blockingReasons: reasons } = validateForm();
     setErrors(allErrors);
 
-    if (Object.keys(allErrors).length === 0) {
-      setIsLoading(true); // Start loading
+    if (Object.keys(allErrors).length !== 0) return;
 
-      // Simulate API call delay
-      setTimeout(() => {
-        // After the simulated delay, process the results
+    setIsLoading(true);
+    try {
+      const response = await fetch('/api/user/fitness-details', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: currentUser?.id, formData }),
+      });
+      const data = await response.json();
+
+      if (!response.ok) {
+        // Fallback: show result based on client-side logic if API fails
         setBlockingReasons(reasons);
         setIsBlocked(reasons.length > 0);
-        setShowResults(true);
-        setIsLoading(false); // Stop loading
-      }, 2000); 
+      } else {
+        const blocked = data.health_status === 'Blocked';
+        setBlockingReasons(blocked ? ['Your health data requires administrative review.'] : []);
+        setIsBlocked(blocked);
+      }
+      setShowResults(true);
+    } catch {
+      // Fallback to client-side determination
+      setBlockingReasons(reasons);
+      setIsBlocked(reasons.length > 0);
+      setShowResults(true);
+    } finally {
+      setIsLoading(false);
     }
   };
 

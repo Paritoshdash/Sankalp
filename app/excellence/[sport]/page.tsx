@@ -79,7 +79,8 @@ export default function ExcellencePage() {
   const [isLoading, setIsLoading] = useState(true);
   const [language, setLanguage] = useState('en');
   const [showDisclaimer, setShowDisclaimer] = useState(true);
-  const [timer, setTimer] = useState(15); // ** NEW: State for the timer **
+  const [timer, setTimer] = useState(15);
+  const [scoreSaved, setScoreSaved] = useState(false);
 
   const { maxScore, passingScore, eligibilityPercentage } = useMemo(() => {
     const max = faqs.length * 10;
@@ -175,6 +176,28 @@ export default function ExcellencePage() {
     });
     setScore(totalScore);
   }, [answers, faqs]);
+
+  // Save excellence score to database when results are shown
+  useEffect(() => {
+    if (!showResults || scoreSaved) return;
+    const saveScore = async () => {
+      try {
+        const userStr = localStorage.getItem('currentUser');
+        if (!userStr) return;
+        const user = JSON.parse(userStr);
+        const normalizedScore = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
+        await fetch('/api/user/save-excellence-score', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: user.id, excellenceScore: normalizedScore }),
+        });
+        setScoreSaved(true);
+      } catch {
+        // Non-blocking: score save failure doesn't break the UI
+      }
+    };
+    saveScore();
+  }, [showResults, scoreSaved, score, maxScore]);
 
   const handleAnswerChange = (questionId: string, value: string) => {
     setAnswers((prev) => ({ ...prev, [questionId]: value }));

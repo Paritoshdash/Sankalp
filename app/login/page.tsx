@@ -32,31 +32,37 @@ export default function LoginPage() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (validateForm()) {
-      setIsLoading(true)
-      setLoginError(null)
-      setSuccessMessage(null)
-      
-      // Simulate API call delay without a real backend
-      setTimeout(() => {
-        // Simulate a successful login with any details
-        const mockUser = { 
-          id: `user_${Date.now()}`, 
-          username: formData.username 
-        };
-        localStorage.setItem("currentUser", JSON.stringify(mockUser));
+    if (!validateForm()) return
 
-        setIsLoading(false);
-        setSuccessMessage("Login successful! Redirecting...");
-        
-        // Redirect to the sports selection page after a short delay
-        setTimeout(() => {
-            window.location.href = "/sports-selection"; 
-        }, 1000);
-        
-      }, 1500); // Simulate a 1.5-second network delay
+    setIsLoading(true)
+    setLoginError(null)
+    setSuccessMessage(null)
+
+    try {
+      const response = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: formData.username, password: formData.password }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        setLoginError(data.message || 'Login failed. Please try again.')
+        return
+      }
+
+      // Store user in localStorage (existing session pattern)
+      localStorage.setItem('currentUser', JSON.stringify(data.user))
+      setSuccessMessage('Login successful! Redirecting…')
+      setTimeout(() => { window.location.href = '/sports-selection' }, 800)
+
+    } catch {
+      setLoginError('Network error. Please check your connection.')
+    } finally {
+      setIsLoading(false)
     }
   }
 
